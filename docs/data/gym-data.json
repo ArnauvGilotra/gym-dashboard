@@ -1,0 +1,1810 @@
+{
+  "summary": {
+    "total_sessions": 9,
+    "days_tracking": 19,
+    "first_date": "2026-03-22",
+    "last_date": "2026-04-09",
+    "total_sets": 107,
+    "total_volume": 50656,
+    "unique_exercises": 20,
+    "streak_weeks": 4,
+    "sessions_per_week": 3.5,
+    "generated_at": "2026-04-09T23:05:00.292662"
+  },
+  "latest_win": {
+    "exercise": "Overhead Dumbbell Press",
+    "weight": 22.5,
+    "reps": 12,
+    "previous_weight": 20.0,
+    "date": "2026-04-09",
+    "type": "weight"
+  },
+  "heatmap": [
+    {
+      "date": "2026-03-22",
+      "muscles": [
+        "triceps",
+        "back"
+      ],
+      "count": 2
+    },
+    {
+      "date": "2026-03-24",
+      "muscles": [
+        "legs"
+      ],
+      "count": 1
+    },
+    {
+      "date": "2026-03-25",
+      "muscles": [
+        "chest",
+        "shoulders",
+        "cardio"
+      ],
+      "count": 3
+    },
+    {
+      "date": "2026-03-28",
+      "muscles": [
+        "cardio",
+        "triceps",
+        "biceps"
+      ],
+      "count": 3
+    },
+    {
+      "date": "2026-03-31",
+      "muscles": [
+        "back"
+      ],
+      "count": 1
+    },
+    {
+      "date": "2026-04-04",
+      "muscles": [
+        "triceps",
+        "biceps"
+      ],
+      "count": 2
+    },
+    {
+      "date": "2026-04-06",
+      "muscles": [
+        "chest"
+      ],
+      "count": 1
+    },
+    {
+      "date": "2026-04-07",
+      "muscles": [
+        "legs"
+      ],
+      "count": 1
+    },
+    {
+      "date": "2026-04-09",
+      "muscles": [
+        "other",
+        "shoulders"
+      ],
+      "count": 2
+    }
+  ],
+  "sparklines": [
+    {
+      "name": "Lat Pulldown",
+      "data": [
+        {
+          "date": "2026-03-22",
+          "weight": 95.0
+        },
+        {
+          "date": "2026-03-31",
+          "weight": 90.0
+        }
+      ],
+      "sessions_count": 2,
+      "current_max": 95.0,
+      "first_max": 95.0
+    },
+    {
+      "name": "Overhead Cable Extension",
+      "data": [
+        {
+          "date": "2026-03-22",
+          "weight": 25.0
+        },
+        {
+          "date": "2026-04-04",
+          "weight": 30.0
+        }
+      ],
+      "sessions_count": 2,
+      "current_max": 30.0,
+      "first_max": 25.0
+    },
+    {
+      "name": "Seated Row Machine",
+      "data": [
+        {
+          "date": "2026-03-22",
+          "weight": 49.5
+        },
+        {
+          "date": "2026-03-31",
+          "weight": 65.0
+        }
+      ],
+      "sessions_count": 2,
+      "current_max": 65.0,
+      "first_max": 49.5
+    },
+    {
+      "name": "Single Arm Dumbbell Row",
+      "data": [
+        {
+          "date": "2026-03-22",
+          "weight": 20.0
+        },
+        {
+          "date": "2026-03-31",
+          "weight": 25.0
+        }
+      ],
+      "sessions_count": 2,
+      "current_max": 25.0,
+      "first_max": 20.0
+    },
+    {
+      "name": "Leg Curl",
+      "data": [
+        {
+          "date": "2026-03-24",
+          "weight": 70.0
+        },
+        {
+          "date": "2026-04-07",
+          "weight": 75.0
+        }
+      ],
+      "sessions_count": 2,
+      "current_max": 75.0,
+      "first_max": 70.0
+    }
+  ],
+  "weekly_volume": [
+    {
+      "week": "2026-03-16",
+      "volume": 8121,
+      "last_session": "2026-03-22"
+    },
+    {
+      "week": "2026-03-23",
+      "volume": 17805,
+      "last_session": "2026-03-28"
+    },
+    {
+      "week": "2026-03-30",
+      "volume": 9370,
+      "last_session": "2026-04-04"
+    },
+    {
+      "week": "2026-04-06",
+      "volume": 15360,
+      "last_session": "2026-04-09"
+    }
+  ],
+  "body_split": [
+    {
+      "part": "Back",
+      "count": 2
+    },
+    {
+      "part": "Legs",
+      "count": 2
+    },
+    {
+      "part": "Chest",
+      "count": 2
+    },
+    {
+      "part": "Shoulders",
+      "count": 2
+    },
+    {
+      "part": "Arms",
+      "count": 2
+    },
+    {
+      "part": "Triceps",
+      "count": 1
+    },
+    {
+      "part": "Cardio",
+      "count": 1
+    }
+  ],
+  "exercises": {
+    "Cable Rope Pushdown": {
+      "sessions": [
+        {
+          "date": "2026-03-22",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 17.5,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 22.5,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 27.5,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 4,
+              "weight": 22.5,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 1260,
+          "max_weight": 27.5
+        }
+      ],
+      "total_sessions": 1
+    },
+    "Lat Pulldown": {
+      "sessions": [
+        {
+          "date": "2026-03-22",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 70.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 90.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 95.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 3570,
+          "max_weight": 95.0
+        },
+        {
+          "date": "2026-03-31",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 70.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 80.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 90.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 2400,
+          "max_weight": 90.0
+        }
+      ],
+      "total_sessions": 2
+    },
+    "Overhead Cable Extension": {
+      "sessions": [
+        {
+          "date": "2026-03-22",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 15.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 25.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 15.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 770,
+          "max_weight": 25.0
+        },
+        {
+          "date": "2026-04-04",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 20.0,
+              "reps": 15,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 25.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 30.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 960,
+          "max_weight": 30.0
+        }
+      ],
+      "total_sessions": 2
+    },
+    "Seated Row Machine": {
+      "sessions": [
+        {
+          "date": "2026-03-22",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 49.5,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 49.5,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 49.5,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 1881,
+          "max_weight": 49.5
+        },
+        {
+          "date": "2026-03-31",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 40.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 50.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 65.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 1550,
+          "max_weight": 65.0
+        }
+      ],
+      "total_sessions": 2
+    },
+    "Single Arm Dumbbell Row": {
+      "sessions": [
+        {
+          "date": "2026-03-22",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 20.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 20.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 20.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 640,
+          "max_weight": 20.0
+        },
+        {
+          "date": "2026-03-31",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 25.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 25.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 25.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 750,
+          "max_weight": 25.0
+        }
+      ],
+      "total_sessions": 2
+    },
+    "Calf Raise": {
+      "sessions": [
+        {
+          "date": "2026-03-24",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 50.0,
+              "reps": 24,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 50.0,
+              "reps": 24,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 2400,
+          "max_weight": 50.0
+        }
+      ],
+      "total_sessions": 1
+    },
+    "Leg Curl": {
+      "sessions": [
+        {
+          "date": "2026-03-24",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 50.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 60.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 70.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 2160,
+          "max_weight": 70.0
+        },
+        {
+          "date": "2026-04-07",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 55.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 65.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 75.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 2450,
+          "max_weight": 75.0
+        }
+      ],
+      "total_sessions": 2
+    },
+    "Leg Extension": {
+      "sessions": [
+        {
+          "date": "2026-03-24",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 50.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 55.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 50.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 1860,
+          "max_weight": 55.0
+        },
+        {
+          "date": "2026-04-07",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 45.0,
+              "reps": 18,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 55.0,
+              "reps": 15,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 65.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 2545,
+          "max_weight": 65.0
+        }
+      ],
+      "total_sessions": 2
+    },
+    "Leg Press": {
+      "sessions": [
+        {
+          "date": "2026-03-24",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 80.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 100.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 120.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 3600,
+          "max_weight": 120.0
+        },
+        {
+          "date": "2026-04-07",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 70.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 90.0,
+              "reps": 15,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 90.0,
+              "reps": 16,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 3770,
+          "max_weight": 90.0
+        }
+      ],
+      "total_sessions": 2
+    },
+    "Cable Fly": {
+      "sessions": [
+        {
+          "date": "2026-03-25",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 55.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 55.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 40.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 1800,
+          "max_weight": 55.0
+        },
+        {
+          "date": "2026-04-06",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 55.0,
+              "reps": 13,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 65.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 60.0,
+              "reps": 8,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 4,
+              "weight": 55.0,
+              "reps": 2,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 1955,
+          "max_weight": 65.0
+        }
+      ],
+      "total_sessions": 2
+    },
+    "Chest Press Machine": {
+      "sessions": [
+        {
+          "date": "2026-03-25",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 50.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 60.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 1,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 70.0,
+              "reps": 4,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 1,
+              "notes": null
+            },
+            {
+              "set_number": 4,
+              "weight": 60.0,
+              "reps": 3,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 1,
+              "notes": null
+            },
+            {
+              "set_number": 5,
+              "weight": 50.0,
+              "reps": 3,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 1,
+              "notes": null
+            }
+          ],
+          "total_volume": 1930,
+          "max_weight": 70.0
+        },
+        {
+          "date": "2026-04-06",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 50.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 50.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 50.0,
+              "reps": 4,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 4,
+              "weight": 30.0,
+              "reps": 4,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 5,
+              "weight": 30.0,
+              "reps": 4,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 1440,
+          "max_weight": 50.0
+        }
+      ],
+      "total_sessions": 2
+    },
+    "Incline Dumbbell Press": {
+      "sessions": [
+        {
+          "date": "2026-03-25",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 17.5,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 20.0,
+              "reps": 8,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 15.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 580,
+          "max_weight": 20.0
+        },
+        {
+          "date": "2026-04-06",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 17.5,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 20.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 22.5,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 840,
+          "max_weight": 22.5
+        }
+      ],
+      "total_sessions": 2
+    },
+    "Lateral Raise": {
+      "sessions": [
+        {
+          "date": "2026-03-25",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 5.0,
+              "reps": 20,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 5.0,
+              "reps": 20,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 5.0,
+              "reps": 20,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 300,
+          "max_weight": 5.0
+        },
+        {
+          "date": "2026-04-09",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 10.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 10.0,
+              "reps": 15,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 12.5,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 395,
+          "max_weight": 12.5
+        }
+      ],
+      "total_sessions": 2
+    },
+    "Treadmill": {
+      "sessions": [
+        {
+          "date": "2026-03-25",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": null,
+              "reps": null,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 0,
+          "max_weight": 0
+        },
+        {
+          "date": "2026-03-28",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": null,
+              "reps": null,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 0,
+          "max_weight": 0
+        }
+      ],
+      "total_sessions": 2
+    },
+    "Bicep Curl": {
+      "sessions": [
+        {
+          "date": "2026-03-28",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 15.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 17.5,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 20.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 525,
+          "max_weight": 20.0
+        },
+        {
+          "date": "2026-04-04",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 17.5,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 20.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 20.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 575,
+          "max_weight": 20.0
+        }
+      ],
+      "total_sessions": 2
+    },
+    "Preacher Curl": {
+      "sessions": [
+        {
+          "date": "2026-03-28",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 40.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 50.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 1,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 40.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 1,
+              "notes": null
+            },
+            {
+              "set_number": 4,
+              "weight": 30.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 1,
+              "notes": null
+            }
+          ],
+          "total_volume": 1600,
+          "max_weight": 50.0
+        },
+        {
+          "date": "2026-04-04",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 25.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "drop set 25->30"
+            },
+            {
+              "set_number": 2,
+              "weight": 30.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "drop set 25->30"
+            },
+            {
+              "set_number": 3,
+              "weight": 35.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 4,
+              "weight": 35.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 1570,
+          "max_weight": 35.0
+        }
+      ],
+      "total_sessions": 2
+    },
+    "Tricep Rope Pushdown": {
+      "sessions": [
+        {
+          "date": "2026-03-28",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 20.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 25.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 30.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 1050,
+          "max_weight": 30.0
+        },
+        {
+          "date": "2026-04-04",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 20.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 25.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 30.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 4,
+              "weight": 10.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "burnout to fail"
+            }
+          ],
+          "total_volume": 1090,
+          "max_weight": 30.0
+        }
+      ],
+      "total_sessions": 2
+    },
+    "Hammer Curl": {
+      "sessions": [
+        {
+          "date": "2026-04-04",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 15.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 17.5,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 15.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 475,
+          "max_weight": 17.5
+        }
+      ],
+      "total_sessions": 1
+    },
+    "Face Pull": {
+      "sessions": [
+        {
+          "date": "2026-04-09",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 22.5,
+              "reps": 15,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 25.5,
+              "reps": 15,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 27.5,
+              "reps": 15,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 1132,
+          "max_weight": 27.5
+        }
+      ],
+      "total_sessions": 1
+    },
+    "Overhead Dumbbell Press": {
+      "sessions": [
+        {
+          "date": "2026-04-09",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 17.5,
+              "reps": 15,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 20.0,
+              "reps": 15,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 22.5,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 832,
+          "max_weight": 22.5
+        }
+      ],
+      "total_sessions": 1
+    }
+  },
+  "sessions": [
+    {
+      "id": 1,
+      "date": "2026-03-22",
+      "start_time": null,
+      "duration_min": null,
+      "focus": "Back + Triceps",
+      "feeling": null,
+      "notes": null,
+      "created_at": "2026-03-28 23:27:35"
+    },
+    {
+      "id": 2,
+      "date": "2026-03-24",
+      "start_time": null,
+      "duration_min": null,
+      "focus": "Legs",
+      "feeling": null,
+      "notes": null,
+      "created_at": "2026-03-28 23:27:39"
+    },
+    {
+      "id": 3,
+      "date": "2026-03-25",
+      "start_time": null,
+      "duration_min": null,
+      "focus": "Chest + Shoulders",
+      "feeling": null,
+      "notes": null,
+      "created_at": "2026-03-28 23:27:45"
+    },
+    {
+      "id": 4,
+      "date": "2026-03-28",
+      "start_time": null,
+      "duration_min": null,
+      "focus": "Arms + Cardio",
+      "feeling": null,
+      "notes": null,
+      "created_at": "2026-03-28 23:27:50"
+    },
+    {
+      "id": 5,
+      "date": "2026-03-31",
+      "start_time": null,
+      "duration_min": 30,
+      "focus": "Back",
+      "feeling": null,
+      "notes": null,
+      "created_at": "2026-03-31 22:03:07"
+    },
+    {
+      "id": 6,
+      "date": "2026-04-04",
+      "start_time": null,
+      "duration_min": null,
+      "focus": "Arms",
+      "feeling": null,
+      "notes": null,
+      "created_at": "2026-04-04 18:33:17"
+    },
+    {
+      "id": 7,
+      "date": "2026-04-06",
+      "start_time": null,
+      "duration_min": 25,
+      "focus": "Chest",
+      "feeling": null,
+      "notes": null,
+      "created_at": "2026-04-06 22:03:01"
+    },
+    {
+      "id": 8,
+      "date": "2026-04-07",
+      "start_time": null,
+      "duration_min": null,
+      "focus": "Legs",
+      "feeling": null,
+      "notes": null,
+      "created_at": "2026-04-07 21:51:07"
+    },
+    {
+      "id": 9,
+      "date": "2026-04-09",
+      "start_time": null,
+      "duration_min": 30,
+      "focus": "Shoulders",
+      "feeling": null,
+      "notes": null,
+      "created_at": "2026-04-09 22:00:28"
+    }
+  ],
+  "exercise_list": [
+    {
+      "id": 15,
+      "name": "Bicep Curl",
+      "category": "biceps",
+      "equipment": "dumbbell",
+      "notes": null,
+      "created_at": "2026-03-28 23:27:29"
+    },
+    {
+      "id": 13,
+      "name": "Cable Fly",
+      "category": "chest",
+      "equipment": "cable",
+      "notes": null,
+      "created_at": "2026-03-28 23:27:29"
+    },
+    {
+      "id": 1,
+      "name": "Cable Rope Pushdown",
+      "category": "triceps",
+      "equipment": "cable",
+      "notes": null,
+      "created_at": "2026-03-28 23:27:29"
+    },
+    {
+      "id": 9,
+      "name": "Calf Raise",
+      "category": "legs",
+      "equipment": "machine",
+      "notes": null,
+      "created_at": "2026-03-28 23:27:29"
+    },
+    {
+      "id": 10,
+      "name": "Chest Press Machine",
+      "category": "chest",
+      "equipment": "machine",
+      "notes": null,
+      "created_at": "2026-03-28 23:27:29"
+    },
+    {
+      "id": 20,
+      "name": "Face Pull",
+      "category": null,
+      "equipment": null,
+      "notes": null,
+      "created_at": "2026-04-09 22:00:43"
+    },
+    {
+      "id": 18,
+      "name": "Hammer Curl",
+      "category": "biceps",
+      "equipment": "dumbbell",
+      "notes": null,
+      "created_at": "2026-04-04 20:02:16"
+    },
+    {
+      "id": 11,
+      "name": "Incline Dumbbell Press",
+      "category": "chest",
+      "equipment": "dumbbell",
+      "notes": null,
+      "created_at": "2026-03-28 23:27:29"
+    },
+    {
+      "id": 2,
+      "name": "Lat Pulldown",
+      "category": "back",
+      "equipment": "cable",
+      "notes": null,
+      "created_at": "2026-03-28 23:27:29"
+    },
+    {
+      "id": 12,
+      "name": "Lateral Raise",
+      "category": "shoulders",
+      "equipment": "dumbbell",
+      "notes": null,
+      "created_at": "2026-03-28 23:27:29"
+    },
+    {
+      "id": 8,
+      "name": "Leg Curl",
+      "category": "legs",
+      "equipment": "machine",
+      "notes": null,
+      "created_at": "2026-03-28 23:27:29"
+    },
+    {
+      "id": 7,
+      "name": "Leg Extension",
+      "category": "legs",
+      "equipment": "machine",
+      "notes": null,
+      "created_at": "2026-03-28 23:27:29"
+    },
+    {
+      "id": 6,
+      "name": "Leg Press",
+      "category": "legs",
+      "equipment": "machine",
+      "notes": null,
+      "created_at": "2026-03-28 23:27:29"
+    },
+    {
+      "id": 3,
+      "name": "Overhead Cable Extension",
+      "category": "triceps",
+      "equipment": "cable",
+      "notes": null,
+      "created_at": "2026-03-28 23:27:29"
+    },
+    {
+      "id": 19,
+      "name": "Overhead Dumbbell Press",
+      "category": null,
+      "equipment": null,
+      "notes": null,
+      "created_at": "2026-04-09 22:00:39"
+    },
+    {
+      "id": 17,
+      "name": "Preacher Curl",
+      "category": "biceps",
+      "equipment": "dumbbell",
+      "notes": null,
+      "created_at": "2026-03-28 23:27:29"
+    },
+    {
+      "id": 4,
+      "name": "Seated Row Machine",
+      "category": "back",
+      "equipment": "machine",
+      "notes": null,
+      "created_at": "2026-03-28 23:27:29"
+    },
+    {
+      "id": 5,
+      "name": "Single Arm Dumbbell Row",
+      "category": "back",
+      "equipment": "dumbbell",
+      "notes": null,
+      "created_at": "2026-03-28 23:27:29"
+    },
+    {
+      "id": 14,
+      "name": "Treadmill",
+      "category": "cardio",
+      "equipment": "machine",
+      "notes": null,
+      "created_at": "2026-03-28 23:27:29"
+    },
+    {
+      "id": 16,
+      "name": "Tricep Rope Pushdown",
+      "category": "triceps",
+      "equipment": "cable",
+      "notes": null,
+      "created_at": "2026-03-28 23:27:29"
+    }
+  ]
+}

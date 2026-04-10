@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Dashboard View -->
+    <div id="dashboard-view">
+        <header class="hero" id="hero">
+            <div class="hero-content">
+                <h1>💪 Gym Dashboard</h1>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <span class="hero-number" id="streak-weeks">-</span>
+                        <span class="hero-label">week streak</span>
+                    </div>
+                    <div class="hero-divider"></div>
+                    <div class="hero-stat">
+                        <span class="hero-number" id="sessions-per-week">-</span>
+                        <span class="hero-label">sessions/week</span>
+                    </div>
+                    <div class="hero-divider"></div>
+                    <div class="hero-stat">
+                        <span class="hero-number" id="total-sessions">-</span>
+                        <span class="hero-label">total sessions</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="dashboard">
+            <!-- Latest Win -->
+            <section class="card win-card" id="win-card">
+                <div class="card-header">
+                    <h2>🏆 Latest Win</h2>
+                </div>
+                <div class="win-content" id="win-content">
+                    <p class="win-placeholder">Loading...</p>
+                </div>
+            </section>
+
+            <!-- Activity Calendar -->
+            <section class="card">
+                <div class="card-header">
+                    <h2>📅 Activity</h2>
+                    <span class="card-subtitle" id="tracking-days">-</span>
+                </div>
+                <div class="heatmap-container" id="heatmap"></div>
+                <div class="heatmap-legend">
+                    <span class="legend-item"><span class="legend-dot" style="background:var(--muscle-back)"></span>Back</span>
+                    <span class="legend-item"><span class="legend-dot" style="background:var(--muscle-legs)"></span>Legs</span>
+                    <span class="legend-item"><span class="legend-dot" style="background:var(--muscle-chest)"></span>Chest</span>
+                    <span class="legend-item"><span class="legend-dot" style="background:var(--muscle-arms)"></span>Arms</span>
+                    <span class="legend-item"><span class="legend-dot" style="background:var(--muscle-shoulders)"></span>Shoulders</span>
+                </div>
+            </section>
+
+            <!-- Top Exercises -->
+            <section class="card">
+                <div class="card-header">
+                    <h2>📈 Top Exercises</h2>
+                    <span class="card-subtitle">Weight progression</span>
+                </div>
+                <div class="sparklines" id="sparklines"></div>
+            </section>
+
+            <!-- Weekly Volume -->
+            <section class="card">
+                <div class="card-header">
+                    <h2>📊 Weekly Volume</h2>
+                    <span class="card-subtitle">Total lbs × reps</span>
+                </div>
+                <div class="chart-container">
+                    <canvas id="volume-chart"></canvas>
+                </div>
+            </section>
+
+            <!-- Body Split -->
+            <section class="card">
+                <div class="card-header">
+                    <h2>🎯 Body Split</h2>
+                    <span class="card-subtitle">Session distribution</span>
+                </div>
+                <div class="split-bars" id="split-bars"></div>
+            </section>
+
+            <!-- All Exercises List -->
+            <section class="card">
+                <div class="card-header">
+                    <h2>🏋️ All Exercises</h2>
+                    <span class="card-subtitle" id="exercise-count">-</span>
+                </div>
+                <div class="exercise-list" id="exercise-list"></div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Last updated: <span id="last-updated">-</span></p>
+        </footer>
+    </div>
+
+    <!-- Exercise Deep Dive View -->
+    <div id="exercise-view" style="display:none">
+        <header class="exercise-header">
+            <button class="back-btn" onclick="showDashboard()">← Back</button>
+            <h1 id="exercise-title">-</h1>
+            <p class="exercise-meta" id="exercise-meta">-</p>
+        </header>
+
+        <main class="dashboard">
+            <!-- Weight Progression -->
+            <section class="card">
+                <div class="card-header">
+                    <h2>📈 Weight Progression</h2>
+                </div>
+                <div class="chart-container">
+                    <canvas id="weight-chart"></canvas>
+                </div>
+            </section>
+
+            <!-- Volume Per Session -->
+            <section class="card">
+                <div class="card-header">
+                    <h2>📊 Volume Per Session</h2>
+                    <span class="card-subtitle">weight × reps</span>
+                </div>
+                <div class="chart-container">
+                    <canvas id="exercise-volume-chart"></canvas>
+                </div>
+            </section>
+
+            <!-- Set-by-Set Log -->
+            <section class="card">
+                <div class="card-header">
+                    <h2>📝 Set-by-Set Log</h2>
+                </div>
+                <div class="set-log" id="set-log"></div>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
