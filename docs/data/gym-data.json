@@ -1,15 +1,15 @@
 {
   "summary": {
-    "total_sessions": 9,
-    "days_tracking": 19,
+    "total_sessions": 10,
+    "days_tracking": 21,
     "first_date": "2026-03-22",
-    "last_date": "2026-04-09",
+    "last_date": "2026-04-11",
     "total_sets": 107,
     "total_volume": 50656,
     "unique_exercises": 20,
     "streak_weeks": 4,
     "sessions_per_week": 3.5,
-    "generated_at": "2026-04-09T23:05:00.292662"
+    "generated_at": "2026-04-11T22:13:37.959926"
   },
   "latest_win": {
     "exercise": "Overhead Dumbbell Press",
@@ -38,8 +38,8 @@
     {
       "date": "2026-03-25",
       "muscles": [
-        "chest",
         "shoulders",
+        "chest",
         "cardio"
       ],
       "count": 3
@@ -47,9 +47,9 @@
     {
       "date": "2026-03-28",
       "muscles": [
-        "cardio",
         "triceps",
-        "biceps"
+        "biceps",
+        "cardio"
       ],
       "count": 3
     },
@@ -85,8 +85,8 @@
     {
       "date": "2026-04-09",
       "muscles": [
-        "other",
-        "shoulders"
+        "shoulders",
+        "other"
       ],
       "count": 2
     }
@@ -197,6 +197,10 @@
   ],
   "body_split": [
     {
+      "part": "Arms",
+      "count": 3
+    },
+    {
       "part": "Back",
       "count": 2
     },
@@ -210,10 +214,6 @@
     },
     {
       "part": "Shoulders",
-      "count": 2
-    },
-    {
-      "part": "Arms",
       "count": 2
     },
     {
@@ -1643,6 +1643,16 @@
       "feeling": null,
       "notes": null,
       "created_at": "2026-04-09 22:00:28"
+    },
+    {
+      "id": 10,
+      "date": "2026-04-11",
+      "start_time": null,
+      "duration_min": null,
+      "focus": "Arms",
+      "feeling": null,
+      "notes": null,
+      "created_at": "2026-04-11 22:13:37"
     }
   ],
   "exercise_list": [
