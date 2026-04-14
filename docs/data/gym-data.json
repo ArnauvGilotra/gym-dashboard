@@ -5,16 +5,16 @@
     "first_date": "2026-03-22",
     "last_date": "2026-04-13",
     "total_sets": 130,
-    "total_volume": 61694,
+    "total_volume": 61969,
     "unique_exercises": 20,
     "streak_weeks": 5,
     "sessions_per_week": 3.5,
-    "generated_at": "2026-04-13T22:05:48.071880"
+    "generated_at": "2026-04-13T22:07:29.349425"
   },
   "latest_win": {
     "exercise": "Single Arm Dumbbell Row",
     "weight": 27.5,
-    "reps": 0,
+    "reps": 10,
     "previous_weight": 25.0,
     "date": "2026-04-13",
     "type": "weight"
@@ -39,8 +39,8 @@
       "date": "2026-03-25",
       "muscles": [
         "chest",
-        "cardio",
-        "shoulders"
+        "shoulders",
+        "cardio"
       ],
       "count": 3
     },
@@ -48,8 +48,8 @@
       "date": "2026-03-28",
       "muscles": [
         "triceps",
-        "cardio",
-        "biceps"
+        "biceps",
+        "cardio"
       ],
       "count": 3
     },
@@ -232,7 +232,7 @@
     },
     {
       "week": "2026-04-13",
-      "volume": 8190,
+      "volume": 8465,
       "last_session": "2026-04-13"
     }
   ],
@@ -696,14 +696,14 @@
             {
               "set_number": 3,
               "weight": 27.5,
-              "reps": null,
+              "reps": 10,
               "rpe": null,
               "is_warmup": 0,
               "is_dropset": 0,
               "notes": null
             }
           ],
-          "total_volume": 475,
+          "total_volume": 750,
           "max_weight": 27.5
         }
       ],
