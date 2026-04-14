@@ -5,17 +5,17 @@
     "first_date": "2026-03-22",
     "last_date": "2026-04-13",
     "total_sets": 130,
-    "total_volume": 61944,
+    "total_volume": 61694,
     "unique_exercises": 20,
     "streak_weeks": 5,
     "sessions_per_week": 3.5,
-    "generated_at": "2026-04-13T22:04:47.666786"
+    "generated_at": "2026-04-13T22:05:48.071880"
   },
   "latest_win": {
-    "exercise": "Seated Row Machine",
-    "weight": 75.0,
-    "reps": 14,
-    "previous_weight": 65.0,
+    "exercise": "Single Arm Dumbbell Row",
+    "weight": 27.5,
+    "reps": 0,
+    "previous_weight": 25.0,
     "date": "2026-04-13",
     "type": "weight"
   },
@@ -23,8 +23,8 @@
     {
       "date": "2026-03-22",
       "muscles": [
-        "triceps",
-        "back"
+        "back",
+        "triceps"
       ],
       "count": 2
     },
@@ -38,18 +38,18 @@
     {
       "date": "2026-03-25",
       "muscles": [
-        "shoulders",
         "chest",
-        "cardio"
+        "cardio",
+        "shoulders"
       ],
       "count": 3
     },
     {
       "date": "2026-03-28",
       "muscles": [
-        "biceps",
         "triceps",
-        "cardio"
+        "cardio",
+        "biceps"
       ],
       "count": 3
     },
@@ -63,8 +63,8 @@
     {
       "date": "2026-04-04",
       "muscles": [
-        "biceps",
-        "triceps"
+        "triceps",
+        "biceps"
       ],
       "count": 2
     },
@@ -85,24 +85,24 @@
     {
       "date": "2026-04-09",
       "muscles": [
-        "shoulders",
-        "other"
+        "other",
+        "shoulders"
       ],
       "count": 2
     },
     {
       "date": "2026-04-11",
       "muscles": [
-        "biceps",
-        "triceps"
+        "triceps",
+        "biceps"
       ],
       "count": 2
     },
     {
       "date": "2026-04-13",
       "muscles": [
-        "other",
-        "back"
+        "back",
+        "other"
       ],
       "count": 2
     }
@@ -161,11 +161,11 @@
         },
         {
           "date": "2026-04-13",
-          "weight": 25.0
+          "weight": 27.5
         }
       ],
       "sessions_count": 3,
-      "current_max": 25.0,
+      "current_max": 27.5,
       "first_max": 20.0
     },
     {
@@ -232,7 +232,7 @@
     },
     {
       "week": "2026-04-13",
-      "volume": 8440,
+      "volume": 8190,
       "last_session": "2026-04-13"
     }
   ],
@@ -695,16 +695,16 @@
             },
             {
               "set_number": 3,
-              "weight": 25.0,
-              "reps": 10,
+              "weight": 27.5,
+              "reps": null,
               "rpe": null,
               "is_warmup": 0,
               "is_dropset": 0,
               "notes": null
             }
           ],
-          "total_volume": 725,
-          "max_weight": 25.0
+          "total_volume": 475,
+          "max_weight": 27.5
         }
       ],
       "total_sessions": 3
