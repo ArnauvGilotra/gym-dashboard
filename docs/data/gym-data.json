@@ -4,19 +4,19 @@
     "days_tracking": 23,
     "first_date": "2026-03-22",
     "last_date": "2026-04-13",
-    "total_sets": 118,
-    "total_volume": 53504,
+    "total_sets": 121,
+    "total_volume": 57084,
     "unique_exercises": 20,
     "streak_weeks": 5,
     "sessions_per_week": 3.5,
-    "generated_at": "2026-04-13T21:44:17.267676"
+    "generated_at": "2026-04-13T21:45:17.482592"
   },
   "latest_win": {
-    "exercise": "Bicep Curl",
-    "weight": 27.5,
-    "reps": 4,
-    "previous_weight": 25.0,
-    "date": "2026-04-11",
+    "exercise": "Lat Pulldown",
+    "weight": 100.0,
+    "reps": 12,
+    "previous_weight": 95.0,
+    "date": "2026-04-13",
     "type": "weight"
   },
   "heatmap": [
@@ -38,17 +38,17 @@
     {
       "date": "2026-03-25",
       "muscles": [
+        "cardio",
         "chest",
-        "shoulders",
-        "cardio"
+        "shoulders"
       ],
       "count": 3
     },
     {
       "date": "2026-03-28",
       "muscles": [
-        "biceps",
         "cardio",
+        "biceps",
         "triceps"
       ],
       "count": 3
@@ -97,9 +97,36 @@
         "triceps"
       ],
       "count": 2
+    },
+    {
+      "date": "2026-04-13",
+      "muscles": [
+        "back"
+      ],
+      "count": 1
     }
   ],
   "sparklines": [
+    {
+      "name": "Lat Pulldown",
+      "data": [
+        {
+          "date": "2026-03-22",
+          "weight": 95.0
+        },
+        {
+          "date": "2026-03-31",
+          "weight": 90.0
+        },
+        {
+          "date": "2026-04-13",
+          "weight": 100.0
+        }
+      ],
+      "sessions_count": 3,
+      "current_max": 100.0,
+      "first_max": 95.0
+    },
     {
       "name": "Bicep Curl",
       "data": [
@@ -161,22 +188,6 @@
       "first_max": 30.0
     },
     {
-      "name": "Lat Pulldown",
-      "data": [
-        {
-          "date": "2026-03-22",
-          "weight": 95.0
-        },
-        {
-          "date": "2026-03-31",
-          "weight": 90.0
-        }
-      ],
-      "sessions_count": 2,
-      "current_max": 95.0,
-      "first_max": 95.0
-    },
-    {
       "name": "Overhead Cable Extension",
       "data": [
         {
@@ -213,6 +224,11 @@
       "week": "2026-04-06",
       "volume": 18208,
       "last_session": "2026-04-11"
+    },
+    {
+      "week": "2026-04-13",
+      "volume": 3580,
+      "last_session": "2026-04-13"
     }
   ],
   "body_split": [
@@ -363,9 +379,43 @@
           ],
           "total_volume": 2400,
           "max_weight": 90.0
+        },
+        {
+          "date": "2026-04-13",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 70.0,
+              "reps": 16,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 90.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 100.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 3580,
+          "max_weight": 100.0
         }
       ],
-      "total_sessions": 2
+      "total_sessions": 3
     },
     "Overhead Cable Extension": {
       "sessions": [
