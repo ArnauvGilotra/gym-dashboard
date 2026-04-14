@@ -4,18 +4,18 @@
     "days_tracking": 23,
     "first_date": "2026-03-22",
     "last_date": "2026-04-13",
-    "total_sets": 121,
-    "total_volume": 57084,
+    "total_sets": 124,
+    "total_volume": 59924,
     "unique_exercises": 20,
     "streak_weeks": 5,
     "sessions_per_week": 3.5,
-    "generated_at": "2026-04-13T21:45:17.482592"
+    "generated_at": "2026-04-13T21:52:17.104020"
   },
   "latest_win": {
-    "exercise": "Lat Pulldown",
-    "weight": 100.0,
-    "reps": 12,
-    "previous_weight": 95.0,
+    "exercise": "Seated Row Machine",
+    "weight": 75.0,
+    "reps": 14,
+    "previous_weight": 65.0,
     "date": "2026-04-13",
     "type": "weight"
   },
@@ -48,8 +48,8 @@
       "date": "2026-03-28",
       "muscles": [
         "cardio",
-        "biceps",
-        "triceps"
+        "triceps",
+        "biceps"
       ],
       "count": 3
     },
@@ -63,8 +63,8 @@
     {
       "date": "2026-04-04",
       "muscles": [
-        "biceps",
-        "triceps"
+        "triceps",
+        "biceps"
       ],
       "count": 2
     },
@@ -93,8 +93,8 @@
     {
       "date": "2026-04-11",
       "muscles": [
-        "biceps",
-        "triceps"
+        "triceps",
+        "biceps"
       ],
       "count": 2
     },
@@ -126,6 +126,26 @@
       "sessions_count": 3,
       "current_max": 100.0,
       "first_max": 95.0
+    },
+    {
+      "name": "Seated Row Machine",
+      "data": [
+        {
+          "date": "2026-03-22",
+          "weight": 49.5
+        },
+        {
+          "date": "2026-03-31",
+          "weight": 65.0
+        },
+        {
+          "date": "2026-04-13",
+          "weight": 75.0
+        }
+      ],
+      "sessions_count": 3,
+      "current_max": 75.0,
+      "first_max": 49.5
     },
     {
       "name": "Bicep Curl",
@@ -186,22 +206,6 @@
       "sessions_count": 3,
       "current_max": 30.0,
       "first_max": 30.0
-    },
-    {
-      "name": "Overhead Cable Extension",
-      "data": [
-        {
-          "date": "2026-03-22",
-          "weight": 25.0
-        },
-        {
-          "date": "2026-04-04",
-          "weight": 30.0
-        }
-      ],
-      "sessions_count": 2,
-      "current_max": 30.0,
-      "first_max": 25.0
     }
   ],
   "weekly_volume": [
@@ -227,7 +231,7 @@
     },
     {
       "week": "2026-04-13",
-      "volume": 3580,
+      "volume": 6420,
       "last_session": "2026-04-13"
     }
   ],
@@ -559,9 +563,43 @@
           ],
           "total_volume": 1550,
           "max_weight": 65.0
+        },
+        {
+          "date": "2026-04-13",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 55.0,
+              "reps": 16,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 65.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 75.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 2840,
+          "max_weight": 75.0
         }
       ],
-      "total_sessions": 2
+      "total_sessions": 3
     },
     "Single Arm Dumbbell Row": {
       "sessions": [
