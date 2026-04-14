@@ -4,12 +4,12 @@
     "days_tracking": 23,
     "first_date": "2026-03-22",
     "last_date": "2026-04-13",
-    "total_sets": 127,
-    "total_volume": 61219,
+    "total_sets": 130,
+    "total_volume": 61944,
     "unique_exercises": 20,
     "streak_weeks": 5,
     "sessions_per_week": 3.5,
-    "generated_at": "2026-04-13T22:00:27.800288"
+    "generated_at": "2026-04-13T22:04:47.666786"
   },
   "latest_win": {
     "exercise": "Seated Row Machine",
@@ -38,18 +38,18 @@
     {
       "date": "2026-03-25",
       "muscles": [
+        "shoulders",
         "chest",
-        "cardio",
-        "shoulders"
+        "cardio"
       ],
       "count": 3
     },
     {
       "date": "2026-03-28",
       "muscles": [
-        "cardio",
+        "biceps",
         "triceps",
-        "biceps"
+        "cardio"
       ],
       "count": 3
     },
@@ -63,8 +63,8 @@
     {
       "date": "2026-04-04",
       "muscles": [
-        "triceps",
-        "biceps"
+        "biceps",
+        "triceps"
       ],
       "count": 2
     },
@@ -85,16 +85,16 @@
     {
       "date": "2026-04-09",
       "muscles": [
-        "other",
-        "shoulders"
+        "shoulders",
+        "other"
       ],
       "count": 2
     },
     {
       "date": "2026-04-11",
       "muscles": [
-        "triceps",
-        "biceps"
+        "biceps",
+        "triceps"
       ],
       "count": 2
     },
@@ -149,6 +149,26 @@
       "first_max": 49.5
     },
     {
+      "name": "Single Arm Dumbbell Row",
+      "data": [
+        {
+          "date": "2026-03-22",
+          "weight": 20.0
+        },
+        {
+          "date": "2026-03-31",
+          "weight": 25.0
+        },
+        {
+          "date": "2026-04-13",
+          "weight": 25.0
+        }
+      ],
+      "sessions_count": 3,
+      "current_max": 25.0,
+      "first_max": 20.0
+    },
+    {
       "name": "Bicep Curl",
       "data": [
         {
@@ -187,26 +207,6 @@
       "sessions_count": 3,
       "current_max": 50.0,
       "first_max": 50.0
-    },
-    {
-      "name": "Tricep Rope Pushdown",
-      "data": [
-        {
-          "date": "2026-03-28",
-          "weight": 30.0
-        },
-        {
-          "date": "2026-04-04",
-          "weight": 30.0
-        },
-        {
-          "date": "2026-04-11",
-          "weight": 25.5
-        }
-      ],
-      "sessions_count": 3,
-      "current_max": 30.0,
-      "first_max": 30.0
     }
   ],
   "weekly_volume": [
@@ -232,7 +232,7 @@
     },
     {
       "week": "2026-04-13",
-      "volume": 7715,
+      "volume": 8440,
       "last_session": "2026-04-13"
     }
   ],
@@ -671,9 +671,43 @@
           ],
           "total_volume": 750,
           "max_weight": 25.0
+        },
+        {
+          "date": "2026-04-13",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 22.5,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 25.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 25.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 725,
+          "max_weight": 25.0
         }
       ],
-      "total_sessions": 2
+      "total_sessions": 3
     },
     "Calf Raise": {
       "sessions": [
