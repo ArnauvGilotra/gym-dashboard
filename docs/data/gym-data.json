@@ -4,12 +4,12 @@
     "days_tracking": 23,
     "first_date": "2026-03-22",
     "last_date": "2026-04-13",
-    "total_sets": 124,
-    "total_volume": 59924,
+    "total_sets": 127,
+    "total_volume": 61219,
     "unique_exercises": 20,
     "streak_weeks": 5,
     "sessions_per_week": 3.5,
-    "generated_at": "2026-04-13T21:52:17.104020"
+    "generated_at": "2026-04-13T22:00:27.800288"
   },
   "latest_win": {
     "exercise": "Seated Row Machine",
@@ -23,8 +23,8 @@
     {
       "date": "2026-03-22",
       "muscles": [
-        "back",
-        "triceps"
+        "triceps",
+        "back"
       ],
       "count": 2
     },
@@ -38,8 +38,8 @@
     {
       "date": "2026-03-25",
       "muscles": [
-        "cardio",
         "chest",
+        "cardio",
         "shoulders"
       ],
       "count": 3
@@ -101,9 +101,10 @@
     {
       "date": "2026-04-13",
       "muscles": [
+        "other",
         "back"
       ],
-      "count": 1
+      "count": 2
     }
   ],
   "sparklines": [
@@ -231,7 +232,7 @@
     },
     {
       "week": "2026-04-13",
-      "volume": 6420,
+      "volume": 7715,
       "last_session": "2026-04-13"
     }
   ],
@@ -1737,9 +1738,43 @@
           ],
           "total_volume": 1132,
           "max_weight": 27.5
+        },
+        {
+          "date": "2026-04-13",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 30.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 35.0,
+              "reps": 13,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 40.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 1295,
+          "max_weight": 40.0
         }
       ],
-      "total_sessions": 1
+      "total_sessions": 2
     },
     "Overhead Dumbbell Press": {
       "sessions": [
