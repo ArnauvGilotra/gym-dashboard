@@ -4,12 +4,12 @@
     "days_tracking": 25,
     "first_date": "2026-03-22",
     "last_date": "2026-04-15",
-    "total_sets": 139,
-    "total_volume": 70879,
+    "total_sets": 142,
+    "total_volume": 74659,
     "unique_exercises": 20,
     "streak_weeks": 5,
     "sessions_per_week": 3.5,
-    "generated_at": "2026-04-15T22:02:48.203030"
+    "generated_at": "2026-04-15T22:07:53.175976"
   },
   "latest_win": {
     "exercise": "Leg Extension",
@@ -38,9 +38,9 @@
     {
       "date": "2026-03-25",
       "muscles": [
-        "cardio",
         "chest",
-        "shoulders"
+        "shoulders",
+        "cardio"
       ],
       "count": 3
     },
@@ -239,7 +239,7 @@
     },
     {
       "week": "2026-04-13",
-      "volume": 17375,
+      "volume": 21155,
       "last_session": "2026-04-15"
     }
   ],
@@ -742,9 +742,43 @@
           ],
           "total_volume": 2400,
           "max_weight": 50.0
+        },
+        {
+          "date": "2026-04-15",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 90.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 90.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 90.0,
+              "reps": 16,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 3780,
+          "max_weight": 90.0
         }
       ],
-      "total_sessions": 1
+      "total_sessions": 2
     },
     "Leg Curl": {
       "sessions": [
