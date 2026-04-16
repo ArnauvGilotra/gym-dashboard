@@ -9,7 +9,7 @@
     "unique_exercises": 20,
     "streak_weeks": 5,
     "sessions_per_week": 3.5,
-    "generated_at": "2026-04-15T22:44:09.773932"
+    "generated_at": "2026-04-15T23:22:00.786881"
   },
   "latest_win": {
     "exercise": "Leg Extension",
@@ -47,9 +47,9 @@
     {
       "date": "2026-03-28",
       "muscles": [
-        "triceps",
+        "biceps",
         "cardio",
-        "biceps"
+        "triceps"
       ],
       "count": 3
     },
@@ -63,8 +63,8 @@
     {
       "date": "2026-04-04",
       "muscles": [
-        "triceps",
-        "biceps"
+        "biceps",
+        "triceps"
       ],
       "count": 2
     },
@@ -85,16 +85,16 @@
     {
       "date": "2026-04-09",
       "muscles": [
-        "shoulders",
-        "other"
+        "other",
+        "shoulders"
       ],
       "count": 2
     },
     {
       "date": "2026-04-11",
       "muscles": [
-        "triceps",
-        "biceps"
+        "biceps",
+        "triceps"
       ],
       "count": 2
     },
@@ -109,9 +109,10 @@
     {
       "date": "2026-04-15",
       "muscles": [
-        "legs"
+        "legs",
+        "cardio"
       ],
-      "count": 1
+      "count": 2
     }
   ],
   "sparklines": [
@@ -1471,9 +1472,25 @@
           ],
           "total_volume": 0,
           "max_weight": 0
+        },
+        {
+          "date": "2026-04-15",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": null,
+              "reps": null,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 0,
+          "max_weight": 0
         }
       ],
-      "total_sessions": 2
+      "total_sessions": 3
     },
     "Bicep Curl": {
       "sessions": [
