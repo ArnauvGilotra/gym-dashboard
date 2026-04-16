@@ -126,10 +126,16 @@ function renderHeatmap() {
         container.appendChild(el);
     });
 
+    // Helper: local YYYY-MM-DD (avoids UTC shift from toISOString)
+    function localDateStr(dt) {
+        return dt.getFullYear() + '-' + String(dt.getMonth() + 1).padStart(2, '0') + '-' + String(dt.getDate()).padStart(2, '0');
+    }
+
     // Fill days
+    const todayStr = localDateStr(today);
     const d = new Date(start);
     while (d <= today) {
-        const dateStr = d.toISOString().slice(0, 10);
+        const dateStr = localDateStr(d);
         const dayEl = document.createElement('div');
         dayEl.className = 'heatmap-day';
 
@@ -154,9 +160,8 @@ function renderHeatmap() {
             dayEl.appendChild(tip);
         }
 
-        // Day number (subtle)
-        const isToday = dateStr === today.toISOString().slice(0, 10);
-        if (isToday) {
+        // Highlight today
+        if (dateStr === todayStr) {
             dayEl.style.border = '2px solid var(--accent)';
         }
 
