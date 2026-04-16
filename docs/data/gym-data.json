@@ -4,12 +4,12 @@
     "days_tracking": 25,
     "first_date": "2026-03-22",
     "last_date": "2026-04-15",
-    "total_sets": 136,
-    "total_volume": 68269,
+    "total_sets": 139,
+    "total_volume": 70879,
     "unique_exercises": 20,
     "streak_weeks": 5,
     "sessions_per_week": 3.5,
-    "generated_at": "2026-04-15T21:54:08.375415"
+    "generated_at": "2026-04-15T22:02:48.203030"
   },
   "latest_win": {
     "exercise": "Leg Extension",
@@ -23,8 +23,8 @@
     {
       "date": "2026-03-22",
       "muscles": [
-        "back",
-        "triceps"
+        "triceps",
+        "back"
       ],
       "count": 2
     },
@@ -38,17 +38,17 @@
     {
       "date": "2026-03-25",
       "muscles": [
-        "shoulders",
         "cardio",
-        "chest"
+        "chest",
+        "shoulders"
       ],
       "count": 3
     },
     {
       "date": "2026-03-28",
       "muscles": [
-        "biceps",
         "triceps",
+        "biceps",
         "cardio"
       ],
       "count": 3
@@ -63,8 +63,8 @@
     {
       "date": "2026-04-04",
       "muscles": [
-        "biceps",
-        "triceps"
+        "triceps",
+        "biceps"
       ],
       "count": 2
     },
@@ -85,24 +85,24 @@
     {
       "date": "2026-04-09",
       "muscles": [
-        "shoulders",
-        "other"
+        "other",
+        "shoulders"
       ],
       "count": 2
     },
     {
       "date": "2026-04-11",
       "muscles": [
-        "biceps",
-        "triceps"
+        "triceps",
+        "biceps"
       ],
       "count": 2
     },
     {
       "date": "2026-04-13",
       "muscles": [
-        "back",
-        "other"
+        "other",
+        "back"
       ],
       "count": 2
     },
@@ -176,6 +176,26 @@
       "first_max": 20.0
     },
     {
+      "name": "Leg Curl",
+      "data": [
+        {
+          "date": "2026-03-24",
+          "weight": 70.0
+        },
+        {
+          "date": "2026-04-07",
+          "weight": 75.0
+        },
+        {
+          "date": "2026-04-15",
+          "weight": 70.0
+        }
+      ],
+      "sessions_count": 3,
+      "current_max": 75.0,
+      "first_max": 70.0
+    },
+    {
       "name": "Leg Extension",
       "data": [
         {
@@ -194,26 +214,6 @@
       "sessions_count": 3,
       "current_max": 70.0,
       "first_max": 55.0
-    },
-    {
-      "name": "Leg Press",
-      "data": [
-        {
-          "date": "2026-03-24",
-          "weight": 120.0
-        },
-        {
-          "date": "2026-04-07",
-          "weight": 90.0
-        },
-        {
-          "date": "2026-04-15",
-          "weight": 120.0
-        }
-      ],
-      "sessions_count": 3,
-      "current_max": 120.0,
-      "first_max": 120.0
     }
   ],
   "weekly_volume": [
@@ -239,7 +239,7 @@
     },
     {
       "week": "2026-04-13",
-      "volume": 14765,
+      "volume": 17375,
       "last_session": "2026-04-15"
     }
   ],
@@ -815,9 +815,43 @@
           ],
           "total_volume": 2450,
           "max_weight": 75.0
+        },
+        {
+          "date": "2026-04-15",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 60.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 70.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 70.0,
+              "reps": 15,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 2610,
+          "max_weight": 70.0
         }
       ],
-      "total_sessions": 2
+      "total_sessions": 3
     },
     "Leg Extension": {
       "sessions": [
