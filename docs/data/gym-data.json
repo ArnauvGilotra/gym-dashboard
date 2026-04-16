@@ -4,12 +4,12 @@
     "days_tracking": 25,
     "first_date": "2026-03-22",
     "last_date": "2026-04-15",
-    "total_sets": 133,
-    "total_volume": 64189,
+    "total_sets": 136,
+    "total_volume": 68269,
     "unique_exercises": 20,
     "streak_weeks": 5,
     "sessions_per_week": 3.5,
-    "generated_at": "2026-04-15T21:45:46.786197"
+    "generated_at": "2026-04-15T21:54:08.375415"
   },
   "latest_win": {
     "exercise": "Leg Extension",
@@ -23,8 +23,8 @@
     {
       "date": "2026-03-22",
       "muscles": [
-        "triceps",
-        "back"
+        "back",
+        "triceps"
       ],
       "count": 2
     },
@@ -38,18 +38,18 @@
     {
       "date": "2026-03-25",
       "muscles": [
+        "shoulders",
         "cardio",
-        "chest",
-        "shoulders"
+        "chest"
       ],
       "count": 3
     },
     {
       "date": "2026-03-28",
       "muscles": [
-        "cardio",
         "biceps",
-        "triceps"
+        "triceps",
+        "cardio"
       ],
       "count": 3
     },
@@ -85,8 +85,8 @@
     {
       "date": "2026-04-09",
       "muscles": [
-        "other",
-        "shoulders"
+        "shoulders",
+        "other"
       ],
       "count": 2
     },
@@ -101,8 +101,8 @@
     {
       "date": "2026-04-13",
       "muscles": [
-        "other",
-        "back"
+        "back",
+        "other"
       ],
       "count": 2
     },
@@ -196,24 +196,24 @@
       "first_max": 55.0
     },
     {
-      "name": "Bicep Curl",
+      "name": "Leg Press",
       "data": [
         {
-          "date": "2026-03-28",
-          "weight": 20.0
+          "date": "2026-03-24",
+          "weight": 120.0
         },
         {
-          "date": "2026-04-04",
-          "weight": 20.0
+          "date": "2026-04-07",
+          "weight": 90.0
         },
         {
-          "date": "2026-04-11",
-          "weight": 27.5
+          "date": "2026-04-15",
+          "weight": 120.0
         }
       ],
       "sessions_count": 3,
-      "current_max": 27.5,
-      "first_max": 20.0
+      "current_max": 120.0,
+      "first_max": 120.0
     }
   ],
   "weekly_volume": [
@@ -239,7 +239,7 @@
     },
     {
       "week": "2026-04-13",
-      "volume": 10685,
+      "volume": 14765,
       "last_session": "2026-04-15"
     }
   ],
@@ -995,9 +995,43 @@
           ],
           "total_volume": 3770,
           "max_weight": 90.0
+        },
+        {
+          "date": "2026-04-15",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 100.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 2,
+              "weight": 120.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            },
+            {
+              "set_number": 3,
+              "weight": 120.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null
+            }
+          ],
+          "total_volume": 4080,
+          "max_weight": 120.0
         }
       ],
-      "total_sessions": 2
+      "total_sessions": 3
     },
     "Cable Fly": {
       "sessions": [
