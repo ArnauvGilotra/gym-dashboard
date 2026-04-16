@@ -1,15 +1,15 @@
 {
   "summary": {
-    "total_sessions": 11,
-    "days_tracking": 23,
+    "total_sessions": 12,
+    "days_tracking": 25,
     "first_date": "2026-03-22",
-    "last_date": "2026-04-13",
+    "last_date": "2026-04-15",
     "total_sets": 130,
     "total_volume": 61969,
     "unique_exercises": 20,
     "streak_weeks": 5,
     "sessions_per_week": 3.5,
-    "generated_at": "2026-04-13T22:07:29.349425"
+    "generated_at": "2026-04-15T21:44:46.271890"
   },
   "latest_win": {
     "exercise": "Single Arm Dumbbell Row",
@@ -47,9 +47,9 @@
     {
       "date": "2026-03-28",
       "muscles": [
-        "triceps",
+        "cardio",
         "biceps",
-        "cardio"
+        "triceps"
       ],
       "count": 3
     },
@@ -63,8 +63,8 @@
     {
       "date": "2026-04-04",
       "muscles": [
-        "triceps",
-        "biceps"
+        "biceps",
+        "triceps"
       ],
       "count": 2
     },
@@ -93,16 +93,16 @@
     {
       "date": "2026-04-11",
       "muscles": [
-        "triceps",
-        "biceps"
+        "biceps",
+        "triceps"
       ],
       "count": 2
     },
     {
       "date": "2026-04-13",
       "muscles": [
-        "back",
-        "other"
+        "other",
+        "back"
       ],
       "count": 2
     }
@@ -242,12 +242,12 @@
       "count": 3
     },
     {
-      "part": "Arms",
+      "part": "Legs",
       "count": 3
     },
     {
-      "part": "Legs",
-      "count": 2
+      "part": "Arms",
+      "count": 3
     },
     {
       "part": "Chest",
@@ -1960,6 +1960,16 @@
       "feeling": null,
       "notes": null,
       "created_at": "2026-04-13 21:44:17"
+    },
+    {
+      "id": 12,
+      "date": "2026-04-15",
+      "start_time": null,
+      "duration_min": null,
+      "focus": "Legs",
+      "feeling": null,
+      "notes": null,
+      "created_at": "2026-04-15 21:44:46"
     }
   ],
   "exercise_list": [
