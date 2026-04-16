@@ -9,7 +9,7 @@
     "unique_exercises": 20,
     "streak_weeks": 5,
     "sessions_per_week": 3.5,
-    "generated_at": "2026-04-15T22:07:53.175976"
+    "generated_at": "2026-04-15T22:44:09.773932"
   },
   "latest_win": {
     "exercise": "Leg Extension",
@@ -38,9 +38,9 @@
     {
       "date": "2026-03-25",
       "muscles": [
-        "chest",
+        "cardio",
         "shoulders",
-        "cardio"
+        "chest"
       ],
       "count": 3
     },
@@ -48,8 +48,8 @@
       "date": "2026-03-28",
       "muscles": [
         "triceps",
-        "biceps",
-        "cardio"
+        "cardio",
+        "biceps"
       ],
       "count": 3
     },
@@ -85,8 +85,8 @@
     {
       "date": "2026-04-09",
       "muscles": [
-        "other",
-        "shoulders"
+        "shoulders",
+        "other"
       ],
       "count": 2
     },
