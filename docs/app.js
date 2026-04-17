@@ -302,22 +302,27 @@ function renderHeatmap() {
     }
     if (currentWeek.length) weeks.push(currentWeek);
 
-    // Compute cell size that fills available width.
-    // Target: substantial cells when we have little data, reasonable when we have a lot.
+    // Fill full available width like a real calendar grid.
+    // Cells can be rectangular (wider than tall) when we have few weeks.
     const wrap = document.querySelector('.heatmap-wrap');
     const gridWrap = document.querySelector('.heatmap-grid-wrap');
     const available = (gridWrap ? gridWrap.clientWidth : 300) - 36; // minus day labels
     const totalWeeks = weeks.length;
     const gap = 4;
-    // Fill available width, cap at 34 so it still looks like a heatmap not a tile grid
-    let cell = Math.floor((available - gap * (totalWeeks - 1)) / totalWeeks);
-    cell = Math.max(16, Math.min(34, cell));
+    // Width: fill the row completely, min 14
+    let cellW = Math.floor((available - gap * (totalWeeks - 1)) / totalWeeks);
+    cellW = Math.max(14, cellW);
+    // Height: square-ish but capped so rows don't become absurd tall when few weeks
+    // When viewport is wide and few weeks, let cells become rectangles (wider than tall)
+    let cellH = Math.min(cellW, 40);
+    cellH = Math.max(14, cellH);
     if (wrap) {
-        wrap.style.setProperty('--hm-cell', cell + 'px');
+        wrap.style.setProperty('--hm-cell-w', cellW + 'px');
+        wrap.style.setProperty('--hm-cell-h', cellH + 'px');
         wrap.style.setProperty('--hm-gap', gap + 'px');
     }
 
-    const cellWidth = cell + gap;
+    const cellWidth = cellW + gap;
     monthLabels.forEach(ml => {
         const span = document.createElement('span');
         span.textContent = ml.label;
