@@ -88,7 +88,7 @@ function renderAll() {
     renderInsightsProse();
     renderPRs();
     renderHeatmap();
-    renderMuscleBars();
+    renderMuscleStrength();
     renderConsistency();
     renderExercises();
     renderFooter();
@@ -106,30 +106,25 @@ function renderLead() {
     const s = DATA.summary;
     const c = DATA.comparisons;
 
-    // Volume as the lead number
-    const vol = c.this_week.volume;
-    document.getElementById('lead-volume').textContent = fmtHumanLarge(vol);
-
-    // Volume delta
-    const deltaEl = document.getElementById('lead-delta');
-    const wow = c.volume_wow_pct;
-    if (wow !== null && wow !== undefined) {
-        if (wow > 0) {
-            deltaEl.textContent = `+${wow}% vs last week`;
-            deltaEl.className = 'delta pos';
-        } else if (wow < 0) {
-            deltaEl.textContent = `${wow}% vs last week`;
-            deltaEl.className = 'delta neg';
-        } else {
-            deltaEl.textContent = 'same as last week';
-            deltaEl.className = 'delta flat';
-        }
-    } else {
-        deltaEl.textContent = '';
+    // Strength gain this week as the hero number
+    const gain = s.strength_gain_this_week || 0;
+    const leadEl = document.getElementById('lead-strength');
+    if (gain > 0) {
+        leadEl.textContent = '+' + fmtHumanLarge(gain);
+        leadEl.style.color = POS;
+    } else if (gain === 0) {
+        leadEl.textContent = '0';
+        leadEl.style.color = INK;
     }
 
+    // Sub: sessions this week
+    const sessionsEl = document.getElementById('lead-sessions-sub');
+    const thisWk = c.this_week.sessions;
+    sessionsEl.textContent = `${thisWk} session${thisWk === 1 ? '' : 's'} this week`;
+    sessionsEl.className = 'delta flat';
+
     // Stats row
-    document.getElementById('lead-sessions').textContent = c.this_week.sessions;
+    document.getElementById('lead-total-strength').textContent = fmtK(s.total_strength || 0);
     document.getElementById('lead-streak').textContent = s.streak_weeks;
     document.getElementById('lead-total').textContent = s.total_sessions;
 }
@@ -384,69 +379,102 @@ function renderHeatmap() {
     document.getElementById('tracking-days').textContent = `${DATA.summary.days_tracking} days`;
 }
 
-// =================== MUSCLE BARS (replaces stacked bar chart) ===================
+// =================== STRENGTH BY MUSCLE ===================
 
-function renderMuscleBars() {
-    const container = document.getElementById('muscle-bars');
-    const mv = DATA.muscle_volume || { weeks: [], categories: [], data: [] };
+function renderMuscleStrength() {
+    const container = document.getElementById('muscle-strength');
+    const muscles = DATA.muscle_strength || [];
 
-    if (mv.weeks.length === 0) {
-        container.innerHTML = '<div style="font-family:var(--serif);color:var(--ink-dim);font-style:italic">No data yet.</div>';
+    if (muscles.length === 0) {
+        container.innerHTML = '<div style="font-family:var(--serif);color:var(--ink-dim);font-style:italic">Log more sessions to see strength by muscle.</div>';
         return;
     }
 
-    // Compute last 4 weeks average volume per category
-    const recentWeeks = mv.data.slice(-4);
-    const catTotals = {};
-    mv.categories.forEach(cat => {
-        catTotals[cat] = recentWeeks.reduce((sum, w) => sum + (w[cat] || 0), 0);
-    });
+    container.innerHTML = muscles.map((m, i) => {
+        const lastDate = m.last_trained;
+        const daysAgo = lastDate
+            ? Math.floor((new Date() - new Date(lastDate + 'T00:00:00')) / 86400000)
+            : null;
+        const daysStr = daysAgo === null ? 'never'
+            : daysAgo === 0 ? 'today'
+            : daysAgo === 1 ? '1d ago'
+            : `${daysAgo}d ago`;
 
-    // Days since last trained per category
-    const daysSince = {};
-    (DATA.heatmap || []).forEach(d => {
-        d.muscles.forEach(m => {
-            if (daysSince[m] === undefined || d.date > daysSince[m]) {
-                daysSince[m] = d.date;
-            }
-        });
-    });
+        const pct = m.pct_change_30d;
+        let deltaHtml;
+        if (pct === null || pct === undefined) {
+            deltaHtml = '<span class="muscle-delta flat">new</span>';
+        } else if (pct > 0) {
+            deltaHtml = `<span class="muscle-delta pos">↑ ${pct}%</span>`;
+        } else if (pct < 0) {
+            deltaHtml = `<span class="muscle-delta neg">↓ ${Math.abs(pct)}%</span>`;
+        } else {
+            deltaHtml = '<span class="muscle-delta flat">flat</span>';
+        }
 
-    // Build rows, sort by volume descending. Exclude cardio (no weight volume).
-    const rows = mv.categories
-        .filter(cat => cat !== 'cardio' && cat !== 'other')
-        .map(cat => {
-            const vol = catTotals[cat];
-            const lastDate = daysSince[cat];
-            const daysAgo = lastDate
-                ? Math.floor((new Date() - new Date(lastDate + 'T00:00:00')) / 86400000)
-                : null;
-            return { cat, vol, daysAgo };
-        })
-        .sort((a, b) => b.vol - a.vol);
+        const topBest = m.top_best_set;
+        const topBestStr = topBest ? `${topBest.weight} × ${topBest.reps}` : '—';
 
-    const maxVol = Math.max(...rows.map(r => r.vol), 1);
-
-    container.innerHTML = rows.map(r => {
-        const pct = (r.vol / maxVol) * 100;
-        const daysStr = r.daysAgo === null ? 'never'
-            : r.daysAgo === 0 ? 'today'
-            : r.daysAgo === 1 ? '1d ago'
-            : `${r.daysAgo}d ago`;
-        const isStale = r.daysAgo !== null && r.daysAgo >= 10;
         return `
-            <div class="muscle-bar-row">
-                <div class="muscle-bar-label">${r.cat}</div>
-                <div class="muscle-bar-track">
-                    <div class="muscle-bar-fill" style="width:${pct}%; background:${MUSCLE_COLORS[r.cat] || MUSCLE_COLORS.other}; opacity:${isStale ? 0.5 : 1}"></div>
+            <div class="muscle-row" data-idx="${i}">
+                <div class="muscle-head">
+                    <span class="muscle-name">${m.category}</span>
+                    <span class="muscle-value">${m.current_strength}</span>
                 </div>
-                <div>
-                    <div class="muscle-bar-value">${fmtK(r.vol)}</div>
-                    <div class="muscle-bar-days">${daysStr}</div>
+                <div class="muscle-spark" id="muscle-spark-${i}"></div>
+                <div class="muscle-foot">
+                    <span class="muscle-top">${escapeHtml(m.top_exercise.toLowerCase())} · ${topBestStr}</span>
+                    <span class="muscle-meta">
+                        ${deltaHtml}
+                        <span class="muscle-days">${daysStr}</span>
+                    </span>
                 </div>
             </div>
         `;
     }).join('');
+
+    // Draw sparklines
+    muscles.forEach((m, i) => {
+        const el = document.getElementById(`muscle-spark-${i}`);
+        if (!el) return;
+        drawSparkline(el, m.trend.map(t => t.strength), MUSCLE_COLORS[m.category] || MUSCLE_COLORS.other);
+    });
+}
+
+function drawSparkline(container, values, color) {
+    if (!values || values.length < 2) {
+        container.innerHTML = '<div style="height:28px;display:flex;align-items:center;font-family:var(--mono);font-size:0.6rem;color:var(--ink-faint)">— not enough data yet</div>';
+        return;
+    }
+
+    const w = container.clientWidth || 300;
+    const h = 28;
+    const pad = 2;
+
+    const nonZero = values.filter(v => v > 0);
+    const min = nonZero.length ? Math.min(...nonZero) : 0;
+    const max = Math.max(...values, 1);
+    const range = max - min || 1;
+
+    const points = values.map((v, i) => {
+        const x = pad + (i / (values.length - 1)) * (w - pad * 2);
+        const y = v > 0
+            ? h - pad - ((v - min) / range) * (h - pad * 2)
+            : h - pad; // zero sits at baseline
+        return [x, y];
+    });
+
+    const path = points.map((p, i) => (i === 0 ? 'M' : 'L') + p[0].toFixed(1) + ',' + p[1].toFixed(1)).join(' ');
+    const areaPath = path + ` L${points[points.length-1][0].toFixed(1)},${h-pad} L${points[0][0].toFixed(1)},${h-pad} Z`;
+
+    // Only show the area fill after the first non-zero point to avoid a big flat block at the start
+    container.innerHTML = `
+        <svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+            <path d="${areaPath}" fill="${color}" opacity="0.12" />
+            <path d="${path}" fill="none" stroke="${color}" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" />
+            <circle cx="${points[points.length-1][0].toFixed(1)}" cy="${points[points.length-1][1].toFixed(1)}" r="2.5" fill="${color}" />
+        </svg>
+    `;
 }
 
 // =================== CONSISTENCY (sessions + volume overlay) ===================
@@ -454,11 +482,25 @@ function renderMuscleBars() {
 function renderConsistency() {
     const ctx = document.getElementById('consistency-chart').getContext('2d');
     const trend = DATA.consistency_trend || [];
-    const weekly = DATA.weekly_summary || [];
 
-    // Map weekly volume by week
-    const volByWeek = {};
-    weekly.forEach(w => { volByWeek[w.week] = w.volume / 1000; });
+    // Compute weekly total strength (sum of top est 1RM across muscle groups, per week)
+    // Using muscle_strength.trend data
+    const muscleStrength = DATA.muscle_strength || [];
+    const strengthByWeek = {};
+    muscleStrength.forEach(m => {
+        (m.trend || []).forEach(t => {
+            if (!strengthByWeek[t.week]) strengthByWeek[t.week] = 0;
+            strengthByWeek[t.week] += t.strength;
+        });
+    });
+    // Convert to gain: weekly delta from previous week
+    const weeks = Object.keys(strengthByWeek).sort();
+    const gainByWeek = {};
+    for (let i = 0; i < weeks.length; i++) {
+        const curr = strengthByWeek[weeks[i]];
+        const prev = i > 0 ? strengthByWeek[weeks[i - 1]] : curr;
+        gainByWeek[weeks[i]] = Math.max(0, curr - prev);
+    }
 
     const labels = trend.map(t => {
         const d = new Date(t.week + 'T00:00:00');
@@ -483,8 +525,8 @@ function renderConsistency() {
                 },
                 {
                     type: 'line',
-                    label: 'volume (k lb)',
-                    data: trend.map(t => volByWeek[t.week] || 0),
+                    label: 'strength gain (lb)',
+                    data: trend.map(t => Math.round(gainByWeek[t.week] || 0)),
                     borderColor: POS,
                     backgroundColor: 'transparent',
                     borderWidth: 2,
@@ -522,7 +564,7 @@ function renderConsistency() {
                     ticks: {
                         ...CHART_DEFAULTS.scales.y.ticks,
                         color: POS,
-                        callback: v => v.toFixed(1) + 'k',
+                        callback: v => '+' + v,
                     },
                 },
             },
@@ -532,7 +574,7 @@ function renderConsistency() {
                     ...CHART_DEFAULTS.plugins.tooltip,
                     callbacks: {
                         label: c => {
-                            if (c.dataset.type === 'line') return `${c.raw.toFixed(1)}k lb volume`;
+                            if (c.dataset.type === 'line') return `+${c.raw} lb strength gained`;
                             return `${c.raw} session${c.raw === 1 ? '' : 's'}`;
                         },
                     },
@@ -579,7 +621,9 @@ function renderExerciseRow(ex) {
         : `${ex.days_since}d ago`;
 
     const isCardio = !ex.current_max_weight || ex.current_max_weight === 0;
-    const displayValue = ex.current_1rm || ex.current_max_weight || 0;
+    // Find best set from the full exercise data
+    const fullEx = DATA.exercises[ex.name];
+    const bestSet = fullEx ? findBestSet(fullEx) : null;
 
     const trendLabel = ex.trend === 'pr' ? '· pr'
         : ex.trend === 'progressing' ? '· up'
@@ -589,10 +633,18 @@ function renderExerciseRow(ex) {
         : ex.trend === 'new' ? '· new'
         : '';
 
-    const rightContent = isCardio
-        ? `<div class="ex-value-sub" style="font-family:var(--mono);text-transform:lowercase">cardio</div>`
-        : `<div class="ex-value">${displayValue || '—'}</div>
-           <div class="ex-value-sub">${displayValue ? 'lb est. 1rm' : ''}${ex.progress_pct ? ` · ${ex.progress_pct > 0 ? '+' : ''}${ex.progress_pct}%` : ''}</div>`;
+    let rightContent;
+    if (isCardio) {
+        rightContent = `<div class="ex-value-sub" style="font-family:var(--mono);text-transform:lowercase">cardio</div>`;
+    } else if (bestSet) {
+        // Show "weight × reps" as the primary, 1RM as subtitle
+        rightContent = `
+            <div class="ex-value">${bestSet.weight} × ${bestSet.reps}</div>
+            <div class="ex-value-sub">${ex.current_1rm} est. 1rm${ex.progress_pct ? ` · ${ex.progress_pct > 0 ? '+' : ''}${ex.progress_pct}%` : ''}</div>
+        `;
+    } else {
+        rightContent = `<div class="ex-value">${ex.current_max_weight || '—'}</div><div class="ex-value-sub">lb max</div>`;
+    }
 
     return `
         <div class="ex-row" onclick="showExercise('${escapeJs(ex.name)}')">
@@ -608,6 +660,23 @@ function renderExerciseRow(ex) {
             </div>
         </div>
     `;
+}
+
+function findBestSet(fullEx) {
+    let best = null;
+    let best1rm = 0;
+    (fullEx.sessions || []).forEach(sess => {
+        (sess.sets || []).forEach(s => {
+            if (s.weight && s.reps) {
+                const e1 = s.weight * (1 + s.reps / 30);
+                if (e1 > best1rm) {
+                    best1rm = e1;
+                    best = { weight: s.weight, reps: s.reps, date: sess.date };
+                }
+            }
+        });
+    });
+    return best;
 }
 
 function setCategoryFilter(cat) {
@@ -639,7 +708,15 @@ function showExercise(name) {
     document.getElementById('exercise-view').style.display = 'block';
 
     document.getElementById('ex-title').textContent = name.toLowerCase();
-    document.getElementById('ex-1rm').textContent = fmtHumanLarge(ex.current_1rm || ex.current_max_weight || 0);
+
+    // Show best set as the hero number: "90 × 16"
+    const bestSet = findBestSet(ex);
+    const heroEl = document.getElementById('ex-1rm');
+    if (bestSet) {
+        heroEl.innerHTML = `${bestSet.weight}<span style="font-family:var(--sans);font-weight:400;color:var(--ink-dim);font-size:0.5em;margin:0 0.1em"> × </span>${bestSet.reps}`;
+    } else {
+        heroEl.textContent = ex.current_max_weight || '—';
+    }
 
     const progressEl = document.getElementById('ex-progress');
     const pct = ex.progress_pct || 0;
@@ -664,7 +741,7 @@ function showExercise(name) {
     };
     document.getElementById('ex-trend-meta').textContent = trendMeta[ex.trend] || ex.trend;
 
-    document.getElementById('ex-max').textContent = ex.current_max_weight || '—';
+    document.getElementById('ex-max').textContent = ex.current_1rm || '—';
     document.getElementById('ex-sessions-count').textContent = ex.total_sessions;
 
     const daysText = ex.days_since === null ? '—'

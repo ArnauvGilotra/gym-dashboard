@@ -11,7 +11,9 @@
     "longest_streak": 5,
     "last_7_days": 3,
     "sessions_per_week": 3.4,
-    "generated_at": "2026-04-17T01:28:56.372908"
+    "generated_at": "2026-04-17T01:49:25.515510",
+    "strength_gain_this_week": 97.9,
+    "total_strength": 1312.6
   },
   "comparisons": {
     "this_week": {
@@ -212,108 +214,236 @@
       "focus": "Legs"
     }
   ],
-  "weekly_summary": [
+  "muscle_strength": [
     {
-      "week": "2026-03-16",
-      "volume": 8121,
-      "sessions": 1,
-      "sets": 16
+      "category": "legs",
+      "current_strength": 137.0,
+      "strength_30d_ago": 0,
+      "pct_change_30d": null,
+      "top_exercise": "Leg Press",
+      "top_1rm": 168.0,
+      "top_max_weight": 120.0,
+      "top_best_set": {
+        "weight": 120.0,
+        "reps": 12,
+        "date": "2026-03-24"
+      },
+      "exercise_count": 4,
+      "trend": [
+        {
+          "week": "2026-03-16",
+          "strength": 0
+        },
+        {
+          "week": "2026-03-23",
+          "strength": 118.7
+        },
+        {
+          "week": "2026-03-30",
+          "strength": 118.7
+        },
+        {
+          "week": "2026-04-06",
+          "strength": 122.8
+        },
+        {
+          "week": "2026-04-13",
+          "strength": 137.0
+        }
+      ],
+      "last_trained": "2026-04-15"
     },
     {
-      "week": "2026-03-23",
-      "volume": 17805,
-      "sessions": 3,
-      "sets": 35
+      "category": "back",
+      "current_strength": 95.6,
+      "strength_30d_ago": 0,
+      "pct_change_30d": null,
+      "top_exercise": "Lat Pulldown",
+      "top_1rm": 140.0,
+      "top_max_weight": 100.0,
+      "top_best_set": {
+        "weight": 100.0,
+        "reps": 12,
+        "date": "2026-04-13"
+      },
+      "exercise_count": 3,
+      "trend": [
+        {
+          "week": "2026-03-16",
+          "strength": 80.0
+        },
+        {
+          "week": "2026-03-23",
+          "strength": 80.0
+        },
+        {
+          "week": "2026-03-30",
+          "strength": 86.4
+        },
+        {
+          "week": "2026-04-06",
+          "strength": 86.4
+        },
+        {
+          "week": "2026-04-13",
+          "strength": 95.6
+        }
+      ],
+      "last_trained": "2026-04-13"
     },
     {
-      "week": "2026-03-30",
-      "volume": 9370,
-      "sessions": 2,
-      "sets": 26
+      "category": "chest",
+      "current_strength": 62.1,
+      "strength_30d_ago": 0,
+      "pct_change_30d": null,
+      "top_exercise": "Cable Fly",
+      "top_1rm": 86.7,
+      "top_max_weight": 65.0,
+      "top_best_set": {
+        "weight": 65.0,
+        "reps": 10,
+        "date": "2026-04-06"
+      },
+      "exercise_count": 3,
+      "trend": [
+        {
+          "week": "2026-03-16",
+          "strength": 0
+        },
+        {
+          "week": "2026-03-23",
+          "strength": 62.1
+        },
+        {
+          "week": "2026-03-30",
+          "strength": 62.1
+        },
+        {
+          "week": "2026-04-06",
+          "strength": 67.9
+        },
+        {
+          "week": "2026-04-13",
+          "strength": 67.9
+        }
+      ],
+      "last_trained": "2026-04-06"
     },
     {
-      "week": "2026-04-06",
-      "volume": 18208,
-      "sessions": 4,
-      "sets": 41
+      "category": "triceps",
+      "current_strength": 39.3,
+      "strength_30d_ago": 0,
+      "pct_change_30d": null,
+      "top_exercise": "Overhead Cable Extension",
+      "top_1rm": 42.0,
+      "top_max_weight": 30.0,
+      "top_best_set": {
+        "weight": 30.0,
+        "reps": 12,
+        "date": "2026-04-04"
+      },
+      "exercise_count": 3,
+      "trend": [
+        {
+          "week": "2026-03-16",
+          "strength": 38.5
+        },
+        {
+          "week": "2026-03-23",
+          "strength": 40.3
+        },
+        {
+          "week": "2026-03-30",
+          "strength": 42.1
+        },
+        {
+          "week": "2026-04-06",
+          "strength": 42.1
+        },
+        {
+          "week": "2026-04-13",
+          "strength": 42.1
+        }
+      ],
+      "last_trained": "2026-04-11"
     },
     {
-      "week": "2026-04-13",
-      "volume": 21155,
-      "sessions": 2,
-      "sets": 24
+      "category": "biceps",
+      "current_strength": 36.1,
+      "strength_30d_ago": 0,
+      "pct_change_30d": null,
+      "top_exercise": "Preacher Curl",
+      "top_1rm": 53.3,
+      "top_max_weight": 40.0,
+      "top_best_set": {
+        "weight": 50.0,
+        "reps": 10,
+        "date": "2026-03-28"
+      },
+      "exercise_count": 3,
+      "trend": [
+        {
+          "week": "2026-03-16",
+          "strength": 0
+        },
+        {
+          "week": "2026-03-23",
+          "strength": 46.7
+        },
+        {
+          "week": "2026-03-30",
+          "strength": 38.9
+        },
+        {
+          "week": "2026-04-06",
+          "strength": 40.6
+        },
+        {
+          "week": "2026-04-13",
+          "strength": 40.6
+        }
+      ],
+      "last_trained": "2026-04-11"
+    },
+    {
+      "category": "shoulders",
+      "current_strength": 16.7,
+      "strength_30d_ago": 0,
+      "pct_change_30d": null,
+      "top_exercise": "Lateral Raise",
+      "top_1rm": 16.7,
+      "top_max_weight": 12.5,
+      "top_best_set": {
+        "weight": 12.5,
+        "reps": 10,
+        "date": "2026-04-09"
+      },
+      "exercise_count": 1,
+      "trend": [
+        {
+          "week": "2026-03-16",
+          "strength": 0
+        },
+        {
+          "week": "2026-03-23",
+          "strength": 8.3
+        },
+        {
+          "week": "2026-03-30",
+          "strength": 8.3
+        },
+        {
+          "week": "2026-04-06",
+          "strength": 16.7
+        },
+        {
+          "week": "2026-04-13",
+          "strength": 16.7
+        }
+      ],
+      "last_trained": "2026-04-09"
     }
   ],
-  "muscle_volume": {
-    "weeks": [
-      "2026-03-16",
-      "2026-03-23",
-      "2026-03-30",
-      "2026-04-06",
-      "2026-04-13"
-    ],
-    "categories": [
-      "back",
-      "biceps",
-      "chest",
-      "legs",
-      "other",
-      "shoulders",
-      "triceps"
-    ],
-    "data": [
-      {
-        "week": "2026-03-16",
-        "back": 6091,
-        "biceps": 0,
-        "chest": 0,
-        "legs": 0,
-        "other": 0,
-        "shoulders": 0,
-        "triceps": 2030
-      },
-      {
-        "week": "2026-03-23",
-        "back": 0,
-        "biceps": 2125,
-        "chest": 4310,
-        "legs": 10020,
-        "other": 0,
-        "shoulders": 300,
-        "triceps": 1050
-      },
-      {
-        "week": "2026-03-30",
-        "back": 4700,
-        "biceps": 2620,
-        "chest": 0,
-        "legs": 0,
-        "other": 0,
-        "shoulders": 0,
-        "triceps": 2050
-      },
-      {
-        "week": "2026-04-06",
-        "back": 0,
-        "biceps": 1960,
-        "chest": 4235,
-        "legs": 8765,
-        "other": 1965,
-        "shoulders": 395,
-        "triceps": 888
-      },
-      {
-        "week": "2026-04-13",
-        "back": 7170,
-        "biceps": 0,
-        "chest": 0,
-        "legs": 12690,
-        "other": 1295,
-        "shoulders": 0,
-        "triceps": 0
-      }
-    ]
-  },
   "consistency_trend": [
     {
       "week": "2026-03-16",

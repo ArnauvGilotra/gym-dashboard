@@ -194,35 +194,137 @@ def compute_heatmap(sessions, sets_data):
     ]
 
 
-def compute_muscle_volume(sets_data):
-    """Weekly volume per muscle group over time."""
-    by_week_cat = defaultdict(lambda: defaultdict(float))
-    weeks = set()
-    cats = set()
+def compute_muscle_strength(sets_data, exercises_analysis):
+    """Per-muscle-group strength metric.
 
-    for s in sets_data:
-        if not s.get("weight") or not s.get("reps"):
+    For each muscle group:
+    - current_strength: avg est 1RM of the top 3 exercises in that group (current values)
+    - strength_30d_ago: same metric as of 30 days ago
+    - pct_change_30d: % change
+    - trend_series: weekly avg est 1RM of top exercises over the last 12 weeks
+    - top_exercise: name of the strongest single exercise in the group
+    - top_1rm: est 1RM of that exercise
+    - last_trained: date string of last training
+    """
+    # Group exercises by category
+    cat_exs = defaultdict(list)
+    for name, data in exercises_analysis.items():
+        cat = data.get("category") or "other"
+        if cat in ("cardio", "other"):
             continue
-        wk = week_start(s["session_date"])
+        if data.get("current_1rm", 0) <= 0:
+            continue
+        cat_exs[cat].append((name, data))
+
+    def best_n_1rm_avg(exs, n=3):
+        """Mean of top-n exercises' current 1RMs. Better than total volume."""
+        if not exs:
+            return 0
+        sorted_exs = sorted(exs, key=lambda x: x[1]["current_1rm"], reverse=True)
+        top = sorted_exs[:n]
+        return round(sum(e[1]["current_1rm"] for e in top) / len(top), 1)
+
+    def best_1rm_as_of(exs, as_of_date):
+        """For each exercise in group, find best 1RM across sessions on or before as_of_date.
+        Then average the top 3."""
+        scores = []
+        for name, data in exs:
+            best = 0
+            for sess in data["sessions"]:
+                if sess["date"] <= as_of_date:
+                    if sess["estimated_1rm"] > best:
+                        best = sess["estimated_1rm"]
+            if best > 0:
+                scores.append(best)
+        if not scores:
+            return 0
+        top = sorted(scores, reverse=True)[:3]
+        return round(sum(top) / len(top), 1)
+
+    # Compute last-trained dates per category
+    last_trained = defaultdict(str)
+    for s in sets_data:
         cat = s.get("category") or "other"
-        by_week_cat[wk][cat] += s["weight"] * s["reps"]
-        weeks.add(wk)
-        cats.add(cat)
+        d = s["session_date"]
+        if d > last_trained[cat]:
+            last_trained[cat] = d
 
-    sorted_weeks = sorted(weeks)
-    sorted_cats = sorted(cats)
+    # Build weekly trend series for each muscle: weekly avg of top-3 est 1RMs
+    # Walk through all weeks from earliest session, compute rolling-best 1RM per week
+    all_dates = sorted({sess["date"] for name, data in exercises_analysis.items() for sess in data["sessions"]})
+    if not all_dates:
+        return []
 
-    return {
-        "weeks": sorted_weeks,
-        "categories": sorted_cats,
-        "data": [
-            {
-                "week": wk,
-                **{cat: round(by_week_cat[wk].get(cat, 0)) for cat in sorted_cats},
-            }
-            for wk in sorted_weeks
-        ],
-    }
+    first = parse_date(all_dates[0])
+    start_monday = first - timedelta(days=first.weekday())
+    end_monday = TODAY - timedelta(days=TODAY.weekday())
+
+    week_cursors = []
+    wk = start_monday
+    while wk <= end_monday:
+        week_cursors.append(wk)
+        wk += timedelta(days=7)
+    # Limit to last 12 weeks for the chart
+    trend_cursors = week_cursors[-12:]
+
+    thirty_days_ago = (TODAY - timedelta(days=30)).strftime("%Y-%m-%d")
+
+    out = []
+    for cat in sorted(cat_exs.keys()):
+        exs = cat_exs[cat]
+
+        current = best_n_1rm_avg(exs, n=3)
+        past = best_1rm_as_of(exs, thirty_days_ago)
+        delta_pct = None
+        if past > 0:
+            delta_pct = round(((current - past) / past) * 100, 1)
+
+        # Top exercise in this group
+        sorted_exs = sorted(exs, key=lambda x: x[1]["current_1rm"], reverse=True)
+        top_name, top_data = sorted_exs[0]
+
+        # Trend series
+        trend = []
+        for wk_start_dt in trend_cursors:
+            # Best 1RM achieved ON OR BEFORE end of this week, across top exercises
+            wk_end = wk_start_dt + timedelta(days=6)
+            wk_end_str = wk_end.strftime("%Y-%m-%d")
+            val = best_1rm_as_of(exs, wk_end_str)
+            trend.append({"week": wk_start_dt.strftime("%Y-%m-%d"), "strength": val})
+
+        out.append({
+            "category": cat,
+            "current_strength": current,
+            "strength_30d_ago": past,
+            "pct_change_30d": delta_pct,
+            "top_exercise": top_name,
+            "top_1rm": top_data["current_1rm"],
+            "top_max_weight": top_data["current_max_weight"],
+            "top_best_set": _best_set_summary(top_data),
+            "exercise_count": len(exs),
+            "trend": trend,
+            "last_trained": last_trained.get(cat),
+        })
+
+    # Sort by current strength descending
+    out.sort(key=lambda x: -x["current_strength"])
+    return out
+
+
+def _best_set_summary(exercise_data):
+    """Return 'weight x reps' of the best recent set (by est 1RM)."""
+    if not exercise_data.get("sessions"):
+        return None
+    best_set = None
+    best_1rm = 0
+    for sess in exercise_data["sessions"]:
+        for s in sess["sets"]:
+            if s.get("weight") and s.get("reps"):
+                e1 = estimate_1rm(s["weight"], s["reps"])
+                if e1 > best_1rm:
+                    best_1rm = e1
+                    best_set = {"weight": s["weight"], "reps": s["reps"], "date": sess["date"]}
+    return best_set
 
 
 def compute_weekly_summary(sessions, sets_data):
@@ -600,14 +702,35 @@ def main():
         "generated_at": datetime.now().isoformat(),
     }
 
+    muscle_strength = compute_muscle_strength(sets_data, exercises_analysis)
+
+    # Total strength change this week (sum of all tracked exercises' est 1RM gains this week)
+    week_ago = (TODAY - timedelta(days=7)).strftime("%Y-%m-%d")
+    total_strength_gain = 0
+    total_strength_now = 0
+    for name, data in exercises_analysis.items():
+        if data.get("category") in ("cardio", "other"):
+            continue
+        current_1rm = data.get("current_1rm", 0)
+        # Find 1RM as of a week ago
+        week_ago_1rm = 0
+        for sess in data["sessions"]:
+            if sess["date"] <= week_ago:
+                if sess["estimated_1rm"] > week_ago_1rm:
+                    week_ago_1rm = sess["estimated_1rm"]
+        if week_ago_1rm > 0:
+            total_strength_gain += max(0, current_1rm - week_ago_1rm)
+        total_strength_now += current_1rm
+    summary["strength_gain_this_week"] = round(total_strength_gain, 1)
+    summary["total_strength"] = round(total_strength_now, 1)
+
     data = {
         "summary": summary,
         "comparisons": comparisons,
         "insights": compute_insights(exercises_analysis, comparisons, sessions),
         "recent_prs": compute_recent_prs(exercises_analysis, limit=5),
         "heatmap": compute_heatmap(sessions, sets_data),
-        "weekly_summary": compute_weekly_summary(sessions, sets_data),
-        "muscle_volume": compute_muscle_volume(sets_data),
+        "muscle_strength": muscle_strength,
         "consistency_trend": compute_consistency_trend(sessions),
         "exercises_by_category": compute_exercises_by_category(exercises_analysis),
         "exercises": exercises_analysis,

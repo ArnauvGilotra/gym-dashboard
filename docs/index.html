@@ -23,20 +23,20 @@
         </div>
     </header>
 
-    <!-- Lead: huge number answering "how was this week" -->
+    <!-- Lead: strength gained this week -->
     <section class="lead">
         <div class="lead-label">This week</div>
-        <div class="lead-number" id="lead-volume">—</div>
+        <div class="lead-number" id="lead-strength">—</div>
         <div class="lead-sub">
-            <span id="lead-unit">pounds moved</span>
+            <span>lb of strength gained</span>
             <span class="lead-dot">·</span>
-            <span id="lead-delta" class="delta">—</span>
+            <span id="lead-sessions-sub" class="delta">—</span>
         </div>
 
         <div class="lead-stats">
             <div class="lead-stat">
-                <span class="stat-num" id="lead-sessions">—</span>
-                <span class="stat-lab">sessions</span>
+                <span class="stat-num" id="lead-total-strength">—</span>
+                <span class="stat-lab">total est. 1rm</span>
             </div>
             <div class="lead-stat">
                 <span class="stat-num" id="lead-streak">—</span>
@@ -44,7 +44,7 @@
             </div>
             <div class="lead-stat">
                 <span class="stat-num" id="lead-total">—</span>
-                <span class="stat-lab">lifetime</span>
+                <span class="stat-lab">lifetime sessions</span>
             </div>
         </div>
     </section>
@@ -79,13 +79,16 @@
         <div class="heatmap-legend" id="heatmap-legend"></div>
     </section>
 
-    <!-- Muscle balance: horizontal small-multiples -->
+    <!-- Strength by muscle: sparklines -->
     <section class="section">
-        <div class="section-label">Muscle balance</div>
-        <div class="muscle-bars" id="muscle-bars"></div>
+        <div class="section-label">
+            <span>Strength by muscle</span>
+            <span class="section-meta">Top est. 1RM per group</span>
+        </div>
+        <div class="muscle-strength" id="muscle-strength"></div>
     </section>
 
-    <!-- Consistency curve: inline chart -->
+    <!-- Weekly rhythm: sessions + strength gain -->
     <section class="section">
         <div class="section-label">Weekly rhythm</div>
         <div class="chart-inline">
@@ -93,11 +96,12 @@
         </div>
         <div class="inline-legend">
             <span><span class="dot" style="background:#E8A87C"></span>sessions</span>
-            <span><span class="dot" style="background:#849B7A"></span>volume (k lb)</span>
+            <span><span class="dot" style="background:#849B7A"></span>strength gain (lb)</span>
         </div>
     </section>
 
     <!-- Exercises: table, not cards -->
+    <!-- (Weekly Volume section removed — wasn't a good indicator of strength) -->
     <section class="section">
         <div class="section-label">
             <span>Exercises</span>
@@ -126,7 +130,7 @@
         <div class="lead-label" id="ex-title">—</div>
         <div class="lead-number" id="ex-1rm">—</div>
         <div class="lead-sub">
-            <span>estimated 1RM</span>
+            <span>best set</span>
             <span class="lead-dot">·</span>
             <span class="delta" id="ex-progress">—</span>
         </div>
@@ -134,7 +138,7 @@
         <div class="lead-stats">
             <div class="lead-stat">
                 <span class="stat-num" id="ex-max">—</span>
-                <span class="stat-lab">max weight</span>
+                <span class="stat-lab">est. 1rm</span>
             </div>
             <div class="lead-stat">
                 <span class="stat-num" id="ex-sessions-count">—</span>

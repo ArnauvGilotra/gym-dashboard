@@ -166,13 +166,16 @@ body {
 .lead-number {
     font-family: var(--serif);
     font-weight: 400;
-    font-size: clamp(4rem, 18vw, 6rem);
+    font-size: clamp(3.5rem, 15vw, 5.5rem);
     line-height: 0.95;
     letter-spacing: -0.04em;
     color: var(--ink);
     font-variant-numeric: tabular-nums oldstyle-nums;
     margin-bottom: 0.75rem;
     font-feature-settings: "ss01", "tnum";
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .lead-sub {
@@ -508,61 +511,100 @@ body {
 }
 
 /* =====================================================================
-   MUSCLE BARS — small multiples
+   STRENGTH BY MUSCLE — sparkline rows
    ===================================================================== */
 
-.muscle-bars {
+.muscle-strength {
     display: flex;
     flex-direction: column;
-    gap: 0.75rem;
 }
 
-.muscle-bar-row {
-    display: grid;
-    grid-template-columns: 80px 1fr 48px;
-    gap: 1rem;
-    align-items: center;
+.muscle-row {
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--rule-soft);
 }
 
-.muscle-bar-label {
+.muscle-row:last-child {
+    border-bottom: none;
+}
+
+.muscle-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.4rem;
+}
+
+.muscle-name {
     font-family: var(--mono);
-    font-size: 0.7rem;
-    color: var(--ink-dim);
+    font-size: 0.85rem;
+    color: var(--ink);
     text-transform: lowercase;
     font-weight: 500;
     letter-spacing: 0.02em;
 }
 
-.muscle-bar-track {
-    height: 6px;
-    background: var(--rule-soft);
-    border-radius: 3px;
-    overflow: hidden;
-    position: relative;
-}
-
-.muscle-bar-fill {
-    height: 100%;
-    border-radius: 3px;
-    transition: width 0.4s ease;
-}
-
-.muscle-bar-value {
-    font-family: var(--mono);
-    font-size: 0.7rem;
-    color: var(--ink);
-    text-align: right;
+.muscle-value {
+    font-family: var(--serif);
     font-weight: 500;
+    font-size: 1.35rem;
+    color: var(--ink);
+    line-height: 1;
+    letter-spacing: -0.01em;
     font-variant-numeric: tabular-nums;
 }
 
-.muscle-bar-days {
+.muscle-spark {
+    width: 100%;
+    height: 28px;
+    margin-bottom: 0.4rem;
+}
+
+.muscle-spark svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.muscle-foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+.muscle-top {
     font-family: var(--mono);
-    font-size: 0.6rem;
-    color: var(--ink-faint);
-    text-align: right;
+    font-size: 0.7rem;
+    color: var(--ink-dim);
     font-weight: 400;
-    text-transform: lowercase;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-width: 0;
+}
+
+.muscle-meta {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    display: flex;
+    gap: 0.75rem;
+    align-items: baseline;
+    font-weight: 500;
+    flex-shrink: 0;
+}
+
+.muscle-delta {
+    font-variant-numeric: tabular-nums;
+}
+
+.muscle-delta.pos { color: var(--pos); }
+.muscle-delta.neg { color: var(--neg); }
+.muscle-delta.flat { color: var(--ink-faint); }
+
+.muscle-days {
+    color: var(--ink-faint);
+    font-weight: 400;
 }
 
 /* =====================================================================
