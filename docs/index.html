@@ -1,191 +1,176 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <meta name="theme-color" content="#0a0a0f">
-    <title>Gym · Arnauv</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0D100F">
+<title>Gym — Arnauv</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- DASHBOARD VIEW -->
 <div id="dashboard-view">
 
-    <!-- Hero: Streak + this week -->
-    <header class="hero">
-        <div class="hero-top">
-            <div class="hero-brand">Gym</div>
-            <div class="hero-date" id="hero-date">-</div>
-        </div>
-
-        <div class="streak-block">
-            <div class="streak-number" id="hero-streak">-</div>
-            <div class="streak-label">
-                <span>week streak</span>
-                <span class="streak-sub" id="streak-sub">-</span>
-            </div>
-            <div class="flame">🔥</div>
-        </div>
-
-        <div class="hero-grid">
-            <div class="hero-stat">
-                <div class="hero-stat-value" id="hero-this-week">-</div>
-                <div class="hero-stat-label">this week</div>
-                <div class="hero-stat-delta" id="hero-sessions-delta"></div>
-            </div>
-            <div class="hero-stat">
-                <div class="hero-stat-value" id="hero-volume">-</div>
-                <div class="hero-stat-label">volume (lb)</div>
-                <div class="hero-stat-delta" id="hero-volume-delta"></div>
-            </div>
-            <div class="hero-stat">
-                <div class="hero-stat-value" id="hero-total">-</div>
-                <div class="hero-stat-label">total sessions</div>
-            </div>
+    <!-- Hero: minimal masthead + lead number -->
+    <header class="masthead">
+        <div class="masthead-row">
+            <div class="brand">Gym Log</div>
+            <div class="date-stamp" id="hero-date">—</div>
         </div>
     </header>
 
-    <main class="dashboard">
+    <!-- Lead: huge number answering "how was this week" -->
+    <section class="lead">
+        <div class="lead-label">This week</div>
+        <div class="lead-number" id="lead-volume">—</div>
+        <div class="lead-sub">
+            <span id="lead-unit">pounds moved</span>
+            <span class="lead-dot">·</span>
+            <span id="lead-delta" class="delta">—</span>
+        </div>
 
-        <!-- Insights Card -->
-        <section class="card insights-card" id="insights-card">
-            <div class="card-header">
-                <h2>✨ Insights</h2>
-                <span class="card-subtitle" id="insights-count">-</span>
+        <div class="lead-stats">
+            <div class="lead-stat">
+                <span class="stat-num" id="lead-sessions">—</span>
+                <span class="stat-lab">sessions</span>
             </div>
-            <div class="insights-list" id="insights-list"></div>
-        </section>
+            <div class="lead-stat">
+                <span class="stat-num" id="lead-streak">—</span>
+                <span class="stat-lab">week streak</span>
+            </div>
+            <div class="lead-stat">
+                <span class="stat-num" id="lead-total">—</span>
+                <span class="stat-lab">lifetime</span>
+            </div>
+        </div>
+    </section>
 
-        <!-- Recent PRs -->
-        <section class="card">
-            <div class="card-header">
-                <h2>🏆 Recent PRs</h2>
-                <span class="card-subtitle">By estimated 1RM</span>
-            </div>
-            <div class="pr-list" id="pr-list"></div>
-        </section>
+    <!-- Journal-style observations -->
+    <section class="section">
+        <div class="section-label">Observations</div>
+        <div id="insights-prose" class="prose">—</div>
+    </section>
 
-        <!-- Activity Heatmap -->
-        <section class="card">
-            <div class="card-header">
-                <h2>📅 Activity</h2>
-                <span class="card-subtitle" id="tracking-days">-</span>
-            </div>
-            <div class="heatmap-wrap">
-                <div class="heatmap-months" id="heatmap-months"></div>
-                <div class="heatmap-grid-wrap">
-                    <div class="heatmap-days">
-                        <span>M</span><span></span><span>W</span><span></span><span>F</span><span></span><span></span>
-                    </div>
-                    <div class="heatmap-container" id="heatmap"></div>
+    <!-- PRs list: minimal, leaderboard style -->
+    <section class="section">
+        <div class="section-label">Recent PRs</div>
+        <ol class="pr-list" id="pr-list"></ol>
+    </section>
+
+    <!-- Heatmap: inline, no card -->
+    <section class="section">
+        <div class="section-label">
+            <span>Activity</span>
+            <span class="section-meta" id="tracking-days">—</span>
+        </div>
+        <div class="heatmap-wrap">
+            <div class="heatmap-months" id="heatmap-months"></div>
+            <div class="heatmap-grid-wrap">
+                <div class="heatmap-days">
+                    <span>Mon</span><span></span><span>Wed</span><span></span><span>Fri</span><span></span><span></span>
                 </div>
+                <div class="heatmap-container" id="heatmap"></div>
             </div>
-            <div class="heatmap-legend" id="heatmap-legend"></div>
-        </section>
+        </div>
+        <div class="heatmap-legend" id="heatmap-legend"></div>
+    </section>
 
-        <!-- Consistency -->
-        <section class="card">
-            <div class="card-header">
-                <h2>📆 Consistency</h2>
-                <span class="card-subtitle">Sessions per week (last 12)</span>
-            </div>
-            <div class="chart-container chart-short">
-                <canvas id="consistency-chart"></canvas>
-            </div>
-        </section>
+    <!-- Muscle balance: horizontal small-multiples -->
+    <section class="section">
+        <div class="section-label">Muscle balance</div>
+        <div class="muscle-bars" id="muscle-bars"></div>
+    </section>
 
-        <!-- Muscle Volume Stack -->
-        <section class="card">
-            <div class="card-header">
-                <h2>💪 Volume by Muscle</h2>
-                <span class="card-subtitle">Weekly, stacked</span>
-            </div>
-            <div class="chart-container">
-                <canvas id="muscle-volume-chart"></canvas>
-            </div>
-        </section>
+    <!-- Consistency curve: inline chart -->
+    <section class="section">
+        <div class="section-label">Weekly rhythm</div>
+        <div class="chart-inline">
+            <canvas id="consistency-chart"></canvas>
+        </div>
+        <div class="inline-legend">
+            <span><span class="dot" style="background:#E8A87C"></span>sessions</span>
+            <span><span class="dot" style="background:#849B7A"></span>volume (k lb)</span>
+        </div>
+    </section>
 
-        <!-- Weekly Volume Total -->
-        <section class="card">
-            <div class="card-header">
-                <h2>📊 Weekly Volume</h2>
-                <span class="card-subtitle">Total lb × reps</span>
-            </div>
-            <div class="chart-container">
-                <canvas id="volume-chart"></canvas>
-            </div>
-        </section>
+    <!-- Exercises: table, not cards -->
+    <section class="section">
+        <div class="section-label">
+            <span>Exercises</span>
+            <span class="section-meta" id="exercise-count">—</span>
+        </div>
+        <div class="cat-filter" id="cat-filter"></div>
+        <div class="ex-table" id="ex-table"></div>
+    </section>
 
-        <!-- Exercises by Category -->
-        <section class="card">
-            <div class="card-header">
-                <h2>🏋️ Exercises</h2>
-                <span class="card-subtitle" id="exercise-count">-</span>
-            </div>
-            <div class="category-filter" id="category-filter"></div>
-            <div class="category-exercises" id="category-exercises"></div>
-        </section>
-
-        <footer class="footer">
-            <p>Updated <span id="last-updated">-</span></p>
-        </footer>
-    </main>
+    <footer class="footer">
+        <div>Tracking since <span id="tracking-since">—</span></div>
+        <div class="footer-sub">Updated <span id="last-updated">—</span></div>
+    </footer>
 </div>
 
-<!-- EXERCISE DEEP DIVE VIEW -->
+<!-- EXERCISE DEEP DIVE -->
 <div id="exercise-view" style="display:none">
-    <header class="exercise-header">
-        <button class="back-btn" onclick="showDashboard()">← Back</button>
-        <h1 id="exercise-title">-</h1>
-        <p class="exercise-meta" id="exercise-meta">-</p>
-
-        <div class="exercise-hero-stats">
-            <div class="ex-stat">
-                <div class="ex-stat-value" id="ex-current-1rm">-</div>
-                <div class="ex-stat-label">est. 1RM</div>
-            </div>
-            <div class="ex-stat">
-                <div class="ex-stat-value" id="ex-max-weight">-</div>
-                <div class="ex-stat-label">max weight</div>
-            </div>
-            <div class="ex-stat">
-                <div class="ex-stat-value" id="ex-progress">-</div>
-                <div class="ex-stat-label">progress</div>
-            </div>
+    <header class="masthead">
+        <div class="masthead-row">
+            <button class="back-link" onclick="showDashboard()">← back</button>
+            <div class="date-stamp" id="ex-trend-meta">—</div>
         </div>
     </header>
 
-    <main class="dashboard">
-        <section class="card">
-            <div class="card-header">
-                <h2>📈 Estimated 1RM</h2>
-                <span class="card-subtitle">Epley formula</span>
-            </div>
-            <div class="chart-container">
-                <canvas id="weight-chart"></canvas>
-            </div>
-        </section>
+    <section class="lead">
+        <div class="lead-label" id="ex-title">—</div>
+        <div class="lead-number" id="ex-1rm">—</div>
+        <div class="lead-sub">
+            <span>estimated 1RM</span>
+            <span class="lead-dot">·</span>
+            <span class="delta" id="ex-progress">—</span>
+        </div>
 
-        <section class="card">
-            <div class="card-header">
-                <h2>📊 Volume Per Session</h2>
+        <div class="lead-stats">
+            <div class="lead-stat">
+                <span class="stat-num" id="ex-max">—</span>
+                <span class="stat-lab">max weight</span>
             </div>
-            <div class="chart-container">
-                <canvas id="exercise-volume-chart"></canvas>
+            <div class="lead-stat">
+                <span class="stat-num" id="ex-sessions-count">—</span>
+                <span class="stat-lab">sessions</span>
             </div>
-        </section>
+            <div class="lead-stat">
+                <span class="stat-num" id="ex-last">—</span>
+                <span class="stat-lab">last session</span>
+            </div>
+        </div>
+    </section>
 
-        <section class="card">
-            <div class="card-header">
-                <h2>📝 Session Log</h2>
-            </div>
-            <div class="set-log" id="set-log"></div>
-        </section>
-    </main>
+    <section class="section">
+        <div class="section-label">Strength over time</div>
+        <div class="chart-inline">
+            <canvas id="weight-chart"></canvas>
+        </div>
+        <div class="inline-legend">
+            <span><span class="dot" style="background:#E8A87C"></span>est. 1RM</span>
+            <span><span class="dot dashed" style="background:#C9B8A0"></span>max weight</span>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-label">Volume per session</div>
+        <div class="chart-inline">
+            <canvas id="exercise-volume-chart"></canvas>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-label">Session log</div>
+        <div class="set-log" id="set-log"></div>
+    </section>
+
+    <footer class="footer"></footer>
 </div>
 
 <script src="app.js"></script>

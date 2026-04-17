@@ -1,73 +1,70 @@
-// Gym Dashboard v2 — Opus 4.7 rewrite
+// Gym Log — editorial redesign
+// Opus 4.7 · Apr 2026
+
 let DATA = null;
 let activeCharts = [];
 let currentCategoryFilter = 'all';
 
+// Muted, earthy palette — not neon
 const MUSCLE_COLORS = {
-    back: '#6c5ce7',
-    legs: '#00d2a0',
-    chest: '#ff6b6b',
-    arms: '#ffd700',
-    biceps: '#ffa502',
-    triceps: '#ff7675',
-    shoulders: '#4ecdc4',
-    cardio: '#a29bfe',
-    core: '#fd79a8',
-    other: '#636e72',
+    back:      '#8B7EC7',
+    legs:      '#6BA38F',
+    chest:     '#D47765',
+    arms:      '#D4A574',
+    biceps:    '#C89A65',
+    triceps:   '#BF7E70',
+    shoulders: '#7BA5A5',
+    cardio:    '#9590B3',
+    core:      '#C08FA3',
+    other:     '#6E6E66',
 };
 
-const TREND_META = {
-    pr:          { icon: '🏆', label: 'PR', emoji: '🔥' },
-    progressing: { icon: '📈', label: 'Progressing' },
-    stalled:     { icon: '⚠️',  label: 'Stalled' },
-    plateau:     { icon: '➖', label: 'Plateau' },
-    regressing:  { icon: '↘️',  label: 'Regressing' },
-    new:         { icon: '✨', label: 'New' },
-};
-
-const INSIGHT_ICONS = {
-    neglected:    '⏰',
-    stalled:      '⚠️',
-    breakthrough: '🔥',
-    volume_up:    '📈',
-    volume_down:  '📉',
-    consistency:  '💪',
-    dropoff:      '🚨',
-};
+const ACCENT = '#E8A87C';
+const POS = '#849B7A';
+const NEG = '#D47765';
+const INK = '#ECEAE0';
+const INK_DIM = '#8D8F87';
+const INK_FAINT = '#5A5C55';
+const RULE = 'rgba(255, 253, 245, 0.07)';
 
 const CHART_DEFAULTS = {
     responsive: true,
     maintainAspectRatio: false,
+    animation: { duration: 400 },
     plugins: {
         legend: { display: false },
         tooltip: {
-            backgroundColor: '#0a0a0f',
-            titleColor: '#e8e8f0',
-            bodyColor: '#e8e8f0',
-            borderColor: '#2a2a40',
-            borderWidth: 1,
-            cornerRadius: 8,
-            padding: 10,
-            titleFont: { family: 'Inter', weight: '700', size: 12 },
-            bodyFont: { family: 'Inter', size: 11 },
+            backgroundColor: INK,
+            titleColor: '#0D100F',
+            bodyColor: '#0D100F',
+            borderWidth: 0,
+            cornerRadius: 4,
+            padding: 8,
+            displayColors: false,
+            titleFont: { family: "'JetBrains Mono'", weight: '500', size: 10 },
+            bodyFont: { family: "'Inter'", size: 11, weight: '500' },
         },
     },
     scales: {
         x: {
-            grid: { color: 'rgba(255,255,255,0.03)', drawBorder: false },
+            border: { display: false },
+            grid: { display: false },
             ticks: {
-                color: '#555570',
-                font: { family: 'Inter', size: 10 },
+                color: INK_FAINT,
+                font: { family: "'JetBrains Mono'", size: 9, weight: 400 },
                 maxRotation: 0,
                 autoSkip: true,
-                maxTicksLimit: 8,
+                maxTicksLimit: 6,
+                padding: 4,
             },
         },
         y: {
-            grid: { color: 'rgba(255,255,255,0.03)', drawBorder: false },
+            border: { display: false },
+            grid: { color: RULE, drawTicks: false },
             ticks: {
-                color: '#555570',
-                font: { family: 'Inter', size: 10 },
+                color: INK_FAINT,
+                font: { family: "'JetBrains Mono'", size: 9, weight: 400 },
+                padding: 8,
             },
         },
     },
@@ -81,101 +78,144 @@ async function loadData() {
         DATA = await resp.json();
         renderAll();
     } catch (e) {
-        console.error('Failed to load data:', e);
+        console.error('Failed to load:', e);
     }
 }
 
 function renderAll() {
-    renderHero();
-    renderInsights();
+    renderMasthead();
+    renderLead();
+    renderInsightsProse();
     renderPRs();
     renderHeatmap();
+    renderMuscleBars();
     renderConsistency();
-    renderMuscleVolume();
-    renderVolumeChart();
-    renderExercisesByCategory();
+    renderExercises();
     renderFooter();
 }
 
-// =================== HERO ===================
+// =================== MASTHEAD / LEAD ===================
 
-function renderHero() {
+function renderMasthead() {
+    const now = new Date();
+    document.getElementById('hero-date').textContent =
+        now.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }).toLowerCase();
+}
+
+function renderLead() {
     const s = DATA.summary;
     const c = DATA.comparisons;
 
-    // Date
-    const now = new Date();
-    document.getElementById('hero-date').textContent = now.toLocaleDateString('en-US', {
-        weekday: 'short', month: 'short', day: 'numeric',
-    });
+    // Volume as the lead number
+    const vol = c.this_week.volume;
+    document.getElementById('lead-volume').textContent = fmtHumanLarge(vol);
 
-    // Streak
-    document.getElementById('hero-streak').textContent = s.streak_weeks;
-    const streakSub = s.longest_streak > s.streak_weeks
-        ? `longest: ${s.longest_streak}w`
-        : s.streak_weeks > 0 ? 'your best yet!' : 'start this week';
-    document.getElementById('streak-sub').textContent = streakSub;
-
-    // This week
-    document.getElementById('hero-this-week').textContent = c.this_week.sessions;
-    document.getElementById('hero-volume').textContent = fmtK(c.this_week.volume);
-    document.getElementById('hero-total').textContent = s.total_sessions;
-
-    // Deltas
-    const sessionsDelta = c.sessions_wow_delta;
-    const sdEl = document.getElementById('hero-sessions-delta');
-    if (sessionsDelta > 0) {
-        sdEl.textContent = `+${sessionsDelta} vs last`;
-        sdEl.className = 'hero-stat-delta up';
-    } else if (sessionsDelta < 0) {
-        sdEl.textContent = `${sessionsDelta} vs last`;
-        sdEl.className = 'hero-stat-delta down';
-    } else {
-        sdEl.textContent = 'same as last';
-        sdEl.className = 'hero-stat-delta flat';
-    }
-
-    const volPct = c.volume_wow_pct;
-    const vdEl = document.getElementById('hero-volume-delta');
-    if (volPct !== null && volPct !== undefined) {
-        if (volPct > 0) {
-            vdEl.textContent = `+${volPct}%`;
-            vdEl.className = 'hero-stat-delta up';
-        } else if (volPct < 0) {
-            vdEl.textContent = `${volPct}%`;
-            vdEl.className = 'hero-stat-delta down';
+    // Volume delta
+    const deltaEl = document.getElementById('lead-delta');
+    const wow = c.volume_wow_pct;
+    if (wow !== null && wow !== undefined) {
+        if (wow > 0) {
+            deltaEl.textContent = `+${wow}% vs last week`;
+            deltaEl.className = 'delta pos';
+        } else if (wow < 0) {
+            deltaEl.textContent = `${wow}% vs last week`;
+            deltaEl.className = 'delta neg';
         } else {
-            vdEl.textContent = 'flat';
-            vdEl.className = 'hero-stat-delta flat';
+            deltaEl.textContent = 'same as last week';
+            deltaEl.className = 'delta flat';
         }
     } else {
-        vdEl.textContent = '';
+        deltaEl.textContent = '';
     }
+
+    // Stats row
+    document.getElementById('lead-sessions').textContent = c.this_week.sessions;
+    document.getElementById('lead-streak').textContent = s.streak_weeks;
+    document.getElementById('lead-total').textContent = s.total_sessions;
 }
 
-// =================== INSIGHTS ===================
+// =================== INSIGHTS AS PROSE ===================
 
-function renderInsights() {
-    const container = document.getElementById('insights-list');
-    const countEl = document.getElementById('insights-count');
+function renderInsightsProse() {
+    const el = document.getElementById('insights-prose');
     const insights = DATA.insights || [];
+    const c = DATA.comparisons;
 
-    const hasAlerts = insights.some(i => i.severity === 'high' || i.severity === 'medium');
-    countEl.textContent = insights.length === 0 ? 'all clear'
-        : hasAlerts ? `${insights.length} to note`
-        : `${insights.length} • all good`;
+    // Compose a natural-sounding paragraph from rule-based observations.
+    // Thinking: group by tone. Lead with wins (if any), then notes, then concerns.
 
-    if (insights.length === 0) {
-        container.innerHTML = '<div class="insight-empty">✨ No alerts. Everything tracking smoothly.</div>';
+    const wins = insights.filter(i => i.severity === 'good');
+    const notes = insights.filter(i => i.severity === 'medium');
+    const concerns = insights.filter(i => i.severity === 'high');
+
+    const sentences = [];
+
+    // Opening sentence — frame the week
+    const thisWk = c.this_week.sessions;
+    const lastWk = c.last_week.sessions;
+
+    if (thisWk === 0 && lastWk > 0) {
+        sentences.push(`No sessions yet this week — last week had <em>${lastWk}</em>.`);
+    } else if (thisWk >= 4) {
+        sentences.push(`<em>${thisWk}</em> sessions this week so far — <span class="good">strong rhythm</span>.`);
+    } else if (thisWk >= 1) {
+        const delta = thisWk - lastWk;
+        if (delta > 0) {
+            sentences.push(`<em>${thisWk}</em> sessions this week, up from <em>${lastWk}</em> last week.`);
+        } else if (delta < 0) {
+            sentences.push(`<em>${thisWk}</em> sessions this week — <em>${lastWk}</em> last week.`);
+        } else {
+            sentences.push(`<em>${thisWk}</em> sessions this week, same as last.`);
+        }
+    }
+
+    // Wins
+    const breakthroughs = wins.filter(w => w.type === 'breakthrough');
+    if (breakthroughs.length === 1) {
+        sentences.push(`<span class="good">${breakthroughs[0].exercise}</span> hit a new PR.`);
+    } else if (breakthroughs.length === 2) {
+        sentences.push(`<span class="good">${breakthroughs[0].exercise}</span> and <span class="good">${breakthroughs[1].exercise}</span> both hit new PRs.`);
+    } else if (breakthroughs.length > 2) {
+        const names = breakthroughs.slice(0, 2).map(b => `<span class="good">${b.exercise}</span>`).join(', ');
+        sentences.push(`New PRs on ${names}, and ${breakthroughs.length - 2} more.`);
+    }
+
+    // Volume insight
+    const volIns = wins.find(w => w.type === 'volume_up') || notes.find(w => w.type === 'volume_down');
+    if (volIns) {
+        const pct = volIns.text.match(/(\d+(?:\.\d+)?%)/);
+        if (volIns.type === 'volume_up' && pct) {
+            sentences.push(`Volume is <span class="good">up ${pct[1]}</span>.`);
+        } else if (volIns.type === 'volume_down' && pct) {
+            sentences.push(`Volume is <span class="warn">down ${pct[1]}</span>.`);
+        }
+    }
+
+    // Concerns — neglected muscles
+    const neglected = concerns.filter(n => n.type === 'neglected');
+    neglected.push(...notes.filter(n => n.type === 'neglected'));
+    if (neglected.length === 1) {
+        sentences.push(`<span class="warn">${cap(neglected[0].category)}</span> hasn't been trained in ${neglected[0].days} days.`);
+    } else if (neglected.length > 1) {
+        const names = neglected.slice(0, 2).map(n => `<span class="warn">${cap(n.category)}</span>`).join(' and ');
+        sentences.push(`${names} haven't been trained in over a week.`);
+    }
+
+    // Stalled
+    const stalled = notes.filter(n => n.type === 'stalled');
+    if (stalled.length === 1) {
+        sentences.push(`<em>${stalled[0].exercise}</em> has plateaued — maybe change rep range or deload.`);
+    } else if (stalled.length > 1) {
+        const names = stalled.slice(0, 2).map(s => `<em>${s.exercise}</em>`).join(' and ');
+        sentences.push(`${names} are both stalled.`);
+    }
+
+    if (sentences.length === 0) {
+        el.innerHTML = '<em>Not enough data yet. Log a few more sessions and observations will show up here.</em>';
         return;
     }
 
-    container.innerHTML = insights.map(i => `
-        <div class="insight-item severity-${i.severity}">
-            <span class="insight-icon">${INSIGHT_ICONS[i.type] || '•'}</span>
-            <span class="insight-text">${escapeHtml(i.text)}</span>
-        </div>
-    `).join('');
+    el.innerHTML = sentences.join(' ');
 }
 
 // =================== PRs ===================
@@ -185,20 +225,25 @@ function renderPRs() {
     const prs = DATA.recent_prs || [];
 
     if (prs.length === 0) {
-        container.innerHTML = '<div class="insight-empty">No PRs logged yet — get after it.</div>';
+        container.innerHTML = '<li style="padding:0.75rem 0;font-family:var(--serif);color:var(--ink-dim);font-style:italic">No PRs yet. First one is coming.</li>';
         return;
     }
 
-    container.innerHTML = prs.map(pr => {
-        const dateStr = fmtDate(pr.date);
+    container.innerHTML = prs.map((pr, i) => {
+        const dateStr = fmtDateShort(pr.date);
         const repsStr = pr.reps ? `× ${pr.reps}` : '';
         return `
-            <div class="pr-item" onclick="showExercise('${escapeJs(pr.exercise)}')">
-                <div class="pr-exercise">${escapeHtml(pr.exercise)}</div>
-                <div class="pr-1rm">${pr.estimated_1rm} lb</div>
-                <div class="pr-detail">${dateStr} · ${pr.weight} lb ${repsStr}</div>
-                <div class="pr-gain">+${pr.gain} lb</div>
-            </div>
+            <li class="pr-item" onclick="showExercise('${escapeJs(pr.exercise)}')">
+                <span class="pr-rank">${String(i + 1).padStart(2, '0')}</span>
+                <div class="pr-mid">
+                    <span class="pr-name">${escapeHtml(pr.exercise)}</span>
+                    <span class="pr-detail">${pr.weight} lb ${repsStr} · ${dateStr}</span>
+                </div>
+                <div class="pr-right">
+                    <span class="pr-1rm">${pr.estimated_1rm}</span>
+                    <span class="pr-gain">+${pr.gain} lb</span>
+                </div>
+            </li>
         `;
     }).join('');
 }
@@ -212,23 +257,19 @@ function renderHeatmap() {
     container.innerHTML = '';
     monthsEl.innerHTML = '';
 
-    // Build map from date -> session info
     const sessionMap = {};
     (DATA.heatmap || []).forEach(d => { sessionMap[d.date] = d; });
 
     const today = new Date();
     today.setHours(0, 0, 0, 0);
 
-    // Find earliest tracked date
     const firstDateStr = DATA.summary.first_date;
     if (!firstDateStr) return;
 
     let start = new Date(firstDateStr + 'T00:00:00');
-    // Round to Monday of that week
     const startDow = start.getDay() === 0 ? 6 : start.getDay() - 1;
     start.setDate(start.getDate() - startDow);
 
-    // Build data: array of weeks, each week is 7 days
     const weeks = [];
     const d = new Date(start);
     let currentWeek = [];
@@ -243,14 +284,13 @@ function renderHeatmap() {
             date: dateStr,
             dow,
             session: sessionMap[dateStr],
-            isFuture: d > today,
             isToday: d.getTime() === today.getTime(),
         });
 
         if (dow === 6) {
             weeks.push(currentWeek);
-            // Record month label for first day of each week at start of month
-            const monthName = currentWeek[0] ? new Date(currentWeek[0].date + 'T00:00:00').toLocaleDateString('en-US', { month: 'short' }) : '';
+            const firstDay = new Date(currentWeek[0].date + 'T00:00:00');
+            const monthName = firstDay.toLocaleDateString('en-US', { month: 'short' }).toLowerCase();
             if (monthName !== lastMonthLabel) {
                 monthLabels.push({ weekIdx: weeks.length - 1, label: monthName });
                 lastMonthLabel = monthName;
@@ -262,12 +302,7 @@ function renderHeatmap() {
     }
     if (currentWeek.length) weeks.push(currentWeek);
 
-    // Render month labels
-    const cellWidth = 16; // 14px + 2px gap
-    monthsEl.style.position = 'relative';
-    monthsEl.style.height = '14px';
-    monthsEl.style.display = 'block';
-    monthsEl.style.minWidth = (weeks.length * cellWidth) + 'px';
+    const cellWidth = 15;
     monthLabels.forEach(ml => {
         const span = document.createElement('span');
         span.textContent = ml.label;
@@ -276,7 +311,6 @@ function renderHeatmap() {
         monthsEl.appendChild(span);
     });
 
-    // Render days: column-major, 7 rows
     weeks.forEach(week => {
         for (let dow = 0; dow < 7; dow++) {
             const day = week.find(d => d.dow === dow);
@@ -284,12 +318,6 @@ function renderHeatmap() {
             cell.className = 'heatmap-day';
 
             if (!day) {
-                cell.style.visibility = 'hidden';
-                container.appendChild(cell);
-                continue;
-            }
-
-            if (day.isFuture) {
                 cell.style.visibility = 'hidden';
                 container.appendChild(cell);
                 continue;
@@ -308,7 +336,7 @@ function renderHeatmap() {
                 const focus = day.session.focus || muscles.join(', ');
                 const tip = document.createElement('div');
                 tip.className = 'tooltip';
-                tip.textContent = `${fmtDate(day.date)} — ${focus}`;
+                tip.textContent = `${fmtDateShort(day.date)} · ${focus.toLowerCase()}`;
                 cell.appendChild(tip);
             }
 
@@ -318,7 +346,7 @@ function renderHeatmap() {
         }
     });
 
-    // Build legend from unique muscles actually trained
+    // Legend
     const trainedMuscles = new Set();
     (DATA.heatmap || []).forEach(d => d.muscles.forEach(m => trainedMuscles.add(m)));
     legendEl.innerHTML = [...trainedMuscles].sort().map(m => `
@@ -331,156 +359,145 @@ function renderHeatmap() {
     document.getElementById('tracking-days').textContent = `${DATA.summary.days_tracking} days`;
 }
 
-// =================== CONSISTENCY ===================
+// =================== MUSCLE BARS (replaces stacked bar chart) ===================
+
+function renderMuscleBars() {
+    const container = document.getElementById('muscle-bars');
+    const mv = DATA.muscle_volume || { weeks: [], categories: [], data: [] };
+
+    if (mv.weeks.length === 0) {
+        container.innerHTML = '<div style="font-family:var(--serif);color:var(--ink-dim);font-style:italic">No data yet.</div>';
+        return;
+    }
+
+    // Compute last 4 weeks average volume per category
+    const recentWeeks = mv.data.slice(-4);
+    const catTotals = {};
+    mv.categories.forEach(cat => {
+        catTotals[cat] = recentWeeks.reduce((sum, w) => sum + (w[cat] || 0), 0);
+    });
+
+    // Days since last trained per category
+    const daysSince = {};
+    (DATA.heatmap || []).forEach(d => {
+        d.muscles.forEach(m => {
+            if (daysSince[m] === undefined || d.date > daysSince[m]) {
+                daysSince[m] = d.date;
+            }
+        });
+    });
+
+    // Build rows, sort by volume descending. Exclude cardio (no weight volume).
+    const rows = mv.categories
+        .filter(cat => cat !== 'cardio' && cat !== 'other')
+        .map(cat => {
+            const vol = catTotals[cat];
+            const lastDate = daysSince[cat];
+            const daysAgo = lastDate
+                ? Math.floor((new Date() - new Date(lastDate + 'T00:00:00')) / 86400000)
+                : null;
+            return { cat, vol, daysAgo };
+        })
+        .sort((a, b) => b.vol - a.vol);
+
+    const maxVol = Math.max(...rows.map(r => r.vol), 1);
+
+    container.innerHTML = rows.map(r => {
+        const pct = (r.vol / maxVol) * 100;
+        const daysStr = r.daysAgo === null ? 'never'
+            : r.daysAgo === 0 ? 'today'
+            : r.daysAgo === 1 ? '1d ago'
+            : `${r.daysAgo}d ago`;
+        const isStale = r.daysAgo !== null && r.daysAgo >= 10;
+        return `
+            <div class="muscle-bar-row">
+                <div class="muscle-bar-label">${r.cat}</div>
+                <div class="muscle-bar-track">
+                    <div class="muscle-bar-fill" style="width:${pct}%; background:${MUSCLE_COLORS[r.cat] || MUSCLE_COLORS.other}; opacity:${isStale ? 0.5 : 1}"></div>
+                </div>
+                <div>
+                    <div class="muscle-bar-value">${fmtK(r.vol)}</div>
+                    <div class="muscle-bar-days">${daysStr}</div>
+                </div>
+            </div>
+        `;
+    }).join('');
+}
+
+// =================== CONSISTENCY (sessions + volume overlay) ===================
 
 function renderConsistency() {
     const ctx = document.getElementById('consistency-chart').getContext('2d');
     const trend = DATA.consistency_trend || [];
+    const weekly = DATA.weekly_summary || [];
+
+    // Map weekly volume by week
+    const volByWeek = {};
+    weekly.forEach(w => { volByWeek[w.week] = w.volume / 1000; });
+
+    const labels = trend.map(t => {
+        const d = new Date(t.week + 'T00:00:00');
+        return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }).toLowerCase();
+    });
 
     const chart = new Chart(ctx, {
-        type: 'line',
         data: {
-            labels: trend.map(t => {
-                const d = new Date(t.week + 'T00:00:00');
-                return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-            }),
-            datasets: [{
-                data: trend.map(t => t.sessions),
-                borderColor: MUSCLE_COLORS.back,
-                backgroundColor: 'rgba(108, 92, 231, 0.12)',
-                borderWidth: 2.5,
-                pointRadius: 3.5,
-                pointBackgroundColor: MUSCLE_COLORS.back,
-                pointBorderColor: '#0a0a0f',
-                pointBorderWidth: 1.5,
-                tension: 0.35,
-                fill: true,
-            }],
+            labels,
+            datasets: [
+                {
+                    type: 'bar',
+                    label: 'sessions',
+                    data: trend.map(t => t.sessions),
+                    backgroundColor: ACCENT + '99',
+                    borderColor: ACCENT,
+                    borderWidth: 0,
+                    borderRadius: 3,
+                    maxBarThickness: 18,
+                    yAxisID: 'y',
+                    order: 2,
+                },
+                {
+                    type: 'line',
+                    label: 'volume (k lb)',
+                    data: trend.map(t => volByWeek[t.week] || 0),
+                    borderColor: POS,
+                    backgroundColor: 'transparent',
+                    borderWidth: 2,
+                    pointRadius: 3,
+                    pointBackgroundColor: POS,
+                    pointBorderColor: '#0D100F',
+                    pointBorderWidth: 1,
+                    tension: 0.3,
+                    fill: false,
+                    yAxisID: 'y1',
+                    order: 1,
+                },
+            ],
         },
         options: {
             ...CHART_DEFAULTS,
             scales: {
-                ...CHART_DEFAULTS.scales,
+                x: CHART_DEFAULTS.scales.x,
                 y: {
                     ...CHART_DEFAULTS.scales.y,
+                    position: 'left',
                     beginAtZero: true,
                     ticks: {
                         ...CHART_DEFAULTS.scales.y.ticks,
                         stepSize: 1,
                         precision: 0,
+                        color: ACCENT,
                     },
                 },
-            },
-            plugins: {
-                ...CHART_DEFAULTS.plugins,
-                tooltip: {
-                    ...CHART_DEFAULTS.plugins.tooltip,
-                    callbacks: {
-                        label: c => `${c.raw} session${c.raw === 1 ? '' : 's'}`,
-                    },
-                },
-            },
-        },
-    });
-    activeCharts.push(chart);
-}
-
-// =================== MUSCLE VOLUME (stacked) ===================
-
-function renderMuscleVolume() {
-    const ctx = document.getElementById('muscle-volume-chart').getContext('2d');
-    const mv = DATA.muscle_volume || { weeks: [], categories: [], data: [] };
-
-    const datasets = mv.categories.map(cat => ({
-        label: cat,
-        data: mv.data.map(row => row[cat] || 0),
-        backgroundColor: MUSCLE_COLORS[cat] || MUSCLE_COLORS.other,
-        borderRadius: 4,
-        stack: 'muscles',
-    }));
-
-    const chart = new Chart(ctx, {
-        type: 'bar',
-        data: {
-            labels: mv.weeks.map(w => {
-                const d = new Date(w + 'T00:00:00');
-                return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-            }),
-            datasets,
-        },
-        options: {
-            ...CHART_DEFAULTS,
-            scales: {
-                x: { ...CHART_DEFAULTS.scales.x, stacked: true },
-                y: {
+                y1: {
                     ...CHART_DEFAULTS.scales.y,
-                    stacked: true,
+                    position: 'right',
                     beginAtZero: true,
+                    grid: { drawOnChartArea: false, color: 'transparent' },
                     ticks: {
                         ...CHART_DEFAULTS.scales.y.ticks,
-                        callback: v => v >= 1000 ? `${(v / 1000).toFixed(0)}k` : v,
-                    },
-                },
-            },
-            plugins: {
-                ...CHART_DEFAULTS.plugins,
-                legend: {
-                    display: true,
-                    position: 'bottom',
-                    labels: {
-                        color: '#8888a0',
-                        font: { family: 'Inter', size: 10, weight: '600' },
-                        padding: 8,
-                        usePointStyle: true,
-                        pointStyle: 'rectRounded',
-                        boxWidth: 10,
-                        boxHeight: 10,
-                    },
-                },
-                tooltip: {
-                    ...CHART_DEFAULTS.plugins.tooltip,
-                    callbacks: {
-                        label: c => `${c.dataset.label}: ${c.raw.toLocaleString()} lb`,
-                    },
-                },
-            },
-        },
-    });
-    activeCharts.push(chart);
-}
-
-// =================== WEEKLY VOLUME ===================
-
-function renderVolumeChart() {
-    const ctx = document.getElementById('volume-chart').getContext('2d');
-    const vol = DATA.weekly_summary || [];
-
-    const chart = new Chart(ctx, {
-        type: 'bar',
-        data: {
-            labels: vol.map(v => {
-                const d = new Date(v.week + 'T00:00:00');
-                return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-            }),
-            datasets: [{
-                data: vol.map(v => v.volume),
-                backgroundColor: 'rgba(108, 92, 231, 0.65)',
-                borderColor: MUSCLE_COLORS.back,
-                borderWidth: 0,
-                borderRadius: 6,
-                maxBarThickness: 32,
-            }],
-        },
-        options: {
-            ...CHART_DEFAULTS,
-            scales: {
-                ...CHART_DEFAULTS.scales,
-                y: {
-                    ...CHART_DEFAULTS.scales.y,
-                    beginAtZero: true,
-                    ticks: {
-                        ...CHART_DEFAULTS.scales.y.ticks,
-                        callback: v => v >= 1000 ? `${(v / 1000).toFixed(0)}k` : v,
+                        color: POS,
+                        callback: v => v.toFixed(1) + 'k',
                     },
                 },
             },
@@ -489,10 +506,9 @@ function renderVolumeChart() {
                 tooltip: {
                     ...CHART_DEFAULTS.plugins.tooltip,
                     callbacks: {
-                        label: c => `${c.raw.toLocaleString()} lb`,
-                        afterLabel: c => {
-                            const v = vol[c.dataIndex];
-                            return `${v.sessions} session${v.sessions === 1 ? '' : 's'}, ${v.sets} sets`;
+                        label: c => {
+                            if (c.dataset.type === 'line') return `${c.raw.toFixed(1)}k lb volume`;
+                            return `${c.raw} session${c.raw === 1 ? '' : 's'}`;
                         },
                     },
                 },
@@ -502,68 +518,67 @@ function renderVolumeChart() {
     activeCharts.push(chart);
 }
 
-// =================== EXERCISES BY CATEGORY ===================
+// =================== EXERCISES TABLE ===================
 
-function renderExercisesByCategory() {
-    const filterEl = document.getElementById('category-filter');
-    const container = document.getElementById('category-exercises');
+function renderExercises() {
+    const filterEl = document.getElementById('cat-filter');
+    const container = document.getElementById('ex-table');
     const countEl = document.getElementById('exercise-count');
 
     const groups = DATA.exercises_by_category || [];
     const totalEx = groups.reduce((acc, g) => acc + g.total, 0);
-    countEl.textContent = `${totalEx} exercises`;
+    countEl.textContent = `${totalEx} total`;
 
-    // Build category chips
-    const allChip = { category: 'all', total: totalEx };
-    const chips = [allChip, ...groups];
+    const chips = [{ category: 'all' }, ...groups];
     filterEl.innerHTML = chips.map(g => `
-        <button class="category-chip ${g.category === currentCategoryFilter ? 'active' : ''}"
-                onclick="setCategoryFilter('${g.category}')">
-            ${g.category === 'all' ? 'All' : capitalize(g.category)}
-        </button>
+        <button class="cat-chip ${g.category === currentCategoryFilter ? 'active' : ''}"
+                onclick="setCategoryFilter('${g.category}')">${g.category === 'all' ? 'all' : g.category}</button>
     `).join('');
 
-    // Render groups (filtered)
     const filteredGroups = currentCategoryFilter === 'all'
         ? groups
         : groups.filter(g => g.category === currentCategoryFilter);
 
     container.innerHTML = filteredGroups.map(group => `
-        <div class="category-group">
-            ${currentCategoryFilter === 'all' ? `<div class="category-title">${capitalize(group.category)}</div>` : ''}
+        <div class="ex-cat-group">
+            ${currentCategoryFilter === 'all' ? `<div class="ex-cat-title">${group.category}</div>` : ''}
             ${group.exercises.map(ex => renderExerciseRow(ex)).join('')}
         </div>
     `).join('');
 }
 
 function renderExerciseRow(ex) {
-    const trend = TREND_META[ex.trend] || TREND_META.new;
     const daysText = ex.days_since === null ? 'never'
         : ex.days_since === 0 ? 'today'
         : ex.days_since === 1 ? '1d ago'
         : `${ex.days_since}d ago`;
 
-    const isCardio = ex.equipment === 'machine' && !ex.current_max_weight;
+    const isCardio = !ex.current_max_weight;
     const displayValue = ex.current_1rm || ex.current_max_weight || 0;
-    const showBadge = !isCardio; // cardio doesn't really have trends the same way
+
+    const trendLabel = ex.trend === 'pr' ? '· pr'
+        : ex.trend === 'progressing' ? '· up'
+        : ex.trend === 'stalled' ? '· stalled'
+        : ex.trend === 'plateau' ? '· flat'
+        : ex.trend === 'regressing' ? '· down'
+        : ex.trend === 'new' ? '· new'
+        : '';
 
     const rightContent = isCardio
-        ? `<div class="exercise-row-value" style="font-size:0.75rem;color:var(--text-dim);font-weight:500">cardio</div>`
-        : `<div class="exercise-row-value">${displayValue || '—'}${displayValue ? ' lb' : ''}</div>
-           <div class="exercise-row-sub">${ex.progress_pct > 0 ? '+' : ''}${ex.progress_pct}%</div>`;
+        ? `<div class="ex-value-sub" style="font-family:var(--mono);text-transform:lowercase">cardio</div>`
+        : `<div class="ex-value">${displayValue || '—'}</div>
+           <div class="ex-value-sub">${displayValue ? 'lb est. 1rm' : ''}${ex.progress_pct ? ` · ${ex.progress_pct > 0 ? '+' : ''}${ex.progress_pct}%` : ''}</div>`;
 
     return `
-        <div class="exercise-row" onclick="showExercise('${escapeJs(ex.name)}')">
+        <div class="ex-row" onclick="showExercise('${escapeJs(ex.name)}')">
             <div>
-                <div class="exercise-row-name">
+                <div class="ex-name">
                     ${escapeHtml(ex.name)}
-                    ${showBadge ? `<span class="trend-badge ${ex.trend}">${trend.icon} ${trend.label}</span>` : ''}
+                    ${!isCardio && trendLabel ? `<span class="ex-trend ${ex.trend}">${trendLabel}</span>` : ''}
                 </div>
-                <div class="exercise-row-meta">
-                    ${ex.total_sessions} session${ex.total_sessions === 1 ? '' : 's'} · ${daysText}
-                </div>
+                <div class="ex-meta">${ex.total_sessions}× · ${daysText}</div>
             </div>
-            <div class="exercise-row-right">
+            <div class="ex-right">
                 ${rightContent}
             </div>
         </div>
@@ -572,7 +587,7 @@ function renderExerciseRow(ex) {
 
 function setCategoryFilter(cat) {
     currentCategoryFilter = cat;
-    renderExercisesByCategory();
+    renderExercises();
 }
 
 // =================== FOOTER ===================
@@ -581,7 +596,12 @@ function renderFooter() {
     const dt = new Date(DATA.summary.generated_at);
     document.getElementById('last-updated').textContent = dt.toLocaleDateString('en-US', {
         month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit',
-    });
+    }).toLowerCase();
+
+    if (DATA.summary.first_date) {
+        document.getElementById('tracking-since').textContent = new Date(DATA.summary.first_date + 'T00:00:00')
+            .toLocaleDateString('en-US', { month: 'long', year: 'numeric' }).toLowerCase();
+    }
 }
 
 // =================== EXERCISE DEEP DIVE ===================
@@ -592,30 +612,49 @@ function showExercise(name) {
 
     document.getElementById('dashboard-view').style.display = 'none';
     document.getElementById('exercise-view').style.display = 'block';
-    document.getElementById('exercise-title').textContent = name;
 
-    const trend = TREND_META[ex.trend] || TREND_META.new;
-    const daysText = ex.days_since === null ? 'never'
+    document.getElementById('ex-title').textContent = name.toLowerCase();
+    document.getElementById('ex-1rm').textContent = fmtHumanLarge(ex.current_1rm || ex.current_max_weight || 0);
+
+    const progressEl = document.getElementById('ex-progress');
+    const pct = ex.progress_pct || 0;
+    if (pct > 0) {
+        progressEl.textContent = `+${pct}% since start`;
+        progressEl.className = 'delta pos';
+    } else if (pct < 0) {
+        progressEl.textContent = `${pct}% since start`;
+        progressEl.className = 'delta neg';
+    } else {
+        progressEl.textContent = ex.trend === 'new' ? 'new exercise' : 'no change yet';
+        progressEl.className = 'delta flat';
+    }
+
+    const trendMeta = {
+        pr: 'just peaked',
+        progressing: 'progressing',
+        stalled: 'stalled',
+        plateau: 'plateau',
+        regressing: 'declining',
+        new: 'new',
+    };
+    document.getElementById('ex-trend-meta').textContent = trendMeta[ex.trend] || ex.trend;
+
+    document.getElementById('ex-max').textContent = ex.current_max_weight || '—';
+    document.getElementById('ex-sessions-count').textContent = ex.total_sessions;
+
+    const daysText = ex.days_since === null ? '—'
         : ex.days_since === 0 ? 'today'
-        : ex.days_since === 1 ? '1 day ago'
-        : `${ex.days_since} days ago`;
+        : ex.days_since === 1 ? '1d ago'
+        : `${ex.days_since}d ago`;
+    document.getElementById('ex-last').textContent = daysText;
 
-    document.getElementById('exercise-meta').textContent =
-        `${ex.total_sessions} session${ex.total_sessions === 1 ? '' : 's'} · ${trend.icon} ${trend.label} · last ${daysText}`;
-
-    document.getElementById('ex-current-1rm').textContent = `${ex.current_1rm || 0}`;
-    document.getElementById('ex-max-weight').textContent = `${ex.current_max_weight || 0}`;
-    const pctEl = document.getElementById('ex-progress');
-    pctEl.textContent = `${ex.progress_pct > 0 ? '+' : ''}${ex.progress_pct}%`;
-    pctEl.style.color = ex.progress_pct > 0 ? 'var(--green)' : ex.progress_pct < 0 ? 'var(--red)' : 'var(--accent)';
-
-    // Destroy existing deep-dive charts
+    // Destroy existing charts
     activeCharts.forEach(c => { try { c.destroy(); } catch(e){} });
     activeCharts = [];
 
     window.scrollTo(0, 0);
-    render1RMChart(name, ex);
-    renderExerciseVolume(name, ex);
+    render1RMChart(ex);
+    renderExerciseVolume(ex);
     renderSetLog(ex);
 }
 
@@ -628,9 +667,9 @@ function showDashboard() {
     renderAll();
 }
 
-function render1RMChart(name, ex) {
+function render1RMChart(ex) {
     const ctx = document.getElementById('weight-chart').getContext('2d');
-    const labels = ex.sessions.map(s => new Date(s.date + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' }));
+    const labels = ex.sessions.map(s => new Date(s.date + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' }).toLowerCase());
 
     const chart = new Chart(ctx, {
         type: 'line',
@@ -638,28 +677,28 @@ function render1RMChart(name, ex) {
             labels,
             datasets: [
                 {
-                    label: 'Est. 1RM',
+                    label: 'est 1rm',
                     data: ex.sessions.map(s => s.estimated_1rm),
-                    borderColor: MUSCLE_COLORS.back,
-                    backgroundColor: 'rgba(108, 92, 231, 0.15)',
-                    borderWidth: 3,
+                    borderColor: ACCENT,
+                    backgroundColor: 'rgba(232, 168, 124, 0.08)',
+                    borderWidth: 2,
                     pointRadius: 4,
-                    pointBackgroundColor: MUSCLE_COLORS.back,
-                    pointBorderColor: '#0a0a0f',
+                    pointBackgroundColor: ACCENT,
+                    pointBorderColor: '#0D100F',
                     pointBorderWidth: 2,
                     tension: 0.25,
                     fill: true,
                 },
                 {
-                    label: 'Max Weight',
+                    label: 'max weight',
                     data: ex.sessions.map(s => s.max_weight),
-                    borderColor: '#ffd700',
+                    borderColor: '#C9B8A0',
                     backgroundColor: 'transparent',
-                    borderWidth: 2,
-                    borderDash: [4, 4],
-                    pointRadius: 3,
-                    pointBackgroundColor: '#ffd700',
-                    pointBorderColor: '#0a0a0f',
+                    borderWidth: 1.5,
+                    borderDash: [3, 3],
+                    pointRadius: 2.5,
+                    pointBackgroundColor: '#C9B8A0',
+                    pointBorderColor: '#0D100F',
                     pointBorderWidth: 1,
                     tension: 0.25,
                     fill: false,
@@ -670,19 +709,6 @@ function render1RMChart(name, ex) {
             ...CHART_DEFAULTS,
             plugins: {
                 ...CHART_DEFAULTS.plugins,
-                legend: {
-                    display: true,
-                    position: 'top',
-                    align: 'end',
-                    labels: {
-                        color: '#8888a0',
-                        font: { family: 'Inter', size: 10, weight: '600' },
-                        padding: 10,
-                        usePointStyle: true,
-                        pointStyle: 'circle',
-                        boxWidth: 8,
-                    },
-                },
                 tooltip: {
                     ...CHART_DEFAULTS.plugins.tooltip,
                     callbacks: {
@@ -695,27 +721,33 @@ function render1RMChart(name, ex) {
     activeCharts.push(chart);
 }
 
-function renderExerciseVolume(name, ex) {
+function renderExerciseVolume(ex) {
     const ctx = document.getElementById('exercise-volume-chart').getContext('2d');
 
     const chart = new Chart(ctx, {
         type: 'bar',
         data: {
-            labels: ex.sessions.map(s => new Date(s.date + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })),
+            labels: ex.sessions.map(s => new Date(s.date + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' }).toLowerCase()),
             datasets: [{
                 data: ex.sessions.map(s => s.total_volume),
-                backgroundColor: 'rgba(0, 210, 160, 0.55)',
-                borderColor: MUSCLE_COLORS.legs,
+                backgroundColor: POS + 'AA',
                 borderWidth: 0,
-                borderRadius: 6,
-                maxBarThickness: 40,
+                borderRadius: 3,
+                maxBarThickness: 28,
             }],
         },
         options: {
             ...CHART_DEFAULTS,
             scales: {
                 ...CHART_DEFAULTS.scales,
-                y: { ...CHART_DEFAULTS.scales.y, beginAtZero: true },
+                y: {
+                    ...CHART_DEFAULTS.scales.y,
+                    beginAtZero: true,
+                    ticks: {
+                        ...CHART_DEFAULTS.scales.y.ticks,
+                        callback: v => v >= 1000 ? (v / 1000).toFixed(1) + 'k' : v,
+                    },
+                },
             },
             plugins: {
                 ...CHART_DEFAULTS.plugins,
@@ -725,7 +757,7 @@ function renderExerciseVolume(name, ex) {
                         label: c => `${c.raw.toLocaleString()} lb total`,
                         afterLabel: c => {
                             const s = ex.sessions[c.dataIndex];
-                            return `${s.num_sets} sets, ${s.total_reps} reps`;
+                            return `${s.num_sets} sets · ${s.total_reps} reps`;
                         },
                     },
                 },
@@ -743,20 +775,20 @@ function renderSetLog(ex) {
 
     sessions.forEach(session => {
         const dateStr = new Date(session.date + 'T00:00:00').toLocaleDateString('en-US', {
-            weekday: 'short', month: 'short', day: 'numeric',
-        });
+            weekday: 'long', month: 'long', day: 'numeric',
+        }).toLowerCase();
 
         let html = `
             <div class="set-log-session">
-                <div class="set-log-date">
-                    <span>${dateStr}</span>
-                    <span class="set-log-session-meta">Max ${session.max_weight || '—'} lb · ${session.total_volume.toLocaleString()} lb vol</span>
+                <div class="set-log-head">
+                    <span class="set-log-date">${dateStr}</span>
+                    <span class="set-log-meta">${session.max_weight || '—'} lb max · ${fmtK(session.total_volume)} vol</span>
                 </div>
                 <div class="set-log-table">
-                    <div class="set-log-header">#</div>
-                    <div class="set-log-header">Weight</div>
-                    <div class="set-log-header">Reps</div>
-                    <div class="set-log-header">Est. 1RM</div>
+                    <div class="set-log-th">#</div>
+                    <div class="set-log-th">weight</div>
+                    <div class="set-log-th">reps</div>
+                    <div class="set-log-th">1rm</div>
         `;
 
         session.sets.forEach(set => {
@@ -764,10 +796,10 @@ function renderSetLog(ex) {
             const reps = set.reps;
             const est1rm = weight && reps ? Math.round(weight * (1 + reps / 30) * 10) / 10 : null;
             html += `
-                <div class="set-log-set-num">${set.set_number}${set.is_dropset ? '·' : ''}</div>
-                <div class="set-log-val">${weight ? `${weight} lb` : (set.duration_sec ? `${Math.round(set.duration_sec / 60)} min` : '—')}</div>
-                <div class="set-log-val">${reps || (set.distance_km ? `${set.distance_km} km` : '—')}</div>
-                <div class="set-log-val">${est1rm ? est1rm + ' lb' : '—'}</div>
+                <div class="set-log-td dim">${set.set_number}${set.is_dropset ? '·' : ''}</div>
+                <div class="set-log-td">${weight ? `${weight}` : (set.duration_sec ? `${Math.round(set.duration_sec / 60)}m` : '—')}</div>
+                <div class="set-log-td">${reps || (set.distance_km ? `${set.distance_km}km` : '—')}</div>
+                <div class="set-log-td dim">${est1rm ? est1rm : '—'}</div>
             `;
         });
 
@@ -778,23 +810,30 @@ function renderSetLog(ex) {
 
 // =================== UTILS ===================
 
-function fmtK(n) {
+function fmtHumanLarge(n) {
+    // Lead number: prefer "21,155" over "21.2k" for volume context
     if (n >= 1000000) return (n / 1000000).toFixed(1) + 'M';
+    if (n >= 10000) return Math.round(n / 100) / 10 + 'k';
+    if (n >= 1000) return n.toLocaleString();
+    return n.toString();
+}
+
+function fmtK(n) {
     if (n >= 1000) return (n / 1000).toFixed(1) + 'k';
     return n.toLocaleString();
 }
 
-function fmtDate(dateStr) {
+function fmtDateShort(dateStr) {
     return new Date(dateStr + 'T00:00:00').toLocaleDateString('en-US', {
         month: 'short', day: 'numeric',
-    });
+    }).toLowerCase();
 }
 
 function fmtLocal(d) {
     return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
 }
 
-function capitalize(s) {
+function cap(s) {
     return s.charAt(0).toUpperCase() + s.slice(1);
 }
 
@@ -808,10 +847,8 @@ function escapeJs(s) {
     return String(s).replace(/'/g, "\\'").replace(/"/g, '\\"');
 }
 
-// Expose for inline handlers
 window.showExercise = showExercise;
 window.showDashboard = showDashboard;
 window.setCategoryFilter = setCategoryFilter;
 
-// Boot
 loadData();
