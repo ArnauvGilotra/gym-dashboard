@@ -302,16 +302,16 @@ function renderHeatmap() {
     }
     if (currentWeek.length) weeks.push(currentWeek);
 
-    // Compute cell size that fills available width nicely.
-    // Container width ~ viewport - padding. Let 4px gap, reserve 36px for day labels.
+    // Compute cell size that fills available width.
+    // Target: substantial cells when we have little data, reasonable when we have a lot.
     const wrap = document.querySelector('.heatmap-wrap');
     const gridWrap = document.querySelector('.heatmap-grid-wrap');
     const available = (gridWrap ? gridWrap.clientWidth : 300) - 36; // minus day labels
-    const gap = 4;
-    // Aim for cell size: distribute available width across weeks, min 14, max 22
     const totalWeeks = weeks.length;
+    const gap = 4;
+    // Fill available width, cap at 34 so it still looks like a heatmap not a tile grid
     let cell = Math.floor((available - gap * (totalWeeks - 1)) / totalWeeks);
-    cell = Math.max(14, Math.min(22, cell));
+    cell = Math.max(16, Math.min(34, cell));
     if (wrap) {
         wrap.style.setProperty('--hm-cell', cell + 'px');
         wrap.style.setProperty('--hm-gap', gap + 'px');
