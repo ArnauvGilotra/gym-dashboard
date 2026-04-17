@@ -534,6 +534,7 @@ def compute_exercises_by_category(exercises_analysis):
             "name": name,
             "total_sessions": data["total_sessions"],
             "current_1rm": data["current_1rm"],
+            "current_max_weight": data["current_max_weight"],
             "all_time_1rm": data["all_time_1rm"],
             "trend": data["trend"],
             "days_since": data["days_since"],

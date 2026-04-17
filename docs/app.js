@@ -302,7 +302,22 @@ function renderHeatmap() {
     }
     if (currentWeek.length) weeks.push(currentWeek);
 
-    const cellWidth = 15;
+    // Compute cell size that fills available width nicely.
+    // Container width ~ viewport - padding. Let 4px gap, reserve 36px for day labels.
+    const wrap = document.querySelector('.heatmap-wrap');
+    const gridWrap = document.querySelector('.heatmap-grid-wrap');
+    const available = (gridWrap ? gridWrap.clientWidth : 300) - 36; // minus day labels
+    const gap = 4;
+    // Aim for cell size: distribute available width across weeks, min 14, max 22
+    const totalWeeks = weeks.length;
+    let cell = Math.floor((available - gap * (totalWeeks - 1)) / totalWeeks);
+    cell = Math.max(14, Math.min(22, cell));
+    if (wrap) {
+        wrap.style.setProperty('--hm-cell', cell + 'px');
+        wrap.style.setProperty('--hm-gap', gap + 'px');
+    }
+
+    const cellWidth = cell + gap;
     monthLabels.forEach(ml => {
         const span = document.createElement('span');
         span.textContent = ml.label;
@@ -314,35 +329,40 @@ function renderHeatmap() {
     weeks.forEach(week => {
         for (let dow = 0; dow < 7; dow++) {
             const day = week.find(d => d.dow === dow);
-            const cell = document.createElement('div');
-            cell.className = 'heatmap-day';
+            const cellEl = document.createElement('div');
+            cellEl.className = 'heatmap-day';
+
+            // Dim weekends by default (sat=5, sun=6 in our Mon-start mapping)
+            if (dow === 5 || dow === 6) {
+                cellEl.classList.add('weekend');
+            }
 
             if (!day) {
-                cell.style.visibility = 'hidden';
-                container.appendChild(cell);
+                cellEl.style.visibility = 'hidden';
+                container.appendChild(cellEl);
                 continue;
             }
 
             if (day.session) {
-                cell.classList.add('has-session');
+                cellEl.classList.add('has-session');
                 const muscles = day.session.muscles;
                 if (muscles.length === 1) {
-                    cell.style.background = MUSCLE_COLORS[muscles[0]] || MUSCLE_COLORS.other;
+                    cellEl.style.background = MUSCLE_COLORS[muscles[0]] || MUSCLE_COLORS.other;
                 } else if (muscles.length > 1) {
                     const colors = muscles.map(m => MUSCLE_COLORS[m] || MUSCLE_COLORS.other);
-                    cell.style.background = `linear-gradient(135deg, ${colors.join(', ')})`;
+                    cellEl.style.background = `linear-gradient(135deg, ${colors.join(', ')})`;
                 }
 
                 const focus = day.session.focus || muscles.join(', ');
                 const tip = document.createElement('div');
                 tip.className = 'tooltip';
                 tip.textContent = `${fmtDateShort(day.date)} · ${focus.toLowerCase()}`;
-                cell.appendChild(tip);
+                cellEl.appendChild(tip);
             }
 
-            if (day.isToday) cell.classList.add('today');
+            if (day.isToday) cellEl.classList.add('today');
 
-            container.appendChild(cell);
+            container.appendChild(cellEl);
         }
     });
 
@@ -553,7 +573,7 @@ function renderExerciseRow(ex) {
         : ex.days_since === 1 ? '1d ago'
         : `${ex.days_since}d ago`;
 
-    const isCardio = !ex.current_max_weight;
+    const isCardio = !ex.current_max_weight || ex.current_max_weight === 0;
     const displayValue = ex.current_1rm || ex.current_max_weight || 0;
 
     const trendLabel = ex.trend === 'pr' ? '· pr'
@@ -850,5 +870,16 @@ function escapeJs(s) {
 window.showExercise = showExercise;
 window.showDashboard = showDashboard;
 window.setCategoryFilter = setCategoryFilter;
+
+// Re-render heatmap on resize (cells adapt to available width)
+let resizeTimer;
+window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+        if (DATA && document.getElementById('dashboard-view').style.display !== 'none') {
+            renderHeatmap();
+        }
+    }, 150);
+});
 
 loadData();
