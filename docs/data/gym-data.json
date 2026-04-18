@@ -11,7 +11,7 @@
     "longest_streak": 5,
     "last_7_days": 4,
     "sessions_per_week": 3.4,
-    "generated_at": "2026-04-17T22:11:56.921035",
+    "generated_at": "2026-04-17T23:17:22.518380",
     "strength_gain_this_week": 123.9,
     "total_strength": 1407.9
   },
@@ -163,6 +163,7 @@
     {
       "date": "2026-04-06",
       "muscles": [
+        "cardio",
         "chest"
       ],
       "focus": "Chest"
@@ -170,6 +171,7 @@
     {
       "date": "2026-04-07",
       "muscles": [
+        "cardio",
         "legs"
       ],
       "focus": "Legs"
@@ -177,6 +179,7 @@
     {
       "date": "2026-04-09",
       "muscles": [
+        "cardio",
         "other",
         "shoulders"
       ],
@@ -186,6 +189,7 @@
       "date": "2026-04-11",
       "muscles": [
         "biceps",
+        "cardio",
         "triceps"
       ],
       "focus": "Arms"
@@ -194,6 +198,7 @@
       "date": "2026-04-13",
       "muscles": [
         "back",
+        "cardio",
         "other"
       ],
       "focus": "Back"
@@ -735,7 +740,7 @@
       "exercises": [
         {
           "name": "Treadmill",
-          "total_sessions": 4,
+          "total_sessions": 9,
           "current_1rm": 0,
           "current_max_weight": 0,
           "all_time_1rm": 0,
@@ -2763,6 +2768,121 @@
           "num_sets": 1
         },
         {
+          "date": "2026-04-06",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": null,
+              "reps": null,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": 1200,
+              "distance_km": null,
+              "incline": 8.5,
+              "speed_kmh": 5.0
+            }
+          ],
+          "max_weight": 0,
+          "estimated_1rm": 0,
+          "total_volume": 0,
+          "total_reps": 0,
+          "num_sets": 1
+        },
+        {
+          "date": "2026-04-07",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": null,
+              "reps": null,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": 1200,
+              "distance_km": null,
+              "incline": 8.5,
+              "speed_kmh": 5.0
+            }
+          ],
+          "max_weight": 0,
+          "estimated_1rm": 0,
+          "total_volume": 0,
+          "total_reps": 0,
+          "num_sets": 1
+        },
+        {
+          "date": "2026-04-09",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": null,
+              "reps": null,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": 1200,
+              "distance_km": null,
+              "incline": 8.5,
+              "speed_kmh": 5.0
+            }
+          ],
+          "max_weight": 0,
+          "estimated_1rm": 0,
+          "total_volume": 0,
+          "total_reps": 0,
+          "num_sets": 1
+        },
+        {
+          "date": "2026-04-11",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": null,
+              "reps": null,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": 1200,
+              "distance_km": null,
+              "incline": 8.5,
+              "speed_kmh": 5.0
+            }
+          ],
+          "max_weight": 0,
+          "estimated_1rm": 0,
+          "total_volume": 0,
+          "total_reps": 0,
+          "num_sets": 1
+        },
+        {
+          "date": "2026-04-13",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": null,
+              "reps": null,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": 1200,
+              "distance_km": null,
+              "incline": 8.5,
+              "speed_kmh": 5.0
+            }
+          ],
+          "max_weight": 0,
+          "estimated_1rm": 0,
+          "total_volume": 0,
+          "total_reps": 0,
+          "num_sets": 1
+        },
+        {
           "date": "2026-04-15",
           "sets": [
             {
@@ -2809,7 +2929,7 @@
           "num_sets": 1
         }
       ],
-      "total_sessions": 4,
+      "total_sessions": 9,
       "current_max_weight": 0,
       "current_1rm": 0,
       "all_time_max_weight": 0,
