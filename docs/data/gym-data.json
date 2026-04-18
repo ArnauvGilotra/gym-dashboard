@@ -4,22 +4,22 @@
     "days_tracking": 27,
     "first_date": "2026-03-22",
     "last_date": "2026-04-17",
-    "total_sets": 146,
-    "total_volume": 77109,
+    "total_sets": 150,
+    "total_volume": 77899,
     "unique_exercises": 20,
     "streak_weeks": 5,
     "longest_streak": 5,
     "last_7_days": 4,
     "sessions_per_week": 3.4,
-    "generated_at": "2026-04-17T21:32:33.181383",
+    "generated_at": "2026-04-17T21:41:33.785662",
     "strength_gain_this_week": 112.6,
-    "total_strength": 1344.6
+    "total_strength": 1343.3
   },
   "comparisons": {
     "this_week": {
-      "volume": 23605,
+      "volume": 24395,
       "sessions": 3,
-      "sets": 28
+      "sets": 32
     },
     "last_week": {
       "volume": 18208,
@@ -27,18 +27,18 @@
       "sets": 41
     },
     "this_month": {
-      "volume": 46483,
+      "volume": 47273,
       "sessions": 8,
-      "sets": 86
+      "sets": 90
     },
     "last_month": {
       "volume": 30626,
       "sessions": 5,
       "sets": 60
     },
-    "volume_wow_pct": 29.6,
+    "volume_wow_pct": 34.0,
     "sessions_wow_delta": -1,
-    "volume_mom_pct": 51.8
+    "volume_mom_pct": 54.4
   },
   "insights": [
     {
@@ -56,7 +56,7 @@
     {
       "type": "volume_up",
       "severity": "good",
-      "text": "Weekly volume up 29.6% vs last week"
+      "text": "Weekly volume up 34.0% vs last week"
     }
   ],
   "recent_prs": [
@@ -293,7 +293,7 @@
     },
     {
       "category": "chest",
-      "current_strength": 72.8,
+      "current_strength": 72.4,
       "strength_30d_ago": 0,
       "pct_change_30d": null,
       "top_exercise": "Chest Press Machine",
@@ -610,6 +610,17 @@
           "equipment": "machine"
         },
         {
+          "name": "Incline Dumbbell Press",
+          "total_sessions": 3,
+          "current_1rm": 31.7,
+          "current_max_weight": 25.0,
+          "all_time_1rm": 33.0,
+          "trend": "progressing",
+          "days_since": 0,
+          "progress_pct": 25.3,
+          "equipment": "dumbbell"
+        },
+        {
           "name": "Cable Fly",
           "total_sessions": 2,
           "current_1rm": 86.7,
@@ -619,17 +630,6 @@
           "days_since": 11,
           "progress_pct": 12.6,
           "equipment": "cable"
-        },
-        {
-          "name": "Incline Dumbbell Press",
-          "total_sessions": 2,
-          "current_1rm": 33.0,
-          "current_max_weight": 22.5,
-          "all_time_1rm": 33.0,
-          "trend": "progressing",
-          "days_since": 11,
-          "progress_pct": 30.4,
-          "equipment": "dumbbell"
         }
       ],
       "total": 3
@@ -2451,17 +2451,79 @@
           "total_volume": 840,
           "total_reps": 42,
           "num_sets": 3
+        },
+        {
+          "date": "2026-04-17",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 20.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 22.5,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 25.0,
+              "reps": 8,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 4,
+              "weight": 20.0,
+              "reps": 2,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 1,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 25.0,
+          "estimated_1rm": 31.7,
+          "total_volume": 790,
+          "total_reps": 36,
+          "num_sets": 4
         }
       ],
-      "total_sessions": 2,
-      "current_max_weight": 22.5,
-      "current_1rm": 33.0,
-      "all_time_max_weight": 22.5,
+      "total_sessions": 3,
+      "current_max_weight": 25.0,
+      "current_1rm": 31.7,
+      "all_time_max_weight": 25.0,
       "all_time_1rm": 33.0,
-      "progress_pct": 30.4,
+      "progress_pct": 25.3,
       "trend": "progressing",
-      "days_since": 11,
-      "last_session": "2026-04-06",
+      "days_since": 0,
+      "last_session": "2026-04-17",
       "category": "chest",
       "equipment": "dumbbell"
     },
