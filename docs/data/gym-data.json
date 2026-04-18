@@ -1,6 +1,6 @@
 {
   "summary": {
-    "total_sessions": 13,
+    "total_sessions": 18,
     "days_tracking": 27,
     "first_date": "2026-03-22",
     "last_date": "2026-04-17",
@@ -9,26 +9,26 @@
     "unique_exercises": 21,
     "streak_weeks": 5,
     "longest_streak": 5,
-    "last_7_days": 4,
-    "sessions_per_week": 3.4,
-    "generated_at": "2026-04-17T23:17:22.518380",
+    "last_7_days": 8,
+    "sessions_per_week": 4.7,
+    "generated_at": "2026-04-17T23:17:39.246111",
     "strength_gain_this_week": 123.9,
     "total_strength": 1407.9
   },
   "comparisons": {
     "this_week": {
       "volume": 27805,
-      "sessions": 3,
+      "sessions": 5,
       "sets": 39
     },
     "last_week": {
       "volume": 18208,
-      "sessions": 4,
+      "sessions": 7,
       "sets": 41
     },
     "this_month": {
       "volume": 50683,
-      "sessions": 8,
+      "sessions": 13,
       "sets": 97
     },
     "last_month": {
@@ -37,7 +37,7 @@
       "sets": 60
     },
     "volume_wow_pct": 52.7,
-    "sessions_wow_delta": -1,
+    "sessions_wow_delta": -2,
     "volume_mom_pct": 65.5
   },
   "insights": [
@@ -57,6 +57,11 @@
       "type": "volume_up",
       "severity": "good",
       "text": "Weekly volume up 52.7% vs last week"
+    },
+    {
+      "type": "consistency",
+      "severity": "good",
+      "text": "5 sessions this week \u2014 strong work"
     }
   ],
   "recent_prs": [
@@ -177,6 +182,13 @@
       "focus": "Legs"
     },
     {
+      "date": "2026-04-08",
+      "muscles": [
+        "cardio"
+      ],
+      "focus": "Cardio"
+    },
+    {
       "date": "2026-04-09",
       "muscles": [
         "cardio",
@@ -184,6 +196,13 @@
         "shoulders"
       ],
       "focus": "Shoulders"
+    },
+    {
+      "date": "2026-04-10",
+      "muscles": [
+        "cardio"
+      ],
+      "focus": "Cardio"
     },
     {
       "date": "2026-04-11",
@@ -195,6 +214,13 @@
       "focus": "Arms"
     },
     {
+      "date": "2026-04-12",
+      "muscles": [
+        "cardio"
+      ],
+      "focus": "Cardio"
+    },
+    {
       "date": "2026-04-13",
       "muscles": [
         "back",
@@ -204,12 +230,26 @@
       "focus": "Back"
     },
     {
+      "date": "2026-04-14",
+      "muscles": [
+        "cardio"
+      ],
+      "focus": "Cardio"
+    },
+    {
       "date": "2026-04-15",
       "muscles": [
         "cardio",
         "legs"
       ],
       "focus": "Legs"
+    },
+    {
+      "date": "2026-04-16",
+      "muscles": [
+        "cardio"
+      ],
+      "focus": "Cardio"
     },
     {
       "date": "2026-04-17",
@@ -465,11 +505,11 @@
     },
     {
       "week": "2026-04-06",
-      "sessions": 4
+      "sessions": 7
     },
     {
       "week": "2026-04-13",
-      "sessions": 3
+      "sessions": 5
     }
   ],
   "exercises_by_category": [
@@ -740,7 +780,7 @@
       "exercises": [
         {
           "name": "Treadmill",
-          "total_sessions": 9,
+          "total_sessions": 14,
           "current_1rm": 0,
           "current_max_weight": 0,
           "all_time_1rm": 0,
@@ -2814,7 +2854,53 @@
           "num_sets": 1
         },
         {
+          "date": "2026-04-08",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": null,
+              "reps": null,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": 1200,
+              "distance_km": null,
+              "incline": 8.5,
+              "speed_kmh": 5.0
+            }
+          ],
+          "max_weight": 0,
+          "estimated_1rm": 0,
+          "total_volume": 0,
+          "total_reps": 0,
+          "num_sets": 1
+        },
+        {
           "date": "2026-04-09",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": null,
+              "reps": null,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": 1200,
+              "distance_km": null,
+              "incline": 8.5,
+              "speed_kmh": 5.0
+            }
+          ],
+          "max_weight": 0,
+          "estimated_1rm": 0,
+          "total_volume": 0,
+          "total_reps": 0,
+          "num_sets": 1
+        },
+        {
+          "date": "2026-04-10",
           "sets": [
             {
               "set_number": 1,
@@ -2860,7 +2946,53 @@
           "num_sets": 1
         },
         {
+          "date": "2026-04-12",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": null,
+              "reps": null,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": 1200,
+              "distance_km": null,
+              "incline": 8.5,
+              "speed_kmh": 5.0
+            }
+          ],
+          "max_weight": 0,
+          "estimated_1rm": 0,
+          "total_volume": 0,
+          "total_reps": 0,
+          "num_sets": 1
+        },
+        {
           "date": "2026-04-13",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": null,
+              "reps": null,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": 1200,
+              "distance_km": null,
+              "incline": 8.5,
+              "speed_kmh": 5.0
+            }
+          ],
+          "max_weight": 0,
+          "estimated_1rm": 0,
+          "total_volume": 0,
+          "total_reps": 0,
+          "num_sets": 1
+        },
+        {
+          "date": "2026-04-14",
           "sets": [
             {
               "set_number": 1,
@@ -2906,6 +3038,29 @@
           "num_sets": 1
         },
         {
+          "date": "2026-04-16",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": null,
+              "reps": null,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": 1200,
+              "distance_km": null,
+              "incline": 8.5,
+              "speed_kmh": 5.0
+            }
+          ],
+          "max_weight": 0,
+          "estimated_1rm": 0,
+          "total_volume": 0,
+          "total_reps": 0,
+          "num_sets": 1
+        },
+        {
           "date": "2026-04-17",
           "sets": [
             {
@@ -2929,7 +3084,7 @@
           "num_sets": 1
         }
       ],
-      "total_sessions": 9,
+      "total_sessions": 14,
       "current_max_weight": 0,
       "current_1rm": 0,
       "all_time_max_weight": 0,
@@ -3880,6 +4035,16 @@
       "created_at": "2026-04-07 21:51:07"
     },
     {
+      "id": 17,
+      "date": "2026-04-08",
+      "start_time": null,
+      "duration_min": null,
+      "focus": "Cardio",
+      "feeling": null,
+      "notes": null,
+      "created_at": "2026-04-17 23:17:29"
+    },
+    {
       "id": 9,
       "date": "2026-04-09",
       "start_time": null,
@@ -3888,6 +4053,16 @@
       "feeling": null,
       "notes": null,
       "created_at": "2026-04-09 22:00:28"
+    },
+    {
+      "id": 18,
+      "date": "2026-04-10",
+      "start_time": null,
+      "duration_min": null,
+      "focus": "Cardio",
+      "feeling": null,
+      "notes": null,
+      "created_at": "2026-04-17 23:17:29"
     },
     {
       "id": 10,
@@ -3900,6 +4075,16 @@
       "created_at": "2026-04-11 22:13:37"
     },
     {
+      "id": 16,
+      "date": "2026-04-12",
+      "start_time": null,
+      "duration_min": null,
+      "focus": "Cardio",
+      "feeling": null,
+      "notes": null,
+      "created_at": "2026-04-17 23:17:29"
+    },
+    {
       "id": 11,
       "date": "2026-04-13",
       "start_time": null,
@@ -3910,6 +4095,16 @@
       "created_at": "2026-04-13 21:44:17"
     },
     {
+      "id": 15,
+      "date": "2026-04-14",
+      "start_time": null,
+      "duration_min": null,
+      "focus": "Cardio",
+      "feeling": null,
+      "notes": null,
+      "created_at": "2026-04-17 23:17:29"
+    },
+    {
       "id": 12,
       "date": "2026-04-15",
       "start_time": null,
@@ -3918,6 +4113,16 @@
       "feeling": null,
       "notes": null,
       "created_at": "2026-04-15 21:44:46"
+    },
+    {
+      "id": 14,
+      "date": "2026-04-16",
+      "start_time": null,
+      "duration_min": null,
+      "focus": "Cardio",
+      "feeling": null,
+      "notes": null,
+      "created_at": "2026-04-17 23:17:29"
     },
     {
       "id": 13,
