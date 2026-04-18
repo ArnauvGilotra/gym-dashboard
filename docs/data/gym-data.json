@@ -4,22 +4,22 @@
     "days_tracking": 27,
     "first_date": "2026-03-22",
     "last_date": "2026-04-17",
-    "total_sets": 155,
-    "total_volume": 80559,
+    "total_sets": 157,
+    "total_volume": 81309,
     "unique_exercises": 21,
     "streak_weeks": 5,
     "longest_streak": 5,
     "last_7_days": 4,
     "sessions_per_week": 3.4,
-    "generated_at": "2026-04-17T21:59:38.338471",
+    "generated_at": "2026-04-17T22:02:29.224162",
     "strength_gain_this_week": 123.9,
-    "total_strength": 1394.6
+    "total_strength": 1407.9
   },
   "comparisons": {
     "this_week": {
-      "volume": 27055,
+      "volume": 27805,
       "sessions": 3,
-      "sets": 37
+      "sets": 39
     },
     "last_week": {
       "volume": 18208,
@@ -27,18 +27,18 @@
       "sets": 41
     },
     "this_month": {
-      "volume": 49933,
+      "volume": 50683,
       "sessions": 8,
-      "sets": 95
+      "sets": 97
     },
     "last_month": {
       "volume": 30626,
       "sessions": 5,
       "sets": 60
     },
-    "volume_wow_pct": 48.6,
+    "volume_wow_pct": 52.7,
     "sessions_wow_delta": -1,
-    "volume_mom_pct": 63.0
+    "volume_mom_pct": 65.5
   },
   "insights": [
     {
@@ -56,7 +56,7 @@
     {
       "type": "volume_up",
       "severity": "good",
-      "text": "Weekly volume up 48.6% vs last week"
+      "text": "Weekly volume up 52.7% vs last week"
     }
   ],
   "recent_prs": [
@@ -293,7 +293,7 @@
     },
     {
       "category": "chest",
-      "current_strength": 78.9,
+      "current_strength": 83.3,
       "strength_30d_ago": 0,
       "pct_change_30d": null,
       "top_exercise": "Chest Press Machine",
@@ -324,7 +324,7 @@
         },
         {
           "week": "2026-04-13",
-          "strength": 78.9
+          "strength": 83.3
         }
       ],
       "last_trained": "2026-04-17"
@@ -556,9 +556,9 @@
         {
           "name": "Pec Deck Machine",
           "total_sessions": 1,
-          "current_1rm": 40.0,
-          "current_max_weight": 30.0,
-          "all_time_1rm": 40.0,
+          "current_1rm": 53.3,
+          "current_max_weight": 40.0,
+          "all_time_1rm": 53.3,
           "trend": "new",
           "days_since": 0,
           "progress_pct": 0.0,
@@ -3606,20 +3606,46 @@
               "distance_km": null,
               "incline": null,
               "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 25.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 40.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
             }
           ],
-          "max_weight": 30.0,
-          "estimated_1rm": 40.0,
-          "total_volume": 300,
-          "total_reps": 10,
-          "num_sets": 1
+          "max_weight": 40.0,
+          "estimated_1rm": 53.3,
+          "total_volume": 1050,
+          "total_reps": 34,
+          "num_sets": 3
         }
       ],
       "total_sessions": 1,
-      "current_max_weight": 30.0,
-      "current_1rm": 40.0,
-      "all_time_max_weight": 30.0,
-      "all_time_1rm": 40.0,
+      "current_max_weight": 40.0,
+      "current_1rm": 53.3,
+      "all_time_max_weight": 40.0,
+      "all_time_1rm": 53.3,
       "progress_pct": 0.0,
       "trend": "new",
       "days_since": 0,
