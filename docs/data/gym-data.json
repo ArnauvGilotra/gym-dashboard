@@ -4,22 +4,22 @@
     "days_tracking": 27,
     "first_date": "2026-03-22",
     "last_date": "2026-04-17",
-    "total_sets": 154,
-    "total_volume": 80259,
-    "unique_exercises": 20,
+    "total_sets": 155,
+    "total_volume": 80559,
+    "unique_exercises": 21,
     "streak_weeks": 5,
     "longest_streak": 5,
     "last_7_days": 4,
     "sessions_per_week": 3.4,
-    "generated_at": "2026-04-17T21:58:38.063614",
+    "generated_at": "2026-04-17T21:59:38.338471",
     "strength_gain_this_week": 123.9,
-    "total_strength": 1354.6
+    "total_strength": 1394.6
   },
   "comparisons": {
     "this_week": {
-      "volume": 26755,
+      "volume": 27055,
       "sessions": 3,
-      "sets": 36
+      "sets": 37
     },
     "last_week": {
       "volume": 18208,
@@ -27,18 +27,18 @@
       "sets": 41
     },
     "this_month": {
-      "volume": 49633,
+      "volume": 49933,
       "sessions": 8,
-      "sets": 94
+      "sets": 95
     },
     "last_month": {
       "volume": 30626,
       "sessions": 5,
       "sets": 60
     },
-    "volume_wow_pct": 46.9,
+    "volume_wow_pct": 48.6,
     "sessions_wow_delta": -1,
-    "volume_mom_pct": 62.1
+    "volume_mom_pct": 63.0
   },
   "insights": [
     {
@@ -56,7 +56,7 @@
     {
       "type": "volume_up",
       "severity": "good",
-      "text": "Weekly volume up 46.9% vs last week"
+      "text": "Weekly volume up 48.6% vs last week"
     }
   ],
   "recent_prs": [
@@ -293,7 +293,7 @@
     },
     {
       "category": "chest",
-      "current_strength": 76.1,
+      "current_strength": 78.9,
       "strength_30d_ago": 0,
       "pct_change_30d": null,
       "top_exercise": "Chest Press Machine",
@@ -304,7 +304,7 @@
         "reps": 7,
         "date": "2026-04-17"
       },
-      "exercise_count": 3,
+      "exercise_count": 4,
       "trend": [
         {
           "week": "2026-03-16",
@@ -324,7 +324,7 @@
         },
         {
           "week": "2026-04-13",
-          "strength": 76.6
+          "strength": 78.9
         }
       ],
       "last_trained": "2026-04-17"
@@ -518,6 +518,56 @@
       "total": 4
     },
     {
+      "category": "chest",
+      "exercises": [
+        {
+          "name": "Cable Fly",
+          "total_sessions": 3,
+          "current_1rm": 98.0,
+          "current_max_weight": 75.0,
+          "all_time_1rm": 98.0,
+          "trend": "pr",
+          "days_since": 0,
+          "progress_pct": 27.3,
+          "equipment": "cable"
+        },
+        {
+          "name": "Chest Press Machine",
+          "total_sessions": 3,
+          "current_1rm": 98.7,
+          "current_max_weight": 80.0,
+          "all_time_1rm": 98.7,
+          "trend": "pr",
+          "days_since": 0,
+          "progress_pct": 17.5,
+          "equipment": "machine"
+        },
+        {
+          "name": "Incline Dumbbell Press",
+          "total_sessions": 3,
+          "current_1rm": 31.7,
+          "current_max_weight": 25.0,
+          "all_time_1rm": 33.0,
+          "trend": "progressing",
+          "days_since": 0,
+          "progress_pct": 25.3,
+          "equipment": "dumbbell"
+        },
+        {
+          "name": "Pec Deck Machine",
+          "total_sessions": 1,
+          "current_1rm": 40.0,
+          "current_max_weight": 30.0,
+          "all_time_1rm": 40.0,
+          "trend": "new",
+          "days_since": 0,
+          "progress_pct": 0.0,
+          "equipment": "machine"
+        }
+      ],
+      "total": 4
+    },
+    {
       "category": "triceps",
       "exercises": [
         {
@@ -590,45 +640,6 @@
           "trend": "pr",
           "days_since": 4,
           "progress_pct": 31.1,
-          "equipment": "dumbbell"
-        }
-      ],
-      "total": 3
-    },
-    {
-      "category": "chest",
-      "exercises": [
-        {
-          "name": "Cable Fly",
-          "total_sessions": 3,
-          "current_1rm": 98.0,
-          "current_max_weight": 75.0,
-          "all_time_1rm": 98.0,
-          "trend": "pr",
-          "days_since": 0,
-          "progress_pct": 27.3,
-          "equipment": "cable"
-        },
-        {
-          "name": "Chest Press Machine",
-          "total_sessions": 3,
-          "current_1rm": 98.7,
-          "current_max_weight": 80.0,
-          "all_time_1rm": 98.7,
-          "trend": "pr",
-          "days_since": 0,
-          "progress_pct": 17.5,
-          "equipment": "machine"
-        },
-        {
-          "name": "Incline Dumbbell Press",
-          "total_sessions": 3,
-          "current_1rm": 31.7,
-          "current_max_weight": 25.0,
-          "all_time_1rm": 33.0,
-          "trend": "progressing",
-          "days_since": 0,
-          "progress_pct": 25.3,
           "equipment": "dumbbell"
         }
       ],
@@ -3577,6 +3588,44 @@
       "last_session": "2026-04-09",
       "category": null,
       "equipment": null
+    },
+    "Pec Deck Machine": {
+      "sessions": [
+        {
+          "date": "2026-04-17",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 30.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 30.0,
+          "estimated_1rm": 40.0,
+          "total_volume": 300,
+          "total_reps": 10,
+          "num_sets": 1
+        }
+      ],
+      "total_sessions": 1,
+      "current_max_weight": 30.0,
+      "current_1rm": 40.0,
+      "all_time_max_weight": 30.0,
+      "all_time_1rm": 40.0,
+      "progress_pct": 0.0,
+      "trend": "new",
+      "days_since": 0,
+      "last_session": "2026-04-17",
+      "category": "chest",
+      "equipment": "machine"
     }
   },
   "sessions": [
