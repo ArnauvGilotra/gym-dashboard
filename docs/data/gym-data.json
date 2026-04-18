@@ -4,22 +4,22 @@
     "days_tracking": 27,
     "first_date": "2026-03-22",
     "last_date": "2026-04-17",
-    "total_sets": 142,
-    "total_volume": 74659,
+    "total_sets": 146,
+    "total_volume": 77109,
     "unique_exercises": 20,
     "streak_weeks": 5,
     "longest_streak": 5,
     "last_7_days": 4,
     "sessions_per_week": 3.4,
-    "generated_at": "2026-04-17T21:31:33.162846",
-    "strength_gain_this_week": 97.9,
-    "total_strength": 1312.6
+    "generated_at": "2026-04-17T21:32:33.181383",
+    "strength_gain_this_week": 112.6,
+    "total_strength": 1344.6
   },
   "comparisons": {
     "this_week": {
-      "volume": 21155,
-      "sessions": 2,
-      "sets": 24
+      "volume": 23605,
+      "sessions": 3,
+      "sets": 28
     },
     "last_week": {
       "volume": 18208,
@@ -27,27 +27,20 @@
       "sets": 41
     },
     "this_month": {
-      "volume": 44033,
-      "sessions": 7,
-      "sets": 82
+      "volume": 46483,
+      "sessions": 8,
+      "sets": 86
     },
     "last_month": {
       "volume": 30626,
       "sessions": 5,
       "sets": 60
     },
-    "volume_wow_pct": 16.2,
-    "sessions_wow_delta": -2,
-    "volume_mom_pct": 43.8
+    "volume_wow_pct": 29.6,
+    "sessions_wow_delta": -1,
+    "volume_mom_pct": 51.8
   },
   "insights": [
-    {
-      "type": "neglected",
-      "severity": "medium",
-      "text": "Chest hasn't been trained in 11 days",
-      "category": "chest",
-      "days": 11
-    },
     {
       "type": "breakthrough",
       "severity": "good",
@@ -63,10 +56,20 @@
     {
       "type": "volume_up",
       "severity": "good",
-      "text": "Weekly volume up 16.2% vs last week"
+      "text": "Weekly volume up 29.6% vs last week"
     }
   ],
   "recent_prs": [
+    {
+      "exercise": "Chest Press Machine",
+      "date": "2026-04-17",
+      "weight": 80.0,
+      "reps": 7,
+      "estimated_1rm": 98.7,
+      "previous_1rm": 84.0,
+      "gain": 14.7,
+      "category": "chest"
+    },
     {
       "exercise": "Calf Raise",
       "date": "2026-04-15",
@@ -105,16 +108,6 @@
       "estimated_1rm": 110.0,
       "previous_1rm": 86.7,
       "gain": 23.3,
-      "category": "back"
-    },
-    {
-      "exercise": "Single Arm Dumbbell Row",
-      "date": "2026-04-13",
-      "weight": 27.5,
-      "reps": 10,
-      "estimated_1rm": 36.7,
-      "previous_1rm": 33.3,
-      "gain": 3.4,
       "category": "back"
     }
   ],
@@ -212,6 +205,13 @@
         "legs"
       ],
       "focus": "Legs"
+    },
+    {
+      "date": "2026-04-17",
+      "muscles": [
+        "chest"
+      ],
+      "focus": "Chest"
     }
   ],
   "muscle_strength": [
@@ -293,16 +293,16 @@
     },
     {
       "category": "chest",
-      "current_strength": 62.1,
+      "current_strength": 72.8,
       "strength_30d_ago": 0,
       "pct_change_30d": null,
-      "top_exercise": "Cable Fly",
-      "top_1rm": 86.7,
-      "top_max_weight": 65.0,
+      "top_exercise": "Chest Press Machine",
+      "top_1rm": 98.7,
+      "top_max_weight": 80.0,
       "top_best_set": {
-        "weight": 65.0,
-        "reps": 10,
-        "date": "2026-04-06"
+        "weight": 80.0,
+        "reps": 7,
+        "date": "2026-04-17"
       },
       "exercise_count": 3,
       "trend": [
@@ -324,10 +324,10 @@
         },
         {
           "week": "2026-04-13",
-          "strength": 67.9
+          "strength": 72.8
         }
       ],
-      "last_trained": "2026-04-06"
+      "last_trained": "2026-04-17"
     },
     {
       "category": "triceps",
@@ -599,6 +599,17 @@
       "category": "chest",
       "exercises": [
         {
+          "name": "Chest Press Machine",
+          "total_sessions": 3,
+          "current_1rm": 98.7,
+          "current_max_weight": 80.0,
+          "all_time_1rm": 98.7,
+          "trend": "pr",
+          "days_since": 0,
+          "progress_pct": 17.5,
+          "equipment": "machine"
+        },
+        {
           "name": "Cable Fly",
           "total_sessions": 2,
           "current_1rm": 86.7,
@@ -608,17 +619,6 @@
           "days_since": 11,
           "progress_pct": 12.6,
           "equipment": "cable"
-        },
-        {
-          "name": "Chest Press Machine",
-          "total_sessions": 2,
-          "current_1rm": 66.7,
-          "current_max_weight": 50.0,
-          "all_time_1rm": 84.0,
-          "trend": "plateau",
-          "days_since": 11,
-          "progress_pct": -20.6,
-          "equipment": "machine"
         },
         {
           "name": "Incline Dumbbell Press",
@@ -2276,17 +2276,79 @@
           "total_volume": 1440,
           "total_reps": 32,
           "num_sets": 5
+        },
+        {
+          "date": "2026-04-17",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 70.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 80.0,
+              "reps": 7,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 70.0,
+              "reps": 5,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 4,
+              "weight": 70.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 80.0,
+          "estimated_1rm": 98.7,
+          "total_volume": 2450,
+          "total_reps": 34,
+          "num_sets": 4
         }
       ],
-      "total_sessions": 2,
-      "current_max_weight": 50.0,
-      "current_1rm": 66.7,
-      "all_time_max_weight": 70.0,
-      "all_time_1rm": 84.0,
-      "progress_pct": -20.6,
-      "trend": "plateau",
-      "days_since": 11,
-      "last_session": "2026-04-06",
+      "total_sessions": 3,
+      "current_max_weight": 80.0,
+      "current_1rm": 98.7,
+      "all_time_max_weight": 80.0,
+      "all_time_1rm": 98.7,
+      "progress_pct": 17.5,
+      "trend": "pr",
+      "days_since": 0,
+      "last_session": "2026-04-17",
       "category": "chest",
       "equipment": "machine"
     },
