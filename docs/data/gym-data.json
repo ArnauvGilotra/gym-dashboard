@@ -4,22 +4,22 @@
     "days_tracking": 27,
     "first_date": "2026-03-22",
     "last_date": "2026-04-17",
-    "total_sets": 150,
-    "total_volume": 77899,
+    "total_sets": 154,
+    "total_volume": 80259,
     "unique_exercises": 20,
     "streak_weeks": 5,
     "longest_streak": 5,
     "last_7_days": 4,
     "sessions_per_week": 3.4,
-    "generated_at": "2026-04-17T21:41:33.785662",
-    "strength_gain_this_week": 112.6,
-    "total_strength": 1343.3
+    "generated_at": "2026-04-17T21:54:33.679363",
+    "strength_gain_this_week": 123.9,
+    "total_strength": 1354.6
   },
   "comparisons": {
     "this_week": {
-      "volume": 24395,
+      "volume": 26755,
       "sessions": 3,
-      "sets": 32
+      "sets": 36
     },
     "last_week": {
       "volume": 18208,
@@ -27,18 +27,18 @@
       "sets": 41
     },
     "this_month": {
-      "volume": 47273,
+      "volume": 49633,
       "sessions": 8,
-      "sets": 90
+      "sets": 94
     },
     "last_month": {
       "volume": 30626,
       "sessions": 5,
       "sets": 60
     },
-    "volume_wow_pct": 34.0,
+    "volume_wow_pct": 46.9,
     "sessions_wow_delta": -1,
-    "volume_mom_pct": 54.4
+    "volume_mom_pct": 62.1
   },
   "insights": [
     {
@@ -56,10 +56,20 @@
     {
       "type": "volume_up",
       "severity": "good",
-      "text": "Weekly volume up 34.0% vs last week"
+      "text": "Weekly volume up 46.9% vs last week"
     }
   ],
   "recent_prs": [
+    {
+      "exercise": "Cable Fly",
+      "date": "2026-04-17",
+      "weight": 70.0,
+      "reps": 12,
+      "estimated_1rm": 98.0,
+      "previous_1rm": 86.7,
+      "gain": 11.3,
+      "category": "chest"
+    },
     {
       "exercise": "Chest Press Machine",
       "date": "2026-04-17",
@@ -98,16 +108,6 @@
       "estimated_1rm": 140.0,
       "previous_1rm": 139.3,
       "gain": 0.7,
-      "category": "back"
-    },
-    {
-      "exercise": "Seated Row Machine",
-      "date": "2026-04-13",
-      "weight": 75.0,
-      "reps": 14,
-      "estimated_1rm": 110.0,
-      "previous_1rm": 86.7,
-      "gain": 23.3,
       "category": "back"
     }
   ],
@@ -293,7 +293,7 @@
     },
     {
       "category": "chest",
-      "current_strength": 72.4,
+      "current_strength": 76.1,
       "strength_30d_ago": 0,
       "pct_change_30d": null,
       "top_exercise": "Chest Press Machine",
@@ -324,7 +324,7 @@
         },
         {
           "week": "2026-04-13",
-          "strength": 72.8
+          "strength": 76.6
         }
       ],
       "last_trained": "2026-04-17"
@@ -599,6 +599,17 @@
       "category": "chest",
       "exercises": [
         {
+          "name": "Cable Fly",
+          "total_sessions": 3,
+          "current_1rm": 98.0,
+          "current_max_weight": 75.0,
+          "all_time_1rm": 98.0,
+          "trend": "pr",
+          "days_since": 0,
+          "progress_pct": 27.3,
+          "equipment": "cable"
+        },
+        {
           "name": "Chest Press Machine",
           "total_sessions": 3,
           "current_1rm": 98.7,
@@ -619,17 +630,6 @@
           "days_since": 0,
           "progress_pct": 25.3,
           "equipment": "dumbbell"
-        },
-        {
-          "name": "Cable Fly",
-          "total_sessions": 2,
-          "current_1rm": 86.7,
-          "current_max_weight": 65.0,
-          "all_time_1rm": 86.7,
-          "trend": "progressing",
-          "days_since": 11,
-          "progress_pct": 12.6,
-          "equipment": "cable"
         }
       ],
       "total": 3
@@ -2111,17 +2111,79 @@
           "total_volume": 1955,
           "total_reps": 33,
           "num_sets": 4
+        },
+        {
+          "date": "2026-04-17",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 55.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 70.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 75.0,
+              "reps": 7,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 4,
+              "weight": 75.0,
+              "reps": 3,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 75.0,
+          "estimated_1rm": 98.0,
+          "total_volume": 2360,
+          "total_reps": 36,
+          "num_sets": 4
         }
       ],
-      "total_sessions": 2,
-      "current_max_weight": 65.0,
-      "current_1rm": 86.7,
-      "all_time_max_weight": 65.0,
-      "all_time_1rm": 86.7,
-      "progress_pct": 12.6,
-      "trend": "progressing",
-      "days_since": 11,
-      "last_session": "2026-04-06",
+      "total_sessions": 3,
+      "current_max_weight": 75.0,
+      "current_1rm": 98.0,
+      "all_time_max_weight": 75.0,
+      "all_time_1rm": 98.0,
+      "progress_pct": 27.3,
+      "trend": "pr",
+      "days_since": 0,
+      "last_session": "2026-04-17",
       "category": "chest",
       "equipment": "cable"
     },
