@@ -11,7 +11,7 @@
     "longest_streak": 5,
     "last_7_days": 4,
     "sessions_per_week": 3.4,
-    "generated_at": "2026-04-19T17:18:58.365253",
+    "generated_at": "2026-04-19T17:19:59.270280",
     "strength_gain_this_week": 118.9,
     "total_strength": 1407.9
   },
@@ -236,7 +236,7 @@
       "muscles": [
         "cardio"
       ],
-      "focus": "Shoulders"
+      "focus": "Arms"
     }
   ],
   "muscle_strength": [
@@ -3976,7 +3976,7 @@
       "date": "2026-04-19",
       "start_time": null,
       "duration_min": null,
-      "focus": "Shoulders",
+      "focus": "Arms",
       "feeling": null,
       "notes": null,
       "created_at": "2026-04-19 17:17:57"
