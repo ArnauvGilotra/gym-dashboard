@@ -11,7 +11,7 @@
     "longest_streak": 5,
     "last_7_days": 4,
     "sessions_per_week": 3.4,
-    "generated_at": "2026-04-19T17:51:28.031748",
+    "generated_at": "2026-04-19T19:05:48.308904",
     "strength_gain_this_week": 126.5,
     "total_strength": 1499.5
   },
@@ -83,7 +83,7 @@
       "estimated_1rm": 35.8,
       "previous_1rm": 31.5,
       "gain": 4.3,
-      "category": null
+      "category": "shoulders"
     },
     {
       "exercise": "Cable Fly",
@@ -185,7 +185,6 @@
       "date": "2026-04-09",
       "muscles": [
         "cardio",
-        "other",
         "shoulders"
       ],
       "focus": "Shoulders"
@@ -204,7 +203,7 @@
       "muscles": [
         "back",
         "cardio",
-        "other"
+        "shoulders"
       ],
       "focus": "Back"
     },
@@ -228,7 +227,6 @@
       "date": "2026-04-19",
       "muscles": [
         "cardio",
-        "other",
         "shoulders"
       ],
       "focus": "Shoulders"
@@ -351,7 +349,7 @@
     },
     {
       "category": "shoulders",
-      "current_strength": 52.0,
+      "current_strength": 58.6,
       "strength_30d_ago": 0,
       "pct_change_30d": null,
       "top_exercise": "Reverse Fly Machine",
@@ -362,7 +360,7 @@
         "reps": 12,
         "date": "2026-04-19"
       },
-      "exercise_count": 2,
+      "exercise_count": 4,
       "trend": [
         {
           "week": "2026-03-16",
@@ -378,11 +376,11 @@
         },
         {
           "week": "2026-04-06",
-          "strength": 16.7
+          "strength": 29.8
         },
         {
           "week": "2026-04-13",
-          "strength": 52.0
+          "strength": 58.6
         }
       ],
       "last_trained": "2026-04-19"
@@ -588,6 +586,56 @@
       "total": 4
     },
     {
+      "category": "shoulders",
+      "exercises": [
+        {
+          "name": "Lateral Raise",
+          "total_sessions": 3,
+          "current_1rm": 20.0,
+          "current_max_weight": 17.5,
+          "all_time_1rm": 20.0,
+          "trend": "pr",
+          "days_since": 0,
+          "progress_pct": 141.0,
+          "equipment": "dumbbell"
+        },
+        {
+          "name": "Face Pull",
+          "total_sessions": 3,
+          "current_1rm": 56.0,
+          "current_max_weight": 40.0,
+          "all_time_1rm": 56.0,
+          "trend": "pr",
+          "days_since": 0,
+          "progress_pct": 35.9,
+          "equipment": null
+        },
+        {
+          "name": "Overhead Dumbbell Press",
+          "total_sessions": 2,
+          "current_1rm": 35.8,
+          "current_max_weight": 27.5,
+          "all_time_1rm": 35.8,
+          "trend": "progressing",
+          "days_since": 0,
+          "progress_pct": 13.7,
+          "equipment": null
+        },
+        {
+          "name": "Reverse Fly Machine",
+          "total_sessions": 1,
+          "current_1rm": 84.0,
+          "current_max_weight": 60.0,
+          "all_time_1rm": 84.0,
+          "trend": "new",
+          "days_since": 0,
+          "progress_pct": 0.0,
+          "equipment": "machine"
+        }
+      ],
+      "total": 4
+    },
+    {
       "category": "triceps",
       "exercises": [
         {
@@ -703,62 +751,6 @@
         }
       ],
       "total": 3
-    },
-    {
-      "category": "shoulders",
-      "exercises": [
-        {
-          "name": "Lateral Raise",
-          "total_sessions": 3,
-          "current_1rm": 20.0,
-          "current_max_weight": 17.5,
-          "all_time_1rm": 20.0,
-          "trend": "pr",
-          "days_since": 0,
-          "progress_pct": 141.0,
-          "equipment": "dumbbell"
-        },
-        {
-          "name": "Reverse Fly Machine",
-          "total_sessions": 1,
-          "current_1rm": 84.0,
-          "current_max_weight": 60.0,
-          "all_time_1rm": 84.0,
-          "trend": "new",
-          "days_since": 0,
-          "progress_pct": 0.0,
-          "equipment": "machine"
-        }
-      ],
-      "total": 2
-    },
-    {
-      "category": "other",
-      "exercises": [
-        {
-          "name": "Face Pull",
-          "total_sessions": 3,
-          "current_1rm": 56.0,
-          "current_max_weight": 40.0,
-          "all_time_1rm": 56.0,
-          "trend": "pr",
-          "days_since": 0,
-          "progress_pct": 35.9,
-          "equipment": null
-        },
-        {
-          "name": "Overhead Dumbbell Press",
-          "total_sessions": 2,
-          "current_1rm": 35.8,
-          "current_max_weight": 27.5,
-          "all_time_1rm": 35.8,
-          "trend": "progressing",
-          "days_since": 0,
-          "progress_pct": 13.7,
-          "equipment": null
-        }
-      ],
-      "total": 2
     },
     {
       "category": "cardio",
@@ -3825,7 +3817,7 @@
       "trend": "pr",
       "days_since": 0,
       "last_session": "2026-04-19",
-      "category": null,
+      "category": "shoulders",
       "equipment": null
     },
     "Overhead Dumbbell Press": {
@@ -3951,7 +3943,7 @@
       "trend": "progressing",
       "days_since": 0,
       "last_session": "2026-04-19",
-      "category": null,
+      "category": "shoulders",
       "equipment": null
     },
     "Pec Deck Machine": {
