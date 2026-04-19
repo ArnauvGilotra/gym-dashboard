@@ -4,22 +4,22 @@
     "days_tracking": 29,
     "first_date": "2026-03-22",
     "last_date": "2026-04-19",
-    "total_sets": 161,
-    "total_volume": 82114,
+    "total_sets": 165,
+    "total_volume": 82559,
     "unique_exercises": 21,
     "streak_weeks": 5,
     "longest_streak": 5,
     "last_7_days": 4,
     "sessions_per_week": 3.4,
-    "generated_at": "2026-04-19T17:26:17.168103",
-    "strength_gain_this_week": 123.2,
-    "total_strength": 1412.2
+    "generated_at": "2026-04-19T17:32:42.440983",
+    "strength_gain_this_week": 126.5,
+    "total_strength": 1415.5
   },
   "comparisons": {
     "this_week": {
-      "volume": 28610,
+      "volume": 29055,
       "sessions": 4,
-      "sets": 43
+      "sets": 47
     },
     "last_week": {
       "volume": 18208,
@@ -27,27 +27,20 @@
       "sets": 41
     },
     "this_month": {
-      "volume": 51488,
+      "volume": 51933,
       "sessions": 9,
-      "sets": 101
+      "sets": 105
     },
     "last_month": {
       "volume": 30626,
       "sessions": 5,
       "sets": 60
     },
-    "volume_wow_pct": 57.1,
+    "volume_wow_pct": 59.6,
     "sessions_wow_delta": 0,
-    "volume_mom_pct": 68.1
+    "volume_mom_pct": 69.6
   },
   "insights": [
-    {
-      "type": "neglected",
-      "severity": "medium",
-      "text": "Shoulders hasn't been trained in 10 days",
-      "category": "shoulders",
-      "days": 10
-    },
     {
       "type": "breakthrough",
       "severity": "good",
@@ -63,7 +56,7 @@
     {
       "type": "volume_up",
       "severity": "good",
-      "text": "Weekly volume up 57.1% vs last week"
+      "text": "Weekly volume up 59.6% vs last week"
     },
     {
       "type": "consistency",
@@ -72,6 +65,16 @@
     }
   ],
   "recent_prs": [
+    {
+      "exercise": "Lateral Raise",
+      "date": "2026-04-19",
+      "weight": 15.0,
+      "reps": 10,
+      "estimated_1rm": 20.0,
+      "previous_1rm": 16.7,
+      "gain": 3.3,
+      "category": "shoulders"
+    },
     {
       "exercise": "Overhead Dumbbell Press",
       "date": "2026-04-19",
@@ -110,16 +113,6 @@
       "estimated_1rm": 138.0,
       "previous_1rm": 90.0,
       "gain": 48.0,
-      "category": "legs"
-    },
-    {
-      "exercise": "Leg Extension",
-      "date": "2026-04-15",
-      "weight": 70.0,
-      "reps": 12,
-      "estimated_1rm": 98.0,
-      "previous_1rm": 95.3,
-      "gain": 2.7,
       "category": "legs"
     }
   ],
@@ -235,7 +228,8 @@
       "date": "2026-04-19",
       "muscles": [
         "cardio",
-        "other"
+        "other",
+        "shoulders"
       ],
       "focus": "Shoulders"
     }
@@ -433,16 +427,16 @@
     },
     {
       "category": "shoulders",
-      "current_strength": 16.7,
+      "current_strength": 20.0,
       "strength_30d_ago": 0,
       "pct_change_30d": null,
       "top_exercise": "Lateral Raise",
-      "top_1rm": 16.7,
-      "top_max_weight": 12.5,
+      "top_1rm": 20.0,
+      "top_max_weight": 17.5,
       "top_best_set": {
-        "weight": 12.5,
+        "weight": 15.0,
         "reps": 10,
-        "date": "2026-04-09"
+        "date": "2026-04-19"
       },
       "exercise_count": 1,
       "trend": [
@@ -464,10 +458,10 @@
         },
         {
           "week": "2026-04-13",
-          "strength": 16.7
+          "strength": 20.0
         }
       ],
-      "last_trained": "2026-04-09"
+      "last_trained": "2026-04-19"
     }
   ],
   "consistency_trend": [
@@ -743,13 +737,13 @@
       "exercises": [
         {
           "name": "Lateral Raise",
-          "total_sessions": 2,
-          "current_1rm": 16.7,
-          "current_max_weight": 12.5,
-          "all_time_1rm": 16.7,
-          "trend": "progressing",
-          "days_since": 10,
-          "progress_pct": 101.2,
+          "total_sessions": 3,
+          "current_1rm": 20.0,
+          "current_max_weight": 17.5,
+          "all_time_1rm": 20.0,
+          "trend": "pr",
+          "days_since": 0,
+          "progress_pct": 141.0,
           "equipment": "dumbbell"
         }
       ],
@@ -2725,17 +2719,79 @@
           "total_volume": 395,
           "total_reps": 37,
           "num_sets": 3
+        },
+        {
+          "date": "2026-04-19",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 10.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 12.5,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 15.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 4,
+              "weight": 17.5,
+              "reps": 4,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 17.5,
+          "estimated_1rm": 20.0,
+          "total_volume": 445,
+          "total_reps": 34,
+          "num_sets": 4
         }
       ],
-      "total_sessions": 2,
-      "current_max_weight": 12.5,
-      "current_1rm": 16.7,
-      "all_time_max_weight": 12.5,
-      "all_time_1rm": 16.7,
-      "progress_pct": 101.2,
-      "trend": "progressing",
-      "days_since": 10,
-      "last_session": "2026-04-09",
+      "total_sessions": 3,
+      "current_max_weight": 17.5,
+      "current_1rm": 20.0,
+      "all_time_max_weight": 17.5,
+      "all_time_1rm": 20.0,
+      "progress_pct": 141.0,
+      "trend": "pr",
+      "days_since": 0,
+      "last_session": "2026-04-19",
       "category": "shoulders",
       "equipment": "dumbbell"
     },
