@@ -4,22 +4,22 @@
     "days_tracking": 42,
     "first_date": "2026-03-22",
     "last_date": "2026-05-02",
-    "total_sets": 201,
-    "total_volume": 99826,
+    "total_sets": 209,
+    "total_volume": 101844,
     "unique_exercises": 22,
     "streak_weeks": 7,
     "longest_streak": 7,
     "last_7_days": 2,
     "sessions_per_week": 2.8,
-    "generated_at": "2026-05-02T21:56:13.418968",
+    "generated_at": "2026-05-02T22:11:18.164650",
     "strength_gain_this_week": 12.2,
-    "total_strength": 1522.6
+    "total_strength": 1529.3
   },
   "comparisons": {
     "this_week": {
-      "volume": 11710,
+      "volume": 13728,
       "sessions": 2,
-      "sets": 21
+      "sets": 29
     },
     "last_week": {
       "volume": 1948,
@@ -27,18 +27,18 @@
       "sets": 9
     },
     "this_month": {
-      "volume": 1880,
+      "volume": 3898,
       "sessions": 1,
-      "sets": 7
+      "sets": 15
     },
     "last_month": {
       "volume": 67320,
       "sessions": 11,
       "sets": 134
     },
-    "volume_wow_pct": 501.1,
+    "volume_wow_pct": 604.7,
     "sessions_wow_delta": 1,
-    "volume_mom_pct": -97.2
+    "volume_mom_pct": -94.2
   },
   "insights": [
     {
@@ -70,7 +70,7 @@
     {
       "type": "volume_up",
       "severity": "good",
-      "text": "Weekly volume up 501.1% vs last week"
+      "text": "Weekly volume up 604.7% vs last week"
     }
   ],
   "recent_prs": [
@@ -500,12 +500,12 @@
     },
     {
       "category": "biceps",
-      "current_strength": 36.6,
+      "current_strength": 38.9,
       "strength_30d_ago": 46.7,
-      "pct_change_30d": -21.6,
+      "pct_change_30d": -16.7,
       "top_exercise": "Preacher Curl",
-      "top_1rm": 53.3,
-      "top_max_weight": 40.0,
+      "top_1rm": 60.0,
+      "top_max_weight": 45.0,
       "top_best_set": {
         "weight": 50.0,
         "reps": 10,
@@ -820,23 +820,23 @@
         },
         {
           "name": "Preacher Curl",
-          "total_sessions": 3,
-          "current_1rm": 53.3,
-          "current_max_weight": 40.0,
+          "total_sessions": 4,
+          "current_1rm": 60.0,
+          "current_max_weight": 45.0,
           "all_time_1rm": 66.7,
-          "trend": "plateau",
-          "days_since": 21,
-          "progress_pct": -20.1,
+          "trend": "regressing",
+          "days_since": 0,
+          "progress_pct": -10.0,
           "equipment": "dumbbell"
         },
         {
           "name": "Hammer Curl",
-          "total_sessions": 1,
+          "total_sessions": 2,
           "current_1rm": 23.3,
-          "current_max_weight": 17.5,
+          "current_max_weight": 20.0,
           "all_time_1rm": 23.3,
-          "trend": "new",
-          "days_since": 28,
+          "trend": "plateau",
+          "days_since": 0,
           "progress_pct": 0.0,
           "equipment": "dumbbell"
         }
@@ -3852,17 +3852,79 @@
           "total_volume": 1200,
           "total_reps": 30,
           "num_sets": 3
+        },
+        {
+          "date": "2026-05-02",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 45.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "PR - found better grip/position",
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 45.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "",
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 40.0,
+              "reps": 7,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "",
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 4,
+              "weight": 40.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "",
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 45.0,
+          "estimated_1rm": 60.0,
+          "total_volume": 1580,
+          "total_reps": 37,
+          "num_sets": 4
         }
       ],
-      "total_sessions": 3,
-      "current_max_weight": 40.0,
-      "current_1rm": 53.3,
+      "total_sessions": 4,
+      "current_max_weight": 45.0,
+      "current_1rm": 60.0,
       "all_time_max_weight": 50.0,
       "all_time_1rm": 66.7,
-      "progress_pct": -20.1,
-      "trend": "plateau",
-      "days_since": 21,
-      "last_session": "2026-04-11",
+      "progress_pct": -10.0,
+      "trend": "regressing",
+      "days_since": 0,
+      "last_session": "2026-05-02",
       "category": "biceps",
       "equipment": "dumbbell"
     },
@@ -4202,17 +4264,79 @@
           "total_volume": 475,
           "total_reps": 30,
           "num_sets": 3
+        },
+        {
+          "date": "2026-05-02",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 17.5,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "first time hammer curl - each hand",
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 20.0,
+              "reps": 5,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "each hand - too heavy",
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 17.5,
+              "reps": 5,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "each hand",
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 4,
+              "weight": 15.0,
+              "reps": 5,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "each hand",
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 20.0,
+          "estimated_1rm": 23.3,
+          "total_volume": 438,
+          "total_reps": 25,
+          "num_sets": 4
         }
       ],
-      "total_sessions": 1,
-      "current_max_weight": 17.5,
+      "total_sessions": 2,
+      "current_max_weight": 20.0,
       "current_1rm": 23.3,
-      "all_time_max_weight": 17.5,
+      "all_time_max_weight": 20.0,
       "all_time_1rm": 23.3,
       "progress_pct": 0.0,
-      "trend": "new",
-      "days_since": 28,
-      "last_session": "2026-04-04",
+      "trend": "plateau",
+      "days_since": 0,
+      "last_session": "2026-05-02",
       "category": "biceps",
       "equipment": "dumbbell"
     },
