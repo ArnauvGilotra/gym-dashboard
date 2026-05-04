@@ -11,7 +11,7 @@
     "longest_streak": 7,
     "last_7_days": 3,
     "sessions_per_week": 2.9,
-    "generated_at": "2026-05-03T20:11:45.249058",
+    "generated_at": "2026-05-03T20:12:45.749808",
     "strength_gain_this_week": 21.3,
     "total_strength": 1538.4
   },
@@ -4680,7 +4680,7 @@
               "rpe": null,
               "is_warmup": 0,
               "is_dropset": 0,
-              "notes": "added burnout set, big jump from 40x10",
+              "notes": "different face pull machine/cable - not comparable to 40lb sets above",
               "duration_sec": null,
               "distance_km": null,
               "incline": null,
