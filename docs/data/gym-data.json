@@ -4,22 +4,22 @@
     "days_tracking": 43,
     "first_date": "2026-03-22",
     "last_date": "2026-05-03",
-    "total_sets": 217,
-    "total_volume": 104409,
+    "total_sets": 220,
+    "total_volume": 106489,
     "unique_exercises": 22,
     "streak_weeks": 7,
     "longest_streak": 7,
     "last_7_days": 3,
     "sessions_per_week": 2.9,
-    "generated_at": "2026-05-03T20:03:11.975395",
-    "strength_gain_this_week": 10.8,
-    "total_strength": 1525.2
+    "generated_at": "2026-05-03T20:08:44.468340",
+    "strength_gain_this_week": 13.5,
+    "total_strength": 1527.9
   },
   "comparisons": {
     "this_week": {
-      "volume": 16292,
+      "volume": 18372,
       "sessions": 3,
-      "sets": 37
+      "sets": 40
     },
     "last_week": {
       "volume": 1948,
@@ -27,18 +27,18 @@
       "sets": 9
     },
     "this_month": {
-      "volume": 6462,
+      "volume": 8542,
       "sessions": 2,
-      "sets": 23
+      "sets": 26
     },
     "last_month": {
       "volume": 67320,
       "sessions": 11,
       "sets": 134
     },
-    "volume_wow_pct": 736.3,
+    "volume_wow_pct": 843.1,
     "sessions_wow_delta": 2,
-    "volume_mom_pct": -90.4
+    "volume_mom_pct": -87.3
   },
   "insights": [
     {
@@ -70,7 +70,7 @@
     {
       "type": "volume_up",
       "severity": "good",
-      "text": "Weekly volume up 736.3% vs last week"
+      "text": "Weekly volume up 843.1% vs last week"
     }
   ],
   "recent_prs": [
@@ -95,6 +95,16 @@
       "category": "shoulders"
     },
     {
+      "exercise": "Reverse Fly Machine",
+      "date": "2026-05-03",
+      "weight": 65.0,
+      "reps": 10,
+      "estimated_1rm": 86.7,
+      "previous_1rm": 84.0,
+      "gain": 2.7,
+      "category": "shoulders"
+    },
+    {
       "exercise": "Bicep Curl",
       "date": "2026-05-02",
       "weight": 25.0,
@@ -113,16 +123,6 @@
       "previous_1rm": 110.0,
       "gain": 3.3,
       "category": "back"
-    },
-    {
-      "exercise": "Face Pull",
-      "date": "2026-04-29",
-      "weight": 47.5,
-      "reps": 10,
-      "estimated_1rm": 63.3,
-      "previous_1rm": 56.0,
-      "gain": 7.3,
-      "category": "shoulders"
     }
   ],
   "heatmap": [
@@ -416,16 +416,16 @@
     },
     {
       "category": "shoulders",
-      "current_strength": 59.5,
+      "current_strength": 60.4,
       "strength_30d_ago": 8.3,
-      "pct_change_30d": 616.9,
+      "pct_change_30d": 627.7,
       "top_exercise": "Reverse Fly Machine",
-      "top_1rm": 84.0,
-      "top_max_weight": 60.0,
+      "top_1rm": 86.7,
+      "top_max_weight": 65.0,
       "top_best_set": {
-        "weight": 60.0,
-        "reps": 12,
-        "date": "2026-04-19"
+        "weight": 65.0,
+        "reps": 10,
+        "date": "2026-05-03"
       },
       "exercise_count": 4,
       "trend": [
@@ -455,7 +455,7 @@
         },
         {
           "week": "2026-04-27",
-          "strength": 62.8
+          "strength": 63.7
         }
       ],
       "last_trained": "2026-05-03"
@@ -722,13 +722,13 @@
         },
         {
           "name": "Reverse Fly Machine",
-          "total_sessions": 1,
-          "current_1rm": 84.0,
-          "current_max_weight": 60.0,
-          "all_time_1rm": 84.0,
-          "trend": "new",
-          "days_since": 14,
-          "progress_pct": 0.0,
+          "total_sessions": 2,
+          "current_1rm": 86.7,
+          "current_max_weight": 65.0,
+          "all_time_1rm": 86.7,
+          "trend": "progressing",
+          "days_since": 0,
+          "progress_pct": 3.2,
           "equipment": "machine"
         }
       ],
@@ -4956,17 +4956,66 @@
           "total_volume": 2155,
           "total_reps": 37,
           "num_sets": 3
+        },
+        {
+          "date": "2026-05-03",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 60.0,
+              "reps": 13,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 65.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 65.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 65.0,
+          "estimated_1rm": 86.7,
+          "total_volume": 2080,
+          "total_reps": 33,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 1,
-      "current_max_weight": 60.0,
-      "current_1rm": 84.0,
-      "all_time_max_weight": 60.0,
-      "all_time_1rm": 84.0,
-      "progress_pct": 0.0,
-      "trend": "new",
-      "days_since": 14,
-      "last_session": "2026-04-19",
+      "total_sessions": 2,
+      "current_max_weight": 65.0,
+      "current_1rm": 86.7,
+      "all_time_max_weight": 65.0,
+      "all_time_1rm": 86.7,
+      "progress_pct": 3.2,
+      "trend": "progressing",
+      "days_since": 0,
+      "last_session": "2026-05-03",
       "category": "shoulders",
       "equipment": "machine"
     }
