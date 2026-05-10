@@ -11,7 +11,7 @@
     "longest_streak": 8,
     "last_7_days": 4,
     "sessions_per_week": 2.9,
-    "generated_at": "2026-05-09T21:50:12.856851",
+    "generated_at": "2026-05-09T22:43:21.040295",
     "strength_gain_this_week": 150.0,
     "total_strength": 1679.4
   },
@@ -278,6 +278,7 @@
     {
       "date": "2026-05-09",
       "muscles": [
+        "cardio",
         "legs"
       ],
       "focus": "Legs + Cardio"
@@ -892,12 +893,12 @@
       "exercises": [
         {
           "name": "Treadmill",
-          "total_sessions": 14,
+          "total_sessions": 15,
           "current_1rm": 0,
           "current_max_weight": 0,
           "all_time_1rm": 0,
           "trend": "new",
-          "days_since": 3,
+          "days_since": 0,
           "progress_pct": 0,
           "equipment": "machine"
         }
@@ -3824,17 +3825,40 @@
           "total_volume": 0,
           "total_reps": 0,
           "num_sets": 1
+        },
+        {
+          "date": "2026-05-09",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": null,
+              "reps": null,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "post-leg cardio block, fat burn focus",
+              "duration_sec": 1080,
+              "distance_km": null,
+              "incline": 8.0,
+              "speed_kmh": 4.7
+            }
+          ],
+          "max_weight": 0,
+          "estimated_1rm": 0,
+          "total_volume": 0,
+          "total_reps": 0,
+          "num_sets": 1
         }
       ],
-      "total_sessions": 14,
+      "total_sessions": 15,
       "current_max_weight": 0,
       "current_1rm": 0,
       "all_time_max_weight": 0,
       "all_time_1rm": 0,
       "progress_pct": 0,
       "trend": "new",
-      "days_since": 3,
-      "last_session": "2026-05-06",
+      "days_since": 0,
+      "last_session": "2026-05-09",
       "category": "cardio",
       "equipment": "machine"
     },
@@ -5682,10 +5706,10 @@
       "id": 25,
       "date": "2026-05-09",
       "start_time": null,
-      "duration_min": null,
+      "duration_min": 120,
       "focus": "Legs + Cardio",
       "feeling": null,
-      "notes": null,
+      "notes": "Post-workout: cold plunge 53F x 5min, sauna 10min",
       "created_at": "2026-05-09 21:24:27"
     }
   ]
