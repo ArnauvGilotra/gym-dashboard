@@ -4,22 +4,22 @@
     "days_tracking": 49,
     "first_date": "2026-03-22",
     "last_date": "2026-05-09",
-    "total_sets": 235,
-    "total_volume": 118782,
+    "total_sets": 237,
+    "total_volume": 120342,
     "unique_exercises": 22,
     "streak_weeks": 8,
     "longest_streak": 8,
     "last_7_days": 4,
     "sessions_per_week": 2.9,
-    "generated_at": "2026-05-09T21:24:27.499710",
+    "generated_at": "2026-05-09T21:31:43.266460",
     "strength_gain_this_week": 99.3,
     "total_strength": 1628.7
   },
   "comparisons": {
     "this_week": {
-      "volume": 11505,
+      "volume": 13065,
       "sessions": 2,
-      "sets": 13
+      "sets": 15
     },
     "last_week": {
       "volume": 19160,
@@ -27,18 +27,18 @@
       "sets": 42
     },
     "this_month": {
-      "volume": 20836,
+      "volume": 22396,
       "sessions": 4,
-      "sets": 41
+      "sets": 43
     },
     "last_month": {
       "volume": 67320,
       "sessions": 11,
       "sets": 134
     },
-    "volume_wow_pct": -40.0,
+    "volume_wow_pct": -31.8,
     "sessions_wow_delta": -1,
-    "volume_mom_pct": -69.0
+    "volume_mom_pct": -66.7
   },
   "insights": [
     {
@@ -51,7 +51,7 @@
     {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 40.0% vs last week"
+      "text": "Weekly volume down 31.8% vs last week"
     },
     {
       "type": "breakthrough",
@@ -624,6 +624,17 @@
       "category": "legs",
       "exercises": [
         {
+          "name": "Leg Extension",
+          "total_sessions": 4,
+          "current_1rm": 98.0,
+          "current_max_weight": 70.0,
+          "all_time_1rm": 98.0,
+          "trend": "pr",
+          "days_since": 0,
+          "progress_pct": 27.3,
+          "equipment": "machine"
+        },
+        {
           "name": "Leg Press",
           "total_sessions": 4,
           "current_1rm": 205.3,
@@ -654,17 +665,6 @@
           "trend": "pr",
           "days_since": 24,
           "progress_pct": 7.1,
-          "equipment": "machine"
-        },
-        {
-          "name": "Leg Extension",
-          "total_sessions": 3,
-          "current_1rm": 98.0,
-          "current_max_weight": 70.0,
-          "all_time_1rm": 98.0,
-          "trend": "pr",
-          "days_since": 24,
-          "progress_pct": 27.3,
           "equipment": "machine"
         }
       ],
@@ -2165,17 +2165,53 @@
           "total_volume": 2220,
           "total_reps": 36,
           "num_sets": 3
+        },
+        {
+          "date": "2026-05-09",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 60.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 70.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 70.0,
+          "estimated_1rm": 98.0,
+          "total_volume": 1560,
+          "total_reps": 24,
+          "num_sets": 2
         }
       ],
-      "total_sessions": 3,
+      "total_sessions": 4,
       "current_max_weight": 70.0,
       "current_1rm": 98.0,
       "all_time_max_weight": 70.0,
       "all_time_1rm": 98.0,
       "progress_pct": 27.3,
       "trend": "pr",
-      "days_since": 24,
-      "last_session": "2026-04-15",
+      "days_since": 0,
+      "last_session": "2026-05-09",
       "category": "legs",
       "equipment": "machine"
     },
