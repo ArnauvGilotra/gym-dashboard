@@ -11,7 +11,7 @@
     "longest_streak": 9,
     "last_7_days": 3,
     "sessions_per_week": 2.9,
-    "generated_at": "2026-05-11T21:40:41.659920",
+    "generated_at": "2026-05-11T21:41:41.783110",
     "strength_gain_this_week": 172.1,
     "total_strength": 1711.8
   },
@@ -3953,8 +3953,8 @@
               "notes": null,
               "duration_sec": 1200,
               "distance_km": null,
-              "incline": 8.5,
-              "speed_kmh": 5.0
+              "incline": 8.0,
+              "speed_kmh": 4.5
             }
           ],
           "max_weight": 0,
