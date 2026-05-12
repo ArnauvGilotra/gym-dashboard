@@ -11,7 +11,7 @@
     "longest_streak": 9,
     "last_7_days": 3,
     "sessions_per_week": 2.9,
-    "generated_at": "2026-05-11T21:59:42.906679",
+    "generated_at": "2026-05-11T22:00:43.267667",
     "strength_gain_this_week": 180.1,
     "total_strength": 1717.9
   },
@@ -6017,10 +6017,10 @@
       "id": 26,
       "date": "2026-05-11",
       "start_time": null,
-      "duration_min": null,
+      "duration_min": 80,
       "focus": "Back + Cardio",
       "feeling": null,
-      "notes": null,
+      "notes": "4 PRs: Seated Row 95x16, Lat Pulldown 110x10 + 120x5, DB Row 30x8, Face Pull 47.5x8. Cardio first.",
       "created_at": "2026-05-11 21:34:33"
     }
   ]
