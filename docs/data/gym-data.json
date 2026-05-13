@@ -4,22 +4,22 @@
     "days_tracking": 52,
     "first_date": "2026-03-22",
     "last_date": "2026-05-12",
-    "total_sets": 262,
-    "total_volume": 141157,
-    "unique_exercises": 22,
+    "total_sets": 275,
+    "total_volume": 144300,
+    "unique_exercises": 23,
     "streak_weeks": 9,
     "longest_streak": 9,
     "last_7_days": 4,
     "sessions_per_week": 3.0,
-    "generated_at": "2026-05-12T22:12:53.808109",
+    "generated_at": "2026-05-12T22:13:53.826375",
     "strength_gain_this_week": 180.1,
-    "total_strength": 1717.9
+    "total_strength": 1731.5
   },
   "comparisons": {
     "this_week": {
-      "volume": 11325,
-      "sessions": 1,
-      "sets": 16
+      "volume": 14468,
+      "sessions": 2,
+      "sets": 29
     },
     "last_week": {
       "volume": 22555,
@@ -27,38 +27,24 @@
       "sets": 24
     },
     "this_month": {
-      "volume": 43210,
-      "sessions": 5,
-      "sets": 68
+      "volume": 46353,
+      "sessions": 6,
+      "sets": 81
     },
     "last_month": {
       "volume": 67320,
       "sessions": 11,
       "sets": 134
     },
-    "volume_wow_pct": -49.8,
-    "sessions_wow_delta": -1,
-    "volume_mom_pct": -35.8
+    "volume_wow_pct": -35.9,
+    "sessions_wow_delta": 0,
+    "volume_mom_pct": -31.1
   },
   "insights": [
     {
-      "type": "neglected",
-      "severity": "medium",
-      "text": "Triceps hasn't been trained in 10 days",
-      "category": "triceps",
-      "days": 10
-    },
-    {
-      "type": "neglected",
-      "severity": "medium",
-      "text": "Biceps hasn't been trained in 10 days",
-      "category": "biceps",
-      "days": 10
-    },
-    {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 49.8% vs last week"
+      "text": "Weekly volume down 35.9% vs last week"
     },
     {
       "type": "breakthrough",
@@ -298,6 +284,14 @@
         "shoulders"
       ],
       "focus": "Back + Cardio"
+    },
+    {
+      "date": "2026-05-12",
+      "muscles": [
+        "biceps",
+        "triceps"
+      ],
+      "focus": "Arms + Cardio"
     }
   ],
   "muscle_strength": [
@@ -523,14 +517,14 @@
       "strength_30d_ago": 42.1,
       "pct_change_30d": 2.1,
       "top_exercise": "Tricep Rope Pushdown",
-      "top_1rm": 46.6,
-      "top_max_weight": 32.5,
+      "top_1rm": 46.7,
+      "top_max_weight": 35.0,
       "top_best_set": {
         "weight": 35.0,
         "reps": 12,
         "date": "2026-04-21"
       },
-      "exercise_count": 3,
+      "exercise_count": 4,
       "trend": [
         {
           "week": "2026-03-16",
@@ -569,16 +563,16 @@
           "strength": 43.8
         }
       ],
-      "last_trained": "2026-05-02"
+      "last_trained": "2026-05-12"
     },
     {
       "category": "biceps",
-      "current_strength": 38.9,
+      "current_strength": 36.7,
       "strength_30d_ago": 40.6,
-      "pct_change_30d": -4.2,
+      "pct_change_30d": -9.6,
       "top_exercise": "Preacher Curl",
-      "top_1rm": 60.0,
-      "top_max_weight": 45.0,
+      "top_1rm": 56.0,
+      "top_max_weight": 40.0,
       "top_best_set": {
         "weight": 50.0,
         "reps": 10,
@@ -623,7 +617,7 @@
           "strength": 41.1
         }
       ],
-      "last_trained": "2026-05-02"
+      "last_trained": "2026-05-12"
     }
   ],
   "consistency_trend": [
@@ -665,6 +659,56 @@
     }
   ],
   "exercises_by_category": [
+    {
+      "category": "triceps",
+      "exercises": [
+        {
+          "name": "Tricep Rope Pushdown",
+          "total_sessions": 6,
+          "current_1rm": 46.7,
+          "current_max_weight": 35.0,
+          "all_time_1rm": 49.0,
+          "trend": "plateau",
+          "days_since": 0,
+          "progress_pct": 6.1,
+          "equipment": "cable"
+        },
+        {
+          "name": "Skull Crusher",
+          "total_sessions": 1,
+          "current_1rm": 20.0,
+          "current_max_weight": 15.0,
+          "all_time_1rm": 20.0,
+          "trend": "new",
+          "days_since": 0,
+          "progress_pct": 0.0,
+          "equipment": "EZ bar"
+        },
+        {
+          "name": "Overhead Cable Extension",
+          "total_sessions": 2,
+          "current_1rm": 42.0,
+          "current_max_weight": 30.0,
+          "all_time_1rm": 42.0,
+          "trend": "progressing",
+          "days_since": 38,
+          "progress_pct": 14.4,
+          "equipment": "cable"
+        },
+        {
+          "name": "Cable Rope Pushdown",
+          "total_sessions": 1,
+          "current_1rm": 40.3,
+          "current_max_weight": 27.5,
+          "all_time_1rm": 40.3,
+          "trend": "new",
+          "days_since": 51,
+          "progress_pct": 0.0,
+          "equipment": "cable"
+        }
+      ],
+      "total": 4
+    },
     {
       "category": "legs",
       "exercises": [
@@ -816,45 +860,6 @@
       "total": 4
     },
     {
-      "category": "triceps",
-      "exercises": [
-        {
-          "name": "Tricep Rope Pushdown",
-          "total_sessions": 5,
-          "current_1rm": 46.6,
-          "current_max_weight": 32.5,
-          "all_time_1rm": 49.0,
-          "trend": "progressing",
-          "days_since": 10,
-          "progress_pct": 5.9,
-          "equipment": "cable"
-        },
-        {
-          "name": "Overhead Cable Extension",
-          "total_sessions": 2,
-          "current_1rm": 42.0,
-          "current_max_weight": 30.0,
-          "all_time_1rm": 42.0,
-          "trend": "progressing",
-          "days_since": 38,
-          "progress_pct": 14.4,
-          "equipment": "cable"
-        },
-        {
-          "name": "Cable Rope Pushdown",
-          "total_sessions": 1,
-          "current_1rm": 40.3,
-          "current_max_weight": 27.5,
-          "all_time_1rm": 40.3,
-          "trend": "new",
-          "days_since": 51,
-          "progress_pct": 0.0,
-          "equipment": "cable"
-        }
-      ],
-      "total": 3
-    },
-    {
       "category": "back",
       "exercises": [
         {
@@ -898,24 +903,24 @@
       "exercises": [
         {
           "name": "Bicep Curl",
-          "total_sessions": 5,
-          "current_1rm": 33.3,
-          "current_max_weight": 27.5,
+          "total_sessions": 6,
+          "current_1rm": 30.8,
+          "current_max_weight": 25.0,
           "all_time_1rm": 33.3,
-          "trend": "pr",
-          "days_since": 10,
-          "progress_pct": 24.7,
+          "trend": "progressing",
+          "days_since": 0,
+          "progress_pct": 15.4,
           "equipment": "dumbbell"
         },
         {
           "name": "Preacher Curl",
-          "total_sessions": 4,
-          "current_1rm": 60.0,
-          "current_max_weight": 45.0,
+          "total_sessions": 5,
+          "current_1rm": 56.0,
+          "current_max_weight": 40.0,
           "all_time_1rm": 66.7,
           "trend": "regressing",
-          "days_since": 10,
-          "progress_pct": -10.0,
+          "days_since": 0,
+          "progress_pct": -16.0,
           "equipment": "dumbbell"
         },
         {
@@ -4439,17 +4444,92 @@
           "total_volume": 858,
           "total_reps": 37,
           "num_sets": 4
+        },
+        {
+          "date": "2026-05-12",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 22.5,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "4-way complex (\u00d74 arm movements per rep = 40 movements)",
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 25.0,
+              "reps": 7,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "4-way complex (\u00d74 = 28 movements)",
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 22.5,
+              "reps": 7,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "4-way complex (\u00d74 = 28 movements)",
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 4,
+              "weight": 22.5,
+              "reps": 4,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "4-way complex (\u00d74 = 16 movements)",
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 5,
+              "weight": 20.0,
+              "reps": 3,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "4-way complex (\u00d74 = 12 movements)",
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 25.0,
+          "estimated_1rm": 30.8,
+          "total_volume": 708,
+          "total_reps": 31,
+          "num_sets": 5
         }
       ],
-      "total_sessions": 5,
-      "current_max_weight": 27.5,
-      "current_1rm": 33.3,
+      "total_sessions": 6,
+      "current_max_weight": 25.0,
+      "current_1rm": 30.8,
       "all_time_max_weight": 27.5,
       "all_time_1rm": 33.3,
-      "progress_pct": 24.7,
-      "trend": "pr",
-      "days_since": 10,
-      "last_session": "2026-05-02",
+      "progress_pct": 15.4,
+      "trend": "progressing",
+      "days_since": 0,
+      "last_session": "2026-05-12",
       "category": "biceps",
       "equipment": "dumbbell"
     },
@@ -4689,17 +4769,53 @@
           "total_volume": 1580,
           "total_reps": 37,
           "num_sets": 4
+        },
+        {
+          "date": "2026-05-12",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 40.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "Brachioradialis pain flared on R arm \u2014 pushed through",
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 40.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "Brachioradialis pain \u2014 stopped after this set",
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 40.0,
+          "estimated_1rm": 56.0,
+          "total_volume": 960,
+          "total_reps": 24,
+          "num_sets": 2
         }
       ],
-      "total_sessions": 4,
-      "current_max_weight": 45.0,
-      "current_1rm": 60.0,
+      "total_sessions": 5,
+      "current_max_weight": 40.0,
+      "current_1rm": 56.0,
       "all_time_max_weight": 50.0,
       "all_time_1rm": 66.7,
-      "progress_pct": -10.0,
+      "progress_pct": -16.0,
       "trend": "regressing",
-      "days_since": 10,
-      "last_session": "2026-05-02",
+      "days_since": 0,
+      "last_session": "2026-05-12",
       "category": "biceps",
       "equipment": "dumbbell"
     },
@@ -4975,17 +5091,66 @@
           "total_volume": 1022,
           "total_reps": 33,
           "num_sets": 3
+        },
+        {
+          "date": "2026-05-12",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 35.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "PR \u2014 broke 32.5 plateau from May 2",
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 35.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 32.5,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 35.0,
+          "estimated_1rm": 46.7,
+          "total_volume": 1025,
+          "total_reps": 30,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 5,
-      "current_max_weight": 32.5,
-      "current_1rm": 46.6,
+      "total_sessions": 6,
+      "current_max_weight": 35.0,
+      "current_1rm": 46.7,
       "all_time_max_weight": 35.0,
       "all_time_1rm": 49.0,
-      "progress_pct": 5.9,
-      "trend": "progressing",
-      "days_since": 10,
-      "last_session": "2026-05-02",
+      "progress_pct": 6.1,
+      "trend": "plateau",
+      "days_since": 0,
+      "last_session": "2026-05-12",
       "category": "triceps",
       "equipment": "cable"
     },
@@ -5824,6 +5989,70 @@
       "last_session": "2026-05-03",
       "category": "shoulders",
       "equipment": "machine"
+    },
+    "Skull Crusher": {
+      "sessions": [
+        {
+          "date": "2026-05-12",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 15.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "First-ever skull crusher set, learning movement",
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 15.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 15.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 15.0,
+          "estimated_1rm": 20.0,
+          "total_volume": 450,
+          "total_reps": 30,
+          "num_sets": 3
+        }
+      ],
+      "total_sessions": 1,
+      "current_max_weight": 15.0,
+      "current_1rm": 20.0,
+      "all_time_max_weight": 15.0,
+      "all_time_1rm": 20.0,
+      "progress_pct": 0.0,
+      "trend": "new",
+      "days_since": 0,
+      "last_session": "2026-05-12",
+      "category": "triceps",
+      "equipment": "EZ bar"
     }
   },
   "sessions": [
