@@ -11,7 +11,7 @@
     "longest_streak": 9,
     "last_7_days": 4,
     "sessions_per_week": 3.0,
-    "generated_at": "2026-05-14T21:54:23.531441",
+    "generated_at": "2026-05-14T23:39:38.483697",
     "strength_gain_this_week": 141.5,
     "total_strength": 1791.4
   },
@@ -291,6 +291,7 @@
     {
       "date": "2026-05-14",
       "muscles": [
+        "cardio",
         "shoulders"
       ],
       "focus": "Shoulders + Cardio"
@@ -955,12 +956,12 @@
       "exercises": [
         {
           "name": "Treadmill",
-          "total_sessions": 16,
+          "total_sessions": 17,
           "current_1rm": 0,
           "current_max_weight": 0,
           "all_time_1rm": 0,
           "trend": "new",
-          "days_since": 3,
+          "days_since": 0,
           "progress_pct": 0,
           "equipment": "machine"
         }
@@ -4194,17 +4195,40 @@
           "total_volume": 0,
           "total_reps": 0,
           "num_sets": 1
+        },
+        {
+          "date": "2026-05-14",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": null,
+              "reps": null,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": 720,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 0,
+          "estimated_1rm": 0,
+          "total_volume": 0,
+          "total_reps": 0,
+          "num_sets": 1
         }
       ],
-      "total_sessions": 16,
+      "total_sessions": 17,
       "current_max_weight": 0,
       "current_1rm": 0,
       "all_time_max_weight": 0,
       "all_time_1rm": 0,
       "progress_pct": 0,
       "trend": "new",
-      "days_since": 3,
-      "last_session": "2026-05-11",
+      "days_since": 0,
+      "last_session": "2026-05-14",
       "category": "cardio",
       "equipment": "machine"
     },
