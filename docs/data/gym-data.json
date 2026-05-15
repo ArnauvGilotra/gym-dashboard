@@ -4,22 +4,22 @@
     "days_tracking": 54,
     "first_date": "2026-03-22",
     "last_date": "2026-05-14",
-    "total_sets": 280,
-    "total_volume": 145384,
+    "total_sets": 284,
+    "total_volume": 146010,
     "unique_exercises": 23,
     "streak_weeks": 9,
     "longest_streak": 9,
     "last_7_days": 4,
     "sessions_per_week": 3.0,
-    "generated_at": "2026-05-14T21:33:26.844510",
-    "strength_gain_this_week": 128.4,
-    "total_strength": 1727.0
+    "generated_at": "2026-05-14T21:41:02.210613",
+    "strength_gain_this_week": 130.2,
+    "total_strength": 1728.8
   },
   "comparisons": {
     "this_week": {
-      "volume": 15552,
+      "volume": 16178,
       "sessions": 3,
-      "sets": 34
+      "sets": 38
     },
     "last_week": {
       "volume": 22555,
@@ -27,24 +27,24 @@
       "sets": 24
     },
     "this_month": {
-      "volume": 47438,
+      "volume": 48063,
       "sessions": 7,
-      "sets": 86
+      "sets": 90
     },
     "last_month": {
       "volume": 67320,
       "sessions": 11,
       "sets": 134
     },
-    "volume_wow_pct": -31.0,
+    "volume_wow_pct": -28.3,
     "sessions_wow_delta": 1,
-    "volume_mom_pct": -29.5
+    "volume_mom_pct": -28.6
   },
   "insights": [
     {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 31.0% vs last week"
+      "text": "Weekly volume down 28.3% vs last week"
     },
     {
       "type": "breakthrough",
@@ -60,6 +60,16 @@
     }
   ],
   "recent_prs": [
+    {
+      "exercise": "Lateral Raise",
+      "date": "2026-05-14",
+      "weight": 20.0,
+      "reps": 6,
+      "estimated_1rm": 24.0,
+      "previous_1rm": 22.2,
+      "gain": 1.8,
+      "category": "shoulders"
+    },
     {
       "exercise": "Lat Pulldown",
       "date": "2026-05-11",
@@ -98,16 +108,6 @@
       "estimated_1rm": 165.0,
       "previous_1rm": 138.0,
       "gain": 27.0,
-      "category": "legs"
-    },
-    {
-      "exercise": "Leg Curl",
-      "date": "2026-05-09",
-      "weight": 80.0,
-      "reps": 12,
-      "estimated_1rm": 112.0,
-      "previous_1rm": 105.0,
-      "gain": 7.0,
       "category": "legs"
     }
   ],
@@ -820,6 +820,17 @@
       "category": "shoulders",
       "exercises": [
         {
+          "name": "Lateral Raise",
+          "total_sessions": 5,
+          "current_1rm": 24.0,
+          "current_max_weight": 20.0,
+          "all_time_1rm": 24.0,
+          "trend": "pr",
+          "days_since": 0,
+          "progress_pct": 189.2,
+          "equipment": "dumbbell"
+        },
+        {
           "name": "Overhead Dumbbell Press",
           "total_sessions": 4,
           "current_1rm": 36.7,
@@ -840,17 +851,6 @@
           "days_since": 3,
           "progress_pct": 46.1,
           "equipment": null
-        },
-        {
-          "name": "Lateral Raise",
-          "total_sessions": 4,
-          "current_1rm": 22.2,
-          "current_max_weight": 17.5,
-          "all_time_1rm": 22.2,
-          "trend": "pr",
-          "days_since": 11,
-          "progress_pct": 167.5,
-          "equipment": "dumbbell"
         },
         {
           "name": "Reverse Fly Machine",
@@ -3743,17 +3743,79 @@
           "total_volume": 618,
           "total_reps": 47,
           "num_sets": 4
+        },
+        {
+          "date": "2026-05-14",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 12.5,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 15.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 17.5,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 4,
+              "weight": 20.0,
+              "reps": 6,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 20.0,
+          "estimated_1rm": 24.0,
+          "total_volume": 625,
+          "total_reps": 40,
+          "num_sets": 4
         }
       ],
-      "total_sessions": 4,
-      "current_max_weight": 17.5,
-      "current_1rm": 22.2,
-      "all_time_max_weight": 17.5,
-      "all_time_1rm": 22.2,
-      "progress_pct": 167.5,
+      "total_sessions": 5,
+      "current_max_weight": 20.0,
+      "current_1rm": 24.0,
+      "all_time_max_weight": 20.0,
+      "all_time_1rm": 24.0,
+      "progress_pct": 189.2,
       "trend": "pr",
-      "days_since": 11,
-      "last_session": "2026-05-03",
+      "days_since": 0,
+      "last_session": "2026-05-14",
       "category": "shoulders",
       "equipment": "dumbbell"
     },
