@@ -4,22 +4,22 @@
     "days_tracking": 59,
     "first_date": "2026-03-22",
     "last_date": "2026-05-19",
-    "total_sets": 300,
-    "total_volume": 156704,
+    "total_sets": 303,
+    "total_volume": 159764,
     "unique_exercises": 24,
     "streak_weeks": 10,
     "longest_streak": 10,
     "last_7_days": 3,
     "sessions_per_week": 2.8,
-    "generated_at": "2026-05-19T21:38:27.957311",
+    "generated_at": "2026-05-19T21:44:36.378323",
     "strength_gain_this_week": 24.4,
-    "total_strength": 1806.7
+    "total_strength": 1794.0
   },
   "comparisons": {
     "this_week": {
-      "volume": 6925,
+      "volume": 9985,
       "sessions": 1,
-      "sets": 10
+      "sets": 13
     },
     "last_week": {
       "volume": 20048,
@@ -27,18 +27,18 @@
       "sets": 44
     },
     "this_month": {
-      "volume": 58858,
+      "volume": 61918,
       "sessions": 8,
-      "sets": 106
+      "sets": 109
     },
     "last_month": {
       "volume": 67320,
       "sessions": 11,
       "sets": 134
     },
-    "volume_wow_pct": -65.5,
+    "volume_wow_pct": -50.2,
     "sessions_wow_delta": -2,
-    "volume_mom_pct": -12.6
+    "volume_mom_pct": -8.0
   },
   "insights": [
     {
@@ -51,7 +51,7 @@
     {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 65.5% vs last week"
+      "text": "Weekly volume down 50.2% vs last week"
     },
     {
       "type": "breakthrough",
@@ -62,8 +62,8 @@
     {
       "type": "breakthrough",
       "severity": "good",
-      "text": "Seated Row Machine just hit a new PR \u2014 keep pushing",
-      "exercise": "Seated Row Machine"
+      "text": "Single Arm Dumbbell Row just hit a new PR \u2014 keep pushing",
+      "exercise": "Single Arm Dumbbell Row"
     }
   ],
   "recent_prs": [
@@ -379,9 +379,9 @@
     },
     {
       "category": "back",
-      "current_strength": 110.6,
+      "current_strength": 106.3,
       "strength_30d_ago": 95.6,
-      "pct_change_30d": 15.7,
+      "pct_change_30d": 11.2,
       "top_exercise": "Lat Pulldown",
       "top_1rm": 148.0,
       "top_max_weight": 120.0,
@@ -938,13 +938,13 @@
         },
         {
           "name": "Seated Row Machine",
-          "total_sessions": 5,
-          "current_1rm": 145.7,
+          "total_sessions": 6,
+          "current_1rm": 133.0,
           "current_max_weight": 95.0,
           "all_time_1rm": 145.7,
-          "trend": "pr",
-          "days_since": 8,
-          "progress_pct": 100.7,
+          "trend": "progressing",
+          "days_since": 0,
+          "progress_pct": 83.2,
           "equipment": "machine"
         },
         {
@@ -1842,17 +1842,66 @@
           "total_volume": 4220,
           "total_reps": 52,
           "num_sets": 4
+        },
+        {
+          "date": "2026-05-19",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 75.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 85.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 95.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 95.0,
+          "estimated_1rm": 133.0,
+          "total_volume": 3060,
+          "total_reps": 36,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 5,
+      "total_sessions": 6,
       "current_max_weight": 95.0,
-      "current_1rm": 145.7,
+      "current_1rm": 133.0,
       "all_time_max_weight": 95.0,
       "all_time_1rm": 145.7,
-      "progress_pct": 100.7,
-      "trend": "pr",
-      "days_since": 8,
-      "last_session": "2026-05-11",
+      "progress_pct": 83.2,
+      "trend": "progressing",
+      "days_since": 0,
+      "last_session": "2026-05-19",
       "category": "back",
       "equipment": "machine"
     },
