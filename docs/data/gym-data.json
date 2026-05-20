@@ -5,19 +5,19 @@
     "first_date": "2026-03-22",
     "last_date": "2026-05-19",
     "total_sets": 293,
-    "total_volume": 151400,
+    "total_volume": 151300,
     "unique_exercises": 24,
     "streak_weeks": 10,
     "longest_streak": 10,
     "last_7_days": 3,
     "sessions_per_week": 2.8,
-    "generated_at": "2026-05-19T21:22:07.107808",
+    "generated_at": "2026-05-19T21:23:08.043345",
     "strength_gain_this_week": 13.1,
-    "total_strength": 1802.1
+    "total_strength": 1798.4
   },
   "comparisons": {
     "this_week": {
-      "volume": 1520,
+      "volume": 1420,
       "sessions": 1,
       "sets": 3
     },
@@ -27,7 +27,7 @@
       "sets": 44
     },
     "this_month": {
-      "volume": 53453,
+      "volume": 53353,
       "sessions": 8,
       "sets": 99
     },
@@ -36,9 +36,9 @@
       "sessions": 11,
       "sets": 134
     },
-    "volume_wow_pct": -92.4,
+    "volume_wow_pct": -92.9,
     "sessions_wow_delta": -2,
-    "volume_mom_pct": -20.6
+    "volume_mom_pct": -20.7
   },
   "insights": [
     {
@@ -58,7 +58,7 @@
     {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 92.4% vs last week"
+      "text": "Weekly volume down 92.9% vs last week"
     },
     {
       "type": "breakthrough",
@@ -616,12 +616,12 @@
     },
     {
       "category": "biceps",
-      "current_strength": 40.3,
+      "current_strength": 39.0,
       "strength_30d_ago": 40.6,
-      "pct_change_30d": -0.7,
+      "pct_change_30d": -3.9,
       "top_exercise": "Preacher Curl",
-      "top_1rm": 66.7,
-      "top_max_weight": 50.0,
+      "top_1rm": 63.0,
+      "top_max_weight": 45.0,
       "top_best_set": {
         "weight": 50.0,
         "reps": 10,
@@ -972,12 +972,12 @@
         {
           "name": "Preacher Curl",
           "total_sessions": 6,
-          "current_1rm": 66.7,
-          "current_max_weight": 50.0,
+          "current_1rm": 63.0,
+          "current_max_weight": 45.0,
           "all_time_1rm": 66.7,
-          "trend": "progressing",
+          "trend": "regressing",
           "days_since": 0,
-          "progress_pct": 0.0,
+          "progress_pct": -5.5,
           "equipment": "dumbbell"
         },
         {
@@ -4990,7 +4990,7 @@
             },
             {
               "set_number": 3,
-              "weight": 50.0,
+              "weight": 40.0,
               "reps": 10,
               "rpe": null,
               "is_warmup": 0,
@@ -5002,20 +5002,20 @@
               "speed_kmh": null
             }
           ],
-          "max_weight": 50.0,
-          "estimated_1rm": 66.7,
-          "total_volume": 1520,
+          "max_weight": 45.0,
+          "estimated_1rm": 63.0,
+          "total_volume": 1420,
           "total_reps": 34,
           "num_sets": 3
         }
       ],
       "total_sessions": 6,
-      "current_max_weight": 50.0,
-      "current_1rm": 66.7,
+      "current_max_weight": 45.0,
+      "current_1rm": 63.0,
       "all_time_max_weight": 50.0,
       "all_time_1rm": 66.7,
-      "progress_pct": 0.0,
-      "trend": "progressing",
+      "progress_pct": -5.5,
+      "trend": "regressing",
       "days_since": 0,
       "last_session": "2026-05-19",
       "category": "biceps",
