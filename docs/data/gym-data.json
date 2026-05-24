@@ -4,22 +4,22 @@
     "days_tracking": 63,
     "first_date": "2026-03-22",
     "last_date": "2026-05-23",
-    "total_sets": 321,
-    "total_volume": 177660,
+    "total_sets": 325,
+    "total_volume": 178484,
     "unique_exercises": 24,
     "streak_weeks": 10,
     "longest_streak": 10,
     "last_7_days": 3,
     "sessions_per_week": 2.9,
-    "generated_at": "2026-05-23T21:29:31.523508",
-    "strength_gain_this_week": 44.3,
-    "total_strength": 1824.6
+    "generated_at": "2026-05-23T21:47:42.562599",
+    "strength_gain_this_week": 59.0,
+    "total_strength": 1839.3
   },
   "comparisons": {
     "this_week": {
-      "volume": 27880,
+      "volume": 28705,
       "sessions": 3,
-      "sets": 31
+      "sets": 35
     },
     "last_week": {
       "volume": 20048,
@@ -27,18 +27,18 @@
       "sets": 44
     },
     "this_month": {
-      "volume": 79813,
+      "volume": 80638,
       "sessions": 10,
-      "sets": 127
+      "sets": 131
     },
     "last_month": {
       "volume": 67320,
       "sessions": 11,
       "sets": 134
     },
-    "volume_wow_pct": 39.1,
+    "volume_wow_pct": 43.2,
     "sessions_wow_delta": 0,
-    "volume_mom_pct": 18.6
+    "volume_mom_pct": 19.8
   },
   "insights": [
     {
@@ -56,10 +56,20 @@
     {
       "type": "volume_up",
       "severity": "good",
-      "text": "Weekly volume up 39.1% vs last week"
+      "text": "Weekly volume up 43.2% vs last week"
     }
   ],
   "recent_prs": [
+    {
+      "exercise": "Hammer Curl",
+      "date": "2026-05-23",
+      "weight": 30.0,
+      "reps": 8,
+      "estimated_1rm": 38.0,
+      "previous_1rm": 23.3,
+      "gain": 14.7,
+      "category": "biceps"
+    },
     {
       "exercise": "Calf Raise",
       "date": "2026-05-20",
@@ -99,16 +109,6 @@
       "previous_1rm": 205.3,
       "gain": 4.7,
       "category": "legs"
-    },
-    {
-      "exercise": "Lat Pulldown",
-      "date": "2026-05-19",
-      "weight": 120.0,
-      "reps": 7,
-      "estimated_1rm": 148.0,
-      "previous_1rm": 146.7,
-      "gain": 1.3,
-      "category": "back"
     }
   ],
   "heatmap": [
@@ -323,6 +323,7 @@
     {
       "date": "2026-05-23",
       "muscles": [
+        "biceps",
         "triceps"
       ],
       "focus": "Arms + Cardio"
@@ -562,6 +563,64 @@
       "last_trained": "2026-05-19"
     },
     {
+      "category": "biceps",
+      "current_strength": 45.2,
+      "strength_30d_ago": 36.1,
+      "pct_change_30d": 25.2,
+      "top_exercise": "Preacher Curl",
+      "top_1rm": 66.7,
+      "top_max_weight": 50.0,
+      "top_best_set": {
+        "weight": 50.0,
+        "reps": 10,
+        "date": "2026-05-19"
+      },
+      "exercise_count": 3,
+      "trend": [
+        {
+          "week": "2026-03-16",
+          "strength": 0
+        },
+        {
+          "week": "2026-03-23",
+          "strength": 40.0
+        },
+        {
+          "week": "2026-03-30",
+          "strength": 34.4
+        },
+        {
+          "week": "2026-04-06",
+          "strength": 36.1
+        },
+        {
+          "week": "2026-04-13",
+          "strength": 36.1
+        },
+        {
+          "week": "2026-04-20",
+          "strength": 36.1
+        },
+        {
+          "week": "2026-04-27",
+          "strength": 38.9
+        },
+        {
+          "week": "2026-05-04",
+          "strength": 38.9
+        },
+        {
+          "week": "2026-05-11",
+          "strength": 38.9
+        },
+        {
+          "week": "2026-05-18",
+          "strength": 46.0
+        }
+      ],
+      "last_trained": "2026-05-23"
+    },
+    {
       "category": "triceps",
       "current_strength": 42.2,
       "strength_30d_ago": 43.8,
@@ -618,64 +677,6 @@
         }
       ],
       "last_trained": "2026-05-23"
-    },
-    {
-      "category": "biceps",
-      "current_strength": 40.3,
-      "strength_30d_ago": 36.1,
-      "pct_change_30d": 11.6,
-      "top_exercise": "Preacher Curl",
-      "top_1rm": 66.7,
-      "top_max_weight": 50.0,
-      "top_best_set": {
-        "weight": 50.0,
-        "reps": 10,
-        "date": "2026-05-19"
-      },
-      "exercise_count": 3,
-      "trend": [
-        {
-          "week": "2026-03-16",
-          "strength": 0
-        },
-        {
-          "week": "2026-03-23",
-          "strength": 40.0
-        },
-        {
-          "week": "2026-03-30",
-          "strength": 34.4
-        },
-        {
-          "week": "2026-04-06",
-          "strength": 36.1
-        },
-        {
-          "week": "2026-04-13",
-          "strength": 36.1
-        },
-        {
-          "week": "2026-04-20",
-          "strength": 36.1
-        },
-        {
-          "week": "2026-04-27",
-          "strength": 38.9
-        },
-        {
-          "week": "2026-05-04",
-          "strength": 38.9
-        },
-        {
-          "week": "2026-05-11",
-          "strength": 38.9
-        },
-        {
-          "week": "2026-05-18",
-          "strength": 41.1
-        }
-      ],
-      "last_trained": "2026-05-19"
     }
   ],
   "consistency_trend": [
@@ -975,6 +976,17 @@
       "category": "biceps",
       "exercises": [
         {
+          "name": "Hammer Curl",
+          "total_sessions": 3,
+          "current_1rm": 38.0,
+          "current_max_weight": 30.0,
+          "all_time_1rm": 38.0,
+          "trend": "pr",
+          "days_since": 0,
+          "progress_pct": 63.1,
+          "equipment": "dumbbell"
+        },
+        {
           "name": "Preacher Curl",
           "total_sessions": 6,
           "current_1rm": 66.7,
@@ -994,17 +1006,6 @@
           "trend": "progressing",
           "days_since": 11,
           "progress_pct": 15.4,
-          "equipment": "dumbbell"
-        },
-        {
-          "name": "Hammer Curl",
-          "total_sessions": 2,
-          "current_1rm": 23.3,
-          "current_max_weight": 20.0,
-          "all_time_1rm": 23.3,
-          "trend": "plateau",
-          "days_since": 21,
-          "progress_pct": 0.0,
           "equipment": "dumbbell"
         }
       ],
@@ -5924,17 +5925,79 @@
           "total_volume": 438,
           "total_reps": 25,
           "num_sets": 4
+        },
+        {
+          "date": "2026-05-23",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 25.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 27.5,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 30.0,
+              "reps": 8,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 4,
+              "weight": 30.0,
+              "reps": 2,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 30.0,
+          "estimated_1rm": 38.0,
+          "total_volume": 825,
+          "total_reps": 30,
+          "num_sets": 4
         }
       ],
-      "total_sessions": 2,
-      "current_max_weight": 20.0,
-      "current_1rm": 23.3,
-      "all_time_max_weight": 20.0,
-      "all_time_1rm": 23.3,
-      "progress_pct": 0.0,
-      "trend": "plateau",
-      "days_since": 21,
-      "last_session": "2026-05-02",
+      "total_sessions": 3,
+      "current_max_weight": 30.0,
+      "current_1rm": 38.0,
+      "all_time_max_weight": 30.0,
+      "all_time_1rm": 38.0,
+      "progress_pct": 63.1,
+      "trend": "pr",
+      "days_since": 0,
+      "last_session": "2026-05-23",
       "category": "biceps",
       "equipment": "dumbbell"
     },
