@@ -4,22 +4,22 @@
     "days_tracking": 63,
     "first_date": "2026-03-22",
     "last_date": "2026-05-23",
-    "total_sets": 318,
-    "total_volume": 176800,
+    "total_sets": 321,
+    "total_volume": 177660,
     "unique_exercises": 24,
     "streak_weeks": 10,
     "longest_streak": 10,
     "last_7_days": 3,
     "sessions_per_week": 2.9,
-    "generated_at": "2026-05-23T21:28:30.848336",
+    "generated_at": "2026-05-23T21:29:31.523508",
     "strength_gain_this_week": 44.3,
-    "total_strength": 1827.0
+    "total_strength": 1824.6
   },
   "comparisons": {
     "this_week": {
-      "volume": 27020,
-      "sessions": 2,
-      "sets": 28
+      "volume": 27880,
+      "sessions": 3,
+      "sets": 31
     },
     "last_week": {
       "volume": 20048,
@@ -27,27 +27,20 @@
       "sets": 44
     },
     "this_month": {
-      "volume": 78953,
-      "sessions": 9,
-      "sets": 124
+      "volume": 79813,
+      "sessions": 10,
+      "sets": 127
     },
     "last_month": {
       "volume": 67320,
       "sessions": 11,
       "sets": 134
     },
-    "volume_wow_pct": 34.8,
-    "sessions_wow_delta": -1,
-    "volume_mom_pct": 17.3
+    "volume_wow_pct": 39.1,
+    "sessions_wow_delta": 0,
+    "volume_mom_pct": 18.6
   },
   "insights": [
-    {
-      "type": "neglected",
-      "severity": "medium",
-      "text": "Triceps hasn't been trained in 11 days",
-      "category": "triceps",
-      "days": 11
-    },
     {
       "type": "breakthrough",
       "severity": "good",
@@ -63,7 +56,7 @@
     {
       "type": "volume_up",
       "severity": "good",
-      "text": "Weekly volume up 34.8% vs last week"
+      "text": "Weekly volume up 39.1% vs last week"
     }
   ],
   "recent_prs": [
@@ -326,6 +319,13 @@
         "legs"
       ],
       "focus": "Legs"
+    },
+    {
+      "date": "2026-05-23",
+      "muscles": [
+        "triceps"
+      ],
+      "focus": "Arms + Cardio"
     }
   ],
   "muscle_strength": [
@@ -563,11 +563,11 @@
     },
     {
       "category": "triceps",
-      "current_strength": 43.0,
+      "current_strength": 42.2,
       "strength_30d_ago": 43.8,
-      "pct_change_30d": -1.8,
+      "pct_change_30d": -3.7,
       "top_exercise": "Tricep Rope Pushdown",
-      "top_1rm": 46.7,
+      "top_1rm": 44.3,
       "top_max_weight": 35.0,
       "top_best_set": {
         "weight": 35.0,
@@ -617,7 +617,7 @@
           "strength": 43.8
         }
       ],
-      "last_trained": "2026-05-12"
+      "last_trained": "2026-05-23"
     },
     {
       "category": "biceps",
@@ -787,13 +787,13 @@
       "exercises": [
         {
           "name": "Tricep Rope Pushdown",
-          "total_sessions": 6,
-          "current_1rm": 46.7,
+          "total_sessions": 7,
+          "current_1rm": 44.3,
           "current_max_weight": 35.0,
           "all_time_1rm": 49.0,
-          "trend": "plateau",
-          "days_since": 11,
-          "progress_pct": 6.1,
+          "trend": "regressing",
+          "days_since": 0,
+          "progress_pct": 0.7,
           "equipment": "cable"
         },
         {
@@ -5749,17 +5749,66 @@
           "total_volume": 1025,
           "total_reps": 30,
           "num_sets": 3
+        },
+        {
+          "date": "2026-05-23",
+          "sets": [
+            {
+              "set_number": 2,
+              "weight": 30.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 35.0,
+              "reps": 8,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 4,
+              "weight": 35.0,
+              "reps": 8,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 35.0,
+          "estimated_1rm": 44.3,
+          "total_volume": 860,
+          "total_reps": 26,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 6,
+      "total_sessions": 7,
       "current_max_weight": 35.0,
-      "current_1rm": 46.7,
+      "current_1rm": 44.3,
       "all_time_max_weight": 35.0,
       "all_time_1rm": 49.0,
-      "progress_pct": 6.1,
-      "trend": "plateau",
-      "days_since": 11,
-      "last_session": "2026-05-12",
+      "progress_pct": 0.7,
+      "trend": "regressing",
+      "days_since": 0,
+      "last_session": "2026-05-23",
       "category": "triceps",
       "equipment": "cable"
     },
