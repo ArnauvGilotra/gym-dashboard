@@ -4,22 +4,22 @@
     "days_tracking": 64,
     "first_date": "2026-03-22",
     "last_date": "2026-05-24",
-    "total_sets": 332,
-    "total_volume": 180110,
+    "total_sets": 335,
+    "total_volume": 183930,
     "unique_exercises": 25,
     "streak_weeks": 10,
     "longest_streak": 10,
     "last_7_days": 4,
     "sessions_per_week": 3.0,
-    "generated_at": "2026-05-24T15:54:12.149987",
-    "strength_gain_this_week": 59.0,
-    "total_strength": 1884.2
+    "generated_at": "2026-05-24T15:55:12.214903",
+    "strength_gain_this_week": 84.3,
+    "total_strength": 1909.5
   },
   "comparisons": {
     "this_week": {
-      "volume": 30330,
-      "sessions": 3,
-      "sets": 42
+      "volume": 34150,
+      "sessions": 4,
+      "sets": 45
     },
     "last_week": {
       "volume": 20048,
@@ -27,18 +27,18 @@
       "sets": 44
     },
     "this_month": {
-      "volume": 82263,
-      "sessions": 10,
-      "sets": 138
+      "volume": 86083,
+      "sessions": 11,
+      "sets": 141
     },
     "last_month": {
       "volume": 67320,
       "sessions": 11,
       "sets": 134
     },
-    "volume_wow_pct": 51.3,
-    "sessions_wow_delta": 0,
-    "volume_mom_pct": 22.2
+    "volume_wow_pct": 70.3,
+    "sessions_wow_delta": 1,
+    "volume_mom_pct": 27.9
   },
   "insights": [
     {
@@ -56,10 +56,25 @@
     {
       "type": "volume_up",
       "severity": "good",
-      "text": "Weekly volume up 51.3% vs last week"
+      "text": "Weekly volume up 70.3% vs last week"
+    },
+    {
+      "type": "consistency",
+      "severity": "good",
+      "text": "4 sessions this week \u2014 strong work"
     }
   ],
   "recent_prs": [
+    {
+      "exercise": "Lat Pulldown",
+      "date": "2026-05-24",
+      "weight": 130.0,
+      "reps": 10,
+      "estimated_1rm": 173.3,
+      "previous_1rm": 148.0,
+      "gain": 25.3,
+      "category": "back"
+    },
     {
       "exercise": "Hammer Curl",
       "date": "2026-05-23",
@@ -98,16 +113,6 @@
       "estimated_1rm": 120.0,
       "previous_1rm": 114.7,
       "gain": 5.3,
-      "category": "legs"
-    },
-    {
-      "exercise": "Leg Press",
-      "date": "2026-05-20",
-      "weight": 140.0,
-      "reps": 15,
-      "estimated_1rm": 210.0,
-      "previous_1rm": 205.3,
-      "gain": 4.7,
       "category": "legs"
     }
   ],
@@ -329,6 +334,13 @@
         "triceps"
       ],
       "focus": "Arms + Cardio"
+    },
+    {
+      "date": "2026-05-24",
+      "muscles": [
+        "back"
+      ],
+      "focus": "Shoulders + Back"
     }
   ],
   "muscle_strength": [
@@ -392,16 +404,16 @@
     },
     {
       "category": "back",
-      "current_strength": 106.3,
+      "current_strength": 114.8,
       "strength_30d_ago": 95.6,
-      "pct_change_30d": 11.2,
+      "pct_change_30d": 20.1,
       "top_exercise": "Lat Pulldown",
-      "top_1rm": 148.0,
-      "top_max_weight": 120.0,
+      "top_1rm": 173.3,
+      "top_max_weight": 130.0,
       "top_best_set": {
-        "weight": 120.0,
-        "reps": 7,
-        "date": "2026-05-19"
+        "weight": 130.0,
+        "reps": 10,
+        "date": "2026-05-24"
       },
       "exercise_count": 3,
       "trend": [
@@ -443,10 +455,10 @@
         },
         {
           "week": "2026-05-18",
-          "strength": 110.6
+          "strength": 119.0
         }
       ],
-      "last_trained": "2026-05-19"
+      "last_trained": "2026-05-24"
     },
     {
       "category": "chest",
@@ -990,13 +1002,13 @@
       "exercises": [
         {
           "name": "Lat Pulldown",
-          "total_sessions": 6,
-          "current_1rm": 148.0,
-          "current_max_weight": 120.0,
-          "all_time_1rm": 148.0,
+          "total_sessions": 7,
+          "current_1rm": 173.3,
+          "current_max_weight": 130.0,
+          "all_time_1rm": 173.3,
           "trend": "pr",
-          "days_since": 5,
-          "progress_pct": 6.2,
+          "days_since": 0,
+          "progress_pct": 24.4,
           "equipment": "cable"
         },
         {
@@ -1467,17 +1479,66 @@
           "total_volume": 4400,
           "total_reps": 43,
           "num_sets": 4
+        },
+        {
+          "date": "2026-05-24",
+          "sets": [
+            {
+              "set_number": 2,
+              "weight": 110.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 120.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 4,
+              "weight": 130.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 130.0,
+          "estimated_1rm": 173.3,
+          "total_volume": 3820,
+          "total_reps": 32,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 6,
-      "current_max_weight": 120.0,
-      "current_1rm": 148.0,
-      "all_time_max_weight": 120.0,
-      "all_time_1rm": 148.0,
-      "progress_pct": 6.2,
+      "total_sessions": 7,
+      "current_max_weight": 130.0,
+      "current_1rm": 173.3,
+      "all_time_max_weight": 130.0,
+      "all_time_1rm": 173.3,
+      "progress_pct": 24.4,
       "trend": "pr",
-      "days_since": 5,
-      "last_session": "2026-05-19",
+      "days_since": 0,
+      "last_session": "2026-05-24",
       "category": "back",
       "equipment": "cable"
     },
