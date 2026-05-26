@@ -660,6 +660,165 @@ def compute_exercises_by_category(exercises_analysis):
     ]
 
 
+# ---- The Story (May 26, 2026) ------------------------------------------
+
+# Real-life anchor dates. Update these as the journey evolves.
+CUT_START_DATE = "2026-05-18"          # face transformation cut began
+CUT_DURATION_DAYS = 180                # ~6 months
+START_KG = 92                          # ~a year ago
+CURRENT_KG_ESTIMATE = 84                # latest self-reported range (83-85)
+TARGET_KG = 76                         # cut target
+
+
+def compute_story(sessions, sets_data, exercises_analysis):
+    """Hand-crafted narrative layer: chapters, scenes, transformations.
+
+    Pulls from the SQLite log but adds dates that matter from real life
+    (UofT close-out, cut start, first home workout). Curated, not auto-PR-spam.
+    """
+    if not sessions:
+        return None
+
+    first_date = sessions[0]["date"]
+    latest_date = sessions[-1]["date"]
+    today = TODAY.strftime("%Y-%m-%d")
+
+    journey_days = (parse_date(today) - parse_date(first_date)).days + 1
+    cut_day = max(0, (parse_date(today) - parse_date(CUT_START_DATE)).days)
+
+    # Total volume moved across the whole journey
+    total_lbreps = round(sum(
+        (s.get("weight") or 0) * (s.get("reps") or 0) for s in sets_data
+    ))
+    total_kgreps = round(total_lbreps / 2.20462)
+    total_sets = sum(1 for s in sets_data if s.get("weight") and s.get("reps"))
+
+    # Top-5 transformations: biggest absolute-weight jump from first top set to latest top set
+    transformations = []
+    for name, data in exercises_analysis.items():
+        if data.get("category") in ("cardio", "other"):
+            continue
+        sess_list = data.get("sessions", [])
+        if len(sess_list) < 3:
+            continue
+        first = sess_list[0]
+        latest = sess_list[-1]
+        first_w = first.get("max_weight") or 0
+        latest_w = latest.get("max_weight") or 0
+        if not first_w or not latest_w:
+            continue
+        # Reps at top weight on each side
+        first_top_reps = max(
+            (s.get("reps") or 0)
+            for s in first.get("sets", [])
+            if s.get("weight") == first_w
+        ) if first.get("sets") else 0
+        latest_top_reps = max(
+            (s.get("reps") or 0)
+            for s in latest.get("sets", [])
+            if s.get("weight") == latest_w
+        ) if latest.get("sets") else 0
+        delta = latest_w - first_w
+        transformations.append({
+            "lift": name,
+            "category": data.get("category"),
+            "first": f"{int(first_w) if first_w.is_integer() else first_w}×{first_top_reps}" if isinstance(first_w, float) else f"{first_w}×{first_top_reps}",
+            "first_date": first["date"],
+            "latest": f"{int(latest_w) if latest_w.is_integer() else latest_w}×{latest_top_reps}" if isinstance(latest_w, float) else f"{latest_w}×{latest_top_reps}",
+            "latest_date": latest["date"],
+            "delta_lb": round(delta, 1),
+            "sessions": len(sess_list),
+        })
+    transformations.sort(key=lambda t: t["delta_lb"], reverse=True)
+    transformations = transformations[:6]
+
+    # Chapters — hand-curated narrative beats
+    def day_of(date_str):
+        return (parse_date(date_str) - parse_date(first_date)).days
+
+    chapters = [
+        {
+            "id": "start",
+            "title": "The starting line",
+            "date": "2026-03-22",
+            "day_label": f"Day 0 — {parse_date('2026-03-22').strftime('%b %-d, %Y')}",
+            "body": (
+                "Back + Triceps. Lat pulldown 95×14, seated row 49.5×14, "
+                "cable rope pushdown 27.5×14. You weren’t new to lifting — "
+                "you’d been at it for a while. This was just the day the log started keeping score."
+            ),
+        },
+        {
+            "id": "april",
+            "title": "Showing up",
+            "date": "2026-04-21",
+            "day_label": f"Day {day_of('2026-04-21')} — April",
+            "body": (
+                "Nine sessions in April while engineering finals stacked up. "
+                "April 21: first time touching 27.5 lb on the bicep curl — only "
+                "3 reps, but the bar moved. Cardio became a regular thing."
+            ),
+        },
+        {
+            "id": "uoft",
+            "title": "Engineering closed",
+            "date": "2026-05-12",
+            "day_label": f"Day {day_of('2026-05-12')} — May 12, 2026",
+            "body": (
+                "Robin Sacks granted the +1% petition on TEP442. UofT Engineering "
+                "with Honours by 0.0161 points. You logged session 27 the same week. "
+                "The gym kept going while the rest of your life closed a chapter."
+            ),
+        },
+        {
+            "id": "cut",
+            "title": "The cut begins",
+            "date": CUT_START_DATE,
+            "day_label": f"Day {day_of(CUT_START_DATE)} — May 18, 2026",
+            "body": (
+                "Face transformation. Target: ~76 kg, ~15% BF, six months out. "
+                "Insulin resistance to manage. Two meals. No isopure. The goal shifted "
+                "from \u201cshow up\u201d to \u201cstrip down.\u201d"
+            ),
+        },
+        {
+            "id": "home",
+            "title": "Bedroom matched the gym",
+            "date": "2026-05-26",
+            "day_label": f"Day {day_of('2026-05-26')} — May 26, 4 AM",
+            "body": (
+                "Front raises 15.5×12×3, then bicep curl 15.5 → 23 → 25 × 10 each set. "
+                "You matched your all-time 25×10 top set with the dumbbells in your room — "
+                "two weeks after crashing at 25×7 in the gym. First entry tagged “home.”"
+            ),
+        },
+    ]
+
+    # Cut countdown
+    cut_days_remaining = max(0, CUT_DURATION_DAYS - cut_day)
+    cut_pct = round(min(100, max(0, (cut_day / CUT_DURATION_DAYS) * 100)), 1)
+
+    return {
+        "journey_start": first_date,
+        "journey_days": journey_days,
+        "latest_date": latest_date,
+        "total_sessions": len(sessions),
+        "total_sets": total_sets,
+        "total_lbreps": total_lbreps,
+        "total_kgreps": total_kgreps,
+        "cut_start": CUT_START_DATE,
+        "cut_day": cut_day,
+        "cut_duration": CUT_DURATION_DAYS,
+        "cut_days_remaining": cut_days_remaining,
+        "cut_pct": cut_pct,
+        "start_kg": START_KG,
+        "current_kg": CURRENT_KG_ESTIMATE,
+        "target_kg": TARGET_KG,
+        "transformations": transformations,
+        "chapters": chapters,
+    }
+
+
 # ---- Main ---------------------------------------------------------------
 
 def main():
@@ -731,6 +890,7 @@ def main():
 
     data = {
         "summary": summary,
+        "story": compute_story(sessions, sets_data, exercises_analysis),
         "comparisons": comparisons,
         "insights": compute_insights(exercises_analysis, comparisons, sessions),
         "recent_prs": compute_recent_prs(exercises_analysis, limit=5),

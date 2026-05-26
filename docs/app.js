@@ -84,6 +84,7 @@ async function loadData() {
 
 function renderAll() {
     renderMasthead();
+    renderStory();
     renderLead();
     renderInsightsProse();
     renderPRs();
@@ -92,6 +93,75 @@ function renderAll() {
     renderConsistency();
     renderExercises();
     renderFooter();
+}
+
+// =================== THE STORY ===================
+
+function renderStory() {
+    const s = DATA.story;
+    if (!s) return;
+
+    // Headline + deck
+    const today = new Date();
+    const todayStr = today.toLocaleDateString('en-US', { month: 'long', day: 'numeric' }).toLowerCase();
+    document.getElementById('story-headline').textContent =
+        `Day ${s.journey_days} of showing up. Day ${s.cut_day} of the cut.`;
+    document.getElementById('story-deck').innerHTML =
+        `From <em>back &amp; triceps on march 22</em> to <em>front raises in your bedroom at 4 am</em>. ` +
+        `${s.total_sessions} sessions. ~${fmtBigInt(s.total_lbreps)} lb-reps moved. One body, slowly rewriting itself.`;
+
+    // Counters
+    document.getElementById('sc-days').textContent = s.journey_days;
+    document.getElementById('sc-sessions').textContent = s.total_sessions;
+    document.getElementById('sc-volume').textContent = fmtBigInt(s.total_lbreps);
+
+    // Cut progress
+    document.getElementById('cut-day').textContent =
+        `day ${s.cut_day} of ~${s.cut_duration} · ${s.cut_days_remaining} to go`;
+    document.getElementById('cut-bar-fill').style.width = `${s.cut_pct}%`;
+    document.getElementById('cut-from').textContent = `${s.start_kg} kg`;
+    document.getElementById('cut-now').textContent = `~${s.current_kg} kg now`;
+    document.getElementById('cut-target').textContent = `${s.target_kg} kg`;
+
+    // Chapters
+    const chaptersEl = document.getElementById('chapters');
+    chaptersEl.innerHTML = '';
+    s.chapters.forEach((ch, i) => {
+        const li = document.createElement('li');
+        li.className = 'chapter';
+        if (i === s.chapters.length - 1) li.classList.add('chapter-now');
+        li.innerHTML = `
+            <div class="ch-meta">
+                <span class="ch-num">${String(i + 1).padStart(2, '0')}</span>
+                <span class="ch-day">${ch.day_label}</span>
+            </div>
+            <h3 class="ch-title">${ch.title}</h3>
+            <p class="ch-body">${ch.body}</p>
+        `;
+        chaptersEl.appendChild(li);
+    });
+
+    // Transformations
+    const tEl = document.getElementById('transformations-list');
+    tEl.innerHTML = '';
+    s.transformations.forEach(t => {
+        const row = document.createElement('div');
+        row.className = 'trans-row';
+        row.innerHTML = `
+            <div class="trans-lift">${t.lift}</div>
+            <div class="trans-arc">
+                <span class="trans-from">${t.first}</span>
+                <span class="trans-arrow">→</span>
+                <span class="trans-to">${t.latest}</span>
+            </div>
+            <div class="trans-delta">+${t.delta_lb} lb</div>
+        `;
+        tEl.appendChild(row);
+    });
+}
+
+function fmtBigInt(n) {
+    return Number(n).toLocaleString('en-US');
 }
 
 // =================== MASTHEAD / LEAD ===================

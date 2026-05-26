@@ -11,9 +11,125 @@
     "longest_streak": 11,
     "last_7_days": 5,
     "sessions_per_week": 3.0,
-    "generated_at": "2026-05-26T04:06:40.435888",
+    "generated_at": "2026-05-26T04:20:27.307934",
     "strength_gain_this_week": 75.7,
     "total_strength": 1946.8
+  },
+  "story": {
+    "journey_start": "2026-03-22",
+    "journey_days": 66,
+    "latest_date": "2026-05-26",
+    "total_sessions": 28,
+    "total_sets": 355,
+    "total_lbreps": 194134,
+    "total_kgreps": 88058,
+    "cut_start": "2026-05-18",
+    "cut_day": 8,
+    "cut_duration": 180,
+    "cut_days_remaining": 172,
+    "cut_pct": 4.4,
+    "start_kg": 92,
+    "current_kg": 84,
+    "target_kg": 76,
+    "transformations": [
+      {
+        "lift": "Calf Raise",
+        "category": "legs",
+        "first": "50\u00d724",
+        "first_date": "2026-03-24",
+        "latest": "120\u00d715",
+        "latest_date": "2026-05-20",
+        "delta_lb": 70.0,
+        "sessions": 4
+      },
+      {
+        "lift": "Seated Row Machine",
+        "category": "back",
+        "first": "49.5\u00d714",
+        "first_date": "2026-03-22",
+        "latest": "100\u00d712",
+        "latest_date": "2026-05-24",
+        "delta_lb": 50.5,
+        "sessions": 7
+      },
+      {
+        "lift": "Lat Pulldown",
+        "category": "back",
+        "first": "95\u00d714",
+        "first_date": "2026-03-22",
+        "latest": "130\u00d710",
+        "latest_date": "2026-05-24",
+        "delta_lb": 35.0,
+        "sessions": 7
+      },
+      {
+        "lift": "Leg Extension",
+        "category": "legs",
+        "first": "55\u00d712",
+        "first_date": "2026-03-24",
+        "latest": "90\u00d710",
+        "latest_date": "2026-05-20",
+        "delta_lb": 35.0,
+        "sessions": 5
+      },
+      {
+        "lift": "Leg Curl",
+        "category": "legs",
+        "first": "70\u00d712",
+        "first_date": "2026-03-24",
+        "latest": "90\u00d710",
+        "latest_date": "2026-05-20",
+        "delta_lb": 20.0,
+        "sessions": 5
+      },
+      {
+        "lift": "Leg Press",
+        "category": "legs",
+        "first": "120\u00d712",
+        "first_date": "2026-03-24",
+        "latest": "140\u00d715",
+        "latest_date": "2026-05-20",
+        "delta_lb": 20.0,
+        "sessions": 5
+      }
+    ],
+    "chapters": [
+      {
+        "id": "start",
+        "title": "The starting line",
+        "date": "2026-03-22",
+        "day_label": "Day 0 \u2014 Mar 22, 2026",
+        "body": "Back + Triceps. Lat pulldown 95\u00d714, seated row 49.5\u00d714, cable rope pushdown 27.5\u00d714. You weren\u2019t new to lifting \u2014 you\u2019d been at it for a while. This was just the day the log started keeping score."
+      },
+      {
+        "id": "april",
+        "title": "Showing up",
+        "date": "2026-04-21",
+        "day_label": "Day 30 \u2014 April",
+        "body": "Nine sessions in April while engineering finals stacked up. April 21: first time touching 27.5 lb on the bicep curl \u2014 only 3 reps, but the bar moved. Cardio became a regular thing."
+      },
+      {
+        "id": "uoft",
+        "title": "Engineering closed",
+        "date": "2026-05-12",
+        "day_label": "Day 51 \u2014 May 12, 2026",
+        "body": "Robin Sacks granted the +1% petition on TEP442. UofT Engineering with Honours by 0.0161 points. You logged session 27 the same week. The gym kept going while the rest of your life closed a chapter."
+      },
+      {
+        "id": "cut",
+        "title": "The cut begins",
+        "date": "2026-05-18",
+        "day_label": "Day 57 \u2014 May 18, 2026",
+        "body": "Face transformation. Target: ~76 kg, ~15% BF, six months out. Insulin resistance to manage. Two meals. No isopure. The goal shifted from \u201cshow up\u201d to \u201cstrip down.\u201d"
+      },
+      {
+        "id": "home",
+        "title": "Bedroom matched the gym",
+        "date": "2026-05-26",
+        "day_label": "Day 65 \u2014 May 26, 4 AM",
+        "body": "Front raises 15.5\u00d712\u00d73, then bicep curl 15.5 \u2192 23 \u2192 25 \u00d7 10 each set. You matched your all-time 25\u00d710 top set with the dumbbells in your room \u2014 two weeks after crashing at 25\u00d77 in the gym. First entry tagged \u201chome.\u201d"
+      }
+    ]
   },
   "comparisons": {
     "this_week": {
