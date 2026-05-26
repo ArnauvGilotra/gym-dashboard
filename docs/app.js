@@ -354,9 +354,13 @@ function renderHeatmap() {
                 }
 
                 const focus = day.session.focus || muscles.join(', ');
+                if (day.session.location === 'home') {
+                    cellEl.classList.add('home-session');
+                }
                 const tip = document.createElement('div');
                 tip.className = 'tooltip';
-                tip.textContent = `${fmtDateShort(day.date)} · ${focus.toLowerCase()}`;
+                const homeTag = day.session.location === 'home' ? '🏠 ' : '';
+                tip.textContent = `${fmtDateShort(day.date)} · ${homeTag}${focus.toLowerCase()}`;
                 cellEl.appendChild(tip);
             }
 
@@ -880,10 +884,11 @@ function renderSetLog(ex) {
             weekday: 'long', month: 'long', day: 'numeric',
         }).toLowerCase();
 
+        const homeBadge = session.location === 'home' ? ' <span class="home-badge" title="home workout">🏠 home</span>' : '';
         let html = `
-            <div class="set-log-session">
+            <div class="set-log-session${session.location === 'home' ? ' is-home' : ''}">
                 <div class="set-log-head">
-                    <span class="set-log-date">${dateStr}</span>
+                    <span class="set-log-date">${dateStr}${homeBadge}</span>
                     <span class="set-log-meta">${session.max_weight || '—'} lb max · ${fmtK(session.total_volume)} vol</span>
                 </div>
                 <div class="set-log-table">

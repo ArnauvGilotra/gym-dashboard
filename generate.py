@@ -67,7 +67,8 @@ def get_exercises(conn):
 def get_sets(conn):
     return [dict(r) for r in conn.execute(
         """SELECT s.*, e.name as exercise_name, e.category, e.equipment,
-                  sess.date as session_date, sess.focus as session_focus
+                  sess.date as session_date, sess.focus as session_focus,
+                  COALESCE(sess.location, 'gym') as session_location
            FROM sets s
            JOIN exercises e ON s.exercise_id = e.id
            JOIN sessions sess ON s.session_id = sess.id
@@ -97,8 +98,10 @@ def analyze_exercise(name, sets_for_ex):
                 best_1rm = e1
         volume = sum((s.get("weight") or 0) * (s.get("reps") or 0) for s in dset)
         total_reps = sum(s.get("reps") or 0 for s in dset)
+        location = next((s.get("session_location") for s in dset if s.get("session_location")), "gym")
         sessions.append({
             "date": dt,
+            "location": location,
             "sets": [
                 {
                     "set_number": s["set_number"],
