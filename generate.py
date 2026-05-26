@@ -183,12 +183,14 @@ def compute_heatmap(sessions, sets_data):
         day_muscles[s["session_date"]].add(cat)
 
     focus_map = {s["date"]: s["focus"] for s in sessions}
+    location_map = {s["date"]: (s["location"] if "location" in s.keys() else None) or "gym" for s in sessions}
 
     return [
         {
             "date": d,
             "muscles": sorted(day_muscles[d]),
             "focus": focus_map.get(d, ""),
+            "location": location_map.get(d, "gym"),
         }
         for d in sorted(day_muscles.keys())
     ]

@@ -1,25 +1,25 @@
 {
   "summary": {
-    "total_sessions": 27,
-    "days_tracking": 64,
+    "total_sessions": 28,
+    "days_tracking": 66,
     "first_date": "2026-03-22",
-    "last_date": "2026-05-24",
-    "total_sets": 349,
-    "total_volume": 192940,
-    "unique_exercises": 25,
-    "streak_weeks": 10,
-    "longest_streak": 10,
-    "last_7_days": 4,
+    "last_date": "2026-05-26",
+    "total_sets": 355,
+    "total_volume": 194134,
+    "unique_exercises": 26,
+    "streak_weeks": 11,
+    "longest_streak": 11,
+    "last_7_days": 5,
     "sessions_per_week": 3.0,
-    "generated_at": "2026-05-26T04:04:56.742427",
+    "generated_at": "2026-05-26T04:05:57.371423",
     "strength_gain_this_week": 75.7,
-    "total_strength": 1922.6
+    "total_strength": 1946.8
   },
   "comparisons": {
     "this_week": {
-      "volume": 0,
-      "sessions": 0,
-      "sets": 0
+      "volume": 1193,
+      "sessions": 1,
+      "sets": 6
     },
     "last_week": {
       "volume": 43161,
@@ -27,29 +27,24 @@
       "sets": 59
     },
     "this_month": {
-      "volume": 95094,
-      "sessions": 11,
-      "sets": 155
+      "volume": 96287,
+      "sessions": 12,
+      "sets": 161
     },
     "last_month": {
       "volume": 67320,
       "sessions": 11,
       "sets": 134
     },
-    "volume_wow_pct": -100.0,
-    "sessions_wow_delta": -4,
-    "volume_mom_pct": 41.3
+    "volume_wow_pct": -97.2,
+    "sessions_wow_delta": -3,
+    "volume_mom_pct": 43.0
   },
   "insights": [
     {
-      "type": "dropoff",
-      "severity": "high",
-      "text": "No sessions logged this week yet"
-    },
-    {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 100.0% vs last week"
+      "text": "Weekly volume down 97.2% vs last week"
     },
     {
       "type": "breakthrough",
@@ -123,14 +118,16 @@
         "back",
         "triceps"
       ],
-      "focus": "Back + Triceps"
+      "focus": "Back + Triceps",
+      "location": "gym"
     },
     {
       "date": "2026-03-24",
       "muscles": [
         "legs"
       ],
-      "focus": "Legs"
+      "focus": "Legs",
+      "location": "gym"
     },
     {
       "date": "2026-03-25",
@@ -139,7 +136,8 @@
         "chest",
         "shoulders"
       ],
-      "focus": "Chest + Shoulders"
+      "focus": "Chest + Shoulders",
+      "location": "gym"
     },
     {
       "date": "2026-03-28",
@@ -148,14 +146,16 @@
         "cardio",
         "triceps"
       ],
-      "focus": "Arms + Cardio"
+      "focus": "Arms + Cardio",
+      "location": "gym"
     },
     {
       "date": "2026-03-31",
       "muscles": [
         "back"
       ],
-      "focus": "Back"
+      "focus": "Back",
+      "location": "gym"
     },
     {
       "date": "2026-04-04",
@@ -163,7 +163,8 @@
         "biceps",
         "triceps"
       ],
-      "focus": "Arms"
+      "focus": "Arms",
+      "location": "gym"
     },
     {
       "date": "2026-04-06",
@@ -171,7 +172,8 @@
         "cardio",
         "chest"
       ],
-      "focus": "Chest"
+      "focus": "Chest",
+      "location": "gym"
     },
     {
       "date": "2026-04-07",
@@ -179,7 +181,8 @@
         "cardio",
         "legs"
       ],
-      "focus": "Legs"
+      "focus": "Legs",
+      "location": "gym"
     },
     {
       "date": "2026-04-09",
@@ -187,7 +190,8 @@
         "cardio",
         "shoulders"
       ],
-      "focus": "Shoulders"
+      "focus": "Shoulders",
+      "location": "gym"
     },
     {
       "date": "2026-04-11",
@@ -196,7 +200,8 @@
         "cardio",
         "triceps"
       ],
-      "focus": "Arms"
+      "focus": "Arms",
+      "location": "gym"
     },
     {
       "date": "2026-04-13",
@@ -205,7 +210,8 @@
         "cardio",
         "shoulders"
       ],
-      "focus": "Back"
+      "focus": "Back",
+      "location": "gym"
     },
     {
       "date": "2026-04-15",
@@ -213,7 +219,8 @@
         "cardio",
         "legs"
       ],
-      "focus": "Legs"
+      "focus": "Legs",
+      "location": "gym"
     },
     {
       "date": "2026-04-17",
@@ -221,7 +228,8 @@
         "cardio",
         "chest"
       ],
-      "focus": "Chest"
+      "focus": "Chest",
+      "location": "gym"
     },
     {
       "date": "2026-04-19",
@@ -229,7 +237,8 @@
         "cardio",
         "shoulders"
       ],
-      "focus": "Shoulders"
+      "focus": "Shoulders",
+      "location": "gym"
     },
     {
       "date": "2026-04-21",
@@ -237,7 +246,8 @@
         "biceps",
         "triceps"
       ],
-      "focus": "Arms"
+      "focus": "Arms",
+      "location": "gym"
     },
     {
       "date": "2026-04-29",
@@ -246,7 +256,8 @@
         "cardio",
         "shoulders"
       ],
-      "focus": "Back"
+      "focus": "Back",
+      "location": "gym"
     },
     {
       "date": "2026-05-02",
@@ -255,7 +266,8 @@
         "cardio",
         "triceps"
       ],
-      "focus": "Arms + Cardio"
+      "focus": "Arms + Cardio",
+      "location": "gym"
     },
     {
       "date": "2026-05-03",
@@ -263,7 +275,8 @@
         "cardio",
         "shoulders"
       ],
-      "focus": "Shoulders + Cardio"
+      "focus": "Shoulders + Cardio",
+      "location": "gym"
     },
     {
       "date": "2026-05-06",
@@ -271,7 +284,8 @@
         "cardio",
         "chest"
       ],
-      "focus": "Chest + Cardio"
+      "focus": "Chest + Cardio",
+      "location": "gym"
     },
     {
       "date": "2026-05-09",
@@ -279,7 +293,8 @@
         "cardio",
         "legs"
       ],
-      "focus": "Legs + Cardio"
+      "focus": "Legs + Cardio",
+      "location": "gym"
     },
     {
       "date": "2026-05-11",
@@ -288,7 +303,8 @@
         "cardio",
         "shoulders"
       ],
-      "focus": "Back + Cardio"
+      "focus": "Back + Cardio",
+      "location": "gym"
     },
     {
       "date": "2026-05-12",
@@ -296,7 +312,8 @@
         "biceps",
         "triceps"
       ],
-      "focus": "Arms + Cardio"
+      "focus": "Arms + Cardio",
+      "location": "gym"
     },
     {
       "date": "2026-05-14",
@@ -304,7 +321,8 @@
         "cardio",
         "shoulders"
       ],
-      "focus": "Shoulders + Cardio"
+      "focus": "Shoulders + Cardio",
+      "location": "gym"
     },
     {
       "date": "2026-05-19",
@@ -315,7 +333,8 @@
         "chest",
         "shoulders"
       ],
-      "focus": "Upper A \u2014 Back/Chest/Shoulders/Biceps"
+      "focus": "Upper A \u2014 Back/Chest/Shoulders/Biceps",
+      "location": "gym"
     },
     {
       "date": "2026-05-20",
@@ -323,7 +342,8 @@
         "cardio",
         "legs"
       ],
-      "focus": "Legs"
+      "focus": "Legs",
+      "location": "gym"
     },
     {
       "date": "2026-05-23",
@@ -333,7 +353,8 @@
         "shoulders",
         "triceps"
       ],
-      "focus": "Arms + Cardio"
+      "focus": "Arms + Cardio",
+      "location": "gym"
     },
     {
       "date": "2026-05-24",
@@ -342,7 +363,17 @@
         "cardio",
         "shoulders"
       ],
-      "focus": "Shoulders + Back"
+      "focus": "Shoulders + Back",
+      "location": "gym"
+    },
+    {
+      "date": "2026-05-26",
+      "muscles": [
+        "biceps",
+        "shoulders"
+      ],
+      "focus": "Home \u2014 Shoulders + Biceps",
+      "location": "home"
     }
   ],
   "muscle_strength": [
@@ -545,7 +576,7 @@
         "reps": 12,
         "date": "2026-05-14"
       },
-      "exercise_count": 5,
+      "exercise_count": 6,
       "trend": [
         {
           "week": "2026-03-16",
@@ -592,7 +623,7 @@
           "strength": 71.8
         }
       ],
-      "last_trained": "2026-05-24"
+      "last_trained": "2026-05-26"
     },
     {
       "category": "biceps",
@@ -654,7 +685,7 @@
           "strength": 50.5
         }
       ],
-      "last_trained": "2026-05-23"
+      "last_trained": "2026-05-26"
     },
     {
       "category": "triceps",
@@ -762,13 +793,24 @@
     },
     {
       "week": "2026-05-25",
-      "sessions": 0
+      "sessions": 1
     }
   ],
   "exercises_by_category": [
     {
       "category": "shoulders",
       "exercises": [
+        {
+          "name": "Front Raise",
+          "total_sessions": 1,
+          "current_1rm": 21.7,
+          "current_max_weight": 15.5,
+          "all_time_1rm": 21.7,
+          "trend": "new",
+          "days_since": 0,
+          "progress_pct": 0.0,
+          "equipment": "dumbbell"
+        },
         {
           "name": "Face Pull",
           "total_sessions": 7,
@@ -825,7 +867,7 @@
           "equipment": "dumbbell"
         }
       ],
-      "total": 5
+      "total": 6
     },
     {
       "category": "triceps",
@@ -981,6 +1023,17 @@
       "category": "biceps",
       "exercises": [
         {
+          "name": "Bicep Curl",
+          "total_sessions": 7,
+          "current_1rm": 33.3,
+          "current_max_weight": 25.0,
+          "all_time_1rm": 33.3,
+          "trend": "pr",
+          "days_since": 0,
+          "progress_pct": 24.7,
+          "equipment": "dumbbell"
+        },
+        {
           "name": "Hammer Curl",
           "total_sessions": 3,
           "current_1rm": 38.0,
@@ -1011,17 +1064,6 @@
           "trend": "pr",
           "days_since": 7,
           "progress_pct": 25.1,
-          "equipment": "dumbbell"
-        },
-        {
-          "name": "Bicep Curl",
-          "total_sessions": 6,
-          "current_1rm": 30.8,
-          "current_max_weight": 25.0,
-          "all_time_1rm": 33.3,
-          "trend": "progressing",
-          "days_since": 14,
-          "progress_pct": 15.4,
           "equipment": "dumbbell"
         }
       ],
@@ -5354,17 +5396,66 @@
           "total_volume": 708,
           "total_reps": 31,
           "num_sets": 5
+        },
+        {
+          "date": "2026-05-26",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 15.5,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 23.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 25.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 25.0,
+          "estimated_1rm": 33.3,
+          "total_volume": 635,
+          "total_reps": 30,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 6,
+      "total_sessions": 7,
       "current_max_weight": 25.0,
-      "current_1rm": 30.8,
+      "current_1rm": 33.3,
       "all_time_max_weight": 27.5,
       "all_time_1rm": 33.3,
-      "progress_pct": 15.4,
-      "trend": "progressing",
-      "days_since": 14,
-      "last_session": "2026-05-12",
+      "progress_pct": 24.7,
+      "trend": "pr",
+      "days_since": 0,
+      "last_session": "2026-05-26",
       "category": "biceps",
       "equipment": "dumbbell"
     },
@@ -7509,6 +7600,70 @@
       "last_session": "2026-05-23",
       "category": "biceps",
       "equipment": "machine"
+    },
+    "Front Raise": {
+      "sessions": [
+        {
+          "date": "2026-05-26",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 15.5,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 15.5,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 15.5,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 15.5,
+          "estimated_1rm": 21.7,
+          "total_volume": 558,
+          "total_reps": 36,
+          "num_sets": 3
+        }
+      ],
+      "total_sessions": 1,
+      "current_max_weight": 15.5,
+      "current_1rm": 21.7,
+      "all_time_max_weight": 15.5,
+      "all_time_1rm": 21.7,
+      "progress_pct": 0.0,
+      "trend": "new",
+      "days_since": 0,
+      "last_session": "2026-05-26",
+      "category": "shoulders",
+      "equipment": "dumbbell"
     }
   },
   "sessions": [
@@ -7520,7 +7675,8 @@
       "focus": "Back + Triceps",
       "feeling": null,
       "notes": null,
-      "created_at": "2026-03-28 23:27:35"
+      "created_at": "2026-03-28 23:27:35",
+      "location": "gym"
     },
     {
       "id": 2,
@@ -7530,7 +7686,8 @@
       "focus": "Legs",
       "feeling": null,
       "notes": null,
-      "created_at": "2026-03-28 23:27:39"
+      "created_at": "2026-03-28 23:27:39",
+      "location": "gym"
     },
     {
       "id": 3,
@@ -7540,7 +7697,8 @@
       "focus": "Chest + Shoulders",
       "feeling": null,
       "notes": null,
-      "created_at": "2026-03-28 23:27:45"
+      "created_at": "2026-03-28 23:27:45",
+      "location": "gym"
     },
     {
       "id": 4,
@@ -7550,7 +7708,8 @@
       "focus": "Arms + Cardio",
       "feeling": null,
       "notes": null,
-      "created_at": "2026-03-28 23:27:50"
+      "created_at": "2026-03-28 23:27:50",
+      "location": "gym"
     },
     {
       "id": 5,
@@ -7560,7 +7719,8 @@
       "focus": "Back",
       "feeling": null,
       "notes": null,
-      "created_at": "2026-03-31 22:03:07"
+      "created_at": "2026-03-31 22:03:07",
+      "location": "gym"
     },
     {
       "id": 6,
@@ -7570,7 +7730,8 @@
       "focus": "Arms",
       "feeling": null,
       "notes": null,
-      "created_at": "2026-04-04 18:33:17"
+      "created_at": "2026-04-04 18:33:17",
+      "location": "gym"
     },
     {
       "id": 7,
@@ -7580,7 +7741,8 @@
       "focus": "Chest",
       "feeling": null,
       "notes": null,
-      "created_at": "2026-04-06 22:03:01"
+      "created_at": "2026-04-06 22:03:01",
+      "location": "gym"
     },
     {
       "id": 8,
@@ -7590,7 +7752,8 @@
       "focus": "Legs",
       "feeling": null,
       "notes": null,
-      "created_at": "2026-04-07 21:51:07"
+      "created_at": "2026-04-07 21:51:07",
+      "location": "gym"
     },
     {
       "id": 9,
@@ -7600,7 +7763,8 @@
       "focus": "Shoulders",
       "feeling": null,
       "notes": null,
-      "created_at": "2026-04-09 22:00:28"
+      "created_at": "2026-04-09 22:00:28",
+      "location": "gym"
     },
     {
       "id": 10,
@@ -7610,7 +7774,8 @@
       "focus": "Arms",
       "feeling": null,
       "notes": null,
-      "created_at": "2026-04-11 22:13:37"
+      "created_at": "2026-04-11 22:13:37",
+      "location": "gym"
     },
     {
       "id": 11,
@@ -7620,7 +7785,8 @@
       "focus": "Back",
       "feeling": null,
       "notes": null,
-      "created_at": "2026-04-13 21:44:17"
+      "created_at": "2026-04-13 21:44:17",
+      "location": "gym"
     },
     {
       "id": 12,
@@ -7630,7 +7796,8 @@
       "focus": "Legs",
       "feeling": null,
       "notes": null,
-      "created_at": "2026-04-15 21:44:46"
+      "created_at": "2026-04-15 21:44:46",
+      "location": "gym"
     },
     {
       "id": 13,
@@ -7640,7 +7807,8 @@
       "focus": "Chest",
       "feeling": null,
       "notes": null,
-      "created_at": "2026-04-17 21:31:32"
+      "created_at": "2026-04-17 21:31:32",
+      "location": "gym"
     },
     {
       "id": 19,
@@ -7650,7 +7818,8 @@
       "focus": "Shoulders",
       "feeling": null,
       "notes": null,
-      "created_at": "2026-04-19 17:17:57"
+      "created_at": "2026-04-19 17:17:57",
+      "location": "gym"
     },
     {
       "id": 20,
@@ -7660,7 +7829,8 @@
       "focus": "Arms",
       "feeling": null,
       "notes": null,
-      "created_at": "2026-04-21 22:02:41"
+      "created_at": "2026-04-21 22:02:41",
+      "location": "gym"
     },
     {
       "id": 21,
@@ -7670,7 +7840,8 @@
       "focus": "Back",
       "feeling": null,
       "notes": null,
-      "created_at": "2026-04-29 21:32:26"
+      "created_at": "2026-04-29 21:32:26",
+      "location": "gym"
     },
     {
       "id": 22,
@@ -7680,7 +7851,8 @@
       "focus": "Arms + Cardio",
       "feeling": null,
       "notes": "Treadmill incline walk 20min warmup, then arms",
-      "created_at": "2026-05-02 21:48:31"
+      "created_at": "2026-05-02 21:48:31",
+      "location": "gym"
     },
     {
       "id": 23,
@@ -7690,7 +7862,8 @@
       "focus": "Shoulders + Cardio",
       "feeling": null,
       "notes": null,
-      "created_at": "2026-05-03 19:51:00"
+      "created_at": "2026-05-03 19:51:00",
+      "location": "gym"
     },
     {
       "id": 24,
@@ -7700,7 +7873,8 @@
       "focus": "Chest + Cardio",
       "feeling": null,
       "notes": null,
-      "created_at": "2026-05-06 21:35:18"
+      "created_at": "2026-05-06 21:35:18",
+      "location": "gym"
     },
     {
       "id": 25,
@@ -7710,7 +7884,8 @@
       "focus": "Legs + Cardio",
       "feeling": null,
       "notes": "Post-workout: cold plunge 53F x 5min, sauna 10min",
-      "created_at": "2026-05-09 21:24:27"
+      "created_at": "2026-05-09 21:24:27",
+      "location": "gym"
     },
     {
       "id": 26,
@@ -7720,7 +7895,8 @@
       "focus": "Back + Cardio",
       "feeling": null,
       "notes": "4 PRs: Seated Row 95x16, Lat Pulldown 110x10 + 120x5, DB Row 30x8, Face Pull 47.5x8. Cardio first.",
-      "created_at": "2026-05-11 21:34:33"
+      "created_at": "2026-05-11 21:34:33",
+      "location": "gym"
     },
     {
       "id": 27,
@@ -7730,7 +7906,8 @@
       "focus": "Arms + Cardio",
       "feeling": null,
       "notes": "Bicep 4-way complex (each rep = L curl + R curl + L hammer + R hammer = 4 arm movements per rep). Brachioradialis flare on right arm during preacher \u2014 same insertional tendon issue as last year. Should return to cable-only bicep protocol.",
-      "created_at": "2026-05-12 22:12:53"
+      "created_at": "2026-05-12 22:12:53",
+      "location": "gym"
     },
     {
       "id": 28,
@@ -7740,7 +7917,8 @@
       "focus": "Shoulders + Cardio",
       "feeling": null,
       "notes": null,
-      "created_at": "2026-05-14 21:32:26"
+      "created_at": "2026-05-14 21:32:26",
+      "location": "gym"
     },
     {
       "id": 29,
@@ -7750,7 +7928,8 @@
       "focus": "Upper A \u2014 Back/Chest/Shoulders/Biceps",
       "feeling": null,
       "notes": null,
-      "created_at": "2026-05-19 21:21:06"
+      "created_at": "2026-05-19 21:21:06",
+      "location": "gym"
     },
     {
       "id": 30,
@@ -7760,7 +7939,8 @@
       "focus": "Legs",
       "feeling": null,
       "notes": null,
-      "created_at": "2026-05-20 21:22:31"
+      "created_at": "2026-05-20 21:22:31",
+      "location": "gym"
     },
     {
       "id": 31,
@@ -7770,7 +7950,8 @@
       "focus": "Arms + Cardio",
       "feeling": null,
       "notes": null,
-      "created_at": "2026-05-23 21:28:30"
+      "created_at": "2026-05-23 21:28:30",
+      "location": "gym"
     },
     {
       "id": 32,
@@ -7780,7 +7961,19 @@
       "focus": "Shoulders + Back",
       "feeling": null,
       "notes": null,
-      "created_at": "2026-05-24 15:54:11"
+      "created_at": "2026-05-24 15:54:11",
+      "location": "gym"
+    },
+    {
+      "id": 33,
+      "date": "2026-05-26",
+      "start_time": null,
+      "duration_min": null,
+      "focus": "Home \u2014 Shoulders + Biceps",
+      "feeling": null,
+      "notes": "Home workout. Dumbbell front raises + bicep curls (each-hand).",
+      "created_at": "2026-05-26 04:04:59",
+      "location": "home"
     }
   ]
 }
