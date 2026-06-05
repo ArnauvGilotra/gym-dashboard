@@ -4,25 +4,25 @@
     "days_tracking": 75,
     "first_date": "2026-03-22",
     "last_date": "2026-06-04",
-    "total_sets": 387,
-    "total_volume": 222514,
+    "total_sets": 390,
+    "total_volume": 226114,
     "unique_exercises": 26,
     "streak_weeks": 12,
     "longest_streak": 12,
     "last_7_days": 2,
     "sessions_per_week": 2.9,
-    "generated_at": "2026-06-04T21:30:22.072781",
-    "strength_gain_this_week": 27.6,
-    "total_strength": 2015.0
+    "generated_at": "2026-06-04T21:37:14.970653",
+    "strength_gain_this_week": 35.9,
+    "total_strength": 2029.0
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 75,
     "latest_date": "2026-06-04",
     "total_sessions": 31,
-    "total_sets": 387,
-    "total_lbreps": 222514,
-    "total_kgreps": 100931,
+    "total_sets": 390,
+    "total_lbreps": 226114,
+    "total_kgreps": 102564,
     "cut_start": "2026-05-18",
     "cut_day": 17,
     "cut_duration": 180,
@@ -47,10 +47,10 @@
         "category": "back",
         "first": "49.5\u00d714",
         "first_date": "2026-03-22",
-        "latest": "100\u00d712",
-        "latest_date": "2026-05-24",
-        "delta_lb": 50.5,
-        "sessions": 7
+        "latest": "110\u00d712",
+        "latest_date": "2026-06-04",
+        "delta_lb": 60.5,
+        "sessions": 8
       },
       {
         "lift": "Lat Pulldown",
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 11535,
+      "volume": 15135,
       "sessions": 2,
-      "sets": 20
+      "sets": 23
     },
     "last_week": {
       "volume": 18038,
@@ -143,18 +143,18 @@
       "sets": 18
     },
     "this_month": {
-      "volume": 11535,
+      "volume": 15135,
       "sessions": 2,
-      "sets": 20
+      "sets": 23
     },
     "last_month": {
       "volume": 113132,
       "sessions": 13,
       "sets": 173
     },
-    "volume_wow_pct": -36.1,
+    "volume_wow_pct": -16.1,
     "sessions_wow_delta": 0,
-    "volume_mom_pct": -89.8
+    "volume_mom_pct": -86.6
   },
   "insights": [
     {
@@ -167,7 +167,7 @@
     {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 36.1% vs last week"
+      "text": "Weekly volume down 16.1% vs last week"
     },
     {
       "type": "breakthrough",
@@ -178,8 +178,8 @@
     {
       "type": "breakthrough",
       "severity": "good",
-      "text": "Single Arm Dumbbell Row just hit a new PR \u2014 keep pushing",
-      "exercise": "Single Arm Dumbbell Row"
+      "text": "Seated Row Machine just hit a new PR \u2014 keep pushing",
+      "exercise": "Seated Row Machine"
     }
   ],
   "recent_prs": [
@@ -191,6 +191,16 @@
       "estimated_1rm": 196.0,
       "previous_1rm": 173.3,
       "gain": 22.7,
+      "category": "back"
+    },
+    {
+      "exercise": "Seated Row Machine",
+      "date": "2026-06-04",
+      "weight": 110.0,
+      "reps": 12,
+      "estimated_1rm": 154.0,
+      "previous_1rm": 145.7,
+      "gain": 8.3,
       "category": "back"
     },
     {
@@ -221,16 +231,6 @@
       "estimated_1rm": 187.5,
       "previous_1rm": 180.0,
       "gain": 7.5,
-      "category": "legs"
-    },
-    {
-      "exercise": "Leg Curl",
-      "date": "2026-05-27",
-      "weight": 90.0,
-      "reps": 13,
-      "estimated_1rm": 129.0,
-      "previous_1rm": 120.0,
-      "gain": 9.0,
       "category": "legs"
     }
   ],
@@ -594,9 +594,9 @@
     },
     {
       "category": "back",
-      "current_strength": 124.7,
+      "current_strength": 129.3,
       "strength_30d_ago": 96.7,
-      "pct_change_30d": 29.0,
+      "pct_change_30d": 33.7,
       "top_exercise": "Lat Pulldown",
       "top_1rm": 196.0,
       "top_max_weight": 140.0,
@@ -653,7 +653,7 @@
         },
         {
           "week": "2026-06-01",
-          "strength": 126.6
+          "strength": 129.3
         }
       ],
       "last_trained": "2026-06-04"
@@ -1262,13 +1262,13 @@
         },
         {
           "name": "Seated Row Machine",
-          "total_sessions": 7,
-          "current_1rm": 140.0,
-          "current_max_weight": 100.0,
-          "all_time_1rm": 145.7,
-          "trend": "plateau",
-          "days_since": 11,
-          "progress_pct": 92.8,
+          "total_sessions": 8,
+          "current_1rm": 154.0,
+          "current_max_weight": 110.0,
+          "all_time_1rm": 154.0,
+          "trend": "pr",
+          "days_since": 0,
+          "progress_pct": 112.1,
           "equipment": "machine"
         },
         {
@@ -2367,17 +2367,67 @@
           "total_volume": 4080,
           "total_reps": 48,
           "num_sets": 4
+        },
+        {
+          "date": "2026-06-04",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 90.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 100.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 110.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 110.0,
+          "estimated_1rm": 154.0,
+          "total_volume": 3600,
+          "total_reps": 36,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 7,
-      "current_max_weight": 100.0,
-      "current_1rm": 140.0,
-      "all_time_max_weight": 100.0,
-      "all_time_1rm": 145.7,
-      "progress_pct": 92.8,
-      "trend": "plateau",
-      "days_since": 11,
-      "last_session": "2026-05-24",
+      "total_sessions": 8,
+      "current_max_weight": 110.0,
+      "current_1rm": 154.0,
+      "all_time_max_weight": 110.0,
+      "all_time_1rm": 154.0,
+      "progress_pct": 112.1,
+      "trend": "pr",
+      "days_since": 0,
+      "last_session": "2026-06-04",
       "category": "back",
       "equipment": "machine"
     },
