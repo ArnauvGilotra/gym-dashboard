@@ -4,25 +4,25 @@
     "days_tracking": 76,
     "first_date": "2026-03-22",
     "last_date": "2026-06-05",
-    "total_sets": 404,
-    "total_volume": 232854,
+    "total_sets": 407,
+    "total_volume": 233598,
     "unique_exercises": 27,
     "streak_weeks": 12,
     "longest_streak": 12,
     "last_7_days": 3,
     "sessions_per_week": 2.9,
-    "generated_at": "2026-06-05T17:51:24.387409",
-    "strength_gain_this_week": 37.2,
-    "total_strength": 2178.3
+    "generated_at": "2026-06-05T18:00:59.922936",
+    "strength_gain_this_week": 42.9,
+    "total_strength": 2184.0
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 76,
     "latest_date": "2026-06-05",
     "total_sessions": 32,
-    "total_sets": 404,
-    "total_lbreps": 232854,
-    "total_kgreps": 105621,
+    "total_sets": 407,
+    "total_lbreps": 233598,
+    "total_kgreps": 105958,
     "cut_start": "2026-05-18",
     "cut_day": 18,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 21875,
+      "volume": 22620,
       "sessions": 3,
-      "sets": 37
+      "sets": 40
     },
     "last_week": {
       "volume": 18038,
@@ -143,27 +143,20 @@
       "sets": 18
     },
     "this_month": {
-      "volume": 21875,
+      "volume": 22620,
       "sessions": 3,
-      "sets": 37
+      "sets": 40
     },
     "last_month": {
       "volume": 113132,
       "sessions": 13,
       "sets": 173
     },
-    "volume_wow_pct": 21.3,
+    "volume_wow_pct": 25.4,
     "sessions_wow_delta": 1,
-    "volume_mom_pct": -80.7
+    "volume_mom_pct": -80.0
   },
   "insights": [
-    {
-      "type": "neglected",
-      "severity": "medium",
-      "text": "Biceps hasn't been trained in 10 days",
-      "category": "biceps",
-      "days": 10
-    },
     {
       "type": "breakthrough",
       "severity": "good",
@@ -179,10 +172,20 @@
     {
       "type": "volume_up",
       "severity": "good",
-      "text": "Weekly volume up 21.3% vs last week"
+      "text": "Weekly volume up 25.4% vs last week"
     }
   ],
   "recent_prs": [
+    {
+      "exercise": "Bicep Curl",
+      "date": "2026-06-05",
+      "weight": 30.0,
+      "reps": 9,
+      "estimated_1rm": 39.0,
+      "previous_1rm": 33.3,
+      "gain": 5.7,
+      "category": "biceps"
+    },
     {
       "exercise": "Lat Pulldown",
       "date": "2026-06-04",
@@ -222,16 +225,6 @@
       "previous_1rm": 40.0,
       "gain": 3.3,
       "category": "chest"
-    },
-    {
-      "exercise": "Front Raise",
-      "date": "2026-06-02",
-      "weight": 17.5,
-      "reps": 10,
-      "estimated_1rm": 23.3,
-      "previous_1rm": 21.7,
-      "gain": 1.6,
-      "category": "shoulders"
     }
   ],
   "heatmap": [
@@ -528,6 +521,7 @@
     {
       "date": "2026-06-05",
       "muscles": [
+        "biceps",
         "triceps"
       ],
       "focus": "Arms (Triceps + Biceps)",
@@ -801,9 +795,9 @@
     },
     {
       "category": "biceps",
-      "current_strength": 50.5,
+      "current_strength": 50.8,
       "strength_30d_ago": 38.9,
-      "pct_change_30d": 29.8,
+      "pct_change_30d": 30.6,
       "top_exercise": "Preacher Curl",
       "top_1rm": 66.7,
       "top_max_weight": 50.0,
@@ -860,10 +854,10 @@
         },
         {
           "week": "2026-06-01",
-          "strength": 50.5
+          "strength": 50.8
         }
       ],
-      "last_trained": "2026-05-26"
+      "last_trained": "2026-06-05"
     },
     {
       "category": "triceps",
@@ -1260,13 +1254,13 @@
       "exercises": [
         {
           "name": "Bicep Curl",
-          "total_sessions": 7,
-          "current_1rm": 33.3,
-          "current_max_weight": 25.0,
-          "all_time_1rm": 33.3,
+          "total_sessions": 8,
+          "current_1rm": 39.0,
+          "current_max_weight": 30.0,
+          "all_time_1rm": 39.0,
           "trend": "pr",
-          "days_since": 10,
-          "progress_pct": 24.7,
+          "days_since": 0,
+          "progress_pct": 46.1,
           "equipment": "dumbbell"
         },
         {
@@ -6292,17 +6286,67 @@
           "total_volume": 635,
           "total_reps": 30,
           "num_sets": 3
+        },
+        {
+          "date": "2026-06-05",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 22.5,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 25.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 30.0,
+              "reps": 9,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 30.0,
+          "estimated_1rm": 39.0,
+          "total_volume": 745,
+          "total_reps": 29,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 7,
-      "current_max_weight": 25.0,
-      "current_1rm": 33.3,
-      "all_time_max_weight": 27.5,
-      "all_time_1rm": 33.3,
-      "progress_pct": 24.7,
+      "total_sessions": 8,
+      "current_max_weight": 30.0,
+      "current_1rm": 39.0,
+      "all_time_max_weight": 30.0,
+      "all_time_1rm": 39.0,
+      "progress_pct": 46.1,
       "trend": "pr",
-      "days_since": 10,
-      "last_session": "2026-05-26",
+      "days_since": 0,
+      "last_session": "2026-06-05",
       "category": "biceps",
       "equipment": "dumbbell"
     },
