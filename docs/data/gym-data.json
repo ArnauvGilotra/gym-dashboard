@@ -4,25 +4,25 @@
     "days_tracking": 82,
     "first_date": "2026-03-22",
     "last_date": "2026-06-11",
-    "total_sets": 457,
-    "total_volume": 274634,
+    "total_sets": 460,
+    "total_volume": 275714,
     "unique_exercises": 28,
     "streak_weeks": 13,
     "longest_streak": 13,
     "last_7_days": 5,
     "sessions_per_week": 3.0,
-    "generated_at": "2026-06-11T21:46:15.978895",
-    "strength_gain_this_week": 114.7,
-    "total_strength": 2410.8
+    "generated_at": "2026-06-11T21:56:31.255435",
+    "strength_gain_this_week": 128.0,
+    "total_strength": 2424.1
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 82,
     "latest_date": "2026-06-11",
     "total_sessions": 35,
-    "total_sets": 457,
-    "total_lbreps": 274634,
-    "total_kgreps": 124572,
+    "total_sets": 460,
+    "total_lbreps": 275714,
+    "total_kgreps": 125062,
     "cut_start": "2026-05-18",
     "cut_day": 24,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 38805,
+      "volume": 39885,
       "sessions": 3,
-      "sets": 40
+      "sets": 43
     },
     "last_week": {
       "volume": 24850,
@@ -143,18 +143,18 @@
       "sets": 50
     },
     "this_month": {
-      "volume": 63655,
+      "volume": 64735,
       "sessions": 6,
-      "sets": 90
+      "sets": 93
     },
     "last_month": {
       "volume": 113132,
       "sessions": 13,
       "sets": 173
     },
-    "volume_wow_pct": 56.2,
+    "volume_wow_pct": 60.5,
     "sessions_wow_delta": 0,
-    "volume_mom_pct": -43.7
+    "volume_mom_pct": -42.8
   },
   "insights": [
     {
@@ -172,7 +172,7 @@
     {
       "type": "volume_up",
       "severity": "good",
-      "text": "Weekly volume up 56.2% vs last week"
+      "text": "Weekly volume up 60.5% vs last week"
     }
   ],
   "recent_prs": [
@@ -185,6 +185,16 @@
       "previous_1rm": 154.0,
       "gain": 11.0,
       "category": "back"
+    },
+    {
+      "exercise": "Seated Machine Bicep Curl",
+      "date": "2026-06-11",
+      "weight": 45.0,
+      "reps": 10,
+      "estimated_1rm": 60.0,
+      "previous_1rm": 46.7,
+      "gain": 13.3,
+      "category": "biceps"
     },
     {
       "exercise": "Chest Press Machine",
@@ -214,16 +224,6 @@
       "estimated_1rm": 112.0,
       "previous_1rm": 98.0,
       "gain": 14.0,
-      "category": "shoulders"
-    },
-    {
-      "exercise": "Front Raise",
-      "date": "2026-06-09",
-      "weight": 20.0,
-      "reps": 9,
-      "estimated_1rm": 26.0,
-      "previous_1rm": 23.3,
-      "gain": 2.7,
       "category": "shoulders"
     }
   ],
@@ -549,7 +549,8 @@
     {
       "date": "2026-06-11",
       "muscles": [
-        "back"
+        "back",
+        "biceps"
       ],
       "focus": "Back + Biceps",
       "location": "gym"
@@ -822,9 +823,9 @@
     },
     {
       "category": "biceps",
-      "current_strength": 50.8,
+      "current_strength": 55.2,
       "strength_30d_ago": 38.9,
-      "pct_change_30d": 30.6,
+      "pct_change_30d": 41.9,
       "top_exercise": "Preacher Curl",
       "top_1rm": 66.7,
       "top_max_weight": 50.0,
@@ -881,10 +882,10 @@
         },
         {
           "week": "2026-06-08",
-          "strength": 50.8
+          "strength": 55.2
         }
       ],
-      "last_trained": "2026-06-05"
+      "last_trained": "2026-06-11"
     },
     {
       "category": "triceps",
@@ -1291,6 +1292,17 @@
       "category": "biceps",
       "exercises": [
         {
+          "name": "Seated Machine Bicep Curl",
+          "total_sessions": 2,
+          "current_1rm": 60.0,
+          "current_max_weight": 45.0,
+          "all_time_1rm": 60.0,
+          "trend": "progressing",
+          "days_since": 0,
+          "progress_pct": 28.5,
+          "equipment": "machine"
+        },
+        {
           "name": "Bicep Curl",
           "total_sessions": 8,
           "current_1rm": 39.0,
@@ -1311,17 +1323,6 @@
           "days_since": 6,
           "progress_pct": 63.1,
           "equipment": "dumbbell"
-        },
-        {
-          "name": "Seated Machine Bicep Curl",
-          "total_sessions": 1,
-          "current_1rm": 46.7,
-          "current_max_weight": 35.0,
-          "all_time_1rm": 46.7,
-          "trend": "new",
-          "days_since": 19,
-          "progress_pct": 0.0,
-          "equipment": "machine"
         },
         {
           "name": "Preacher Curl",
@@ -9456,17 +9457,67 @@
           "total_volume": 1050,
           "total_reps": 30,
           "num_sets": 3
+        },
+        {
+          "date": "2026-06-11",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 45.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 45.0,
+              "reps": 7,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 35.0,
+              "reps": 9,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 45.0,
+          "estimated_1rm": 60.0,
+          "total_volume": 1080,
+          "total_reps": 26,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 1,
-      "current_max_weight": 35.0,
-      "current_1rm": 46.7,
-      "all_time_max_weight": 35.0,
-      "all_time_1rm": 46.7,
-      "progress_pct": 0.0,
-      "trend": "new",
-      "days_since": 19,
-      "last_session": "2026-05-23",
+      "total_sessions": 2,
+      "current_max_weight": 45.0,
+      "current_1rm": 60.0,
+      "all_time_max_weight": 45.0,
+      "all_time_1rm": 60.0,
+      "progress_pct": 28.5,
+      "trend": "progressing",
+      "days_since": 0,
+      "last_session": "2026-06-11",
       "category": "biceps",
       "equipment": "machine"
     },
