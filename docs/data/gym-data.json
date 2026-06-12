@@ -5,15 +5,15 @@
     "first_date": "2026-03-22",
     "last_date": "2026-06-11",
     "total_sets": 454,
-    "total_volume": 271704,
+    "total_volume": 271754,
     "unique_exercises": 27,
     "streak_weeks": 13,
     "longest_streak": 13,
     "last_7_days": 5,
     "sessions_per_week": 3.0,
-    "generated_at": "2026-06-11T21:35:48.185101",
+    "generated_at": "2026-06-11T21:36:48.382535",
     "strength_gain_this_week": 114.7,
-    "total_strength": 2278.1
+    "total_strength": 2284.8
   },
   "story": {
     "journey_start": "2026-03-22",
@@ -21,8 +21,8 @@
     "latest_date": "2026-06-11",
     "total_sessions": 35,
     "total_sets": 454,
-    "total_lbreps": 271704,
-    "total_kgreps": 123243,
+    "total_lbreps": 271754,
+    "total_kgreps": 123266,
     "cut_start": "2026-05-18",
     "cut_day": 24,
     "cut_duration": 180,
@@ -133,7 +133,7 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 35875,
+      "volume": 35925,
       "sessions": 3,
       "sets": 37
     },
@@ -143,7 +143,7 @@
       "sets": 50
     },
     "this_month": {
-      "volume": 60725,
+      "volume": 60775,
       "sessions": 6,
       "sets": 87
     },
@@ -152,7 +152,7 @@
       "sessions": 13,
       "sets": 173
     },
-    "volume_wow_pct": 44.4,
+    "volume_wow_pct": 44.6,
     "sessions_wow_delta": 0,
     "volume_mom_pct": -46.3
   },
@@ -172,7 +172,7 @@
     {
       "type": "volume_up",
       "severity": "good",
-      "text": "Weekly volume up 44.4% vs last week"
+      "text": "Weekly volume up 44.6% vs last week"
     }
   ],
   "recent_prs": [
@@ -624,11 +624,11 @@
     },
     {
       "category": "back",
-      "current_strength": 163.4,
+      "current_strength": 165.7,
       "strength_30d_ago": 110.1,
-      "pct_change_30d": 48.4,
+      "pct_change_30d": 50.5,
       "top_exercise": "Lat Pulldown",
-      "top_1rm": 173.3,
+      "top_1rm": 180.0,
       "top_max_weight": 140.0,
       "top_best_set": {
         "weight": 140.0,
@@ -1132,12 +1132,12 @@
         {
           "name": "Lat Pulldown",
           "total_sessions": 9,
-          "current_1rm": 173.3,
+          "current_1rm": 180.0,
           "current_max_weight": 140.0,
           "all_time_1rm": 196.0,
-          "trend": "plateau",
+          "trend": "progressing",
           "days_since": 0,
-          "progress_pct": 24.4,
+          "progress_pct": 29.2,
           "equipment": "cable"
         },
         {
@@ -1896,7 +1896,7 @@
           "sets": [
             {
               "set_number": 1,
-              "weight": 130.0,
+              "weight": 135.0,
               "reps": 10,
               "rpe": null,
               "is_warmup": 0,
@@ -1948,19 +1948,19 @@
             }
           ],
           "max_weight": 140.0,
-          "estimated_1rm": 173.3,
-          "total_volume": 3400,
+          "estimated_1rm": 180.0,
+          "total_volume": 3450,
           "total_reps": 25,
           "num_sets": 4
         }
       ],
       "total_sessions": 9,
       "current_max_weight": 140.0,
-      "current_1rm": 173.3,
+      "current_1rm": 180.0,
       "all_time_max_weight": 140.0,
       "all_time_1rm": 196.0,
-      "progress_pct": 24.4,
-      "trend": "plateau",
+      "progress_pct": 29.2,
+      "trend": "progressing",
       "days_since": 0,
       "last_session": "2026-06-11",
       "category": "back",
