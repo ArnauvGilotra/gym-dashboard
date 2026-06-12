@@ -4,25 +4,25 @@
     "days_tracking": 82,
     "first_date": "2026-03-22",
     "last_date": "2026-06-11",
-    "total_sets": 454,
-    "total_volume": 271754,
-    "unique_exercises": 27,
+    "total_sets": 457,
+    "total_volume": 274634,
+    "unique_exercises": 28,
     "streak_weeks": 13,
     "longest_streak": 13,
     "last_7_days": 5,
     "sessions_per_week": 3.0,
-    "generated_at": "2026-06-11T21:36:48.382535",
+    "generated_at": "2026-06-11T21:46:15.978895",
     "strength_gain_this_week": 114.7,
-    "total_strength": 2284.8
+    "total_strength": 2410.8
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 82,
     "latest_date": "2026-06-11",
     "total_sessions": 35,
-    "total_sets": 454,
-    "total_lbreps": 271754,
-    "total_kgreps": 123266,
+    "total_sets": 457,
+    "total_lbreps": 274634,
+    "total_kgreps": 124572,
     "cut_start": "2026-05-18",
     "cut_day": 24,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 35925,
+      "volume": 38805,
       "sessions": 3,
-      "sets": 37
+      "sets": 40
     },
     "last_week": {
       "volume": 24850,
@@ -143,18 +143,18 @@
       "sets": 50
     },
     "this_month": {
-      "volume": 60775,
+      "volume": 63655,
       "sessions": 6,
-      "sets": 87
+      "sets": 90
     },
     "last_month": {
       "volume": 113132,
       "sessions": 13,
       "sets": 173
     },
-    "volume_wow_pct": 44.6,
+    "volume_wow_pct": 56.2,
     "sessions_wow_delta": 0,
-    "volume_mom_pct": -46.3
+    "volume_mom_pct": -43.7
   },
   "insights": [
     {
@@ -172,7 +172,7 @@
     {
       "type": "volume_up",
       "severity": "good",
-      "text": "Weekly volume up 44.6% vs last week"
+      "text": "Weekly volume up 56.2% vs last week"
     }
   ],
   "recent_prs": [
@@ -635,7 +635,7 @@
         "reps": 12,
         "date": "2026-06-04"
       },
-      "exercise_count": 4,
+      "exercise_count": 5,
       "trend": [
         {
           "week": "2026-03-23",
@@ -1077,6 +1077,67 @@
       "total": 6
     },
     {
+      "category": "back",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "total_sessions": 9,
+          "current_1rm": 180.0,
+          "current_max_weight": 140.0,
+          "all_time_1rm": 196.0,
+          "trend": "progressing",
+          "days_since": 0,
+          "progress_pct": 29.2,
+          "equipment": "cable"
+        },
+        {
+          "name": "Seated Row Machine",
+          "total_sessions": 9,
+          "current_1rm": 165.0,
+          "current_max_weight": 120.0,
+          "all_time_1rm": 165.0,
+          "trend": "pr",
+          "days_since": 0,
+          "progress_pct": 127.3,
+          "equipment": "machine"
+        },
+        {
+          "name": "Upper Back Machine",
+          "total_sessions": 1,
+          "current_1rm": 126.0,
+          "current_max_weight": 90.0,
+          "all_time_1rm": 126.0,
+          "trend": "new",
+          "days_since": 0,
+          "progress_pct": 0.0,
+          "equipment": "machine"
+        },
+        {
+          "name": "Close-Grip Lat Pulldown",
+          "total_sessions": 1,
+          "current_1rm": 152.0,
+          "current_max_weight": 120.0,
+          "all_time_1rm": 152.0,
+          "trend": "new",
+          "days_since": 7,
+          "progress_pct": 0.0,
+          "equipment": "cable"
+        },
+        {
+          "name": "Single Arm Dumbbell Row",
+          "total_sessions": 5,
+          "current_1rm": 38.0,
+          "current_max_weight": 30.0,
+          "all_time_1rm": 38.0,
+          "trend": "pr",
+          "days_since": 31,
+          "progress_pct": 35.7,
+          "equipment": "dumbbell"
+        }
+      ],
+      "total": 5
+    },
+    {
       "category": "triceps",
       "exercises": [
         {
@@ -1122,56 +1183,6 @@
           "days_since": 81,
           "progress_pct": 0.0,
           "equipment": "cable"
-        }
-      ],
-      "total": 4
-    },
-    {
-      "category": "back",
-      "exercises": [
-        {
-          "name": "Lat Pulldown",
-          "total_sessions": 9,
-          "current_1rm": 180.0,
-          "current_max_weight": 140.0,
-          "all_time_1rm": 196.0,
-          "trend": "progressing",
-          "days_since": 0,
-          "progress_pct": 29.2,
-          "equipment": "cable"
-        },
-        {
-          "name": "Seated Row Machine",
-          "total_sessions": 9,
-          "current_1rm": 165.0,
-          "current_max_weight": 120.0,
-          "all_time_1rm": 165.0,
-          "trend": "pr",
-          "days_since": 0,
-          "progress_pct": 127.3,
-          "equipment": "machine"
-        },
-        {
-          "name": "Close-Grip Lat Pulldown",
-          "total_sessions": 1,
-          "current_1rm": 152.0,
-          "current_max_weight": 120.0,
-          "all_time_1rm": 152.0,
-          "trend": "new",
-          "days_since": 7,
-          "progress_pct": 0.0,
-          "equipment": "cable"
-        },
-        {
-          "name": "Single Arm Dumbbell Row",
-          "total_sessions": 5,
-          "current_1rm": 38.0,
-          "current_max_weight": 30.0,
-          "all_time_1rm": 38.0,
-          "trend": "pr",
-          "days_since": 31,
-          "progress_pct": 35.7,
-          "equipment": "dumbbell"
         }
       ],
       "total": 4
@@ -9688,6 +9699,71 @@
       "last_session": "2026-06-04",
       "category": "back",
       "equipment": "cable"
+    },
+    "Upper Back Machine": {
+      "sessions": [
+        {
+          "date": "2026-06-11",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 70.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 80.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 90.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 90.0,
+          "estimated_1rm": 126.0,
+          "total_volume": 2880,
+          "total_reps": 36,
+          "num_sets": 3
+        }
+      ],
+      "total_sessions": 1,
+      "current_max_weight": 90.0,
+      "current_1rm": 126.0,
+      "all_time_max_weight": 90.0,
+      "all_time_1rm": 126.0,
+      "progress_pct": 0.0,
+      "trend": "new",
+      "days_since": 0,
+      "last_session": "2026-06-11",
+      "category": "back",
+      "equipment": "machine"
     }
   },
   "sessions": [
