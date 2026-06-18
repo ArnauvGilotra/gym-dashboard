@@ -5,13 +5,13 @@
     "first_date": "2026-03-22",
     "last_date": "2026-06-17",
     "total_sets": 469,
-    "total_volume": 282584,
+    "total_volume": 282554,
     "unique_exercises": 28,
     "streak_weeks": 14,
     "longest_streak": 14,
     "last_7_days": 2,
     "sessions_per_week": 2.9,
-    "generated_at": "2026-06-17T21:52:38.706949",
+    "generated_at": "2026-06-17T21:53:39.121461",
     "strength_gain_this_week": 28.7,
     "total_strength": 2445.6
   },
@@ -21,8 +21,8 @@
     "latest_date": "2026-06-17",
     "total_sessions": 36,
     "total_sets": 469,
-    "total_lbreps": 282584,
-    "total_kgreps": 128178,
+    "total_lbreps": 282554,
+    "total_kgreps": 128164,
     "cut_start": "2026-05-18",
     "cut_day": 30,
     "cut_duration": 180,
@@ -133,7 +133,7 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 6870,
+      "volume": 6840,
       "sessions": 1,
       "sets": 9
     },
@@ -143,7 +143,7 @@
       "sets": 43
     },
     "this_month": {
-      "volume": 71605,
+      "volume": 71575,
       "sessions": 7,
       "sets": 102
     },
@@ -152,7 +152,7 @@
       "sessions": 13,
       "sets": 173
     },
-    "volume_wow_pct": -82.8,
+    "volume_wow_pct": -82.9,
     "sessions_wow_delta": -2,
     "volume_mom_pct": -36.7
   },
@@ -167,7 +167,7 @@
     {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 82.8% vs last week"
+      "text": "Weekly volume down 82.9% vs last week"
     },
     {
       "type": "breakthrough",
@@ -5952,7 +5952,7 @@
           "sets": [
             {
               "set_number": 1,
-              "weight": 17.5,
+              "weight": 15.0,
               "reps": 12,
               "rpe": null,
               "is_warmup": 0,
@@ -5992,7 +5992,7 @@
           ],
           "max_weight": 20.0,
           "estimated_1rm": 26.7,
-          "total_volume": 620,
+          "total_volume": 590,
           "total_reps": 34,
           "num_sets": 3
         }
