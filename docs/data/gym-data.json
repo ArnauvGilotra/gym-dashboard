@@ -4,25 +4,25 @@
     "days_tracking": 88,
     "first_date": "2026-03-22",
     "last_date": "2026-06-17",
-    "total_sets": 463,
-    "total_volume": 280634,
+    "total_sets": 466,
+    "total_volume": 281964,
     "unique_exercises": 28,
     "streak_weeks": 14,
     "longest_streak": 14,
     "last_7_days": 2,
     "sessions_per_week": 2.9,
-    "generated_at": "2026-06-17T21:40:40.059048",
-    "strength_gain_this_week": 24.3,
-    "total_strength": 2440.1
+    "generated_at": "2026-06-17T21:47:57.599668",
+    "strength_gain_this_week": 28.7,
+    "total_strength": 2445.6
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 88,
     "latest_date": "2026-06-17",
     "total_sessions": 36,
-    "total_sets": 463,
-    "total_lbreps": 280634,
-    "total_kgreps": 127294,
+    "total_sets": 466,
+    "total_lbreps": 281964,
+    "total_kgreps": 127897,
     "cut_start": "2026-05-18",
     "cut_day": 30,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 4920,
+      "volume": 6250,
       "sessions": 1,
-      "sets": 3
+      "sets": 6
     },
     "last_week": {
       "volume": 39885,
@@ -143,18 +143,18 @@
       "sets": 43
     },
     "this_month": {
-      "volume": 69655,
+      "volume": 70985,
       "sessions": 7,
-      "sets": 96
+      "sets": 99
     },
     "last_month": {
       "volume": 113132,
       "sessions": 13,
       "sets": 173
     },
-    "volume_wow_pct": -87.7,
+    "volume_wow_pct": -84.3,
     "sessions_wow_delta": -2,
-    "volume_mom_pct": -38.4
+    "volume_mom_pct": -37.3
   },
   "insights": [
     {
@@ -167,7 +167,7 @@
     {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 87.7% vs last week"
+      "text": "Weekly volume down 84.3% vs last week"
     },
     {
       "type": "breakthrough",
@@ -183,6 +183,16 @@
     }
   ],
   "recent_prs": [
+    {
+      "exercise": "Incline Dumbbell Press",
+      "date": "2026-06-17",
+      "weight": 32.5,
+      "reps": 14,
+      "estimated_1rm": 47.7,
+      "previous_1rm": 43.3,
+      "gain": 4.4,
+      "category": "chest"
+    },
     {
       "exercise": "Seated Row Machine",
       "date": "2026-06-11",
@@ -221,16 +231,6 @@
       "estimated_1rm": 26.7,
       "previous_1rm": 25.3,
       "gain": 1.4,
-      "category": "shoulders"
-    },
-    {
-      "exercise": "Reverse Fly Machine",
-      "date": "2026-06-09",
-      "weight": 80.0,
-      "reps": 12,
-      "estimated_1rm": 112.0,
-      "previous_1rm": 98.0,
-      "gain": 14.0,
       "category": "shoulders"
     }
   ],
@@ -565,7 +565,8 @@
     {
       "date": "2026-06-17",
       "muscles": [
-        "back"
+        "back",
+        "chest"
       ],
       "focus": "Back + Chest + Abs",
       "location": "gym"
@@ -768,7 +769,7 @@
           "strength": 103.7
         }
       ],
-      "last_trained": "2026-06-09"
+      "last_trained": "2026-06-17"
     },
     {
       "category": "shoulders",
@@ -1257,6 +1258,17 @@
       "category": "chest",
       "exercises": [
         {
+          "name": "Incline Dumbbell Press",
+          "total_sessions": 8,
+          "current_1rm": 47.7,
+          "current_max_weight": 32.5,
+          "all_time_1rm": 47.7,
+          "trend": "pr",
+          "days_since": 0,
+          "progress_pct": 88.5,
+          "equipment": "dumbbell"
+        },
+        {
           "name": "Chest Press Machine",
           "total_sessions": 6,
           "current_1rm": 133.0,
@@ -1266,17 +1278,6 @@
           "days_since": 8,
           "progress_pct": 58.3,
           "equipment": "machine"
-        },
-        {
-          "name": "Incline Dumbbell Press",
-          "total_sessions": 7,
-          "current_1rm": 42.2,
-          "current_max_weight": 32.5,
-          "all_time_1rm": 43.3,
-          "trend": "progressing",
-          "days_since": 8,
-          "progress_pct": 66.8,
-          "equipment": "dumbbell"
         },
         {
           "name": "Pec Deck Machine",
@@ -5363,17 +5364,67 @@
           "total_volume": 1232,
           "total_reps": 43,
           "num_sets": 4
+        },
+        {
+          "date": "2026-06-17",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 25.0,
+              "reps": 17,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 30.0,
+              "reps": 15,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 32.5,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 32.5,
+          "estimated_1rm": 47.7,
+          "total_volume": 1330,
+          "total_reps": 46,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 7,
+      "total_sessions": 8,
       "current_max_weight": 32.5,
-      "current_1rm": 42.2,
+      "current_1rm": 47.7,
       "all_time_max_weight": 32.5,
-      "all_time_1rm": 43.3,
-      "progress_pct": 66.8,
-      "trend": "progressing",
-      "days_since": 8,
-      "last_session": "2026-06-09",
+      "all_time_1rm": 47.7,
+      "progress_pct": 88.5,
+      "trend": "pr",
+      "days_since": 0,
+      "last_session": "2026-06-17",
       "category": "chest",
       "equipment": "dumbbell"
     },
