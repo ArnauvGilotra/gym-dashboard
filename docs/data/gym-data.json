@@ -4,25 +4,25 @@
     "days_tracking": 89,
     "first_date": "2026-03-22",
     "last_date": "2026-06-18",
-    "total_sets": 472,
-    "total_volume": 286274,
+    "total_sets": 478,
+    "total_volume": 288076,
     "unique_exercises": 28,
     "streak_weeks": 14,
     "longest_streak": 14,
     "last_7_days": 3,
     "sessions_per_week": 2.9,
-    "generated_at": "2026-06-18T21:44:52.550659",
-    "strength_gain_this_week": 4.4,
-    "total_strength": 2440.6
+    "generated_at": "2026-06-18T21:45:53.480761",
+    "strength_gain_this_week": 8.3,
+    "total_strength": 2449.2
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 89,
     "latest_date": "2026-06-18",
     "total_sessions": 37,
-    "total_sets": 472,
-    "total_lbreps": 286274,
-    "total_kgreps": 129852,
+    "total_sets": 478,
+    "total_lbreps": 288076,
+    "total_kgreps": 130669,
     "cut_start": "2026-05-18",
     "cut_day": 31,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 10560,
-      "sessions": 1,
-      "sets": 12
+      "volume": 12362,
+      "sessions": 2,
+      "sets": 18
     },
     "last_week": {
       "volume": 39885,
@@ -143,27 +143,20 @@
       "sets": 43
     },
     "this_month": {
-      "volume": 75295,
-      "sessions": 7,
-      "sets": 105
+      "volume": 77098,
+      "sessions": 8,
+      "sets": 111
     },
     "last_month": {
       "volume": 113132,
       "sessions": 13,
       "sets": 173
     },
-    "volume_wow_pct": -73.5,
-    "sessions_wow_delta": -2,
-    "volume_mom_pct": -33.4
+    "volume_wow_pct": -69.0,
+    "sessions_wow_delta": -1,
+    "volume_mom_pct": -31.9
   },
   "insights": [
-    {
-      "type": "neglected",
-      "severity": "medium",
-      "text": "Triceps hasn't been trained in 13 days",
-      "category": "triceps",
-      "days": 13
-    },
     {
       "type": "neglected",
       "severity": "medium",
@@ -174,7 +167,7 @@
     {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 73.5% vs last week"
+      "text": "Weekly volume down 69.0% vs last week"
     },
     {
       "type": "breakthrough",
@@ -190,6 +183,26 @@
     }
   ],
   "recent_prs": [
+    {
+      "exercise": "Tricep Rope Pushdown",
+      "date": "2026-06-18",
+      "weight": 37.5,
+      "reps": 10,
+      "estimated_1rm": 50.0,
+      "previous_1rm": 49.0,
+      "gain": 1.0,
+      "category": "triceps"
+    },
+    {
+      "exercise": "Skull Crusher",
+      "date": "2026-06-18",
+      "weight": 17.5,
+      "reps": 15,
+      "estimated_1rm": 26.2,
+      "previous_1rm": 23.3,
+      "gain": 2.9,
+      "category": "triceps"
+    },
     {
       "exercise": "Incline Dumbbell Press",
       "date": "2026-06-17",
@@ -219,26 +232,6 @@
       "previous_1rm": 46.7,
       "gain": 13.3,
       "category": "biceps"
-    },
-    {
-      "exercise": "Chest Press Machine",
-      "date": "2026-06-09",
-      "weight": 95.0,
-      "reps": 12,
-      "estimated_1rm": 133.0,
-      "previous_1rm": 120.0,
-      "gain": 13.0,
-      "category": "chest"
-    },
-    {
-      "exercise": "Lateral Raise",
-      "date": "2026-06-09",
-      "weight": 20.0,
-      "reps": 10,
-      "estimated_1rm": 26.7,
-      "previous_1rm": 25.3,
-      "gain": 1.4,
-      "category": "shoulders"
     }
   ],
   "heatmap": [
@@ -579,6 +572,14 @@
       ],
       "focus": "Back + Chest + Abs",
       "location": "gym"
+    },
+    {
+      "date": "2026-06-18",
+      "muscles": [
+        "triceps"
+      ],
+      "focus": "Arms (Triceps focus) + Cardio",
+      "location": "gym"
     }
   ],
   "muscle_strength": [
@@ -914,16 +915,16 @@
     },
     {
       "category": "triceps",
-      "current_strength": 42.2,
+      "current_strength": 44.1,
       "strength_30d_ago": 43.8,
-      "pct_change_30d": -3.7,
+      "pct_change_30d": 0.7,
       "top_exercise": "Tricep Rope Pushdown",
-      "top_1rm": 44.3,
-      "top_max_weight": 35.0,
+      "top_1rm": 50.0,
+      "top_max_weight": 37.5,
       "top_best_set": {
-        "weight": 35.0,
-        "reps": 12,
-        "date": "2026-04-21"
+        "weight": 37.5,
+        "reps": 10,
+        "date": "2026-06-18"
       },
       "exercise_count": 4,
       "trend": [
@@ -973,10 +974,10 @@
         },
         {
           "week": "2026-06-15",
-          "strength": 43.8
+          "strength": 44.1
         }
       ],
-      "last_trained": "2026-06-05"
+      "last_trained": "2026-06-18"
     }
   ],
   "consistency_trend": [
@@ -1168,24 +1169,24 @@
       "exercises": [
         {
           "name": "Tricep Rope Pushdown",
-          "total_sessions": 8,
-          "current_1rm": 44.3,
-          "current_max_weight": 35.0,
-          "all_time_1rm": 49.0,
-          "trend": "regressing",
-          "days_since": 13,
-          "progress_pct": 0.7,
+          "total_sessions": 9,
+          "current_1rm": 50.0,
+          "current_max_weight": 37.5,
+          "all_time_1rm": 50.0,
+          "trend": "pr",
+          "days_since": 0,
+          "progress_pct": 13.6,
           "equipment": "cable"
         },
         {
           "name": "Skull Crusher",
-          "total_sessions": 2,
-          "current_1rm": 23.3,
+          "total_sessions": 3,
+          "current_1rm": 26.2,
           "current_max_weight": 17.5,
-          "all_time_1rm": 23.3,
-          "trend": "progressing",
-          "days_since": 13,
-          "progress_pct": 16.5,
+          "all_time_1rm": 26.2,
+          "trend": "pr",
+          "days_since": 0,
+          "progress_pct": 31.0,
           "equipment": "EZ bar"
         },
         {
@@ -7945,17 +7946,67 @@
           "total_volume": 1090,
           "total_reps": 41,
           "num_sets": 4
+        },
+        {
+          "date": "2026-06-18",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 32.5,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 32.5,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 37.5,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 37.5,
+          "estimated_1rm": 50.0,
+          "total_volume": 1155,
+          "total_reps": 34,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 8,
-      "current_max_weight": 35.0,
-      "current_1rm": 44.3,
-      "all_time_max_weight": 35.0,
-      "all_time_1rm": 49.0,
-      "progress_pct": 0.7,
-      "trend": "regressing",
-      "days_since": 13,
-      "last_session": "2026-06-05",
+      "total_sessions": 9,
+      "current_max_weight": 37.5,
+      "current_1rm": 50.0,
+      "all_time_max_weight": 37.5,
+      "all_time_1rm": 50.0,
+      "progress_pct": 13.6,
+      "trend": "pr",
+      "days_since": 0,
+      "last_session": "2026-06-18",
       "category": "triceps",
       "equipment": "cable"
     },
@@ -9576,17 +9627,67 @@
           "total_volume": 525,
           "total_reps": 30,
           "num_sets": 3
+        },
+        {
+          "date": "2026-06-18",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 17.5,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 17.5,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 17.5,
+              "reps": 15,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 17.5,
+          "estimated_1rm": 26.2,
+          "total_volume": 648,
+          "total_reps": 37,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 2,
+      "total_sessions": 3,
       "current_max_weight": 17.5,
-      "current_1rm": 23.3,
+      "current_1rm": 26.2,
       "all_time_max_weight": 17.5,
-      "all_time_1rm": 23.3,
-      "progress_pct": 16.5,
-      "trend": "progressing",
-      "days_since": 13,
-      "last_session": "2026-06-05",
+      "all_time_1rm": 26.2,
+      "progress_pct": 31.0,
+      "trend": "pr",
+      "days_since": 0,
+      "last_session": "2026-06-18",
       "category": "triceps",
       "equipment": "EZ bar"
     },
