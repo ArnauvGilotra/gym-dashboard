@@ -1,25 +1,25 @@
 {
   "summary": {
-    "total_sessions": 37,
-    "days_tracking": 89,
+    "total_sessions": 38,
+    "days_tracking": 90,
     "first_date": "2026-03-22",
-    "last_date": "2026-06-18",
+    "last_date": "2026-06-19",
     "total_sets": 478,
     "total_volume": 288076,
     "unique_exercises": 28,
     "streak_weeks": 14,
     "longest_streak": 14,
-    "last_7_days": 2,
-    "sessions_per_week": 2.9,
-    "generated_at": "2026-06-19T21:17:39.653011",
+    "last_7_days": 3,
+    "sessions_per_week": 3.0,
+    "generated_at": "2026-06-19T21:28:07.920750",
     "strength_gain_this_week": 8.3,
     "total_strength": 2449.2
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 90,
-    "latest_date": "2026-06-18",
-    "total_sessions": 37,
+    "latest_date": "2026-06-19",
+    "total_sessions": 38,
     "total_sets": 478,
     "total_lbreps": 288076,
     "total_kgreps": 130669,
@@ -1028,7 +1028,7 @@
     },
     {
       "week": "2026-06-15",
-      "sessions": 2
+      "sessions": 3
     }
   ],
   "exercises_by_category": [
@@ -10598,6 +10598,17 @@
       "feeling": null,
       "notes": null,
       "created_at": "2026-06-18 21:44:52",
+      "location": "gym"
+    },
+    {
+      "id": 43,
+      "date": "2026-06-19",
+      "start_time": null,
+      "duration_min": null,
+      "focus": "Legs",
+      "feeling": null,
+      "notes": null,
+      "created_at": "2026-06-19 21:28:07",
       "location": "gym"
     }
   ]
