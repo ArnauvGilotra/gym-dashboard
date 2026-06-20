@@ -5,13 +5,13 @@
     "first_date": "2026-03-22",
     "last_date": "2026-06-19",
     "total_sets": 491,
-    "total_volume": 309916,
+    "total_volume": 309756,
     "unique_exercises": 28,
     "streak_weeks": 14,
     "longest_streak": 14,
     "last_7_days": 3,
     "sessions_per_week": 3.0,
-    "generated_at": "2026-06-19T21:54:26.241737",
+    "generated_at": "2026-06-19T22:05:34.416442",
     "strength_gain_this_week": 77.0,
     "total_strength": 2517.9
   },
@@ -21,8 +21,8 @@
     "latest_date": "2026-06-19",
     "total_sessions": 38,
     "total_sets": 491,
-    "total_lbreps": 309916,
-    "total_kgreps": 140576,
+    "total_lbreps": 309756,
+    "total_kgreps": 140503,
     "cut_start": "2026-05-18",
     "cut_day": 32,
     "cut_duration": 180,
@@ -133,7 +133,7 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 34202,
+      "volume": 34042,
       "sessions": 3,
       "sets": 31
     },
@@ -143,7 +143,7 @@
       "sets": 43
     },
     "this_month": {
-      "volume": 98938,
+      "volume": 98778,
       "sessions": 9,
       "sets": 124
     },
@@ -152,9 +152,9 @@
       "sessions": 13,
       "sets": 173
     },
-    "volume_wow_pct": -14.2,
+    "volume_wow_pct": -14.6,
     "sessions_wow_delta": 0,
-    "volume_mom_pct": -12.5
+    "volume_mom_pct": -12.7
   },
   "insights": [
     {
@@ -573,6 +573,7 @@
     {
       "date": "2026-06-19",
       "muscles": [
+        "cardio",
         "legs"
       ],
       "focus": "Legs",
@@ -1366,12 +1367,12 @@
       "exercises": [
         {
           "name": "Treadmill",
-          "total_sessions": 25,
+          "total_sessions": 26,
           "current_1rm": 0,
           "current_max_weight": 0,
           "all_time_1rm": 0,
           "trend": "new",
-          "days_since": 1,
+          "days_since": 0,
           "progress_pct": 0,
           "equipment": "machine"
         }
@@ -3333,7 +3334,7 @@
             {
               "set_number": 3,
               "weight": 160.0,
-              "reps": 15,
+              "reps": 14,
               "rpe": null,
               "is_warmup": 0,
               "is_dropset": 0,
@@ -3346,8 +3347,8 @@
           ],
           "max_weight": 160.0,
           "estimated_1rm": 240.0,
-          "total_volume": 7200,
-          "total_reps": 45,
+          "total_volume": 7040,
+          "total_reps": 44,
           "num_sets": 3
         }
       ],
@@ -6879,17 +6880,41 @@
           "total_volume": 0,
           "total_reps": 0,
           "num_sets": 1
+        },
+        {
+          "date": "2026-06-19",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": null,
+              "reps": null,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": 600,
+              "distance_km": null,
+              "incline": 9.0,
+              "speed_kmh": 4.5
+            }
+          ],
+          "max_weight": 0,
+          "estimated_1rm": 0,
+          "total_volume": 0,
+          "total_reps": 0,
+          "num_sets": 1
         }
       ],
-      "total_sessions": 25,
+      "total_sessions": 26,
       "current_max_weight": 0,
       "current_1rm": 0,
       "all_time_max_weight": 0,
       "all_time_1rm": 0,
       "progress_pct": 0,
       "trend": "new",
-      "days_since": 1,
-      "last_session": "2026-06-18",
+      "days_since": 0,
+      "last_session": "2026-06-19",
       "category": "cardio",
       "equipment": "machine"
     },
