@@ -4,25 +4,25 @@
     "days_tracking": 93,
     "first_date": "2026-03-22",
     "last_date": "2026-06-22",
-    "total_sets": 491,
-    "total_volume": 309756,
+    "total_sets": 496,
+    "total_volume": 311181,
     "unique_exercises": 28,
     "streak_weeks": 15,
     "longest_streak": 15,
     "last_7_days": 4,
     "sessions_per_week": 2.9,
-    "generated_at": "2026-06-22T21:34:29.983710",
-    "strength_gain_this_week": 77.0,
-    "total_strength": 2517.9
+    "generated_at": "2026-06-22T21:35:30.244146",
+    "strength_gain_this_week": 80.5,
+    "total_strength": 2521.4
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 93,
     "latest_date": "2026-06-22",
     "total_sessions": 39,
-    "total_sets": 491,
-    "total_lbreps": 309756,
-    "total_kgreps": 140503,
+    "total_sets": 496,
+    "total_lbreps": 311181,
+    "total_kgreps": 141149,
     "cut_start": "2026-05-18",
     "cut_day": 35,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 0,
-      "sessions": 0,
-      "sets": 0
+      "volume": 1425,
+      "sessions": 1,
+      "sets": 5
     },
     "last_week": {
       "volume": 34042,
@@ -143,25 +143,20 @@
       "sets": 31
     },
     "this_month": {
-      "volume": 98778,
-      "sessions": 9,
-      "sets": 124
+      "volume": 100202,
+      "sessions": 10,
+      "sets": 129
     },
     "last_month": {
       "volume": 113132,
       "sessions": 13,
       "sets": 173
     },
-    "volume_wow_pct": -100.0,
-    "sessions_wow_delta": -3,
-    "volume_mom_pct": -12.7
+    "volume_wow_pct": -95.8,
+    "sessions_wow_delta": -2,
+    "volume_mom_pct": -11.4
   },
   "insights": [
-    {
-      "type": "dropoff",
-      "severity": "high",
-      "text": "No sessions logged this week yet"
-    },
     {
       "type": "neglected",
       "severity": "medium",
@@ -172,7 +167,7 @@
     {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 100.0% vs last week"
+      "text": "Weekly volume down 95.8% vs last week"
     },
     {
       "type": "breakthrough",
@@ -188,6 +183,16 @@
     }
   ],
   "recent_prs": [
+    {
+      "exercise": "Overhead Dumbbell Press",
+      "date": "2026-06-22",
+      "weight": 32.5,
+      "reps": 12,
+      "estimated_1rm": 45.5,
+      "previous_1rm": 42.0,
+      "gain": 3.5,
+      "category": "shoulders"
+    },
     {
       "exercise": "Calf Raise",
       "date": "2026-06-19",
@@ -227,16 +232,6 @@
       "previous_1rm": 252.0,
       "gain": 12.0,
       "category": "legs"
-    },
-    {
-      "exercise": "Tricep Rope Pushdown",
-      "date": "2026-06-18",
-      "weight": 37.5,
-      "reps": 10,
-      "estimated_1rm": 50.0,
-      "previous_1rm": 49.0,
-      "gain": 1.0,
-      "category": "triceps"
     }
   ],
   "heatmap": [
@@ -595,6 +590,14 @@
       ],
       "focus": "Legs",
       "location": "gym"
+    },
+    {
+      "date": "2026-06-22",
+      "muscles": [
+        "shoulders"
+      ],
+      "focus": "Shoulders + Biceps",
+      "location": "gym"
     }
   ],
   "muscle_strength": [
@@ -860,7 +863,7 @@
           "strength": 76.4
         }
       ],
-      "last_trained": "2026-06-17"
+      "last_trained": "2026-06-22"
     },
     {
       "category": "biceps",
@@ -1050,6 +1053,17 @@
       "category": "shoulders",
       "exercises": [
         {
+          "name": "Overhead Dumbbell Press",
+          "total_sessions": 8,
+          "current_1rm": 45.5,
+          "current_max_weight": 35.0,
+          "all_time_1rm": 45.5,
+          "trend": "pr",
+          "days_since": 0,
+          "progress_pct": 44.4,
+          "equipment": null
+        },
+        {
           "name": "Lateral Raise",
           "total_sessions": 10,
           "current_1rm": 26.7,
@@ -1081,17 +1095,6 @@
           "days_since": 13,
           "progress_pct": 19.8,
           "equipment": "dumbbell"
-        },
-        {
-          "name": "Overhead Dumbbell Press",
-          "total_sessions": 7,
-          "current_1rm": 42.0,
-          "current_max_weight": 35.0,
-          "all_time_1rm": 42.0,
-          "trend": "pr",
-          "days_since": 17,
-          "progress_pct": 33.3,
-          "equipment": null
         },
         {
           "name": "Face Pull",
@@ -9358,17 +9361,93 @@
           "total_volume": 840,
           "total_reps": 28,
           "num_sets": 3
+        },
+        {
+          "date": "2026-06-22",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 25.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 30.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 32.5,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 4,
+              "weight": 35.0,
+              "reps": 6,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 5,
+              "weight": 35.0,
+              "reps": 3,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 35.0,
+          "estimated_1rm": 45.5,
+          "total_volume": 1425,
+          "total_reps": 47,
+          "num_sets": 5
         }
       ],
-      "total_sessions": 7,
+      "total_sessions": 8,
       "current_max_weight": 35.0,
-      "current_1rm": 42.0,
+      "current_1rm": 45.5,
       "all_time_max_weight": 35.0,
-      "all_time_1rm": 42.0,
-      "progress_pct": 33.3,
+      "all_time_1rm": 45.5,
+      "progress_pct": 44.4,
       "trend": "pr",
-      "days_since": 17,
-      "last_session": "2026-06-05",
+      "days_since": 0,
+      "last_session": "2026-06-22",
       "category": "shoulders",
       "equipment": null
     },
