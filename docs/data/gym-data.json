@@ -4,25 +4,25 @@
     "days_tracking": 93,
     "first_date": "2026-03-22",
     "last_date": "2026-06-22",
-    "total_sets": 498,
-    "total_volume": 311631,
+    "total_sets": 502,
+    "total_volume": 312791,
     "unique_exercises": 28,
     "streak_weeks": 15,
     "longest_streak": 15,
     "last_7_days": 4,
     "sessions_per_week": 2.9,
-    "generated_at": "2026-06-22T21:38:24.151744",
-    "strength_gain_this_week": 81.8,
-    "total_strength": 2522.7
+    "generated_at": "2026-06-22T22:00:39.796476",
+    "strength_gain_this_week": 83.8,
+    "total_strength": 2517.2
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 93,
     "latest_date": "2026-06-22",
     "total_sessions": 39,
-    "total_sets": 498,
-    "total_lbreps": 311631,
-    "total_kgreps": 141354,
+    "total_sets": 502,
+    "total_lbreps": 312791,
+    "total_kgreps": 141880,
     "cut_start": "2026-05-18",
     "cut_day": 35,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 1875,
+      "volume": 3035,
       "sessions": 1,
-      "sets": 7
+      "sets": 11
     },
     "last_week": {
       "volume": 34042,
@@ -143,31 +143,24 @@
       "sets": 31
     },
     "this_month": {
-      "volume": 100652,
+      "volume": 101812,
       "sessions": 10,
-      "sets": 131
+      "sets": 135
     },
     "last_month": {
       "volume": 113132,
       "sessions": 13,
       "sets": 173
     },
-    "volume_wow_pct": -94.5,
+    "volume_wow_pct": -91.1,
     "sessions_wow_delta": -2,
-    "volume_mom_pct": -11.0
+    "volume_mom_pct": -10.0
   },
   "insights": [
     {
-      "type": "neglected",
-      "severity": "medium",
-      "text": "Biceps hasn't been trained in 11 days",
-      "category": "biceps",
-      "days": 11
-    },
-    {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 94.5% vs last week"
+      "text": "Weekly volume down 91.1% vs last week"
     },
     {
       "type": "breakthrough",
@@ -186,11 +179,11 @@
     {
       "exercise": "Lateral Raise",
       "date": "2026-06-22",
-      "weight": 20.0,
-      "reps": 12,
-      "estimated_1rm": 28.0,
+      "weight": 22.5,
+      "reps": 10,
+      "estimated_1rm": 30.0,
       "previous_1rm": 26.7,
-      "gain": 1.3,
+      "gain": 3.3,
       "category": "shoulders"
     },
     {
@@ -594,6 +587,7 @@
     {
       "date": "2026-06-22",
       "muscles": [
+        "biceps",
         "shoulders"
       ],
       "focus": "Shoulders + Biceps",
@@ -867,9 +861,9 @@
     },
     {
       "category": "biceps",
-      "current_strength": 55.2,
+      "current_strength": 52.7,
       "strength_30d_ago": 50.5,
-      "pct_change_30d": 9.3,
+      "pct_change_30d": 4.4,
       "top_exercise": "Preacher Curl",
       "top_1rm": 66.7,
       "top_max_weight": 50.0,
@@ -929,7 +923,7 @@
           "strength": 55.2
         }
       ],
-      "last_trained": "2026-06-11"
+      "last_trained": "2026-06-22"
     },
     {
       "category": "triceps",
@@ -1055,12 +1049,12 @@
         {
           "name": "Lateral Raise",
           "total_sessions": 11,
-          "current_1rm": 28.0,
-          "current_max_weight": 20.0,
-          "all_time_1rm": 28.0,
+          "current_1rm": 30.0,
+          "current_max_weight": 22.5,
+          "all_time_1rm": 30.0,
           "trend": "pr",
           "days_since": 0,
-          "progress_pct": 237.3,
+          "progress_pct": 261.4,
           "equipment": "dumbbell"
         },
         {
@@ -1337,13 +1331,13 @@
       "exercises": [
         {
           "name": "Seated Machine Bicep Curl",
-          "total_sessions": 2,
-          "current_1rm": 60.0,
+          "total_sessions": 3,
+          "current_1rm": 52.5,
           "current_max_weight": 45.0,
           "all_time_1rm": 60.0,
           "trend": "progressing",
-          "days_since": 11,
-          "progress_pct": 28.5,
+          "days_since": 0,
+          "progress_pct": 12.4,
           "equipment": "machine"
         },
         {
@@ -6315,21 +6309,34 @@
               "distance_km": null,
               "incline": null,
               "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 22.5,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
             }
           ],
-          "max_weight": 20.0,
-          "estimated_1rm": 28.0,
-          "total_volume": 450,
-          "total_reps": 24,
-          "num_sets": 2
+          "max_weight": 22.5,
+          "estimated_1rm": 30.0,
+          "total_volume": 675,
+          "total_reps": 34,
+          "num_sets": 3
         }
       ],
       "total_sessions": 11,
-      "current_max_weight": 20.0,
-      "current_1rm": 28.0,
-      "all_time_max_weight": 20.0,
-      "all_time_1rm": 28.0,
-      "progress_pct": 237.3,
+      "current_max_weight": 22.5,
+      "current_1rm": 30.0,
+      "all_time_max_weight": 22.5,
+      "all_time_1rm": 30.0,
+      "progress_pct": 261.4,
       "trend": "pr",
       "days_since": 0,
       "last_session": "2026-06-22",
@@ -10249,17 +10256,67 @@
           "total_volume": 1080,
           "total_reps": 26,
           "num_sets": 3
+        },
+        {
+          "date": "2026-06-22",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 35.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 40.0,
+              "reps": 9,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 45.0,
+              "reps": 5,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 45.0,
+          "estimated_1rm": 52.5,
+          "total_volume": 935,
+          "total_reps": 24,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 2,
+      "total_sessions": 3,
       "current_max_weight": 45.0,
-      "current_1rm": 60.0,
+      "current_1rm": 52.5,
       "all_time_max_weight": 45.0,
       "all_time_1rm": 60.0,
-      "progress_pct": 28.5,
+      "progress_pct": 12.4,
       "trend": "progressing",
-      "days_since": 11,
-      "last_session": "2026-06-11",
+      "days_since": 0,
+      "last_session": "2026-06-22",
       "category": "biceps",
       "equipment": "machine"
     },
