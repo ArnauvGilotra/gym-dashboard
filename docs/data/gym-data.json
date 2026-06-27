@@ -4,25 +4,25 @@
     "days_tracking": 97,
     "first_date": "2026-03-22",
     "last_date": "2026-06-26",
-    "total_sets": 517,
-    "total_volume": 320366,
-    "unique_exercises": 28,
+    "total_sets": 520,
+    "total_volume": 322426,
+    "unique_exercises": 29,
     "streak_weeks": 15,
     "longest_streak": 15,
     "last_7_days": 4,
     "sessions_per_week": 3.0,
-    "generated_at": "2026-06-26T21:45:52.878283",
+    "generated_at": "2026-06-26T21:57:00.892693",
     "strength_gain_this_week": 13.7,
-    "total_strength": 2519.8
+    "total_strength": 2619.8
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 97,
     "latest_date": "2026-06-26",
     "total_sessions": 41,
-    "total_sets": 517,
-    "total_lbreps": 320366,
-    "total_kgreps": 145316,
+    "total_sets": 520,
+    "total_lbreps": 322426,
+    "total_kgreps": 146250,
     "cut_start": "2026-05-18",
     "cut_day": 39,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 10610,
+      "volume": 12670,
       "sessions": 2,
-      "sets": 26
+      "sets": 29
     },
     "last_week": {
       "volume": 34042,
@@ -143,24 +143,24 @@
       "sets": 31
     },
     "this_month": {
-      "volume": 109388,
+      "volume": 111448,
       "sessions": 11,
-      "sets": 150
+      "sets": 153
     },
     "last_month": {
       "volume": 113132,
       "sessions": 13,
       "sets": 173
     },
-    "volume_wow_pct": -68.8,
+    "volume_wow_pct": -62.8,
     "sessions_wow_delta": -1,
-    "volume_mom_pct": -3.3
+    "volume_mom_pct": -1.5
   },
   "insights": [
     {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 68.8% vs last week"
+      "text": "Weekly volume down 62.8% vs last week"
     },
     {
       "type": "breakthrough",
@@ -597,6 +597,7 @@
       "date": "2026-06-26",
       "muscles": [
         "chest",
+        "other",
         "triceps"
       ],
       "focus": "Chest + Triceps",
@@ -1398,6 +1399,23 @@
           "days_since": 7,
           "progress_pct": 0,
           "equipment": "machine"
+        }
+      ],
+      "total": 1
+    },
+    {
+      "category": "other",
+      "exercises": [
+        {
+          "name": "Pec Deck Fly",
+          "total_sessions": 1,
+          "current_1rm": 100.0,
+          "current_max_weight": 75.0,
+          "all_time_1rm": 100.0,
+          "trend": "new",
+          "days_since": 0,
+          "progress_pct": 0.0,
+          "equipment": null
         }
       ],
       "total": 1
@@ -10862,6 +10880,71 @@
       "last_session": "2026-06-11",
       "category": "back",
       "equipment": "machine"
+    },
+    "Pec Deck Fly": {
+      "sessions": [
+        {
+          "date": "2026-06-26",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 55.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 65.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 75.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 75.0,
+          "estimated_1rm": 100.0,
+          "total_volume": 2060,
+          "total_reps": 32,
+          "num_sets": 3
+        }
+      ],
+      "total_sessions": 1,
+      "current_max_weight": 75.0,
+      "current_1rm": 100.0,
+      "all_time_max_weight": 75.0,
+      "all_time_1rm": 100.0,
+      "progress_pct": 0.0,
+      "trend": "new",
+      "days_since": 0,
+      "last_session": "2026-06-26",
+      "category": null,
+      "equipment": null
     }
   },
   "sessions": [
