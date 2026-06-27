@@ -11,7 +11,7 @@
     "longest_streak": 15,
     "last_7_days": 4,
     "sessions_per_week": 3.0,
-    "generated_at": "2026-06-26T21:57:00.892693",
+    "generated_at": "2026-06-26T22:10:22.295989",
     "strength_gain_this_week": 13.7,
     "total_strength": 2619.8
   },
@@ -596,11 +596,12 @@
     {
       "date": "2026-06-26",
       "muscles": [
+        "cardio",
         "chest",
         "other",
         "triceps"
       ],
-      "focus": "Chest + Triceps",
+      "focus": "Chest + Triceps + Cardio",
       "location": "gym"
     }
   ],
@@ -1391,12 +1392,12 @@
       "exercises": [
         {
           "name": "Treadmill",
-          "total_sessions": 26,
+          "total_sessions": 27,
           "current_1rm": 0,
           "current_max_weight": 0,
           "all_time_1rm": 0,
           "trend": "new",
-          "days_since": 7,
+          "days_since": 0,
           "progress_pct": 0,
           "equipment": "machine"
         }
@@ -7108,17 +7109,41 @@
           "total_volume": 0,
           "total_reps": 0,
           "num_sets": 1
+        },
+        {
+          "date": "2026-06-26",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": null,
+              "reps": null,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": 600,
+              "distance_km": null,
+              "incline": 9.0,
+              "speed_kmh": 4.5
+            }
+          ],
+          "max_weight": 0,
+          "estimated_1rm": 0,
+          "total_volume": 0,
+          "total_reps": 0,
+          "num_sets": 1
         }
       ],
-      "total_sessions": 26,
+      "total_sessions": 27,
       "current_max_weight": 0,
       "current_1rm": 0,
       "all_time_max_weight": 0,
       "all_time_1rm": 0,
       "progress_pct": 0,
       "trend": "new",
-      "days_since": 7,
-      "last_session": "2026-06-19",
+      "days_since": 0,
+      "last_session": "2026-06-26",
       "category": "cardio",
       "equipment": "machine"
     },
@@ -11393,7 +11418,7 @@
       "date": "2026-06-26",
       "start_time": null,
       "duration_min": null,
-      "focus": "Chest + Triceps",
+      "focus": "Chest + Triceps + Cardio",
       "feeling": null,
       "notes": "Push day, chest secondary focus + triceps primary focus",
       "created_at": "2026-06-26 21:26:21",
