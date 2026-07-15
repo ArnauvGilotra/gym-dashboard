@@ -1,17 +1,17 @@
 {
   "summary": {
-    "total_sessions": 43,
+    "total_sessions": 44,
     "days_tracking": 115,
     "first_date": "2026-03-22",
     "last_date": "2026-07-14",
-    "total_sets": 555,
-    "total_volume": 356888,
+    "total_sets": 558,
+    "total_volume": 357684,
     "unique_exercises": 30,
     "streak_weeks": 1,
     "longest_streak": 16,
     "last_7_days": 1,
-    "sessions_per_week": 2.6,
-    "generated_at": "2026-07-14T01:18:47.297003",
+    "sessions_per_week": 2.7,
+    "generated_at": "2026-07-14T21:46:45.148214",
     "strength_gain_this_week": 0,
     "total_strength": 2613.5
   },
@@ -19,10 +19,10 @@
     "journey_start": "2026-03-22",
     "journey_days": 115,
     "latest_date": "2026-07-14",
-    "total_sessions": 43,
-    "total_sets": 555,
-    "total_lbreps": 356888,
-    "total_kgreps": 161882,
+    "total_sessions": 44,
+    "total_sets": 558,
+    "total_lbreps": 357684,
+    "total_kgreps": 162243,
     "cut_start": "2026-05-18",
     "cut_day": 57,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 19810,
+      "volume": 20605,
       "sessions": 1,
-      "sets": 15
+      "sets": 18
     },
     "last_week": {
       "volume": 0,
@@ -143,9 +143,9 @@
       "sets": 0
     },
     "this_month": {
-      "volume": 34462,
+      "volume": 35258,
       "sessions": 2,
-      "sets": 35
+      "sets": 38
     },
     "last_month": {
       "volume": 111448,
@@ -154,7 +154,7 @@
     },
     "volume_wow_pct": null,
     "sessions_wow_delta": 1,
-    "volume_mom_pct": -69.1
+    "volume_mom_pct": -68.4
   },
   "insights": [
     {
@@ -170,13 +170,6 @@
       "text": "Chest hasn't been trained in 18 days",
       "category": "chest",
       "days": 18
-    },
-    {
-      "type": "neglected",
-      "severity": "high",
-      "text": "Biceps hasn't been trained in 22 days",
-      "category": "biceps",
-      "days": 22
     },
     {
       "type": "neglected",
@@ -647,10 +640,11 @@
     {
       "date": "2026-07-14",
       "muscles": [
+        "biceps",
         "core",
         "legs"
       ],
-      "focus": "Legs + Abs",
+      "focus": "Arms + Cardio",
       "location": "gym"
     }
   ],
@@ -1049,7 +1043,7 @@
           "strength": 57.4
         }
       ],
-      "last_trained": "2026-06-22"
+      "last_trained": "2026-07-14"
     },
     {
       "category": "triceps",
@@ -1165,7 +1159,7 @@
     },
     {
       "week": "2026-07-13",
-      "sessions": 1
+      "sessions": 2
     }
   ],
   "exercises_by_category": [
@@ -1456,6 +1450,17 @@
       "category": "biceps",
       "exercises": [
         {
+          "name": "Bicep Curl",
+          "total_sessions": 9,
+          "current_1rm": 39.0,
+          "current_max_weight": 30.0,
+          "all_time_1rm": 39.0,
+          "trend": "pr",
+          "days_since": 0,
+          "progress_pct": 46.1,
+          "equipment": "dumbbell"
+        },
+        {
           "name": "Preacher Curl",
           "total_sessions": 7,
           "current_1rm": 73.3,
@@ -1476,17 +1481,6 @@
           "days_since": 22,
           "progress_pct": 12.4,
           "equipment": "machine"
-        },
-        {
-          "name": "Bicep Curl",
-          "total_sessions": 8,
-          "current_1rm": 39.0,
-          "current_max_weight": 30.0,
-          "all_time_1rm": 39.0,
-          "trend": "pr",
-          "days_since": 39,
-          "progress_pct": 46.1,
-          "equipment": "dumbbell"
         },
         {
           "name": "Hammer Curl",
@@ -8158,17 +8152,67 @@
           "total_volume": 745,
           "total_reps": 29,
           "num_sets": 3
+        },
+        {
+          "date": "2026-07-14",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 25.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 27.5,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 30.0,
+              "reps": 9,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 30.0,
+          "estimated_1rm": 39.0,
+          "total_volume": 795,
+          "total_reps": 29,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 8,
+      "total_sessions": 9,
       "current_max_weight": 30.0,
       "current_1rm": 39.0,
       "all_time_max_weight": 30.0,
       "all_time_1rm": 39.0,
       "progress_pct": 46.1,
       "trend": "pr",
-      "days_since": 39,
-      "last_session": "2026-06-05",
+      "days_since": 0,
+      "last_session": "2026-07-14",
       "category": "biceps",
       "equipment": "dumbbell"
     },
@@ -12191,6 +12235,17 @@
       "feeling": null,
       "notes": null,
       "created_at": "2026-07-14 01:17:56",
+      "location": "gym"
+    },
+    {
+      "id": 50,
+      "date": "2026-07-14",
+      "start_time": null,
+      "duration_min": 60,
+      "focus": "Arms + Cardio",
+      "feeling": null,
+      "notes": null,
+      "created_at": "2026-07-14 21:46:45",
       "location": "gym"
     }
   ]
