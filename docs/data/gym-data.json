@@ -4,25 +4,25 @@
     "days_tracking": 118,
     "first_date": "2026-03-22",
     "last_date": "2026-07-17",
-    "total_sets": 579,
-    "total_volume": 366976,
+    "total_sets": 582,
+    "total_volume": 370276,
     "unique_exercises": 30,
     "streak_weeks": 1,
     "longest_streak": 16,
     "last_7_days": 2,
     "sessions_per_week": 2.7,
-    "generated_at": "2026-07-17T21:45:10.269605",
+    "generated_at": "2026-07-17T21:58:21.503707",
     "strength_gain_this_week": 1.8,
-    "total_strength": 2615.8
+    "total_strength": 2599.8
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 118,
     "latest_date": "2026-07-17",
     "total_sessions": 45,
-    "total_sets": 579,
-    "total_lbreps": 366976,
-    "total_kgreps": 166458,
+    "total_sets": 582,
+    "total_lbreps": 370276,
+    "total_kgreps": 167955,
     "cut_start": "2026-05-18",
     "cut_day": 60,
     "cut_duration": 180,
@@ -47,10 +47,10 @@
         "category": "back",
         "first": "49.5\u00d714",
         "first_date": "2026-03-22",
-        "latest": "120\u00d714",
-        "latest_date": "2026-07-01",
+        "latest": "120\u00d710",
+        "latest_date": "2026-07-17",
         "delta_lb": 70.5,
-        "sessions": 11
+        "sessions": 12
       },
       {
         "lift": "Leg Extension",
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 29898,
+      "volume": 33198,
       "sessions": 2,
-      "sets": 39
+      "sets": 42
     },
     "last_week": {
       "volume": 0,
@@ -143,9 +143,9 @@
       "sets": 0
     },
     "this_month": {
-      "volume": 44550,
+      "volume": 47850,
       "sessions": 3,
-      "sets": 59
+      "sets": 62
     },
     "last_month": {
       "volume": 111448,
@@ -154,7 +154,7 @@
     },
     "volume_wow_pct": null,
     "sessions_wow_delta": 2,
-    "volume_mom_pct": -60.0
+    "volume_mom_pct": -57.1
   },
   "insights": [
     {
@@ -167,14 +167,14 @@
     {
       "type": "breakthrough",
       "severity": "good",
-      "text": "Seated Row Machine just hit a new PR \u2014 keep pushing",
-      "exercise": "Seated Row Machine"
+      "text": "Single Arm Dumbbell Row just hit a new PR \u2014 keep pushing",
+      "exercise": "Single Arm Dumbbell Row"
     },
     {
       "type": "breakthrough",
       "severity": "good",
-      "text": "Single Arm Dumbbell Row just hit a new PR \u2014 keep pushing",
-      "exercise": "Single Arm Dumbbell Row"
+      "text": "Cable Fly just hit a new PR \u2014 keep pushing",
+      "exercise": "Cable Fly"
     }
   ],
   "recent_prs": [
@@ -706,9 +706,9 @@
     },
     {
       "category": "back",
-      "current_strength": 168.4,
+      "current_strength": 163.1,
       "strength_30d_ago": 171.0,
-      "pct_change_30d": -1.5,
+      "pct_change_30d": -4.6,
       "top_exercise": "Lat Pulldown",
       "top_1rm": 177.3,
       "top_max_weight": 140.0,
@@ -1240,13 +1240,13 @@
         },
         {
           "name": "Seated Row Machine",
-          "total_sessions": 11,
-          "current_1rm": 176.0,
+          "total_sessions": 12,
+          "current_1rm": 160.0,
           "current_max_weight": 120.0,
           "all_time_1rm": 176.0,
-          "trend": "pr",
-          "days_since": 16,
-          "progress_pct": 142.4,
+          "trend": "plateau",
+          "days_since": 0,
+          "progress_pct": 120.4,
           "equipment": "machine"
         },
         {
@@ -3040,17 +3040,67 @@
           "total_volume": 4200,
           "total_reps": 38,
           "num_sets": 3
+        },
+        {
+          "date": "2026-07-17",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 100.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 110.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 120.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 120.0,
+          "estimated_1rm": 160.0,
+          "total_volume": 3300,
+          "total_reps": 30,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 11,
+      "total_sessions": 12,
       "current_max_weight": 120.0,
-      "current_1rm": 176.0,
+      "current_1rm": 160.0,
       "all_time_max_weight": 120.0,
       "all_time_1rm": 176.0,
-      "progress_pct": 142.4,
-      "trend": "pr",
-      "days_since": 16,
-      "last_session": "2026-07-01",
+      "progress_pct": 120.4,
+      "trend": "plateau",
+      "days_since": 0,
+      "last_session": "2026-07-17",
       "category": "back",
       "equipment": "machine"
     },
