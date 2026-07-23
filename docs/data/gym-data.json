@@ -4,25 +4,25 @@
     "days_tracking": 123,
     "first_date": "2026-03-22",
     "last_date": "2026-07-22",
-    "total_sets": 592,
-    "total_volume": 374876,
+    "total_sets": 595,
+    "total_volume": 377616,
     "unique_exercises": 30,
     "streak_weeks": 2,
     "longest_streak": 16,
     "last_7_days": 2,
     "sessions_per_week": 2.6,
-    "generated_at": "2026-07-22T21:38:13.772198",
-    "strength_gain_this_week": 6.1,
-    "total_strength": 2590.6
+    "generated_at": "2026-07-22T21:49:52.981777",
+    "strength_gain_this_week": 23.4,
+    "total_strength": 2607.9
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 123,
     "latest_date": "2026-07-22",
     "total_sessions": 46,
-    "total_sets": 592,
-    "total_lbreps": 374876,
-    "total_kgreps": 170041,
+    "total_sets": 595,
+    "total_lbreps": 377616,
+    "total_kgreps": 171284,
     "cut_start": "2026-05-18",
     "cut_day": 65,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 4600,
+      "volume": 7340,
       "sessions": 1,
-      "sets": 10
+      "sets": 13
     },
     "last_week": {
       "volume": 33198,
@@ -143,24 +143,24 @@
       "sets": 42
     },
     "this_month": {
-      "volume": 52450,
+      "volume": 55190,
       "sessions": 4,
-      "sets": 72
+      "sets": 75
     },
     "last_month": {
       "volume": 111448,
       "sessions": 11,
       "sets": 153
     },
-    "volume_wow_pct": -86.1,
+    "volume_wow_pct": -77.9,
     "sessions_wow_delta": -1,
-    "volume_mom_pct": -52.9
+    "volume_mom_pct": -50.5
   },
   "insights": [
     {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 86.1% vs last week"
+      "text": "Weekly volume down 77.9% vs last week"
     },
     {
       "type": "breakthrough",
@@ -197,6 +197,16 @@
       "category": "triceps"
     },
     {
+      "exercise": "Pec Deck Fly",
+      "date": "2026-07-22",
+      "weight": 80.0,
+      "reps": 14,
+      "estimated_1rm": 117.3,
+      "previous_1rm": 100.0,
+      "gain": 17.3,
+      "category": null
+    },
+    {
       "exercise": "Skull Crusher",
       "date": "2026-07-14",
       "weight": 20.0,
@@ -215,16 +225,6 @@
       "previous_1rm": 165.0,
       "gain": 11.0,
       "category": "back"
-    },
-    {
-      "exercise": "Lateral Raise",
-      "date": "2026-07-01",
-      "weight": 22.5,
-      "reps": 12,
-      "estimated_1rm": 31.5,
-      "previous_1rm": 30.0,
-      "gain": 1.5,
-      "category": "shoulders"
     }
   ],
   "heatmap": [
@@ -638,6 +638,7 @@
       "date": "2026-07-22",
       "muscles": [
         "chest",
+        "other",
         "triceps"
       ],
       "focus": "Chest + Triceps + Abs + Cardio",
@@ -1514,13 +1515,13 @@
       "exercises": [
         {
           "name": "Pec Deck Fly",
-          "total_sessions": 1,
-          "current_1rm": 100.0,
-          "current_max_weight": 75.0,
-          "all_time_1rm": 100.0,
-          "trend": "new",
-          "days_since": 26,
-          "progress_pct": 0.0,
+          "total_sessions": 2,
+          "current_1rm": 117.3,
+          "current_max_weight": 80.0,
+          "all_time_1rm": 117.3,
+          "trend": "progressing",
+          "days_since": 0,
+          "progress_pct": 17.3,
           "equipment": null
         }
       ],
@@ -12231,17 +12232,67 @@
           "total_volume": 2060,
           "total_reps": 32,
           "num_sets": 3
+        },
+        {
+          "date": "2026-07-22",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 65.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 70.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 80.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 80.0,
+          "estimated_1rm": 117.3,
+          "total_volume": 2740,
+          "total_reps": 38,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 1,
-      "current_max_weight": 75.0,
-      "current_1rm": 100.0,
-      "all_time_max_weight": 75.0,
-      "all_time_1rm": 100.0,
-      "progress_pct": 0.0,
-      "trend": "new",
-      "days_since": 26,
-      "last_session": "2026-06-26",
+      "total_sessions": 2,
+      "current_max_weight": 80.0,
+      "current_1rm": 117.3,
+      "all_time_max_weight": 80.0,
+      "all_time_1rm": 117.3,
+      "progress_pct": 17.3,
+      "trend": "progressing",
+      "days_since": 0,
+      "last_session": "2026-07-22",
       "category": null,
       "equipment": null
     },
