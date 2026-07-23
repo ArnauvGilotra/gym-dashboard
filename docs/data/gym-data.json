@@ -4,25 +4,25 @@
     "days_tracking": 123,
     "first_date": "2026-03-22",
     "last_date": "2026-07-22",
-    "total_sets": 589,
-    "total_volume": 372656,
+    "total_sets": 591,
+    "total_volume": 374426,
     "unique_exercises": 30,
     "streak_weeks": 2,
     "longest_streak": 16,
     "last_7_days": 2,
     "sessions_per_week": 2.6,
-    "generated_at": "2026-07-22T21:28:24.309996",
+    "generated_at": "2026-07-22T21:36:59.165825",
     "strength_gain_this_week": 6.1,
-    "total_strength": 2606.9
+    "total_strength": 2590.6
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 123,
     "latest_date": "2026-07-22",
     "total_sessions": 46,
-    "total_sets": 589,
-    "total_lbreps": 372656,
-    "total_kgreps": 169034,
+    "total_sets": 591,
+    "total_lbreps": 374426,
+    "total_kgreps": 169837,
     "cut_start": "2026-05-18",
     "cut_day": 65,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 2380,
+      "volume": 4150,
       "sessions": 1,
-      "sets": 7
+      "sets": 9
     },
     "last_week": {
       "volume": 33198,
@@ -143,24 +143,24 @@
       "sets": 42
     },
     "this_month": {
-      "volume": 50230,
+      "volume": 52000,
       "sessions": 4,
-      "sets": 69
+      "sets": 71
     },
     "last_month": {
       "volume": 111448,
       "sessions": 11,
       "sets": 153
     },
-    "volume_wow_pct": -92.8,
+    "volume_wow_pct": -87.5,
     "sessions_wow_delta": -1,
-    "volume_mom_pct": -54.9
+    "volume_mom_pct": -53.3
   },
   "insights": [
     {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 92.8% vs last week"
+      "text": "Weekly volume down 87.5% vs last week"
     },
     {
       "type": "breakthrough",
@@ -779,12 +779,12 @@
     },
     {
       "category": "chest",
-      "current_strength": 103.8,
+      "current_strength": 98.3,
       "strength_30d_ago": 103.7,
-      "pct_change_30d": 0.1,
+      "pct_change_30d": -5.2,
       "top_exercise": "Chest Press Machine",
-      "top_1rm": 133.3,
-      "top_max_weight": 100.0,
+      "top_1rm": 117.0,
+      "top_max_weight": 90.0,
       "top_best_set": {
         "weight": 100.0,
         "reps": 10,
@@ -1396,6 +1396,17 @@
       "category": "chest",
       "exercises": [
         {
+          "name": "Chest Press Machine",
+          "total_sessions": 8,
+          "current_1rm": 117.0,
+          "current_max_weight": 90.0,
+          "all_time_1rm": 133.3,
+          "trend": "plateau",
+          "days_since": 0,
+          "progress_pct": 39.3,
+          "equipment": "machine"
+        },
+        {
           "name": "Incline Dumbbell Press",
           "total_sessions": 10,
           "current_1rm": 52.5,
@@ -1405,17 +1416,6 @@
           "days_since": 0,
           "progress_pct": 107.5,
           "equipment": "dumbbell"
-        },
-        {
-          "name": "Chest Press Machine",
-          "total_sessions": 7,
-          "current_1rm": 133.3,
-          "current_max_weight": 100.0,
-          "all_time_1rm": 133.3,
-          "trend": "pr",
-          "days_since": 26,
-          "progress_pct": 58.7,
-          "equipment": "machine"
         },
         {
           "name": "Pec Deck Machine",
@@ -5871,17 +5871,54 @@
           "total_volume": 2800,
           "total_reps": 30,
           "num_sets": 3
+        },
+        {
+          "date": "2026-07-22",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 80.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 90.0,
+              "reps": 9,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 90.0,
+          "estimated_1rm": 117.0,
+          "total_volume": 1770,
+          "total_reps": 21,
+          "num_sets": 2
         }
       ],
-      "total_sessions": 7,
-      "current_max_weight": 100.0,
-      "current_1rm": 133.3,
+      "total_sessions": 8,
+      "current_max_weight": 90.0,
+      "current_1rm": 117.0,
       "all_time_max_weight": 100.0,
       "all_time_1rm": 133.3,
-      "progress_pct": 58.7,
-      "trend": "pr",
-      "days_since": 26,
-      "last_session": "2026-06-26",
+      "progress_pct": 39.3,
+      "trend": "plateau",
+      "days_since": 0,
+      "last_session": "2026-07-22",
       "category": "chest",
       "equipment": "machine"
     },
