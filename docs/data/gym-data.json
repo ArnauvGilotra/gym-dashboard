@@ -4,25 +4,25 @@
     "days_tracking": 137,
     "first_date": "2026-03-22",
     "last_date": "2026-08-05",
-    "total_sets": 608,
-    "total_volume": 382556,
+    "total_sets": 611,
+    "total_volume": 383106,
     "unique_exercises": 31,
     "streak_weeks": 1,
     "longest_streak": 16,
     "last_7_days": 1,
     "sessions_per_week": 2.4,
-    "generated_at": "2026-08-05T21:39:05.797772",
+    "generated_at": "2026-08-05T21:49:28.904849",
     "strength_gain_this_week": 0,
-    "total_strength": 2696.4
+    "total_strength": 2693.8
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 137,
     "latest_date": "2026-08-05",
     "total_sessions": 47,
-    "total_sets": 608,
-    "total_lbreps": 382556,
-    "total_kgreps": 173525,
+    "total_sets": 611,
+    "total_lbreps": 383106,
+    "total_kgreps": 173774,
     "cut_start": "2026-05-18",
     "cut_day": 79,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 3130,
+      "volume": 3680,
       "sessions": 1,
-      "sets": 10
+      "sets": 13
     },
     "last_week": {
       "volume": 0,
@@ -143,9 +143,9 @@
       "sets": 0
     },
     "this_month": {
-      "volume": 3130,
+      "volume": 3680,
       "sessions": 1,
-      "sets": 10
+      "sets": 13
     },
     "last_month": {
       "volume": 57000,
@@ -154,7 +154,7 @@
     },
     "volume_wow_pct": null,
     "sessions_wow_delta": 1,
-    "volume_mom_pct": -94.5
+    "volume_mom_pct": -93.5
   },
   "insights": [
     {
@@ -1349,13 +1349,13 @@
         },
         {
           "name": "Skull Crusher",
-          "total_sessions": 5,
-          "current_1rm": 29.3,
+          "total_sessions": 6,
+          "current_1rm": 26.7,
           "current_max_weight": 20.0,
           "all_time_1rm": 29.3,
-          "trend": "pr",
-          "days_since": 14,
-          "progress_pct": 46.5,
+          "trend": "plateau",
+          "days_since": 0,
+          "progress_pct": 33.5,
           "equipment": "EZ bar"
         },
         {
@@ -11843,17 +11843,67 @@
           "total_volume": 760,
           "total_reps": 38,
           "num_sets": 3
+        },
+        {
+          "date": "2026-08-05",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 20.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 17.5,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 17.5,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 20.0,
+          "estimated_1rm": 26.7,
+          "total_volume": 550,
+          "total_reps": 30,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 5,
+      "total_sessions": 6,
       "current_max_weight": 20.0,
-      "current_1rm": 29.3,
+      "current_1rm": 26.7,
       "all_time_max_weight": 20.0,
       "all_time_1rm": 29.3,
-      "progress_pct": 46.5,
-      "trend": "pr",
-      "days_since": 14,
-      "last_session": "2026-07-22",
+      "progress_pct": 33.5,
+      "trend": "plateau",
+      "days_since": 0,
+      "last_session": "2026-08-05",
       "category": "triceps",
       "equipment": "EZ bar"
     },
