@@ -4,25 +4,25 @@
     "days_tracking": 138,
     "first_date": "2026-03-22",
     "last_date": "2026-08-06",
-    "total_sets": 611,
-    "total_volume": 383106,
+    "total_sets": 613,
+    "total_volume": 385866,
     "unique_exercises": 31,
     "streak_weeks": 1,
     "longest_streak": 16,
     "last_7_days": 2,
     "sessions_per_week": 2.4,
-    "generated_at": "2026-08-06T21:30:39.643758",
+    "generated_at": "2026-08-06T21:34:26.726735",
     "strength_gain_this_week": 0,
-    "total_strength": 2693.8
+    "total_strength": 2698.5
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 138,
     "latest_date": "2026-08-06",
     "total_sessions": 48,
-    "total_sets": 611,
-    "total_lbreps": 383106,
-    "total_kgreps": 173774,
+    "total_sets": 613,
+    "total_lbreps": 385866,
+    "total_kgreps": 175026,
     "cut_start": "2026-05-18",
     "cut_day": 80,
     "cut_duration": 180,
@@ -77,10 +77,10 @@
         "category": "back",
         "first": "95\u00d714",
         "first_date": "2026-03-22",
-        "latest": "140\u00d78",
-        "latest_date": "2026-07-17",
-        "delta_lb": 45.0,
-        "sessions": 12
+        "latest": "130\u00d712",
+        "latest_date": "2026-08-06",
+        "delta_lb": 35.0,
+        "sessions": 13
       },
       {
         "lift": "Leg Curl",
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 3680,
-      "sessions": 1,
-      "sets": 13
+      "volume": 6440,
+      "sessions": 2,
+      "sets": 15
     },
     "last_week": {
       "volume": 0,
@@ -143,9 +143,9 @@
       "sets": 0
     },
     "this_month": {
-      "volume": 3680,
-      "sessions": 1,
-      "sets": 13
+      "volume": 6440,
+      "sessions": 2,
+      "sets": 15
     },
     "last_month": {
       "volume": 57000,
@@ -153,17 +153,10 @@
       "sets": 78
     },
     "volume_wow_pct": null,
-    "sessions_wow_delta": 1,
-    "volume_mom_pct": -93.5
+    "sessions_wow_delta": 2,
+    "volume_mom_pct": -88.7
   },
   "insights": [
-    {
-      "type": "neglected",
-      "severity": "high",
-      "text": "Back hasn't been trained in 20 days",
-      "category": "back",
-      "days": 20
-    },
     {
       "type": "neglected",
       "severity": "high",
@@ -684,6 +677,14 @@
       ],
       "focus": "Shoulders + Triceps",
       "location": "gym"
+    },
+    {
+      "date": "2026-08-06",
+      "muscles": [
+        "back"
+      ],
+      "focus": "Back + Biceps",
+      "location": "gym"
     }
   ],
   "muscle_strength": [
@@ -755,12 +756,12 @@
     },
     {
       "category": "back",
-      "current_strength": 163.1,
+      "current_strength": 164.7,
       "strength_30d_ago": 174.7,
-      "pct_change_30d": -6.6,
+      "pct_change_30d": -5.7,
       "top_exercise": "Lat Pulldown",
-      "top_1rm": 177.3,
-      "top_max_weight": 140.0,
+      "top_1rm": 182.0,
+      "top_max_weight": 130.0,
       "top_best_set": {
         "weight": 140.0,
         "reps": 12,
@@ -817,7 +818,7 @@
           "strength": 174.7
         }
       ],
-      "last_trained": "2026-07-17"
+      "last_trained": "2026-08-06"
     },
     {
       "category": "chest",
@@ -1278,13 +1279,13 @@
       "exercises": [
         {
           "name": "Lat Pulldown",
-          "total_sessions": 12,
-          "current_1rm": 177.3,
-          "current_max_weight": 140.0,
+          "total_sessions": 13,
+          "current_1rm": 182.0,
+          "current_max_weight": 130.0,
           "all_time_1rm": 196.0,
           "trend": "regressing",
-          "days_since": 20,
-          "progress_pct": 27.3,
+          "days_since": 0,
+          "progress_pct": 30.7,
           "equipment": "cable"
         },
         {
@@ -2368,17 +2369,54 @@
           "total_volume": 4720,
           "total_reps": 38,
           "num_sets": 4
+        },
+        {
+          "date": "2026-08-06",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 120.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 130.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 130.0,
+          "estimated_1rm": 182.0,
+          "total_volume": 2760,
+          "total_reps": 22,
+          "num_sets": 2
         }
       ],
-      "total_sessions": 12,
-      "current_max_weight": 140.0,
-      "current_1rm": 177.3,
+      "total_sessions": 13,
+      "current_max_weight": 130.0,
+      "current_1rm": 182.0,
       "all_time_max_weight": 140.0,
       "all_time_1rm": 196.0,
-      "progress_pct": 27.3,
+      "progress_pct": 30.7,
       "trend": "regressing",
-      "days_since": 20,
-      "last_session": "2026-07-17",
+      "days_since": 0,
+      "last_session": "2026-08-06",
       "category": "back",
       "equipment": "cable"
     },
