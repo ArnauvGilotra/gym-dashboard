@@ -4,25 +4,25 @@
     "days_tracking": 140,
     "first_date": "2026-03-22",
     "last_date": "2026-08-08",
-    "total_sets": 624,
-    "total_volume": 393198,
+    "total_sets": 629,
+    "total_volume": 394494,
     "unique_exercises": 31,
     "streak_weeks": 1,
     "longest_streak": 16,
     "last_7_days": 3,
     "sessions_per_week": 2.5,
-    "generated_at": "2026-08-08T21:45:49.136442",
+    "generated_at": "2026-08-08T21:53:16.086811",
     "strength_gain_this_week": 0,
-    "total_strength": 2714.1
+    "total_strength": 2718.6
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 140,
     "latest_date": "2026-08-08",
     "total_sessions": 49,
-    "total_sets": 624,
-    "total_lbreps": 393198,
-    "total_kgreps": 178352,
+    "total_sets": 629,
+    "total_lbreps": 394494,
+    "total_kgreps": 178940,
     "cut_start": "2026-05-18",
     "cut_day": 82,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 13772,
+      "volume": 15068,
       "sessions": 3,
-      "sets": 26
+      "sets": 31
     },
     "last_week": {
       "volume": 0,
@@ -143,9 +143,9 @@
       "sets": 0
     },
     "this_month": {
-      "volume": 13772,
+      "volume": 15068,
       "sessions": 3,
-      "sets": 26
+      "sets": 31
     },
     "last_month": {
       "volume": 57000,
@@ -154,7 +154,7 @@
     },
     "volume_wow_pct": null,
     "sessions_wow_delta": 3,
-    "volume_mom_pct": -75.8
+    "volume_mom_pct": -73.6
   },
   "insights": [
     {
@@ -676,7 +676,8 @@
     {
       "date": "2026-08-08",
       "muscles": [
-        "chest"
+        "chest",
+        "shoulders"
       ],
       "focus": "Chest + Shoulders",
       "location": "gym"
@@ -1011,7 +1012,7 @@
           "strength": 76.4
         }
       ],
-      "last_trained": "2026-08-05"
+      "last_trained": "2026-08-08"
     },
     {
       "category": "biceps",
@@ -1202,13 +1203,13 @@
       "exercises": [
         {
           "name": "Lateral Raise",
-          "total_sessions": 14,
-          "current_1rm": 29.2,
+          "total_sessions": 15,
+          "current_1rm": 31.5,
           "current_max_weight": 22.5,
           "all_time_1rm": 31.5,
           "trend": "plateau",
-          "days_since": 3,
-          "progress_pct": 251.8,
+          "days_since": 0,
+          "progress_pct": 279.5,
           "equipment": "dumbbell"
         },
         {
@@ -1436,12 +1437,12 @@
         {
           "name": "Incline Dumbbell Press",
           "total_sessions": 11,
-          "current_1rm": 47.8,
-          "current_max_weight": 35.0,
+          "current_1rm": 50.0,
+          "current_max_weight": 40.0,
           "all_time_1rm": 52.5,
           "trend": "progressing",
           "days_since": 0,
-          "progress_pct": 88.9,
+          "progress_pct": 97.6,
           "equipment": "dumbbell"
         },
         {
@@ -6680,21 +6681,47 @@
               "distance_km": null,
               "incline": null,
               "speed_kmh": null
+            },
+            {
+              "set_number": 4,
+              "weight": 37.5,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 5,
+              "weight": 40.0,
+              "reps": 5,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
             }
           ],
-          "max_weight": 35.0,
-          "estimated_1rm": 47.8,
-          "total_volume": 1072,
-          "total_reps": 33,
-          "num_sets": 3
+          "max_weight": 40.0,
+          "estimated_1rm": 50.0,
+          "total_volume": 1648,
+          "total_reps": 48,
+          "num_sets": 5
         }
       ],
       "total_sessions": 11,
-      "current_max_weight": 35.0,
-      "current_1rm": 47.8,
-      "all_time_max_weight": 37.5,
+      "current_max_weight": 40.0,
+      "current_1rm": 50.0,
+      "all_time_max_weight": 40.0,
       "all_time_1rm": 52.5,
-      "progress_pct": 88.9,
+      "progress_pct": 97.6,
       "trend": "progressing",
       "days_since": 0,
       "last_session": "2026-08-08",
@@ -7480,17 +7507,67 @@
           "total_volume": 652,
           "total_reps": 33,
           "num_sets": 3
+        },
+        {
+          "date": "2026-08-08",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 17.5,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 20.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 22.5,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 22.5,
+          "estimated_1rm": 31.5,
+          "total_volume": 720,
+          "total_reps": 36,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 14,
+      "total_sessions": 15,
       "current_max_weight": 22.5,
-      "current_1rm": 29.2,
+      "current_1rm": 31.5,
       "all_time_max_weight": 22.5,
       "all_time_1rm": 31.5,
-      "progress_pct": 251.8,
+      "progress_pct": 279.5,
       "trend": "plateau",
-      "days_since": 3,
-      "last_session": "2026-08-05",
+      "days_since": 0,
+      "last_session": "2026-08-08",
       "category": "shoulders",
       "equipment": "dumbbell"
     },
