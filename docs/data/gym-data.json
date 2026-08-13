@@ -4,25 +4,25 @@
     "days_tracking": 144,
     "first_date": "2026-03-22",
     "last_date": "2026-08-12",
-    "total_sets": 655,
-    "total_volume": 414714,
+    "total_sets": 657,
+    "total_volume": 415264,
     "unique_exercises": 31,
     "streak_weeks": 2,
     "longest_streak": 16,
     "last_7_days": 5,
     "sessions_per_week": 2.5,
-    "generated_at": "2026-08-12T20:11:32.163564",
+    "generated_at": "2026-08-12T20:19:45.221187",
     "strength_gain_this_week": 34.0,
-    "total_strength": 2779.8
+    "total_strength": 2772.8
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 144,
     "latest_date": "2026-08-12",
     "total_sessions": 51,
-    "total_sets": 655,
-    "total_lbreps": 414714,
-    "total_kgreps": 188111,
+    "total_sets": 657,
+    "total_lbreps": 415264,
+    "total_kgreps": 188361,
     "cut_start": "2026-05-18",
     "cut_day": 86,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 17160,
+      "volume": 17710,
       "sessions": 2,
-      "sets": 23
+      "sets": 25
     },
     "last_week": {
       "volume": 18128,
@@ -143,18 +143,18 @@
       "sets": 34
     },
     "this_month": {
-      "volume": 35288,
+      "volume": 35838,
       "sessions": 5,
-      "sets": 57
+      "sets": 59
     },
     "last_month": {
       "volume": 57000,
       "sessions": 4,
       "sets": 78
     },
-    "volume_wow_pct": -5.3,
+    "volume_wow_pct": -2.3,
     "sessions_wow_delta": -1,
-    "volume_mom_pct": -38.1
+    "volume_mom_pct": -37.1
   },
   "insights": [
     {
@@ -1101,9 +1101,9 @@
     },
     {
       "category": "triceps",
-      "current_strength": 44.5,
+      "current_strength": 42.2,
       "strength_30d_ago": 44.1,
-      "pct_change_30d": 0.9,
+      "pct_change_30d": -4.3,
       "top_exercise": "Tricep Rope Pushdown",
       "top_1rm": 51.3,
       "top_max_weight": 35.0,
@@ -1354,6 +1354,17 @@
       "category": "triceps",
       "exercises": [
         {
+          "name": "Overhead Cable Extension",
+          "total_sessions": 3,
+          "current_1rm": 35.0,
+          "current_max_weight": 25.0,
+          "all_time_1rm": 42.0,
+          "trend": "plateau",
+          "days_since": 0,
+          "progress_pct": -4.6,
+          "equipment": "cable"
+        },
+        {
           "name": "Tricep Rope Pushdown",
           "total_sessions": 13,
           "current_1rm": 51.3,
@@ -1374,17 +1385,6 @@
           "days_since": 7,
           "progress_pct": 33.5,
           "equipment": "EZ bar"
-        },
-        {
-          "name": "Overhead Cable Extension",
-          "total_sessions": 2,
-          "current_1rm": 42.0,
-          "current_max_weight": 30.0,
-          "all_time_1rm": 42.0,
-          "trend": "progressing",
-          "days_since": 130,
-          "progress_pct": 14.4,
-          "equipment": "cable"
         },
         {
           "name": "Cable Rope Pushdown",
@@ -2612,17 +2612,54 @@
           "total_volume": 960,
           "total_reps": 39,
           "num_sets": 3
+        },
+        {
+          "date": "2026-08-12",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 25.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 25.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 25.0,
+          "estimated_1rm": 35.0,
+          "total_volume": 550,
+          "total_reps": 22,
+          "num_sets": 2
         }
       ],
-      "total_sessions": 2,
-      "current_max_weight": 30.0,
-      "current_1rm": 42.0,
+      "total_sessions": 3,
+      "current_max_weight": 25.0,
+      "current_1rm": 35.0,
       "all_time_max_weight": 30.0,
       "all_time_1rm": 42.0,
-      "progress_pct": 14.4,
-      "trend": "progressing",
-      "days_since": 130,
-      "last_session": "2026-04-04",
+      "progress_pct": -4.6,
+      "trend": "plateau",
+      "days_since": 0,
+      "last_session": "2026-08-12",
       "category": "triceps",
       "equipment": "cable"
     },
