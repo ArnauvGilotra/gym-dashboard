@@ -4,25 +4,25 @@
     "days_tracking": 150,
     "first_date": "2026-03-22",
     "last_date": "2026-08-18",
-    "total_sets": 687,
-    "total_volume": 431116,
-    "unique_exercises": 31,
+    "total_sets": 690,
+    "total_volume": 431504,
+    "unique_exercises": 32,
     "streak_weeks": 3,
     "longest_streak": 16,
     "last_7_days": 5,
     "sessions_per_week": 2.5,
-    "generated_at": "2026-08-18T21:38:40.040699",
+    "generated_at": "2026-08-18T21:50:58.708038",
     "strength_gain_this_week": 15.8,
-    "total_strength": 2762.5
+    "total_strength": 2780.4
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 150,
     "latest_date": "2026-08-18",
     "total_sessions": 54,
-    "total_sets": 687,
-    "total_lbreps": 431116,
-    "total_kgreps": 195551,
+    "total_sets": 690,
+    "total_lbreps": 431504,
+    "total_kgreps": 195727,
     "cut_start": "2026-05-18",
     "cut_day": 92,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 2600,
+      "volume": 2988,
       "sessions": 1,
-      "sets": 7
+      "sets": 10
     },
     "last_week": {
       "volume": 30962,
@@ -143,18 +143,18 @@
       "sets": 48
     },
     "this_month": {
-      "volume": 51690,
+      "volume": 52078,
       "sessions": 8,
-      "sets": 89
+      "sets": 92
     },
     "last_month": {
       "volume": 57000,
       "sessions": 4,
       "sets": 78
     },
-    "volume_wow_pct": -91.6,
+    "volume_wow_pct": -90.3,
     "sessions_wow_delta": -3,
-    "volume_mom_pct": -9.3
+    "volume_mom_pct": -8.6
   },
   "insights": [
     {
@@ -167,7 +167,7 @@
     {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 91.6% vs last week"
+      "text": "Weekly volume down 90.3% vs last week"
     },
     {
       "type": "breakthrough",
@@ -723,7 +723,8 @@
     {
       "date": "2026-08-18",
       "muscles": [
-        "biceps"
+        "biceps",
+        "forearms"
       ],
       "focus": "Legs",
       "location": "gym"
@@ -1191,6 +1192,72 @@
         }
       ],
       "last_trained": "2026-08-12"
+    },
+    {
+      "category": "forearms",
+      "current_strength": 17.9,
+      "strength_30d_ago": 0,
+      "pct_change_30d": null,
+      "top_exercise": "Wrist Curl",
+      "top_1rm": 17.9,
+      "top_max_weight": 12.5,
+      "top_best_set": {
+        "weight": 12.5,
+        "reps": 13,
+        "date": "2026-08-18"
+      },
+      "exercise_count": 1,
+      "trend": [
+        {
+          "week": "2026-06-01",
+          "strength": 0
+        },
+        {
+          "week": "2026-06-08",
+          "strength": 0
+        },
+        {
+          "week": "2026-06-15",
+          "strength": 0
+        },
+        {
+          "week": "2026-06-22",
+          "strength": 0
+        },
+        {
+          "week": "2026-06-29",
+          "strength": 0
+        },
+        {
+          "week": "2026-07-06",
+          "strength": 0
+        },
+        {
+          "week": "2026-07-13",
+          "strength": 0
+        },
+        {
+          "week": "2026-07-20",
+          "strength": 0
+        },
+        {
+          "week": "2026-07-27",
+          "strength": 0
+        },
+        {
+          "week": "2026-08-03",
+          "strength": 0
+        },
+        {
+          "week": "2026-08-10",
+          "strength": 0
+        },
+        {
+          "week": "2026-08-17",
+          "strength": 17.9
+        }
+      ],
+      "last_trained": "2026-08-18"
     }
   ],
   "consistency_trend": [
@@ -1635,6 +1702,23 @@
           "days_since": 4,
           "progress_pct": 26.7,
           "equipment": null
+        }
+      ],
+      "total": 1
+    },
+    {
+      "category": "forearms",
+      "exercises": [
+        {
+          "name": "Wrist Curl",
+          "total_sessions": 1,
+          "current_1rm": 17.9,
+          "current_max_weight": 12.5,
+          "all_time_1rm": 17.9,
+          "trend": "new",
+          "days_since": 0,
+          "progress_pct": 0.0,
+          "equipment": "dumbbell"
         }
       ],
       "total": 1
@@ -14046,6 +14130,71 @@
       "last_session": "2026-07-22",
       "category": "core",
       "equipment": "machine"
+    },
+    "Wrist Curl": {
+      "sessions": [
+        {
+          "date": "2026-08-18",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 5.0,
+              "reps": 15,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 10.0,
+              "reps": 15,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 12.5,
+              "reps": 13,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 12.5,
+          "estimated_1rm": 17.9,
+          "total_volume": 388,
+          "total_reps": 43,
+          "num_sets": 3
+        }
+      ],
+      "total_sessions": 1,
+      "current_max_weight": 12.5,
+      "current_1rm": 17.9,
+      "all_time_max_weight": 12.5,
+      "all_time_1rm": 17.9,
+      "progress_pct": 0.0,
+      "trend": "new",
+      "days_since": 0,
+      "last_session": "2026-08-18",
+      "category": "forearms",
+      "equipment": "dumbbell"
     }
   },
   "sessions": [
