@@ -4,14 +4,14 @@
     "days_tracking": 154,
     "first_date": "2026-03-22",
     "last_date": "2026-08-22",
-    "total_sets": 716,
-    "total_volume": 457244,
+    "total_sets": 717,
+    "total_volume": 457864,
     "unique_exercises": 32,
     "streak_weeks": 3,
     "longest_streak": 16,
     "last_7_days": 4,
     "sessions_per_week": 2.5,
-    "generated_at": "2026-08-22T16:19:12.975982",
+    "generated_at": "2026-08-22T16:20:52.864946",
     "strength_gain_this_week": 9.6,
     "total_strength": 2765.5
   },
@@ -20,9 +20,9 @@
     "journey_days": 154,
     "latest_date": "2026-08-22",
     "total_sessions": 56,
-    "total_sets": 716,
-    "total_lbreps": 457244,
-    "total_kgreps": 207403,
+    "total_sets": 717,
+    "total_lbreps": 457864,
+    "total_kgreps": 207684,
     "cut_start": "2026-05-18",
     "cut_day": 96,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 28728,
+      "volume": 29348,
       "sessions": 3,
-      "sets": 36
+      "sets": 37
     },
     "last_week": {
       "volume": 30962,
@@ -143,18 +143,18 @@
       "sets": 48
     },
     "this_month": {
-      "volume": 77818,
+      "volume": 78438,
       "sessions": 10,
-      "sets": 118
+      "sets": 119
     },
     "last_month": {
       "volume": 57000,
       "sessions": 4,
       "sets": 78
     },
-    "volume_wow_pct": -7.2,
+    "volume_wow_pct": -5.2,
     "sessions_wow_delta": -1,
-    "volume_mom_pct": 36.5
+    "volume_mom_pct": 37.6
   },
   "insights": [
     {
@@ -2657,13 +2657,26 @@
               "distance_km": null,
               "incline": null,
               "speed_kmh": null
+            },
+            {
+              "set_number": 4,
+              "weight": 155.0,
+              "reps": 4,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
             }
           ],
           "max_weight": 155.0,
           "estimated_1rm": 203.0,
-          "total_volume": 4600,
-          "total_reps": 32,
-          "num_sets": 3
+          "total_volume": 5220,
+          "total_reps": 36,
+          "num_sets": 4
         }
       ],
       "total_sessions": 15,
