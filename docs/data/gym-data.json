@@ -4,25 +4,25 @@
     "days_tracking": 155,
     "first_date": "2026-03-22",
     "last_date": "2026-08-23",
-    "total_sets": 729,
-    "total_volume": 466138,
+    "total_sets": 732,
+    "total_volume": 466818,
     "unique_exercises": 32,
     "streak_weeks": 3,
     "longest_streak": 16,
     "last_7_days": 5,
     "sessions_per_week": 2.6,
-    "generated_at": "2026-08-23T17:01:41.400948",
+    "generated_at": "2026-08-23T17:11:20.450163",
     "strength_gain_this_week": 11.3,
-    "total_strength": 2762.9
+    "total_strength": 2764.2
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 155,
     "latest_date": "2026-08-23",
     "total_sessions": 57,
-    "total_sets": 729,
-    "total_lbreps": 466138,
-    "total_kgreps": 211437,
+    "total_sets": 732,
+    "total_lbreps": 466818,
+    "total_kgreps": 211745,
     "cut_start": "2026-05-18",
     "cut_day": 97,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 37622,
+      "volume": 38302,
       "sessions": 4,
-      "sets": 49
+      "sets": 52
     },
     "last_week": {
       "volume": 30962,
@@ -143,18 +143,18 @@
       "sets": 48
     },
     "this_month": {
-      "volume": 86712,
+      "volume": 87392,
       "sessions": 11,
-      "sets": 131
+      "sets": 134
     },
     "last_month": {
       "volume": 57000,
       "sessions": 4,
       "sets": 78
     },
-    "volume_wow_pct": 21.5,
+    "volume_wow_pct": 23.7,
     "sessions_wow_delta": 0,
-    "volume_mom_pct": 52.1
+    "volume_mom_pct": 53.3
   },
   "insights": [
     {
@@ -172,7 +172,7 @@
     {
       "type": "volume_up",
       "severity": "good",
-      "text": "Weekly volume up 21.5% vs last week"
+      "text": "Weekly volume up 23.7% vs last week"
     },
     {
       "type": "consistency",
@@ -1484,6 +1484,17 @@
           "equipment": "cable"
         },
         {
+          "name": "Skull Crusher",
+          "total_sessions": 7,
+          "current_1rm": 28.0,
+          "current_max_weight": 20.0,
+          "all_time_1rm": 29.3,
+          "trend": "plateau",
+          "days_since": 0,
+          "progress_pct": 40.0,
+          "equipment": "EZ bar"
+        },
+        {
           "name": "Overhead Cable Extension",
           "total_sessions": 3,
           "current_1rm": 35.0,
@@ -1493,17 +1504,6 @@
           "days_since": 11,
           "progress_pct": -4.6,
           "equipment": "cable"
-        },
-        {
-          "name": "Skull Crusher",
-          "total_sessions": 6,
-          "current_1rm": 26.7,
-          "current_max_weight": 20.0,
-          "all_time_1rm": 29.3,
-          "trend": "plateau",
-          "days_since": 18,
-          "progress_pct": 33.5,
-          "equipment": "EZ bar"
         },
         {
           "name": "Cable Rope Pushdown",
@@ -13685,17 +13685,67 @@
           "total_volume": 550,
           "total_reps": 30,
           "num_sets": 3
+        },
+        {
+          "date": "2026-08-23",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 20.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 20.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 20.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 20.0,
+          "estimated_1rm": 28.0,
+          "total_volume": 680,
+          "total_reps": 34,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 6,
+      "total_sessions": 7,
       "current_max_weight": 20.0,
-      "current_1rm": 26.7,
+      "current_1rm": 28.0,
       "all_time_max_weight": 20.0,
       "all_time_1rm": 29.3,
-      "progress_pct": 33.5,
+      "progress_pct": 40.0,
       "trend": "plateau",
-      "days_since": 18,
-      "last_session": "2026-08-05",
+      "days_since": 0,
+      "last_session": "2026-08-23",
       "category": "triceps",
       "equipment": "EZ bar"
     },
