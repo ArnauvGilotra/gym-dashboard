@@ -4,25 +4,25 @@
     "days_tracking": 155,
     "first_date": "2026-03-22",
     "last_date": "2026-08-23",
-    "total_sets": 720,
-    "total_volume": 462264,
+    "total_sets": 723,
+    "total_volume": 463114,
     "unique_exercises": 32,
     "streak_weeks": 3,
     "longest_streak": 16,
     "last_7_days": 5,
     "sessions_per_week": 2.6,
-    "generated_at": "2026-08-23T16:31:26.196728",
-    "strength_gain_this_week": 13.0,
-    "total_strength": 2770.2
+    "generated_at": "2026-08-23T16:40:48.255088",
+    "strength_gain_this_week": 15.0,
+    "total_strength": 2773.5
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 155,
     "latest_date": "2026-08-23",
     "total_sessions": 57,
-    "total_sets": 720,
-    "total_lbreps": 462264,
-    "total_kgreps": 209680,
+    "total_sets": 723,
+    "total_lbreps": 463114,
+    "total_kgreps": 210065,
     "cut_start": "2026-05-18",
     "cut_day": 97,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 33748,
-      "sessions": 3,
-      "sets": 40
+      "volume": 34598,
+      "sessions": 4,
+      "sets": 43
     },
     "last_week": {
       "volume": 30962,
@@ -143,18 +143,18 @@
       "sets": 48
     },
     "this_month": {
-      "volume": 82838,
-      "sessions": 10,
-      "sets": 122
+      "volume": 83688,
+      "sessions": 11,
+      "sets": 125
     },
     "last_month": {
       "volume": 57000,
       "sessions": 4,
       "sets": 78
     },
-    "volume_wow_pct": 9.0,
-    "sessions_wow_delta": -1,
-    "volume_mom_pct": 45.3
+    "volume_wow_pct": 11.7,
+    "sessions_wow_delta": 0,
+    "volume_mom_pct": 46.8
   },
   "insights": [
     {
@@ -168,9 +168,24 @@
       "severity": "good",
       "text": "Seated Row Machine just hit a new PR \u2014 keep pushing",
       "exercise": "Seated Row Machine"
+    },
+    {
+      "type": "consistency",
+      "severity": "good",
+      "text": "4 sessions this week \u2014 strong work"
     }
   ],
   "recent_prs": [
+    {
+      "exercise": "Hammer Curl",
+      "date": "2026-08-23",
+      "weight": 30.0,
+      "reps": 10,
+      "estimated_1rm": 40.0,
+      "previous_1rm": 38.0,
+      "gain": 2.0,
+      "category": "biceps"
+    },
     {
       "exercise": "Lat Pulldown",
       "date": "2026-08-22",
@@ -210,16 +225,6 @@
       "previous_1rm": 51.3,
       "gain": 3.7,
       "category": "triceps"
-    },
-    {
-      "exercise": "Lateral Raise",
-      "date": "2026-08-16",
-      "weight": 25.0,
-      "reps": 8,
-      "estimated_1rm": 31.7,
-      "previous_1rm": 31.5,
-      "gain": 0.2,
-      "category": "shoulders"
     }
   ],
   "heatmap": [
@@ -734,6 +739,14 @@
       ],
       "focus": "Shoulders + Back",
       "location": "gym"
+    },
+    {
+      "date": "2026-08-23",
+      "muscles": [
+        "biceps"
+      ],
+      "focus": "Chest + Arms",
+      "location": "gym"
     }
   ],
   "muscle_strength": [
@@ -1069,9 +1082,9 @@
     },
     {
       "category": "biceps",
-      "current_strength": 57.4,
+      "current_strength": 57.8,
       "strength_30d_ago": 57.4,
-      "pct_change_30d": 0.0,
+      "pct_change_30d": 0.7,
       "top_exercise": "Preacher Curl",
       "top_1rm": 73.3,
       "top_max_weight": 50.0,
@@ -1128,10 +1141,10 @@
         },
         {
           "week": "2026-08-17",
-          "strength": 57.4
+          "strength": 57.8
         }
       ],
-      "last_trained": "2026-08-18"
+      "last_trained": "2026-08-23"
     },
     {
       "category": "triceps",
@@ -1604,6 +1617,17 @@
       "category": "biceps",
       "exercises": [
         {
+          "name": "Hammer Curl",
+          "total_sessions": 7,
+          "current_1rm": 40.0,
+          "current_max_weight": 30.0,
+          "all_time_1rm": 40.0,
+          "trend": "pr",
+          "days_since": 0,
+          "progress_pct": 71.7,
+          "equipment": "dumbbell"
+        },
+        {
           "name": "Preacher Curl",
           "total_sessions": 8,
           "current_1rm": 73.3,
@@ -1612,17 +1636,6 @@
           "trend": "pr",
           "days_since": 5,
           "progress_pct": 37.5,
-          "equipment": "dumbbell"
-        },
-        {
-          "name": "Hammer Curl",
-          "total_sessions": 6,
-          "current_1rm": 36.7,
-          "current_max_weight": 30.0,
-          "all_time_1rm": 38.0,
-          "trend": "plateau",
-          "days_since": 5,
-          "progress_pct": 57.5,
           "equipment": "dumbbell"
         },
         {
@@ -11298,17 +11311,67 @@
           "total_volume": 815,
           "total_reps": 30,
           "num_sets": 4
+        },
+        {
+          "date": "2026-08-23",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 25.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 30.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 30.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 30.0,
+          "estimated_1rm": 40.0,
+          "total_volume": 850,
+          "total_reps": 30,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 6,
+      "total_sessions": 7,
       "current_max_weight": 30.0,
-      "current_1rm": 36.7,
+      "current_1rm": 40.0,
       "all_time_max_weight": 30.0,
-      "all_time_1rm": 38.0,
-      "progress_pct": 57.5,
-      "trend": "plateau",
-      "days_since": 5,
-      "last_session": "2026-08-18",
+      "all_time_1rm": 40.0,
+      "progress_pct": 71.7,
+      "trend": "pr",
+      "days_since": 0,
+      "last_session": "2026-08-23",
       "category": "biceps",
       "equipment": "dumbbell"
     },
