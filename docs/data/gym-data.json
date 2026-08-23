@@ -4,14 +4,14 @@
     "days_tracking": 155,
     "first_date": "2026-03-22",
     "last_date": "2026-08-23",
-    "total_sets": 725,
-    "total_volume": 464024,
+    "total_sets": 726,
+    "total_volume": 464348,
     "unique_exercises": 32,
     "streak_weeks": 3,
     "longest_streak": 16,
     "last_7_days": 5,
     "sessions_per_week": 2.6,
-    "generated_at": "2026-08-23T16:45:46.718576",
+    "generated_at": "2026-08-23T16:49:17.735970",
     "strength_gain_this_week": 11.3,
     "total_strength": 2766.2
   },
@@ -20,9 +20,9 @@
     "journey_days": 155,
     "latest_date": "2026-08-23",
     "total_sessions": 57,
-    "total_sets": 725,
-    "total_lbreps": 464024,
-    "total_kgreps": 210478,
+    "total_sets": 726,
+    "total_lbreps": 464348,
+    "total_kgreps": 210625,
     "cut_start": "2026-05-18",
     "cut_day": 97,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 35508,
+      "volume": 35832,
       "sessions": 4,
-      "sets": 45
+      "sets": 46
     },
     "last_week": {
       "volume": 30962,
@@ -143,18 +143,18 @@
       "sets": 48
     },
     "this_month": {
-      "volume": 84598,
+      "volume": 84922,
       "sessions": 11,
-      "sets": 127
+      "sets": 128
     },
     "last_month": {
       "volume": 57000,
       "sessions": 4,
       "sets": 78
     },
-    "volume_wow_pct": 14.7,
+    "volume_wow_pct": 15.7,
     "sessions_wow_delta": 0,
-    "volume_mom_pct": 48.4
+    "volume_mom_pct": 49.0
   },
   "insights": [
     {
@@ -168,6 +168,11 @@
       "severity": "good",
       "text": "Seated Row Machine just hit a new PR \u2014 keep pushing",
       "exercise": "Seated Row Machine"
+    },
+    {
+      "type": "volume_up",
+      "severity": "good",
+      "text": "Weekly volume up 15.7% vs last week"
     },
     {
       "type": "consistency",
@@ -10975,13 +10980,26 @@
               "distance_km": null,
               "incline": null,
               "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 32.5,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
             }
           ],
           "max_weight": 32.5,
           "estimated_1rm": 47.7,
-          "total_volume": 910,
-          "total_reps": 28,
-          "num_sets": 2
+          "total_volume": 1235,
+          "total_reps": 38,
+          "num_sets": 3
         }
       ],
       "total_sessions": 15,
