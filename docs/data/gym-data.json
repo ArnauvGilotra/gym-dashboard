@@ -4,25 +4,25 @@
     "days_tracking": 156,
     "first_date": "2026-03-22",
     "last_date": "2026-08-24",
-    "total_sets": 735,
-    "total_volume": 468356,
+    "total_sets": 738,
+    "total_volume": 471476,
     "unique_exercises": 32,
     "streak_weeks": 4,
     "longest_streak": 16,
     "last_7_days": 5,
     "sessions_per_week": 2.6,
-    "generated_at": "2026-08-24T20:57:02.942285",
+    "generated_at": "2026-08-24T21:02:05.389912",
     "strength_gain_this_week": 11.3,
-    "total_strength": 2764.2
+    "total_strength": 2763.5
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 156,
     "latest_date": "2026-08-24",
     "total_sessions": 58,
-    "total_sets": 735,
-    "total_lbreps": 468356,
-    "total_kgreps": 212443,
+    "total_sets": 738,
+    "total_lbreps": 471476,
+    "total_kgreps": 213858,
     "cut_start": "2026-05-18",
     "cut_day": 98,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 1538,
+      "volume": 4658,
       "sessions": 1,
-      "sets": 3
+      "sets": 6
     },
     "last_week": {
       "volume": 38302,
@@ -143,24 +143,31 @@
       "sets": 52
     },
     "this_month": {
-      "volume": 88930,
+      "volume": 92050,
       "sessions": 12,
-      "sets": 137
+      "sets": 140
     },
     "last_month": {
       "volume": 57000,
       "sessions": 4,
       "sets": 78
     },
-    "volume_wow_pct": -96.0,
+    "volume_wow_pct": -87.8,
     "sessions_wow_delta": -3,
-    "volume_mom_pct": 56.0
+    "volume_mom_pct": 61.5
   },
   "insights": [
     {
+      "type": "stalled",
+      "severity": "medium",
+      "text": "Pec Deck Fly is stalled at 126.0 lb est. 1RM",
+      "exercise": "Pec Deck Fly",
+      "category": null
+    },
+    {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 96.0% vs last week"
+      "text": "Weekly volume down 87.8% vs last week"
     },
     {
       "type": "breakthrough",
@@ -752,7 +759,8 @@
     {
       "date": "2026-08-24",
       "muscles": [
-        "chest"
+        "chest",
+        "other"
       ],
       "focus": "Chest + Abs",
       "location": "gym"
@@ -1722,13 +1730,13 @@
       "exercises": [
         {
           "name": "Pec Deck Fly",
-          "total_sessions": 4,
-          "current_1rm": 126.7,
-          "current_max_weight": 95.0,
+          "total_sessions": 5,
+          "current_1rm": 126.0,
+          "current_max_weight": 90.0,
           "all_time_1rm": 126.7,
-          "trend": "pr",
-          "days_since": 10,
-          "progress_pct": 26.7,
+          "trend": "stalled",
+          "days_since": 0,
+          "progress_pct": 26.0,
           "equipment": null
         }
       ],
@@ -14654,17 +14662,67 @@
           "total_volume": 3050,
           "total_reps": 34,
           "num_sets": 3
+        },
+        {
+          "date": "2026-08-24",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 90.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 85.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 85.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 90.0,
+          "estimated_1rm": 126.0,
+          "total_volume": 3120,
+          "total_reps": 36,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 4,
-      "current_max_weight": 95.0,
-      "current_1rm": 126.7,
+      "total_sessions": 5,
+      "current_max_weight": 90.0,
+      "current_1rm": 126.0,
       "all_time_max_weight": 95.0,
       "all_time_1rm": 126.7,
-      "progress_pct": 26.7,
-      "trend": "pr",
-      "days_since": 10,
-      "last_session": "2026-08-14",
+      "progress_pct": 26.0,
+      "trend": "stalled",
+      "days_since": 0,
+      "last_session": "2026-08-24",
       "category": null,
       "equipment": null
     },
