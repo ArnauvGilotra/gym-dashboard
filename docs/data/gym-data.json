@@ -4,25 +4,25 @@
     "days_tracking": 156,
     "first_date": "2026-03-22",
     "last_date": "2026-08-24",
-    "total_sets": 738,
-    "total_volume": 471476,
+    "total_sets": 741,
+    "total_volume": 473576,
     "unique_exercises": 32,
     "streak_weeks": 4,
     "longest_streak": 16,
     "last_7_days": 5,
     "sessions_per_week": 2.6,
-    "generated_at": "2026-08-24T21:02:05.389912",
+    "generated_at": "2026-08-24T21:24:00.444690",
     "strength_gain_this_week": 11.3,
-    "total_strength": 2763.5
+    "total_strength": 2766.8
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 156,
     "latest_date": "2026-08-24",
     "total_sessions": 58,
-    "total_sets": 738,
-    "total_lbreps": 471476,
-    "total_kgreps": 213858,
+    "total_sets": 741,
+    "total_lbreps": 473576,
+    "total_kgreps": 214811,
     "cut_start": "2026-05-18",
     "cut_day": 98,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 4658,
+      "volume": 6758,
       "sessions": 1,
-      "sets": 6
+      "sets": 9
     },
     "last_week": {
       "volume": 38302,
@@ -143,18 +143,18 @@
       "sets": 52
     },
     "this_month": {
-      "volume": 92050,
+      "volume": 94150,
       "sessions": 12,
-      "sets": 140
+      "sets": 143
     },
     "last_month": {
       "volume": 57000,
       "sessions": 4,
       "sets": 78
     },
-    "volume_wow_pct": -87.8,
+    "volume_wow_pct": -82.4,
     "sessions_wow_delta": -3,
-    "volume_mom_pct": 61.5
+    "volume_mom_pct": 65.2
   },
   "insights": [
     {
@@ -167,7 +167,7 @@
     {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 87.8% vs last week"
+      "text": "Weekly volume down 82.4% vs last week"
     },
     {
       "type": "breakthrough",
@@ -760,6 +760,7 @@
       "date": "2026-08-24",
       "muscles": [
         "chest",
+        "core",
         "other"
       ],
       "focus": "Chest + Abs",
@@ -967,9 +968,9 @@
     },
     {
       "category": "core",
-      "current_strength": 79.3,
+      "current_strength": 81.0,
       "strength_30d_ago": 84.3,
-      "pct_change_30d": -5.9,
+      "pct_change_30d": -3.9,
       "top_exercise": "Abdominal Crunch Machine",
       "top_1rm": 88.7,
       "top_max_weight": 70.0,
@@ -1029,7 +1030,7 @@
           "strength": 84.3
         }
       ],
-      "last_trained": "2026-08-16"
+      "last_trained": "2026-08-24"
     },
     {
       "category": "shoulders",
@@ -1685,13 +1686,13 @@
       "exercises": [
         {
           "name": "Ab Crunch Machine",
-          "total_sessions": 3,
-          "current_1rm": 70.0,
+          "total_sessions": 4,
+          "current_1rm": 73.3,
           "current_max_weight": 50.0,
           "all_time_1rm": 80.0,
-          "trend": "plateau",
-          "days_since": 8,
-          "progress_pct": -12.5,
+          "trend": "regressing",
+          "days_since": 0,
+          "progress_pct": -8.4,
           "equipment": "machine"
         },
         {
@@ -14877,17 +14878,67 @@
           "total_volume": 1800,
           "total_reps": 36,
           "num_sets": 3
+        },
+        {
+          "date": "2026-08-24",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 50.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 50.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 50.0,
+              "reps": 14,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 50.0,
+          "estimated_1rm": 73.3,
+          "total_volume": 2100,
+          "total_reps": 42,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 3,
+      "total_sessions": 4,
       "current_max_weight": 50.0,
-      "current_1rm": 70.0,
+      "current_1rm": 73.3,
       "all_time_max_weight": 60.0,
       "all_time_1rm": 80.0,
-      "progress_pct": -12.5,
-      "trend": "plateau",
-      "days_since": 8,
-      "last_session": "2026-08-16",
+      "progress_pct": -8.4,
+      "trend": "regressing",
+      "days_since": 0,
+      "last_session": "2026-08-24",
       "category": "core",
       "equipment": "machine"
     },
