@@ -4,14 +4,14 @@
     "days_tracking": 162,
     "first_date": "2026-03-22",
     "last_date": "2026-08-30",
-    "total_sets": 761,
-    "total_volume": 496338,
+    "total_sets": 763,
+    "total_volume": 499638,
     "unique_exercises": 33,
     "streak_weeks": 4,
     "longest_streak": 16,
     "last_7_days": 4,
     "sessions_per_week": 2.6,
-    "generated_at": "2026-08-30T15:57:16.817106",
+    "generated_at": "2026-08-30T16:18:33.488769",
     "strength_gain_this_week": 31.2,
     "total_strength": 2884.7
   },
@@ -20,9 +20,9 @@
     "journey_days": 162,
     "latest_date": "2026-08-30",
     "total_sessions": 60,
-    "total_sets": 761,
-    "total_lbreps": 496338,
-    "total_kgreps": 225135,
+    "total_sets": 763,
+    "total_lbreps": 499638,
+    "total_kgreps": 226632,
     "cut_start": "2026-05-18",
     "cut_day": 104,
     "cut_duration": 180,
@@ -53,16 +53,6 @@
         "sessions": 15
       },
       {
-        "lift": "Lat Pulldown",
-        "category": "back",
-        "first": "95\u00d714",
-        "first_date": "2026-03-22",
-        "latest": "155\u00d78",
-        "latest_date": "2026-08-22",
-        "delta_lb": 60.0,
-        "sessions": 15
-      },
-      {
         "lift": "Leg Press",
         "category": "legs",
         "first": "120\u00d712",
@@ -71,6 +61,16 @@
         "latest_date": "2026-08-25",
         "delta_lb": 60.0,
         "sessions": 11
+      },
+      {
+        "lift": "Lat Pulldown",
+        "category": "back",
+        "first": "95\u00d714",
+        "first_date": "2026-03-22",
+        "latest": "145\u00d712",
+        "latest_date": "2026-08-30",
+        "delta_lb": 50.0,
+        "sessions": 16
       },
       {
         "lift": "Leg Curl",
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 29520,
+      "volume": 32820,
       "sessions": 3,
-      "sets": 29
+      "sets": 31
     },
     "last_week": {
       "volume": 38302,
@@ -143,18 +143,18 @@
       "sets": 52
     },
     "this_month": {
-      "volume": 116912,
+      "volume": 120212,
       "sessions": 14,
-      "sets": 163
+      "sets": 165
     },
     "last_month": {
       "volume": 57000,
       "sessions": 4,
       "sets": 78
     },
-    "volume_wow_pct": -22.9,
+    "volume_wow_pct": -14.3,
     "sessions_wow_delta": -1,
-    "volume_mom_pct": 105.1
+    "volume_mom_pct": 110.9
   },
   "insights": [
     {
@@ -170,11 +170,6 @@
       "text": "Pec Deck Fly is stalled at 126.0 lb est. 1RM",
       "exercise": "Pec Deck Fly",
       "category": null
-    },
-    {
-      "type": "volume_down",
-      "severity": "medium",
-      "text": "Weekly volume down 22.9% vs last week"
     },
     {
       "type": "breakthrough",
@@ -786,6 +781,7 @@
     {
       "date": "2026-08-30",
       "muscles": [
+        "back",
         "chest"
       ],
       "focus": "Chest + Back",
@@ -866,7 +862,7 @@
       "pct_change_30d": 3.4,
       "top_exercise": "Lat Pulldown",
       "top_1rm": 203.0,
-      "top_max_weight": 155.0,
+      "top_max_weight": 145.0,
       "top_best_set": {
         "weight": 145.0,
         "reps": 12,
@@ -923,7 +919,7 @@
           "strength": 180.6
         }
       ],
-      "last_trained": "2026-08-22"
+      "last_trained": "2026-08-30"
     },
     {
       "category": "chest",
@@ -1450,12 +1446,12 @@
       "exercises": [
         {
           "name": "Lat Pulldown",
-          "total_sessions": 15,
+          "total_sessions": 16,
           "current_1rm": 203.0,
-          "current_max_weight": 155.0,
+          "current_max_weight": 145.0,
           "all_time_1rm": 203.0,
           "trend": "pr",
-          "days_since": 8,
+          "days_since": 0,
           "progress_pct": 45.7,
           "equipment": "cable"
         },
@@ -2744,17 +2740,54 @@
           "total_volume": 5220,
           "total_reps": 36,
           "num_sets": 4
+        },
+        {
+          "date": "2026-08-30",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 130.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 145.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 145.0,
+          "estimated_1rm": 203.0,
+          "total_volume": 3300,
+          "total_reps": 24,
+          "num_sets": 2
         }
       ],
-      "total_sessions": 15,
-      "current_max_weight": 155.0,
+      "total_sessions": 16,
+      "current_max_weight": 145.0,
       "current_1rm": 203.0,
       "all_time_max_weight": 155.0,
       "all_time_1rm": 203.0,
       "progress_pct": 45.7,
       "trend": "pr",
-      "days_since": 8,
-      "last_session": "2026-08-22",
+      "days_since": 0,
+      "last_session": "2026-08-30",
       "category": "back",
       "equipment": "cable"
     },
