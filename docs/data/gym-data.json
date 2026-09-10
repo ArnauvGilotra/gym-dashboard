@@ -4,25 +4,25 @@
     "days_tracking": 172,
     "first_date": "2026-03-22",
     "last_date": "2026-09-09",
-    "total_sets": 828,
-    "total_volume": 544811,
+    "total_sets": 829,
+    "total_volume": 545911,
     "unique_exercises": 35,
     "streak_weeks": 6,
     "longest_streak": 16,
     "last_7_days": 3,
     "sessions_per_week": 2.6,
-    "generated_at": "2026-09-09T21:15:28.826360",
+    "generated_at": "2026-09-09T21:17:25.284285",
     "strength_gain_this_week": 25.7,
-    "total_strength": 3137.0
+    "total_strength": 3150.7
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 172,
     "latest_date": "2026-09-09",
     "total_sessions": 64,
-    "total_sets": 828,
-    "total_lbreps": 544811,
-    "total_kgreps": 247122,
+    "total_sets": 829,
+    "total_lbreps": 545911,
+    "total_kgreps": 247621,
     "cut_start": "2026-05-18",
     "cut_day": 114,
     "cut_duration": 180,
@@ -77,9 +77,9 @@
         "category": "legs",
         "first": "55\u00d712",
         "first_date": "2026-03-24",
-        "latest": "95\u00d712",
+        "latest": "110\u00d710",
         "latest_date": "2026-09-09",
-        "delta_lb": 40.0,
+        "delta_lb": 55.0,
         "sessions": 12
       },
       {
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 19724,
+      "volume": 20824,
       "sessions": 2,
-      "sets": 26
+      "sets": 27
     },
     "last_week": {
       "volume": 16419,
@@ -143,18 +143,18 @@
       "sets": 32
     },
     "this_month": {
-      "volume": 29722,
+      "volume": 30822,
       "sessions": 3,
-      "sets": 39
+      "sets": 40
     },
     "last_month": {
       "volume": 135662,
       "sessions": 15,
       "sets": 191
     },
-    "volume_wow_pct": 20.1,
+    "volume_wow_pct": 26.8,
     "sessions_wow_delta": 0,
-    "volume_mom_pct": -78.1
+    "volume_mom_pct": -77.3
   },
   "insights": [
     {
@@ -193,7 +193,7 @@
     {
       "type": "volume_up",
       "severity": "good",
-      "text": "Weekly volume up 20.1% vs last week"
+      "text": "Weekly volume up 26.8% vs last week"
     }
   ],
   "recent_prs": [
@@ -842,9 +842,9 @@
   "muscle_strength": [
     {
       "category": "legs",
-      "current_strength": 223.6,
+      "current_strength": 226.9,
       "strength_30d_ago": 218.0,
-      "pct_change_30d": 2.6,
+      "pct_change_30d": 4.1,
       "top_exercise": "Calf Raise",
       "top_1rm": 270.0,
       "top_max_weight": 180.0,
@@ -1703,12 +1703,12 @@
         {
           "name": "Leg Extension",
           "total_sessions": 12,
-          "current_1rm": 133.0,
-          "current_max_weight": 95.0,
+          "current_1rm": 146.7,
+          "current_max_weight": 110.0,
           "all_time_1rm": 150.0,
-          "trend": "regressing",
+          "trend": "progressing",
           "days_since": 0,
-          "progress_pct": 72.7,
+          "progress_pct": 90.5,
           "equipment": "machine"
         },
         {
@@ -5286,7 +5286,7 @@
             },
             {
               "set_number": 2,
-              "weight": 100.0,
+              "weight": 90.0,
               "reps": 12,
               "rpe": null,
               "is_warmup": 0,
@@ -5299,8 +5299,8 @@
             },
             {
               "set_number": 3,
-              "weight": 110.0,
-              "reps": 10,
+              "weight": 80.0,
+              "reps": 12,
               "rpe": null,
               "is_warmup": 0,
               "is_dropset": 0,
@@ -5311,10 +5311,10 @@
               "speed_kmh": null
             }
           ],
-          "max_weight": 110.0,
-          "estimated_1rm": 146.7,
-          "total_volume": 3380,
-          "total_reps": 34,
+          "max_weight": 90.0,
+          "estimated_1rm": 126.0,
+          "total_volume": 3120,
+          "total_reps": 36,
           "num_sets": 3
         },
         {
@@ -5371,7 +5371,7 @@
       "total_sessions": 12,
       "current_max_weight": 100.0,
       "current_1rm": 136.7,
-      "all_time_max_weight": 110.0,
+      "all_time_max_weight": 105.0,
       "all_time_1rm": 150.0,
       "progress_pct": 39.5,
       "trend": "regressing",
@@ -5914,7 +5914,7 @@
             },
             {
               "set_number": 2,
-              "weight": 90.0,
+              "weight": 100.0,
               "reps": 12,
               "rpe": null,
               "is_warmup": 0,
@@ -5927,8 +5927,8 @@
             },
             {
               "set_number": 3,
-              "weight": 80.0,
-              "reps": 12,
+              "weight": 110.0,
+              "reps": 10,
               "rpe": null,
               "is_warmup": 0,
               "is_dropset": 0,
@@ -5939,10 +5939,10 @@
               "speed_kmh": null
             }
           ],
-          "max_weight": 90.0,
-          "estimated_1rm": 126.0,
-          "total_volume": 3120,
-          "total_reps": 36,
+          "max_weight": 110.0,
+          "estimated_1rm": 146.7,
+          "total_volume": 3380,
+          "total_reps": 34,
           "num_sets": 3
         },
         {
@@ -5974,22 +5974,35 @@
               "distance_km": null,
               "incline": null,
               "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 110.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
             }
           ],
-          "max_weight": 95.0,
-          "estimated_1rm": 133.0,
-          "total_volume": 2100,
-          "total_reps": 24,
-          "num_sets": 2
+          "max_weight": 110.0,
+          "estimated_1rm": 146.7,
+          "total_volume": 3200,
+          "total_reps": 34,
+          "num_sets": 3
         }
       ],
       "total_sessions": 12,
-      "current_max_weight": 95.0,
-      "current_1rm": 133.0,
-      "all_time_max_weight": 105.0,
+      "current_max_weight": 110.0,
+      "current_1rm": 146.7,
+      "all_time_max_weight": 110.0,
       "all_time_1rm": 150.0,
-      "progress_pct": 72.7,
-      "trend": "regressing",
+      "progress_pct": 90.5,
+      "trend": "progressing",
       "days_since": 0,
       "last_session": "2026-09-09",
       "category": "legs",
