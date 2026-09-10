@@ -4,14 +4,14 @@
     "days_tracking": 172,
     "first_date": "2026-03-22",
     "last_date": "2026-09-09",
-    "total_sets": 829,
-    "total_volume": 545911,
+    "total_sets": 832,
+    "total_volume": 554011,
     "unique_exercises": 35,
     "streak_weeks": 6,
     "longest_streak": 16,
     "last_7_days": 3,
     "sessions_per_week": 2.6,
-    "generated_at": "2026-09-09T21:17:25.284285",
+    "generated_at": "2026-09-09T21:24:53.878464",
     "strength_gain_this_week": 25.7,
     "total_strength": 3150.7
   },
@@ -20,9 +20,9 @@
     "journey_days": 172,
     "latest_date": "2026-09-09",
     "total_sessions": 64,
-    "total_sets": 829,
-    "total_lbreps": 545911,
-    "total_kgreps": 247621,
+    "total_sets": 832,
+    "total_lbreps": 554011,
+    "total_kgreps": 251295,
     "cut_start": "2026-05-18",
     "cut_day": 114,
     "cut_duration": 180,
@@ -38,9 +38,9 @@
         "first": "50\u00d724",
         "first_date": "2026-03-24",
         "latest": "180\u00d715",
-        "latest_date": "2026-08-25",
+        "latest_date": "2026-09-09",
         "delta_lb": 130.0,
-        "sessions": 10
+        "sessions": 11
       },
       {
         "lift": "Seated Row Machine",
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 20824,
+      "volume": 28924,
       "sessions": 2,
-      "sets": 27
+      "sets": 30
     },
     "last_week": {
       "volume": 16419,
@@ -143,18 +143,18 @@
       "sets": 32
     },
     "this_month": {
-      "volume": 30822,
+      "volume": 38922,
       "sessions": 3,
-      "sets": 40
+      "sets": 43
     },
     "last_month": {
       "volume": 135662,
       "sessions": 15,
       "sets": 191
     },
-    "volume_wow_pct": 26.8,
+    "volume_wow_pct": 76.2,
     "sessions_wow_delta": 0,
-    "volume_mom_pct": -77.3
+    "volume_mom_pct": -71.3
   },
   "insights": [
     {
@@ -193,7 +193,7 @@
     {
       "type": "volume_up",
       "severity": "good",
-      "text": "Weekly volume up 26.8% vs last week"
+      "text": "Weekly volume up 76.2% vs last week"
     }
   ],
   "recent_prs": [
@@ -1690,6 +1690,17 @@
       "category": "legs",
       "exercises": [
         {
+          "name": "Calf Raise",
+          "total_sessions": 11,
+          "current_1rm": 270.0,
+          "current_max_weight": 180.0,
+          "all_time_1rm": 270.0,
+          "trend": "pr",
+          "days_since": 0,
+          "progress_pct": 200.0,
+          "equipment": "machine"
+        },
+        {
           "name": "Leg Curl",
           "total_sessions": 12,
           "current_1rm": 136.7,
@@ -1720,17 +1731,6 @@
           "trend": "progressing",
           "days_since": 0,
           "progress_pct": 57.1,
-          "equipment": "machine"
-        },
-        {
-          "name": "Calf Raise",
-          "total_sessions": 10,
-          "current_1rm": 270.0,
-          "current_max_weight": 180.0,
-          "all_time_1rm": 270.0,
-          "trend": "pr",
-          "days_since": 15,
-          "progress_pct": 200.0,
           "equipment": "machine"
         }
       ],
@@ -4725,17 +4725,67 @@
           "total_volume": 8100,
           "total_reps": 45,
           "num_sets": 3
+        },
+        {
+          "date": "2026-09-09",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 180.0,
+              "reps": 15,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 180.0,
+              "reps": 15,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 180.0,
+              "reps": 15,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 180.0,
+          "estimated_1rm": 270.0,
+          "total_volume": 8100,
+          "total_reps": 45,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 10,
+      "total_sessions": 11,
       "current_max_weight": 180.0,
       "current_1rm": 270.0,
       "all_time_max_weight": 180.0,
       "all_time_1rm": 270.0,
       "progress_pct": 200.0,
       "trend": "pr",
-      "days_since": 15,
-      "last_session": "2026-08-25",
+      "days_since": 0,
+      "last_session": "2026-09-09",
       "category": "legs",
       "equipment": "machine"
     },
