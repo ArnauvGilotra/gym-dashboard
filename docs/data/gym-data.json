@@ -4,14 +4,14 @@
     "days_tracking": 174,
     "first_date": "2026-03-22",
     "last_date": "2026-09-11",
-    "total_sets": 842,
-    "total_volume": 557421,
+    "total_sets": 843,
+    "total_volume": 557601,
     "unique_exercises": 35,
     "streak_weeks": 6,
     "longest_streak": 16,
     "last_7_days": 4,
     "sessions_per_week": 2.6,
-    "generated_at": "2026-09-11T21:25:30.574104",
+    "generated_at": "2026-09-11T21:29:56.511782",
     "strength_gain_this_week": 20.5,
     "total_strength": 3162.1
   },
@@ -20,9 +20,9 @@
     "journey_days": 174,
     "latest_date": "2026-09-11",
     "total_sessions": 65,
-    "total_sets": 842,
-    "total_lbreps": 557421,
-    "total_kgreps": 252842,
+    "total_sets": 843,
+    "total_lbreps": 557601,
+    "total_kgreps": 252924,
     "cut_start": "2026-05-18",
     "cut_day": 116,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 32334,
+      "volume": 32514,
       "sessions": 3,
-      "sets": 40
+      "sets": 41
     },
     "last_week": {
       "volume": 16419,
@@ -143,18 +143,18 @@
       "sets": 32
     },
     "this_month": {
-      "volume": 42332,
+      "volume": 42512,
       "sessions": 4,
-      "sets": 53
+      "sets": 54
     },
     "last_month": {
       "volume": 135662,
       "sessions": 15,
       "sets": 191
     },
-    "volume_wow_pct": 96.9,
+    "volume_wow_pct": 98.0,
     "sessions_wow_delta": 1,
-    "volume_mom_pct": -68.8
+    "volume_mom_pct": -68.7
   },
   "insights": [
     {
@@ -186,7 +186,7 @@
     {
       "type": "volume_up",
       "severity": "good",
-      "text": "Weekly volume up 96.9% vs last week"
+      "text": "Weekly volume up 98.0% vs last week"
     }
   ],
   "recent_prs": [
@@ -15355,7 +15355,7 @@
               "rpe": null,
               "is_warmup": 0,
               "is_dropset": 0,
-              "notes": "left arm weaker, elbow drift; triceps pre-fatigued",
+              "notes": "left arm weaker, elbow drift; 22.5 done one-arm-at-a-time with other arm assisting (not a clean bilateral rep)",
               "duration_sec": null,
               "distance_km": null,
               "incline": null,
@@ -16773,13 +16773,26 @@
               "distance_km": null,
               "incline": null,
               "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 20.0,
+              "reps": 9,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
             }
           ],
           "max_weight": 20.0,
           "estimated_1rm": 26.7,
-          "total_volume": 400,
-          "total_reps": 20,
-          "num_sets": 2
+          "total_volume": 580,
+          "total_reps": 29,
+          "num_sets": 3
         }
       ],
       "total_sessions": 2,
