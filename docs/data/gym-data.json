@@ -4,25 +4,25 @@
     "days_tracking": 174,
     "first_date": "2026-03-22",
     "last_date": "2026-09-11",
-    "total_sets": 834,
-    "total_volume": 554791,
+    "total_sets": 837,
+    "total_volume": 556198,
     "unique_exercises": 35,
     "streak_weeks": 6,
     "longest_streak": 16,
     "last_7_days": 4,
     "sessions_per_week": 2.6,
-    "generated_at": "2026-09-11T20:56:06.629945",
-    "strength_gain_this_week": 14.7,
-    "total_strength": 3152.0
+    "generated_at": "2026-09-11T21:03:49.892938",
+    "strength_gain_this_week": 15.8,
+    "total_strength": 3157.4
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 174,
     "latest_date": "2026-09-11",
     "total_sessions": 65,
-    "total_sets": 834,
-    "total_lbreps": 554791,
-    "total_kgreps": 251649,
+    "total_sets": 837,
+    "total_lbreps": 556198,
+    "total_kgreps": 252287,
     "cut_start": "2026-05-18",
     "cut_day": 116,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 29704,
+      "volume": 31111,
       "sessions": 3,
-      "sets": 32
+      "sets": 35
     },
     "last_week": {
       "volume": 16419,
@@ -143,18 +143,18 @@
       "sets": 32
     },
     "this_month": {
-      "volume": 39702,
+      "volume": 41110,
       "sessions": 4,
-      "sets": 45
+      "sets": 48
     },
     "last_month": {
       "volume": 135662,
       "sessions": 15,
       "sets": 191
     },
-    "volume_wow_pct": 80.9,
+    "volume_wow_pct": 89.5,
     "sessions_wow_delta": 1,
-    "volume_mom_pct": -70.7
+    "volume_mom_pct": -69.7
   },
   "insights": [
     {
@@ -172,13 +172,6 @@
       "days": 24
     },
     {
-      "type": "neglected",
-      "severity": "medium",
-      "text": "Chest hasn't been trained in 12 days",
-      "category": "chest",
-      "days": 12
-    },
-    {
       "type": "breakthrough",
       "severity": "good",
       "text": "Seated Row Machine just hit a new PR \u2014 keep pushing",
@@ -193,10 +186,20 @@
     {
       "type": "volume_up",
       "severity": "good",
-      "text": "Weekly volume up 80.9% vs last week"
+      "text": "Weekly volume up 89.5% vs last week"
     }
   ],
   "recent_prs": [
+    {
+      "exercise": "Incline Dumbbell Press",
+      "date": "2026-09-11",
+      "weight": 40.0,
+      "reps": 13,
+      "estimated_1rm": 57.3,
+      "previous_1rm": 56.2,
+      "gain": 1.1,
+      "category": "chest"
+    },
     {
       "exercise": "Hammer Curl",
       "date": "2026-09-08",
@@ -236,16 +239,6 @@
       "previous_1rm": 38.0,
       "gain": 11.0,
       "category": "back"
-    },
-    {
-      "exercise": "Preacher Curl",
-      "date": "2026-08-31",
-      "weight": 55.0,
-      "reps": 12,
-      "estimated_1rm": 77.0,
-      "previous_1rm": 73.3,
-      "gain": 3.7,
-      "category": "biceps"
     }
   ],
   "heatmap": [
@@ -841,6 +834,7 @@
     {
       "date": "2026-09-11",
       "muscles": [
+        "chest",
         "triceps"
       ],
       "focus": "Chest + Triceps",
@@ -1044,7 +1038,7 @@
           "strength": 103.8
         }
       ],
-      "last_trained": "2026-08-30"
+      "last_trained": "2026-09-11"
     },
     {
       "category": "shoulders",
@@ -1246,12 +1240,12 @@
     },
     {
       "category": "triceps",
-      "current_strength": 41.4,
+      "current_strength": 42.9,
       "strength_30d_ago": 44.5,
-      "pct_change_30d": -7.0,
+      "pct_change_30d": -3.6,
       "top_exercise": "Tricep Rope Pushdown",
-      "top_1rm": 49.0,
-      "top_max_weight": 35.0,
+      "top_1rm": 53.3,
+      "top_max_weight": 40.0,
       "top_best_set": {
         "weight": 37.5,
         "reps": 14,
@@ -1588,13 +1582,13 @@
       "exercises": [
         {
           "name": "Incline Dumbbell Press",
-          "total_sessions": 14,
-          "current_1rm": 56.2,
+          "total_sessions": 15,
+          "current_1rm": 57.3,
           "current_max_weight": 40.0,
-          "all_time_1rm": 56.2,
+          "all_time_1rm": 57.3,
           "trend": "pr",
-          "days_since": 12,
-          "progress_pct": 122.1,
+          "days_since": 0,
+          "progress_pct": 126.5,
           "equipment": "dumbbell"
         },
         {
@@ -1650,12 +1644,12 @@
         {
           "name": "Tricep Rope Pushdown",
           "total_sessions": 17,
-          "current_1rm": 49.0,
-          "current_max_weight": 35.0,
+          "current_1rm": 53.3,
+          "current_max_weight": 40.0,
           "all_time_1rm": 55.0,
-          "trend": "regressing",
+          "trend": "progressing",
           "days_since": 0,
-          "progress_pct": 11.4,
+          "progress_pct": 21.1,
           "equipment": "cable"
         },
         {
@@ -8222,17 +8216,54 @@
           "total_volume": 1842,
           "total_reps": 48,
           "num_sets": 5
+        },
+        {
+          "date": "2026-09-11",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 37.5,
+              "reps": 13,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "bench at 30% incline",
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 40.0,
+              "reps": 13,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 40.0,
+          "estimated_1rm": 57.3,
+          "total_volume": 1008,
+          "total_reps": 26,
+          "num_sets": 2
         }
       ],
-      "total_sessions": 14,
+      "total_sessions": 15,
       "current_max_weight": 40.0,
-      "current_1rm": 56.2,
+      "current_1rm": 57.3,
       "all_time_max_weight": 40.0,
-      "all_time_1rm": 56.2,
-      "progress_pct": 122.1,
+      "all_time_1rm": 57.3,
+      "progress_pct": 126.5,
       "trend": "pr",
-      "days_since": 12,
-      "last_session": "2026-08-30",
+      "days_since": 0,
+      "last_session": "2026-09-11",
       "category": "chest",
       "equipment": "dumbbell"
     },
@@ -12216,22 +12247,35 @@
               "distance_km": null,
               "incline": null,
               "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 40.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "left rear delt pain on the return/eccentric",
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
             }
           ],
-          "max_weight": 35.0,
-          "estimated_1rm": 49.0,
-          "total_volume": 780,
-          "total_reps": 24,
-          "num_sets": 2
+          "max_weight": 40.0,
+          "estimated_1rm": 53.3,
+          "total_volume": 1180,
+          "total_reps": 34,
+          "num_sets": 3
         }
       ],
       "total_sessions": 17,
-      "current_max_weight": 35.0,
-      "current_1rm": 49.0,
+      "current_max_weight": 40.0,
+      "current_1rm": 53.3,
       "all_time_max_weight": 40.0,
       "all_time_1rm": 55.0,
-      "progress_pct": 11.4,
-      "trend": "regressing",
+      "progress_pct": 21.1,
+      "trend": "progressing",
       "days_since": 0,
       "last_session": "2026-09-11",
       "category": "triceps",
