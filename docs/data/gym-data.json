@@ -4,14 +4,14 @@
     "days_tracking": 174,
     "first_date": "2026-03-22",
     "last_date": "2026-09-11",
-    "total_sets": 844,
-    "total_volume": 558801,
+    "total_sets": 846,
+    "total_volume": 560601,
     "unique_exercises": 35,
     "streak_weeks": 6,
     "longest_streak": 16,
     "last_7_days": 4,
     "sessions_per_week": 2.6,
-    "generated_at": "2026-09-11T21:31:28.437234",
+    "generated_at": "2026-09-11T21:38:07.218690",
     "strength_gain_this_week": 20.5,
     "total_strength": 3159.1
   },
@@ -20,9 +20,9 @@
     "journey_days": 174,
     "latest_date": "2026-09-11",
     "total_sessions": 65,
-    "total_sets": 844,
-    "total_lbreps": 558801,
-    "total_kgreps": 253468,
+    "total_sets": 846,
+    "total_lbreps": 560601,
+    "total_kgreps": 254285,
     "cut_start": "2026-05-18",
     "cut_day": 116,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 33714,
+      "volume": 35514,
       "sessions": 3,
-      "sets": 42
+      "sets": 44
     },
     "last_week": {
       "volume": 16419,
@@ -143,18 +143,18 @@
       "sets": 32
     },
     "this_month": {
-      "volume": 43712,
+      "volume": 45512,
       "sessions": 4,
-      "sets": 55
+      "sets": 57
     },
     "last_month": {
       "volume": 135662,
       "sessions": 15,
       "sets": 191
     },
-    "volume_wow_pct": 105.3,
+    "volume_wow_pct": 116.3,
     "sessions_wow_delta": 1,
-    "volume_mom_pct": -67.8
+    "volume_mom_pct": -66.5
   },
   "insights": [
     {
@@ -186,7 +186,7 @@
     {
       "type": "volume_up",
       "severity": "good",
-      "text": "Weekly volume up 105.3% vs last week"
+      "text": "Weekly volume up 116.3% vs last week"
     }
   ],
   "recent_prs": [
@@ -16351,13 +16351,39 @@
               "distance_km": null,
               "incline": null,
               "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 100.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 100.0,
+              "reps": 8,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
             }
           ],
           "max_weight": 100.0,
           "estimated_1rm": 140.0,
-          "total_volume": 1200,
-          "total_reps": 12,
-          "num_sets": 1
+          "total_volume": 3000,
+          "total_reps": 30,
+          "num_sets": 3
         }
       ],
       "total_sessions": 7,
