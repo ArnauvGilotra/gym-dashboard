@@ -4,14 +4,14 @@
     "days_tracking": 174,
     "first_date": "2026-03-22",
     "last_date": "2026-09-11",
-    "total_sets": 838,
-    "total_volume": 556624,
+    "total_sets": 840,
+    "total_volume": 557021,
     "unique_exercises": 35,
     "streak_weeks": 6,
     "longest_streak": 16,
     "last_7_days": 4,
     "sessions_per_week": 2.6,
-    "generated_at": "2026-09-11T21:07:13.430062",
+    "generated_at": "2026-09-11T21:18:44.294431",
     "strength_gain_this_week": 15.8,
     "total_strength": 3157.4
   },
@@ -20,9 +20,9 @@
     "journey_days": 174,
     "latest_date": "2026-09-11",
     "total_sessions": 65,
-    "total_sets": 838,
-    "total_lbreps": 556624,
-    "total_kgreps": 252481,
+    "total_sets": 840,
+    "total_lbreps": 557021,
+    "total_kgreps": 252661,
     "cut_start": "2026-05-18",
     "cut_day": 116,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 31536,
+      "volume": 31934,
       "sessions": 3,
-      "sets": 36
+      "sets": 38
     },
     "last_week": {
       "volume": 16419,
@@ -143,18 +143,18 @@
       "sets": 32
     },
     "this_month": {
-      "volume": 41535,
+      "volume": 41932,
       "sessions": 4,
-      "sets": 49
+      "sets": 51
     },
     "last_month": {
       "volume": 135662,
       "sessions": 15,
       "sets": 191
     },
-    "volume_wow_pct": 92.1,
+    "volume_wow_pct": 94.5,
     "sessions_wow_delta": 1,
-    "volume_mom_pct": -69.4
+    "volume_mom_pct": -69.1
   },
   "insights": [
     {
@@ -186,7 +186,7 @@
     {
       "type": "volume_up",
       "severity": "good",
-      "text": "Weekly volume up 92.1% vs last week"
+      "text": "Weekly volume up 94.5% vs last week"
     }
   ],
   "recent_prs": [
@@ -1654,12 +1654,12 @@
         },
         {
           "name": "Skull Crusher",
-          "total_sessions": 7,
+          "total_sessions": 8,
           "current_1rm": 28.0,
-          "current_max_weight": 20.0,
+          "current_max_weight": 22.5,
           "all_time_1rm": 29.3,
-          "trend": "plateau",
-          "days_since": 19,
+          "trend": "progressing",
+          "days_since": 0,
           "progress_pct": 40.0,
           "equipment": "EZ bar"
         },
@@ -15330,17 +15330,54 @@
           "total_volume": 680,
           "total_reps": 34,
           "num_sets": 3
+        },
+        {
+          "date": "2026-09-11",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 20.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 22.5,
+              "reps": 7,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "left arm weaker, elbow drift; triceps pre-fatigued",
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 22.5,
+          "estimated_1rm": 28.0,
+          "total_volume": 398,
+          "total_reps": 19,
+          "num_sets": 2
         }
       ],
-      "total_sessions": 7,
-      "current_max_weight": 20.0,
+      "total_sessions": 8,
+      "current_max_weight": 22.5,
       "current_1rm": 28.0,
-      "all_time_max_weight": 20.0,
+      "all_time_max_weight": 22.5,
       "all_time_1rm": 29.3,
       "progress_pct": 40.0,
-      "trend": "plateau",
-      "days_since": 19,
-      "last_session": "2026-08-23",
+      "trend": "progressing",
+      "days_since": 0,
+      "last_session": "2026-09-11",
       "category": "triceps",
       "equipment": "EZ bar"
     },
