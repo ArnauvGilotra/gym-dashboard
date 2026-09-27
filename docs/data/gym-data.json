@@ -4,25 +4,25 @@
     "days_tracking": 189,
     "first_date": "2026-03-22",
     "last_date": "2026-09-26",
-    "total_sets": 884,
-    "total_volume": 589498,
+    "total_sets": 887,
+    "total_volume": 593258,
     "unique_exercises": 35,
     "streak_weeks": 8,
     "longest_streak": 16,
     "last_7_days": 1,
     "sessions_per_week": 2.6,
-    "generated_at": "2026-09-26T21:26:50.769077",
+    "generated_at": "2026-09-26T21:40:31.141632",
     "strength_gain_this_week": 12.0,
-    "total_strength": 3210.8
+    "total_strength": 3196.8
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 189,
     "latest_date": "2026-09-26",
     "total_sessions": 69,
-    "total_sets": 884,
-    "total_lbreps": 589498,
-    "total_kgreps": 267392,
+    "total_sets": 887,
+    "total_lbreps": 593258,
+    "total_kgreps": 269098,
     "cut_start": "2026-05-18",
     "cut_day": 131,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 8990,
+      "volume": 12750,
       "sessions": 1,
-      "sets": 9
+      "sets": 12
     },
     "last_week": {
       "volume": 7268,
@@ -143,18 +143,18 @@
       "sets": 17
     },
     "this_month": {
-      "volume": 74410,
+      "volume": 78170,
       "sessions": 8,
-      "sets": 95
+      "sets": 98
     },
     "last_month": {
       "volume": 135662,
       "sessions": 15,
       "sets": 191
     },
-    "volume_wow_pct": 23.7,
+    "volume_wow_pct": 75.4,
     "sessions_wow_delta": -1,
-    "volume_mom_pct": -45.2
+    "volume_mom_pct": -42.4
   },
   "insights": [
     {
@@ -214,7 +214,7 @@
     {
       "type": "volume_up",
       "severity": "good",
-      "text": "Weekly volume up 23.7% vs last week"
+      "text": "Weekly volume up 75.4% vs last week"
     }
   ],
   "recent_prs": [
@@ -975,9 +975,9 @@
     },
     {
       "category": "back",
-      "current_strength": 202.2,
+      "current_strength": 197.6,
       "strength_30d_ago": 180.6,
-      "pct_change_30d": 12.0,
+      "pct_change_30d": 9.4,
       "top_exercise": "Lat Pulldown",
       "top_1rm": 224.0,
       "top_max_weight": 160.0,
@@ -1585,6 +1585,17 @@
           "equipment": "cable"
         },
         {
+          "name": "Seated Cable Row",
+          "total_sessions": 3,
+          "current_1rm": 182.0,
+          "current_max_weight": 140.0,
+          "all_time_1rm": 196.0,
+          "trend": "progressing",
+          "days_since": 0,
+          "progress_pct": 5.0,
+          "equipment": "cable"
+        },
+        {
           "name": "Single Arm Dumbbell Row",
           "total_sessions": 7,
           "current_1rm": 52.5,
@@ -1594,17 +1605,6 @@
           "days_since": 13,
           "progress_pct": 87.5,
           "equipment": "dumbbell"
-        },
-        {
-          "name": "Seated Cable Row",
-          "total_sessions": 2,
-          "current_1rm": 196.0,
-          "current_max_weight": 140.0,
-          "all_time_1rm": 196.0,
-          "trend": "progressing",
-          "days_since": 13,
-          "progress_pct": 13.1,
-          "equipment": "cable"
         },
         {
           "name": "Seated Row Machine",
@@ -17560,17 +17560,67 @@
           "total_volume": 4680,
           "total_reps": 36,
           "num_sets": 3
+        },
+        {
+          "date": "2026-09-26",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 120.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 130.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 140.0,
+              "reps": 9,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 140.0,
+          "estimated_1rm": 182.0,
+          "total_volume": 3760,
+          "total_reps": 29,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 2,
+      "total_sessions": 3,
       "current_max_weight": 140.0,
-      "current_1rm": 196.0,
+      "current_1rm": 182.0,
       "all_time_max_weight": 140.0,
       "all_time_1rm": 196.0,
-      "progress_pct": 13.1,
+      "progress_pct": 5.0,
       "trend": "progressing",
-      "days_since": 13,
-      "last_session": "2026-09-13",
+      "days_since": 0,
+      "last_session": "2026-09-26",
       "category": "back",
       "equipment": "cable"
     },
