@@ -9,25 +9,25 @@
     "unique_exercises": 36,
     "streak_weeks": 9,
     "longest_streak": 16,
-    "last_7_days": 4,
+    "last_7_days": 3,
     "sessions_per_week": 2.6,
-    "generated_at": "2026-10-03T19:01:07.213882",
+    "generated_at": "2026-10-04T03:00:10.028002",
     "strength_gain_this_week": 63.5,
     "total_strength": 3304.4
   },
   "story": {
     "journey_start": "2026-03-22",
-    "journey_days": 196,
+    "journey_days": 197,
     "latest_date": "2026-10-03",
     "total_sessions": 72,
     "total_sets": 920,
     "total_lbreps": 622391,
     "total_kgreps": 282312,
     "cut_start": "2026-05-18",
-    "cut_day": 138,
+    "cut_day": 139,
     "cut_duration": 180,
-    "cut_days_remaining": 42,
-    "cut_pct": 76.7,
+    "cut_days_remaining": 41,
+    "cut_pct": 77.2,
     "start_kg": 92,
     "current_kg": 84,
     "target_kg": 76,
@@ -160,16 +160,16 @@
     {
       "type": "neglected",
       "severity": "high",
-      "text": "Core hasn't been trained in 18 days",
+      "text": "Core hasn't been trained in 19 days",
       "category": "core",
-      "days": 18
+      "days": 19
     },
     {
       "type": "neglected",
       "severity": "high",
-      "text": "Forearms hasn't been trained in 46 days",
+      "text": "Forearms hasn't been trained in 47 days",
       "category": "forearms",
-      "days": 46
+      "days": 47
     },
     {
       "type": "stalled",
@@ -1510,7 +1510,7 @@
           "current_max_weight": 22.5,
           "all_time_1rm": 33.3,
           "trend": "regressing",
-          "days_since": 4,
+          "days_since": 5,
           "progress_pct": 279.5,
           "equipment": "dumbbell"
         },
@@ -1521,7 +1521,7 @@
           "current_max_weight": 100.0,
           "all_time_1rm": 140.0,
           "trend": "pr",
-          "days_since": 4,
+          "days_since": 5,
           "progress_pct": 66.7,
           "equipment": "machine"
         },
@@ -1532,7 +1532,7 @@
           "current_max_weight": 9.0,
           "all_time_1rm": 13.3,
           "trend": "plateau",
-          "days_since": 7,
+          "days_since": 8,
           "progress_pct": -9.8,
           "equipment": "cable"
         },
@@ -1543,7 +1543,7 @@
           "current_max_weight": 47.5,
           "all_time_1rm": 66.5,
           "trend": "pr",
-          "days_since": 20,
+          "days_since": 21,
           "progress_pct": 61.4,
           "equipment": null
         },
@@ -1554,7 +1554,7 @@
           "current_max_weight": 40.0,
           "all_time_1rm": 55.0,
           "trend": "pr",
-          "days_since": 25,
+          "days_since": 26,
           "progress_pct": 74.6,
           "equipment": null
         },
@@ -1565,7 +1565,7 @@
           "current_max_weight": 20.0,
           "all_time_1rm": 26.0,
           "trend": "pr",
-          "days_since": 116,
+          "days_since": 117,
           "progress_pct": 19.8,
           "equipment": "dumbbell"
         },
@@ -1576,7 +1576,7 @@
           "current_max_weight": 35.0,
           "all_time_1rm": 51.3,
           "trend": "new",
-          "days_since": 142,
+          "days_since": 143,
           "progress_pct": 0.0,
           "equipment": "dumbbell"
         }
@@ -1593,7 +1593,7 @@
           "current_max_weight": 165.0,
           "all_time_1rm": 224.0,
           "trend": "plateau",
-          "days_since": 3,
+          "days_since": 4,
           "progress_pct": 53.1,
           "equipment": "cable"
         },
@@ -1604,7 +1604,7 @@
           "current_max_weight": 40.0,
           "all_time_1rm": 53.3,
           "trend": "pr",
-          "days_since": 3,
+          "days_since": 4,
           "progress_pct": 90.4,
           "equipment": "dumbbell"
         },
@@ -1615,7 +1615,7 @@
           "current_max_weight": 140.0,
           "all_time_1rm": 196.0,
           "trend": "progressing",
-          "days_since": 7,
+          "days_since": 8,
           "progress_pct": 5.0,
           "equipment": "cable"
         },
@@ -1626,7 +1626,7 @@
           "current_max_weight": 140.0,
           "all_time_1rm": 186.7,
           "trend": "pr",
-          "days_since": 42,
+          "days_since": 43,
           "progress_pct": 157.2,
           "equipment": "machine"
         },
@@ -1637,7 +1637,7 @@
           "current_max_weight": 90.0,
           "all_time_1rm": 126.0,
           "trend": "new",
-          "days_since": 114,
+          "days_since": 115,
           "progress_pct": 0.0,
           "equipment": "machine"
         },
@@ -1648,7 +1648,7 @@
           "current_max_weight": 120.0,
           "all_time_1rm": 152.0,
           "trend": "new",
-          "days_since": 121,
+          "days_since": 122,
           "progress_pct": 0.0,
           "equipment": "cable"
         }
@@ -1665,7 +1665,7 @@
           "current_max_weight": 45.0,
           "all_time_1rm": 59.5,
           "trend": "new",
-          "days_since": 4,
+          "days_since": 5,
           "progress_pct": 0.0,
           "equipment": "cable"
         },
@@ -1676,7 +1676,7 @@
           "current_max_weight": 30.0,
           "all_time_1rm": 42.0,
           "trend": "plateau",
-          "days_since": 18,
+          "days_since": 19,
           "progress_pct": 9.0,
           "equipment": "cable"
         },
@@ -1687,7 +1687,7 @@
           "current_max_weight": 37.5,
           "all_time_1rm": 55.0,
           "trend": "regressing",
-          "days_since": 18,
+          "days_since": 19,
           "progress_pct": 16.4,
           "equipment": "cable"
         },
@@ -1698,7 +1698,7 @@
           "current_max_weight": 22.5,
           "all_time_1rm": 29.3,
           "trend": "progressing",
-          "days_since": 22,
+          "days_since": 23,
           "progress_pct": 40.0,
           "equipment": "EZ bar"
         },
@@ -1709,7 +1709,7 @@
           "current_max_weight": 27.5,
           "all_time_1rm": 40.3,
           "trend": "new",
-          "days_since": 195,
+          "days_since": 196,
           "progress_pct": 0.0,
           "equipment": "cable"
         }
@@ -1726,7 +1726,7 @@
           "current_max_weight": 42.5,
           "all_time_1rm": 57.3,
           "trend": "stalled",
-          "days_since": 4,
+          "days_since": 5,
           "progress_pct": 121.3,
           "equipment": "dumbbell"
         },
@@ -1737,7 +1737,7 @@
           "current_max_weight": 100.0,
           "all_time_1rm": 140.0,
           "trend": "pr",
-          "days_since": 4,
+          "days_since": 5,
           "progress_pct": 162.7,
           "equipment": "machine"
         },
@@ -1748,7 +1748,7 @@
           "current_max_weight": 20.0,
           "all_time_1rm": 26.7,
           "trend": "pr",
-          "days_since": 4,
+          "days_since": 5,
           "progress_pct": 21.4,
           "equipment": "cable"
         },
@@ -1759,7 +1759,7 @@
           "current_max_weight": 90.0,
           "all_time_1rm": 133.3,
           "trend": "plateau",
-          "days_since": 73,
+          "days_since": 74,
           "progress_pct": 39.3,
           "equipment": "machine"
         },
@@ -1770,7 +1770,7 @@
           "current_max_weight": 75.0,
           "all_time_1rm": 98.0,
           "trend": "pr",
-          "days_since": 169,
+          "days_since": 170,
           "progress_pct": 27.3,
           "equipment": "cable"
         }
@@ -1787,7 +1787,7 @@
           "current_max_weight": 100.0,
           "all_time_1rm": 150.0,
           "trend": "regressing",
-          "days_since": 0,
+          "days_since": 1,
           "progress_pct": 36.0,
           "equipment": "machine"
         },
@@ -1798,7 +1798,7 @@
           "current_max_weight": 110.0,
           "all_time_1rm": 150.0,
           "trend": "stalled",
-          "days_since": 0,
+          "days_since": 1,
           "progress_pct": 90.5,
           "equipment": "machine"
         },
@@ -1809,7 +1809,7 @@
           "current_max_weight": 200.0,
           "all_time_1rm": 266.7,
           "trend": "pr",
-          "days_since": 0,
+          "days_since": 1,
           "progress_pct": 58.7,
           "equipment": "machine"
         },
@@ -1820,7 +1820,7 @@
           "current_max_weight": 180.0,
           "all_time_1rm": 270.0,
           "trend": "pr",
-          "days_since": 24,
+          "days_since": 25,
           "progress_pct": 200.0,
           "equipment": "machine"
         }
@@ -1837,7 +1837,7 @@
           "current_max_weight": 32.5,
           "all_time_1rm": 43.3,
           "trend": "pr",
-          "days_since": 3,
+          "days_since": 4,
           "progress_pct": 85.8,
           "equipment": "dumbbell"
         },
@@ -1848,7 +1848,7 @@
           "current_max_weight": 55.0,
           "all_time_1rm": 77.0,
           "trend": "plateau",
-          "days_since": 18,
+          "days_since": 19,
           "progress_pct": 41.1,
           "equipment": "dumbbell"
         },
@@ -1859,7 +1859,7 @@
           "current_max_weight": 45.0,
           "all_time_1rm": 60.0,
           "trend": "progressing",
-          "days_since": 53,
+          "days_since": 54,
           "progress_pct": 28.5,
           "equipment": "machine"
         },
@@ -1870,7 +1870,7 @@
           "current_max_weight": 30.0,
           "all_time_1rm": 39.0,
           "trend": "pr",
-          "days_since": 81,
+          "days_since": 82,
           "progress_pct": 46.1,
           "equipment": "dumbbell"
         }
@@ -1887,7 +1887,7 @@
           "current_max_weight": 65.0,
           "all_time_1rm": 88.7,
           "trend": "plateau",
-          "days_since": 18,
+          "days_since": 19,
           "progress_pct": -2.3,
           "equipment": "machine"
         },
@@ -1898,7 +1898,7 @@
           "current_max_weight": 50.0,
           "all_time_1rm": 80.0,
           "trend": "regressing",
-          "days_since": 40,
+          "days_since": 41,
           "progress_pct": -8.4,
           "equipment": "machine"
         }
@@ -1915,7 +1915,7 @@
           "current_max_weight": 0,
           "all_time_1rm": 0,
           "trend": "new",
-          "days_since": 25,
+          "days_since": 26,
           "progress_pct": 0,
           "equipment": "machine"
         }
@@ -1932,7 +1932,7 @@
           "current_max_weight": 100.0,
           "all_time_1rm": 143.0,
           "trend": "progressing",
-          "days_since": 22,
+          "days_since": 23,
           "progress_pct": 40.0,
           "equipment": null
         }
@@ -1949,7 +1949,7 @@
           "current_max_weight": 12.5,
           "all_time_1rm": 17.9,
           "trend": "new",
-          "days_since": 46,
+          "days_since": 47,
           "progress_pct": 0.0,
           "equipment": "dumbbell"
         }
@@ -2031,7 +2031,7 @@
       "all_time_1rm": 40.3,
       "progress_pct": 0.0,
       "trend": "new",
-      "days_since": 195,
+      "days_since": 196,
       "last_session": "2026-03-22",
       "category": "triceps",
       "equipment": "cable"
@@ -3176,7 +3176,7 @@
       "all_time_1rm": 224.0,
       "progress_pct": 53.1,
       "trend": "plateau",
-      "days_since": 3,
+      "days_since": 4,
       "last_session": "2026-09-30",
       "category": "back",
       "equipment": "cable"
@@ -3365,7 +3365,7 @@
       "all_time_1rm": 42.0,
       "progress_pct": 9.0,
       "trend": "plateau",
-      "days_since": 18,
+      "days_since": 19,
       "last_session": "2026-09-15",
       "category": "triceps",
       "equipment": "cable"
@@ -4182,7 +4182,7 @@
       "all_time_1rm": 186.7,
       "progress_pct": 157.2,
       "trend": "pr",
-      "days_since": 42,
+      "days_since": 43,
       "last_session": "2026-08-22",
       "category": "back",
       "equipment": "machine"
@@ -4584,7 +4584,7 @@
       "all_time_1rm": 53.3,
       "progress_pct": 90.4,
       "trend": "pr",
-      "days_since": 3,
+      "days_since": 4,
       "last_session": "2026-09-30",
       "category": "back",
       "equipment": "dumbbell"
@@ -5136,7 +5136,7 @@
       "all_time_1rm": 270.0,
       "progress_pct": 200.0,
       "trend": "pr",
-      "days_since": 24,
+      "days_since": 25,
       "last_session": "2026-09-09",
       "category": "legs",
       "equipment": "machine"
@@ -5827,7 +5827,7 @@
       "all_time_1rm": 150.0,
       "progress_pct": 36.0,
       "trend": "regressing",
-      "days_since": 0,
+      "days_since": 1,
       "last_session": "2026-10-03",
       "category": "legs",
       "equipment": "machine"
@@ -6505,7 +6505,7 @@
       "all_time_1rm": 150.0,
       "progress_pct": 90.5,
       "trend": "stalled",
-      "days_since": 0,
+      "days_since": 1,
       "last_session": "2026-10-03",
       "category": "legs",
       "equipment": "machine"
@@ -7209,7 +7209,7 @@
       "all_time_1rm": 266.7,
       "progress_pct": 58.7,
       "trend": "pr",
-      "days_since": 0,
+      "days_since": 1,
       "last_session": "2026-10-03",
       "category": "legs",
       "equipment": "machine"
@@ -7400,7 +7400,7 @@
       "all_time_1rm": 98.0,
       "progress_pct": 27.3,
       "trend": "pr",
-      "days_since": 169,
+      "days_since": 170,
       "last_session": "2026-04-17",
       "category": "chest",
       "equipment": "cable"
@@ -7893,7 +7893,7 @@
       "all_time_1rm": 133.3,
       "progress_pct": 39.3,
       "trend": "plateau",
-      "days_since": 73,
+      "days_since": 74,
       "last_session": "2026-07-22",
       "category": "chest",
       "equipment": "machine"
@@ -8825,7 +8825,7 @@
       "all_time_1rm": 57.3,
       "progress_pct": 121.3,
       "trend": "stalled",
-      "days_since": 4,
+      "days_since": 5,
       "last_session": "2026-09-29",
       "category": "chest",
       "equipment": "dumbbell"
@@ -9968,7 +9968,7 @@
       "all_time_1rm": 33.3,
       "progress_pct": 279.5,
       "trend": "regressing",
-      "days_since": 4,
+      "days_since": 5,
       "last_session": "2026-09-29",
       "category": "shoulders",
       "equipment": "dumbbell"
@@ -10823,7 +10823,7 @@
       "all_time_1rm": 0,
       "progress_pct": 0,
       "trend": "new",
-      "days_since": 25,
+      "days_since": 26,
       "last_session": "2026-09-08",
       "category": "cardio",
       "equipment": "machine"
@@ -11379,7 +11379,7 @@
       "all_time_1rm": 39.0,
       "progress_pct": 46.1,
       "trend": "pr",
-      "days_since": 81,
+      "days_since": 82,
       "last_session": "2026-07-14",
       "category": "biceps",
       "equipment": "dumbbell"
@@ -12046,7 +12046,7 @@
       "all_time_1rm": 77.0,
       "progress_pct": 41.1,
       "trend": "plateau",
-      "days_since": 18,
+      "days_since": 19,
       "last_session": "2026-09-15",
       "category": "biceps",
       "equipment": "dumbbell"
@@ -13039,7 +13039,7 @@
       "all_time_1rm": 55.0,
       "progress_pct": 16.4,
       "trend": "regressing",
-      "days_since": 18,
+      "days_since": 19,
       "last_session": "2026-09-15",
       "category": "triceps",
       "equipment": "cable"
@@ -13682,7 +13682,7 @@
       "all_time_1rm": 43.3,
       "progress_pct": 85.8,
       "trend": "pr",
-      "days_since": 3,
+      "days_since": 4,
       "last_session": "2026-09-30",
       "category": "biceps",
       "equipment": "dumbbell"
@@ -14210,7 +14210,7 @@
       "all_time_1rm": 66.5,
       "progress_pct": 61.4,
       "trend": "pr",
-      "days_since": 20,
+      "days_since": 21,
       "last_session": "2026-09-13",
       "category": "shoulders",
       "equipment": null
@@ -15181,7 +15181,7 @@
       "all_time_1rm": 55.0,
       "progress_pct": 74.6,
       "trend": "pr",
-      "days_since": 25,
+      "days_since": 26,
       "last_session": "2026-09-08",
       "category": "shoulders",
       "equipment": null
@@ -15346,7 +15346,7 @@
       "all_time_1rm": 140.0,
       "progress_pct": 162.7,
       "trend": "pr",
-      "days_since": 4,
+      "days_since": 5,
       "last_session": "2026-09-29",
       "category": "chest",
       "equipment": "machine"
@@ -16024,7 +16024,7 @@
       "all_time_1rm": 140.0,
       "progress_pct": 66.7,
       "trend": "pr",
-      "days_since": 4,
+      "days_since": 5,
       "last_session": "2026-09-29",
       "category": "shoulders",
       "equipment": "machine"
@@ -16426,7 +16426,7 @@
       "all_time_1rm": 29.3,
       "progress_pct": 40.0,
       "trend": "progressing",
-      "days_since": 22,
+      "days_since": 23,
       "last_session": "2026-09-11",
       "category": "triceps",
       "equipment": "EZ bar"
@@ -16491,7 +16491,7 @@
       "all_time_1rm": 51.3,
       "progress_pct": 0.0,
       "trend": "new",
-      "days_since": 142,
+      "days_since": 143,
       "last_session": "2026-05-14",
       "category": "shoulders",
       "equipment": "dumbbell"
@@ -16782,7 +16782,7 @@
       "all_time_1rm": 60.0,
       "progress_pct": 28.5,
       "trend": "progressing",
-      "days_since": 53,
+      "days_since": 54,
       "last_session": "2026-08-11",
       "category": "biceps",
       "equipment": "machine"
@@ -16947,7 +16947,7 @@
       "all_time_1rm": 26.0,
       "progress_pct": 19.8,
       "trend": "pr",
-      "days_since": 116,
+      "days_since": 117,
       "last_session": "2026-06-09",
       "category": "shoulders",
       "equipment": "dumbbell"
@@ -17012,7 +17012,7 @@
       "all_time_1rm": 152.0,
       "progress_pct": 0.0,
       "trend": "new",
-      "days_since": 121,
+      "days_since": 122,
       "last_session": "2026-06-04",
       "category": "back",
       "equipment": "cable"
@@ -17077,7 +17077,7 @@
       "all_time_1rm": 126.0,
       "progress_pct": 0.0,
       "trend": "new",
-      "days_since": 114,
+      "days_since": 115,
       "last_session": "2026-06-11",
       "category": "back",
       "equipment": "machine"
@@ -17442,7 +17442,7 @@
       "all_time_1rm": 143.0,
       "progress_pct": 40.0,
       "trend": "progressing",
-      "days_since": 22,
+      "days_since": 23,
       "last_session": "2026-09-11",
       "category": null,
       "equipment": null
@@ -17657,7 +17657,7 @@
       "all_time_1rm": 80.0,
       "progress_pct": -8.4,
       "trend": "regressing",
-      "days_since": 40,
+      "days_since": 41,
       "last_session": "2026-08-24",
       "category": "core",
       "equipment": "machine"
@@ -17772,7 +17772,7 @@
       "all_time_1rm": 88.7,
       "progress_pct": -2.3,
       "trend": "plateau",
-      "days_since": 18,
+      "days_since": 19,
       "last_session": "2026-09-15",
       "category": "core",
       "equipment": "machine"
@@ -17837,7 +17837,7 @@
       "all_time_1rm": 17.9,
       "progress_pct": 0.0,
       "trend": "new",
-      "days_since": 46,
+      "days_since": 47,
       "last_session": "2026-08-18",
       "category": "forearms",
       "equipment": "dumbbell"
@@ -17989,7 +17989,7 @@
       "all_time_1rm": 26.7,
       "progress_pct": 21.4,
       "trend": "pr",
-      "days_since": 4,
+      "days_since": 5,
       "last_session": "2026-09-29",
       "category": "chest",
       "equipment": "cable"
@@ -18154,7 +18154,7 @@
       "all_time_1rm": 196.0,
       "progress_pct": 5.0,
       "trend": "progressing",
-      "days_since": 7,
+      "days_since": 8,
       "last_session": "2026-09-26",
       "category": "back",
       "equipment": "cable"
@@ -18319,7 +18319,7 @@
       "all_time_1rm": 13.3,
       "progress_pct": -9.8,
       "trend": "plateau",
-      "days_since": 7,
+      "days_since": 8,
       "last_session": "2026-09-26",
       "category": "shoulders",
       "equipment": "cable"
@@ -18384,7 +18384,7 @@
       "all_time_1rm": 59.5,
       "progress_pct": 0.0,
       "trend": "new",
-      "days_since": 4,
+      "days_since": 5,
       "last_session": "2026-09-29",
       "category": "triceps",
       "equipment": "cable"
