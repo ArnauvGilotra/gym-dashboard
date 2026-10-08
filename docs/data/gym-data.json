@@ -4,25 +4,25 @@
     "days_tracking": 200,
     "first_date": "2026-03-22",
     "last_date": "2026-10-07",
-    "total_sets": 930,
-    "total_volume": 633216,
+    "total_sets": 934,
+    "total_volume": 633795,
     "unique_exercises": 36,
     "streak_weeks": 10,
     "longest_streak": 16,
     "last_7_days": 3,
     "sessions_per_week": 2.6,
-    "generated_at": "2026-10-07T21:56:42.718875",
-    "strength_gain_this_week": 8.2,
-    "total_strength": 3308.2
+    "generated_at": "2026-10-07T21:58:22.752355",
+    "strength_gain_this_week": 8.9,
+    "total_strength": 3306.9
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 200,
     "latest_date": "2026-10-07",
     "total_sessions": 73,
-    "total_sets": 930,
-    "total_lbreps": 633216,
-    "total_kgreps": 287222,
+    "total_sets": 934,
+    "total_lbreps": 633795,
+    "total_kgreps": 287485,
     "cut_start": "2026-05-18",
     "cut_day": 142,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 2725,
+      "volume": 3304,
       "sessions": 1,
-      "sets": 7
+      "sets": 11
     },
     "last_week": {
       "volume": 37232,
@@ -143,18 +143,18 @@
       "sets": 36
     },
     "this_month": {
-      "volume": 23325,
+      "volume": 23904,
       "sessions": 2,
-      "sets": 19
+      "sets": 23
     },
     "last_month": {
       "volume": 94802,
       "sessions": 10,
       "sets": 122
     },
-    "volume_wow_pct": -92.7,
+    "volume_wow_pct": -91.1,
     "sessions_wow_delta": -2,
-    "volume_mom_pct": -75.4
+    "volume_mom_pct": -74.8
   },
   "insights": [
     {
@@ -188,7 +188,7 @@
     {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 92.7% vs last week"
+      "text": "Weekly volume down 91.1% vs last week"
     },
     {
       "type": "breakthrough",
@@ -204,6 +204,16 @@
     }
   ],
   "recent_prs": [
+    {
+      "exercise": "Cable Lateral Raise",
+      "date": "2026-10-07",
+      "weight": 10.5,
+      "reps": 10,
+      "estimated_1rm": 14.0,
+      "previous_1rm": 13.3,
+      "gain": 0.7,
+      "category": "shoulders"
+    },
     {
       "exercise": "Straight Bar Pushdown",
       "date": "2026-10-07",
@@ -243,16 +253,6 @@
       "previous_1rm": 80.0,
       "gain": 60.0,
       "category": "chest"
-    },
-    {
-      "exercise": "Lat Pulldown",
-      "date": "2026-09-26",
-      "weight": 160.0,
-      "reps": 12,
-      "estimated_1rm": 224.0,
-      "previous_1rm": 217.0,
-      "gain": 7.0,
-      "category": "back"
     }
   ],
   "heatmap": [
@@ -921,6 +921,7 @@
     {
       "date": "2026-10-07",
       "muscles": [
+        "biceps",
         "shoulders",
         "triceps"
       ],
@@ -1261,9 +1262,9 @@
     },
     {
       "category": "biceps",
-      "current_strength": 59.5,
+      "current_strength": 58.4,
       "strength_30d_ago": 59.0,
-      "pct_change_30d": 0.8,
+      "pct_change_30d": -1.0,
       "top_exercise": "Preacher Curl",
       "top_1rm": 75.2,
       "top_max_weight": 55.0,
@@ -1323,7 +1324,7 @@
           "strength": 60.1
         }
       ],
-      "last_trained": "2026-09-30"
+      "last_trained": "2026-10-07"
     },
     {
       "category": "triceps",
@@ -1524,6 +1525,17 @@
           "equipment": null
         },
         {
+          "name": "Cable Lateral Raise",
+          "total_sessions": 4,
+          "current_1rm": 14.0,
+          "current_max_weight": 10.5,
+          "all_time_1rm": 14.0,
+          "trend": "pr",
+          "days_since": 0,
+          "progress_pct": 5.3,
+          "equipment": "cable"
+        },
+        {
           "name": "Lateral Raise",
           "total_sessions": 21,
           "current_1rm": 31.5,
@@ -1544,17 +1556,6 @@
           "days_since": 8,
           "progress_pct": 66.7,
           "equipment": "machine"
-        },
-        {
-          "name": "Cable Lateral Raise",
-          "total_sessions": 3,
-          "current_1rm": 12.0,
-          "current_max_weight": 9.0,
-          "all_time_1rm": 13.3,
-          "trend": "plateau",
-          "days_since": 11,
-          "progress_pct": -9.8,
-          "equipment": "cable"
         },
         {
           "name": "Face Pull",
@@ -1841,13 +1842,13 @@
       "exercises": [
         {
           "name": "Hammer Curl",
-          "total_sessions": 11,
-          "current_1rm": 43.3,
-          "current_max_weight": 32.5,
+          "total_sessions": 12,
+          "current_1rm": 40.0,
+          "current_max_weight": 30.0,
           "all_time_1rm": 43.3,
-          "trend": "pr",
-          "days_since": 7,
-          "progress_pct": 85.8,
+          "trend": "plateau",
+          "days_since": 0,
+          "progress_pct": 71.7,
           "equipment": "dumbbell"
         },
         {
@@ -13732,17 +13733,41 @@
           "total_volume": 950,
           "total_reps": 30,
           "num_sets": 3
+        },
+        {
+          "date": "2026-10-07",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 30.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 30.0,
+          "estimated_1rm": 40.0,
+          "total_volume": 300,
+          "total_reps": 10,
+          "num_sets": 1
         }
       ],
-      "total_sessions": 11,
-      "current_max_weight": 32.5,
-      "current_1rm": 43.3,
+      "total_sessions": 12,
+      "current_max_weight": 30.0,
+      "current_1rm": 40.0,
       "all_time_max_weight": 35.0,
       "all_time_1rm": 43.3,
-      "progress_pct": 85.8,
-      "trend": "pr",
-      "days_since": 7,
-      "last_session": "2026-09-30",
+      "progress_pct": 71.7,
+      "trend": "plateau",
+      "days_since": 0,
+      "last_session": "2026-10-07",
       "category": "biceps",
       "equipment": "dumbbell"
     },
@@ -18432,17 +18457,67 @@
           "total_volume": 270,
           "total_reps": 30,
           "num_sets": 3
+        },
+        {
+          "date": "2026-10-07",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 9.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 10.5,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 10.5,
+              "reps": 8,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 10.5,
+          "estimated_1rm": 14.0,
+          "total_volume": 279,
+          "total_reps": 28,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 3,
-      "current_max_weight": 9.0,
-      "current_1rm": 12.0,
+      "total_sessions": 4,
+      "current_max_weight": 10.5,
+      "current_1rm": 14.0,
       "all_time_max_weight": 10.5,
-      "all_time_1rm": 13.3,
-      "progress_pct": -9.8,
-      "trend": "plateau",
-      "days_since": 11,
-      "last_session": "2026-09-26",
+      "all_time_1rm": 14.0,
+      "progress_pct": 5.3,
+      "trend": "pr",
+      "days_since": 0,
+      "last_session": "2026-10-07",
       "category": "shoulders",
       "equipment": "cable"
     },
