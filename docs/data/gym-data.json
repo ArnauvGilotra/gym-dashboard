@@ -4,25 +4,25 @@
     "days_tracking": 207,
     "first_date": "2026-03-22",
     "last_date": "2026-10-14",
-    "total_sets": 952,
-    "total_volume": 657098,
+    "total_sets": 955,
+    "total_volume": 662178,
     "unique_exercises": 36,
     "streak_weeks": 11,
     "longest_streak": 16,
     "last_7_days": 3,
     "sessions_per_week": 2.5,
-    "generated_at": "2026-10-14T21:24:40.791454",
+    "generated_at": "2026-10-14T21:41:01.680617",
     "strength_gain_this_week": 21.5,
-    "total_strength": 3342.4
+    "total_strength": 3353.1
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 207,
     "latest_date": "2026-10-14",
     "total_sessions": 75,
-    "total_sets": 952,
-    "total_lbreps": 657098,
-    "total_kgreps": 298055,
+    "total_sets": 955,
+    "total_lbreps": 662178,
+    "total_kgreps": 300359,
     "cut_start": "2026-05-18",
     "cut_day": 149,
     "cut_duration": 180,
@@ -67,10 +67,10 @@
         "category": "back",
         "first": "95\u00d714",
         "first_date": "2026-03-22",
-        "latest": "165\u00d78",
-        "latest_date": "2026-09-30",
-        "delta_lb": 70.0,
-        "sessions": 20
+        "latest": "170\u00d78",
+        "latest_date": "2026-10-14",
+        "delta_lb": 75.0,
+        "sessions": 21
       },
       {
         "lift": "Pec Deck Machine",
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 1918,
+      "volume": 6998,
       "sessions": 1,
-      "sets": 4
+      "sets": 7
     },
     "last_week": {
       "volume": 24689,
@@ -143,27 +143,20 @@
       "sets": 25
     },
     "this_month": {
-      "volume": 47206,
+      "volume": 52286,
       "sessions": 4,
-      "sets": 41
+      "sets": 44
     },
     "last_month": {
       "volume": 94802,
       "sessions": 10,
       "sets": 122
     },
-    "volume_wow_pct": -92.2,
+    "volume_wow_pct": -71.7,
     "sessions_wow_delta": -1,
-    "volume_mom_pct": -50.2
+    "volume_mom_pct": -44.8
   },
   "insights": [
-    {
-      "type": "neglected",
-      "severity": "high",
-      "text": "Back hasn't been trained in 14 days",
-      "category": "back",
-      "days": 14
-    },
     {
       "type": "neglected",
       "severity": "high",
@@ -188,19 +181,19 @@
     {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 92.2% vs last week"
+      "text": "Weekly volume down 71.7% vs last week"
+    },
+    {
+      "type": "breakthrough",
+      "severity": "good",
+      "text": "Lat Pulldown just hit a new PR \u2014 keep pushing",
+      "exercise": "Lat Pulldown"
     },
     {
       "type": "breakthrough",
       "severity": "good",
       "text": "Seated Row Machine just hit a new PR \u2014 keep pushing",
       "exercise": "Seated Row Machine"
-    },
-    {
-      "type": "breakthrough",
-      "severity": "good",
-      "text": "Single Arm Dumbbell Row just hit a new PR \u2014 keep pushing",
-      "exercise": "Single Arm Dumbbell Row"
     }
   ],
   "recent_prs": [
@@ -939,6 +932,7 @@
     {
       "date": "2026-10-14",
       "muscles": [
+        "back",
         "chest"
       ],
       "focus": "Chest + Back",
@@ -1014,12 +1008,12 @@
     },
     {
       "category": "back",
-      "current_strength": 194.0,
+      "current_strength": 197.6,
       "strength_30d_ago": 199.9,
-      "pct_change_30d": -3.0,
+      "pct_change_30d": -1.2,
       "top_exercise": "Lat Pulldown",
-      "top_1rm": 213.3,
-      "top_max_weight": 165.0,
+      "top_1rm": 224.0,
+      "top_max_weight": 170.0,
       "top_best_set": {
         "weight": 160.0,
         "reps": 12,
@@ -1076,7 +1070,7 @@
           "strength": 202.2
         }
       ],
-      "last_trained": "2026-09-30"
+      "last_trained": "2026-10-14"
     },
     {
       "category": "chest",
@@ -1614,13 +1608,13 @@
       "exercises": [
         {
           "name": "Lat Pulldown",
-          "total_sessions": 20,
-          "current_1rm": 213.3,
-          "current_max_weight": 165.0,
+          "total_sessions": 21,
+          "current_1rm": 224.0,
+          "current_max_weight": 170.0,
           "all_time_1rm": 224.0,
-          "trend": "plateau",
-          "days_since": 14,
-          "progress_pct": 53.1,
+          "trend": "pr",
+          "days_since": 0,
+          "progress_pct": 60.8,
           "equipment": "cable"
         },
         {
@@ -3193,17 +3187,67 @@
           "total_volume": 4420,
           "total_reps": 28,
           "num_sets": 3
+        },
+        {
+          "date": "2026-10-14",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 150.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 160.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 170.0,
+              "reps": 8,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 170.0,
+          "estimated_1rm": 224.0,
+          "total_volume": 5080,
+          "total_reps": 32,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 20,
-      "current_max_weight": 165.0,
-      "current_1rm": 213.3,
-      "all_time_max_weight": 165.0,
+      "total_sessions": 21,
+      "current_max_weight": 170.0,
+      "current_1rm": 224.0,
+      "all_time_max_weight": 170.0,
       "all_time_1rm": 224.0,
-      "progress_pct": 53.1,
-      "trend": "plateau",
-      "days_since": 14,
-      "last_session": "2026-09-30",
+      "progress_pct": 60.8,
+      "trend": "pr",
+      "days_since": 0,
+      "last_session": "2026-10-14",
       "category": "back",
       "equipment": "cable"
     },
