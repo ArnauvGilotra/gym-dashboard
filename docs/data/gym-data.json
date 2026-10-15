@@ -4,25 +4,25 @@
     "days_tracking": 207,
     "first_date": "2026-03-22",
     "last_date": "2026-10-14",
-    "total_sets": 957,
-    "total_volume": 663168,
+    "total_sets": 961,
+    "total_volume": 667058,
     "unique_exercises": 36,
     "streak_weeks": 11,
     "longest_streak": 16,
     "last_7_days": 3,
     "sessions_per_week": 2.5,
-    "generated_at": "2026-10-14T21:52:56.790557",
-    "strength_gain_this_week": 27.7,
-    "total_strength": 3359.3
+    "generated_at": "2026-10-14T22:00:59.843255",
+    "strength_gain_this_week": 42.2,
+    "total_strength": 3373.8
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 207,
     "latest_date": "2026-10-14",
     "total_sessions": 75,
-    "total_sets": 957,
-    "total_lbreps": 663168,
-    "total_kgreps": 300808,
+    "total_sets": 961,
+    "total_lbreps": 667058,
+    "total_kgreps": 302573,
     "cut_start": "2026-05-18",
     "cut_day": 149,
     "cut_duration": 180,
@@ -77,10 +77,10 @@
         "category": "chest",
         "first": "40\u00d710",
         "first_date": "2026-04-17",
-        "latest": "100\u00d712",
-        "latest_date": "2026-09-29",
-        "delta_lb": 60.0,
-        "sessions": 3
+        "latest": "115\u00d78",
+        "latest_date": "2026-10-14",
+        "delta_lb": 75.0,
+        "sessions": 4
       },
       {
         "lift": "Leg Extension",
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 7988,
+      "volume": 11878,
       "sessions": 1,
-      "sets": 9
+      "sets": 13
     },
     "last_week": {
       "volume": 24689,
@@ -143,18 +143,18 @@
       "sets": 25
     },
     "this_month": {
-      "volume": 53276,
+      "volume": 57166,
       "sessions": 4,
-      "sets": 46
+      "sets": 50
     },
     "last_month": {
       "volume": 94802,
       "sessions": 10,
       "sets": 122
     },
-    "volume_wow_pct": -67.6,
+    "volume_wow_pct": -51.9,
     "sessions_wow_delta": -1,
-    "volume_mom_pct": -43.8
+    "volume_mom_pct": -39.7
   },
   "insights": [
     {
@@ -181,7 +181,7 @@
     {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 67.6% vs last week"
+      "text": "Weekly volume down 51.9% vs last week"
     },
     {
       "type": "breakthrough",
@@ -200,11 +200,11 @@
     {
       "exercise": "Single Arm Dumbbell Row",
       "date": "2026-10-14",
-      "weight": 42.5,
-      "reps": 12,
-      "estimated_1rm": 59.5,
+      "weight": 45.0,
+      "reps": 10,
+      "estimated_1rm": 60.0,
       "previous_1rm": 53.3,
-      "gain": 6.2,
+      "gain": 6.7,
       "category": "back"
     },
     {
@@ -215,6 +215,16 @@
       "estimated_1rm": 61.5,
       "previous_1rm": 57.3,
       "gain": 4.2,
+      "category": "chest"
+    },
+    {
+      "exercise": "Pec Deck Machine",
+      "date": "2026-10-14",
+      "weight": 110.0,
+      "reps": 12,
+      "estimated_1rm": 154.0,
+      "previous_1rm": 140.0,
+      "gain": 14.0,
       "category": "chest"
     },
     {
@@ -236,16 +246,6 @@
       "previous_1rm": 266.7,
       "gain": 13.3,
       "category": "legs"
-    },
-    {
-      "exercise": "Hammer Curl",
-      "date": "2026-10-07",
-      "weight": 35.0,
-      "reps": 10,
-      "estimated_1rm": 46.7,
-      "previous_1rm": 43.3,
-      "gain": 3.4,
-      "category": "biceps"
     }
   ],
   "heatmap": [
@@ -1074,16 +1074,16 @@
     },
     {
       "category": "chest",
-      "current_strength": 118.3,
+      "current_strength": 123.0,
       "strength_30d_ago": 103.8,
-      "pct_change_30d": 14.0,
+      "pct_change_30d": 18.5,
       "top_exercise": "Pec Deck Machine",
-      "top_1rm": 140.0,
-      "top_max_weight": 100.0,
+      "top_1rm": 154.0,
+      "top_max_weight": 115.0,
       "top_best_set": {
-        "weight": 100.0,
+        "weight": 110.0,
         "reps": 12,
-        "date": "2026-09-29"
+        "date": "2026-10-14"
       },
       "exercise_count": 5,
       "trend": [
@@ -1133,7 +1133,7 @@
         },
         {
           "week": "2026-10-12",
-          "strength": 123.8
+          "strength": 128.4
         }
       ],
       "last_trained": "2026-10-14"
@@ -1620,12 +1620,12 @@
         {
           "name": "Single Arm Dumbbell Row",
           "total_sessions": 9,
-          "current_1rm": 59.5,
-          "current_max_weight": 42.5,
-          "all_time_1rm": 59.5,
+          "current_1rm": 60.0,
+          "current_max_weight": 45.0,
+          "all_time_1rm": 60.0,
           "trend": "pr",
           "days_since": 0,
-          "progress_pct": 112.5,
+          "progress_pct": 114.3,
           "equipment": "dumbbell"
         },
         {
@@ -1752,13 +1752,13 @@
         },
         {
           "name": "Pec Deck Machine",
-          "total_sessions": 3,
-          "current_1rm": 140.0,
-          "current_max_weight": 100.0,
-          "all_time_1rm": 140.0,
+          "total_sessions": 4,
+          "current_1rm": 154.0,
+          "current_max_weight": 115.0,
+          "all_time_1rm": 154.0,
           "trend": "pr",
-          "days_since": 15,
-          "progress_pct": 162.7,
+          "days_since": 0,
+          "progress_pct": 188.9,
           "equipment": "machine"
         },
         {
@@ -4675,21 +4675,34 @@
               "distance_km": null,
               "incline": null,
               "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 45.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
             }
           ],
-          "max_weight": 42.5,
-          "estimated_1rm": 59.5,
-          "total_volume": 990,
-          "total_reps": 24,
-          "num_sets": 2
+          "max_weight": 45.0,
+          "estimated_1rm": 60.0,
+          "total_volume": 1440,
+          "total_reps": 34,
+          "num_sets": 3
         }
       ],
       "total_sessions": 9,
-      "current_max_weight": 42.5,
-      "current_1rm": 59.5,
-      "all_time_max_weight": 42.5,
-      "all_time_1rm": 59.5,
-      "progress_pct": 112.5,
+      "current_max_weight": 45.0,
+      "current_1rm": 60.0,
+      "all_time_max_weight": 45.0,
+      "all_time_1rm": 60.0,
+      "progress_pct": 114.3,
       "trend": "pr",
       "days_since": 0,
       "last_session": "2026-10-14",
@@ -15870,17 +15883,67 @@
           "total_volume": 3600,
           "total_reps": 36,
           "num_sets": 3
+        },
+        {
+          "date": "2026-10-14",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 100.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 110.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 115.0,
+              "reps": 8,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 115.0,
+          "estimated_1rm": 154.0,
+          "total_volume": 3440,
+          "total_reps": 32,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 3,
-      "current_max_weight": 100.0,
-      "current_1rm": 140.0,
-      "all_time_max_weight": 100.0,
-      "all_time_1rm": 140.0,
-      "progress_pct": 162.7,
+      "total_sessions": 4,
+      "current_max_weight": 115.0,
+      "current_1rm": 154.0,
+      "all_time_max_weight": 115.0,
+      "all_time_1rm": 154.0,
+      "progress_pct": 188.9,
       "trend": "pr",
-      "days_since": 15,
-      "last_session": "2026-09-29",
+      "days_since": 0,
+      "last_session": "2026-10-14",
       "category": "chest",
       "equipment": "machine"
     },
