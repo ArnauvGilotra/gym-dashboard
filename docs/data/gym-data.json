@@ -1,25 +1,25 @@
 {
   "summary": {
-    "total_sessions": 74,
-    "days_tracking": 202,
+    "total_sessions": 75,
+    "days_tracking": 207,
     "first_date": "2026-03-22",
-    "last_date": "2026-10-09",
+    "last_date": "2026-10-14",
     "total_sets": 948,
     "total_volume": 655180,
     "unique_exercises": 36,
-    "streak_weeks": 10,
+    "streak_weeks": 11,
     "longest_streak": 16,
-    "last_7_days": 2,
-    "sessions_per_week": 2.6,
-    "generated_at": "2026-10-14T17:46:59.951929",
+    "last_7_days": 3,
+    "sessions_per_week": 2.5,
+    "generated_at": "2026-10-14T21:23:40.397373",
     "strength_gain_this_week": 17.3,
     "total_strength": 3336.9
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 207,
-    "latest_date": "2026-10-09",
-    "total_sessions": 74,
+    "latest_date": "2026-10-14",
+    "total_sessions": 75,
     "total_sets": 948,
     "total_lbreps": 655180,
     "total_kgreps": 297185,
@@ -1533,7 +1533,7 @@
     },
     {
       "week": "2026-10-12",
-      "sessions": 0
+      "sessions": 1
     }
   ],
   "exercises_by_category": [
@@ -19703,6 +19703,17 @@
       "feeling": null,
       "notes": null,
       "created_at": "2026-10-10 05:18:21",
+      "location": "gym"
+    },
+    {
+      "id": 81,
+      "date": "2026-10-14",
+      "start_time": null,
+      "duration_min": null,
+      "focus": "Chest + Back",
+      "feeling": null,
+      "notes": null,
+      "created_at": "2026-10-14 21:23:40",
       "location": "gym"
     }
   ]
