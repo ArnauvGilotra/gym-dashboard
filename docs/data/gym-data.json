@@ -4,25 +4,25 @@
     "days_tracking": 212,
     "first_date": "2026-03-22",
     "last_date": "2026-10-19",
-    "total_sets": 962,
-    "total_volume": 667778,
+    "total_sets": 964,
+    "total_volume": 669118,
     "unique_exercises": 37,
     "streak_weeks": 12,
     "longest_streak": 16,
     "last_7_days": 2,
     "sessions_per_week": 2.5,
-    "generated_at": "2026-10-19T20:49:17.938630",
+    "generated_at": "2026-10-19T20:55:49.112591",
     "strength_gain_this_week": 24.9,
-    "total_strength": 3457.8
+    "total_strength": 3464.8
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 212,
     "latest_date": "2026-10-19",
     "total_sessions": 76,
-    "total_sets": 962,
-    "total_lbreps": 667778,
-    "total_kgreps": 302899,
+    "total_sets": 964,
+    "total_lbreps": 669118,
+    "total_kgreps": 303507,
     "cut_start": "2026-05-18",
     "cut_day": 154,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 720,
+      "volume": 2060,
       "sessions": 1,
-      "sets": 1
+      "sets": 3
     },
     "last_week": {
       "volume": 11878,
@@ -143,18 +143,18 @@
       "sets": 13
     },
     "this_month": {
-      "volume": 57886,
+      "volume": 59226,
       "sessions": 5,
-      "sets": 51
+      "sets": 53
     },
     "last_month": {
       "volume": 94802,
       "sessions": 10,
       "sets": 122
     },
-    "volume_wow_pct": -93.9,
+    "volume_wow_pct": -82.7,
     "sessions_wow_delta": 0,
-    "volume_mom_pct": -38.9
+    "volume_mom_pct": -37.5
   },
   "insights": [
     {
@@ -202,7 +202,7 @@
     {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 93.9% vs last week"
+      "text": "Weekly volume down 82.7% vs last week"
     },
     {
       "type": "breakthrough",
@@ -1169,9 +1169,9 @@
     },
     {
       "category": "shoulders",
-      "current_strength": 96.8,
+      "current_strength": 99.2,
       "strength_30d_ago": 85.5,
-      "pct_change_30d": 13.2,
+      "pct_change_30d": 16.0,
       "top_exercise": "Reverse Fly Machine",
       "top_1rm": 140.0,
       "top_max_weight": 100.0,
@@ -1228,7 +1228,7 @@
         },
         {
           "week": "2026-10-19",
-          "strength": 96.8
+          "strength": 99.2
         }
       ],
       "last_trained": "2026-10-19"
@@ -1555,9 +1555,9 @@
         {
           "name": "Machine Shoulder Press",
           "total_sessions": 1,
-          "current_1rm": 84.0,
-          "current_max_weight": 60.0,
-          "all_time_1rm": 84.0,
+          "current_1rm": 91.0,
+          "current_max_weight": 70.0,
+          "all_time_1rm": 91.0,
           "trend": "new",
           "days_since": 0,
           "progress_pct": 0.0,
@@ -19143,20 +19143,46 @@
               "distance_km": null,
               "incline": null,
               "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 65.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 70.0,
+              "reps": 8,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
             }
           ],
-          "max_weight": 60.0,
-          "estimated_1rm": 84.0,
-          "total_volume": 720,
-          "total_reps": 12,
-          "num_sets": 1
+          "max_weight": 70.0,
+          "estimated_1rm": 91.0,
+          "total_volume": 2060,
+          "total_reps": 32,
+          "num_sets": 3
         }
       ],
       "total_sessions": 1,
-      "current_max_weight": 60.0,
-      "current_1rm": 84.0,
-      "all_time_max_weight": 60.0,
-      "all_time_1rm": 84.0,
+      "current_max_weight": 70.0,
+      "current_1rm": 91.0,
+      "all_time_max_weight": 70.0,
+      "all_time_1rm": 91.0,
       "progress_pct": 0.0,
       "trend": "new",
       "days_since": 0,
