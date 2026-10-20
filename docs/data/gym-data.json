@@ -4,25 +4,25 @@
     "days_tracking": 212,
     "first_date": "2026-03-22",
     "last_date": "2026-10-19",
-    "total_sets": 964,
-    "total_volume": 669118,
+    "total_sets": 967,
+    "total_volume": 670022,
     "unique_exercises": 37,
     "streak_weeks": 12,
     "longest_streak": 16,
     "last_7_days": 2,
     "sessions_per_week": 2.5,
-    "generated_at": "2026-10-19T21:01:16.499193",
+    "generated_at": "2026-10-19T21:05:57.364374",
     "strength_gain_this_week": 24.9,
-    "total_strength": 3464.8
+    "total_strength": 3462.4
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 212,
     "latest_date": "2026-10-19",
     "total_sessions": 76,
-    "total_sets": 964,
-    "total_lbreps": 669118,
-    "total_kgreps": 303507,
+    "total_sets": 967,
+    "total_lbreps": 670022,
+    "total_kgreps": 303917,
     "cut_start": "2026-05-18",
     "cut_day": 154,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 2060,
+      "volume": 2965,
       "sessions": 1,
-      "sets": 3
+      "sets": 6
     },
     "last_week": {
       "volume": 11878,
@@ -143,18 +143,18 @@
       "sets": 13
     },
     "this_month": {
-      "volume": 59226,
+      "volume": 60132,
       "sessions": 5,
-      "sets": 53
+      "sets": 56
     },
     "last_month": {
       "volume": 94802,
       "sessions": 10,
       "sets": 122
     },
-    "volume_wow_pct": -82.7,
+    "volume_wow_pct": -75.0,
     "sessions_wow_delta": 0,
-    "volume_mom_pct": -37.5
+    "volume_mom_pct": -36.6
   },
   "insights": [
     {
@@ -186,13 +186,6 @@
       "days": 10
     },
     {
-      "type": "neglected",
-      "severity": "medium",
-      "text": "Biceps hasn't been trained in 12 days",
-      "category": "biceps",
-      "days": 12
-    },
-    {
       "type": "stalled",
       "severity": "medium",
       "text": "Calf Raise is stalled at 266.0 lb est. 1RM",
@@ -202,7 +195,7 @@
     {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 82.7% vs last week"
+      "text": "Weekly volume down 75.0% vs last week"
     },
     {
       "type": "breakthrough",
@@ -962,6 +955,7 @@
     {
       "date": "2026-10-19",
       "muscles": [
+        "biceps",
         "shoulders"
       ],
       "focus": "Shoulders + Arms",
@@ -1301,9 +1295,9 @@
     },
     {
       "category": "biceps",
-      "current_strength": 60.6,
+      "current_strength": 59.8,
       "strength_30d_ago": 60.1,
-      "pct_change_30d": 0.8,
+      "pct_change_30d": -0.5,
       "top_exercise": "Preacher Curl",
       "top_1rm": 75.2,
       "top_max_weight": 55.0,
@@ -1363,7 +1357,7 @@
           "strength": 61.2
         }
       ],
-      "last_trained": "2026-10-07"
+      "last_trained": "2026-10-19"
     },
     {
       "category": "triceps",
@@ -1892,13 +1886,13 @@
       "exercises": [
         {
           "name": "Hammer Curl",
-          "total_sessions": 12,
-          "current_1rm": 46.7,
+          "total_sessions": 13,
+          "current_1rm": 44.3,
           "current_max_weight": 35.0,
           "all_time_1rm": 46.7,
-          "trend": "pr",
-          "days_since": 12,
-          "progress_pct": 100.4,
+          "trend": "progressing",
+          "days_since": 0,
+          "progress_pct": 90.1,
           "equipment": "dumbbell"
         },
         {
@@ -14196,17 +14190,67 @@
           "total_volume": 975,
           "total_reps": 30,
           "num_sets": 3
+        },
+        {
+          "date": "2026-10-19",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 30.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 32.5,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 35.0,
+              "reps": 8,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 35.0,
+          "estimated_1rm": 44.3,
+          "total_volume": 905,
+          "total_reps": 28,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 12,
+      "total_sessions": 13,
       "current_max_weight": 35.0,
-      "current_1rm": 46.7,
+      "current_1rm": 44.3,
       "all_time_max_weight": 35.0,
       "all_time_1rm": 46.7,
-      "progress_pct": 100.4,
-      "trend": "pr",
-      "days_since": 12,
-      "last_session": "2026-10-07",
+      "progress_pct": 90.1,
+      "trend": "progressing",
+      "days_since": 0,
+      "last_session": "2026-10-19",
       "category": "biceps",
       "equipment": "dumbbell"
     },
