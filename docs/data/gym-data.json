@@ -4,25 +4,25 @@
     "days_tracking": 212,
     "first_date": "2026-03-22",
     "last_date": "2026-10-19",
-    "total_sets": 961,
-    "total_volume": 667058,
-    "unique_exercises": 36,
+    "total_sets": 962,
+    "total_volume": 667778,
+    "unique_exercises": 37,
     "streak_weeks": 12,
     "longest_streak": 16,
     "last_7_days": 2,
     "sessions_per_week": 2.5,
-    "generated_at": "2026-10-19T20:48:17.715224",
+    "generated_at": "2026-10-19T20:49:17.938630",
     "strength_gain_this_week": 24.9,
-    "total_strength": 3373.8
+    "total_strength": 3457.8
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 212,
     "latest_date": "2026-10-19",
     "total_sessions": 76,
-    "total_sets": 961,
-    "total_lbreps": 667058,
-    "total_kgreps": 302573,
+    "total_sets": 962,
+    "total_lbreps": 667778,
+    "total_kgreps": 302899,
     "cut_start": "2026-05-18",
     "cut_day": 154,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 0,
-      "sessions": 0,
-      "sets": 0
+      "volume": 720,
+      "sessions": 1,
+      "sets": 1
     },
     "last_week": {
       "volume": 11878,
@@ -143,18 +143,18 @@
       "sets": 13
     },
     "this_month": {
-      "volume": 57166,
-      "sessions": 4,
-      "sets": 50
+      "volume": 57886,
+      "sessions": 5,
+      "sets": 51
     },
     "last_month": {
       "volume": 94802,
       "sessions": 10,
       "sets": 122
     },
-    "volume_wow_pct": -100.0,
-    "sessions_wow_delta": -1,
-    "volume_mom_pct": -39.7
+    "volume_wow_pct": -93.9,
+    "sessions_wow_delta": 0,
+    "volume_mom_pct": -38.9
   },
   "insights": [
     {
@@ -170,11 +170,6 @@
       "text": "Forearms hasn't been trained in 62 days",
       "category": "forearms",
       "days": 62
-    },
-    {
-      "type": "dropoff",
-      "severity": "high",
-      "text": "No sessions logged this week yet"
     },
     {
       "type": "neglected",
@@ -193,13 +188,6 @@
     {
       "type": "neglected",
       "severity": "medium",
-      "text": "Shoulders hasn't been trained in 12 days",
-      "category": "shoulders",
-      "days": 12
-    },
-    {
-      "type": "neglected",
-      "severity": "medium",
       "text": "Biceps hasn't been trained in 12 days",
       "category": "biceps",
       "days": 12
@@ -214,7 +202,7 @@
     {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 100.0% vs last week"
+      "text": "Weekly volume down 93.9% vs last week"
     },
     {
       "type": "breakthrough",
@@ -970,6 +958,14 @@
       ],
       "focus": "Chest + Back",
       "location": "gym"
+    },
+    {
+      "date": "2026-10-19",
+      "muscles": [
+        "shoulders"
+      ],
+      "focus": "Shoulders + Arms",
+      "location": "gym"
     }
   ],
   "muscle_strength": [
@@ -1173,9 +1169,9 @@
     },
     {
       "category": "shoulders",
-      "current_strength": 86.6,
+      "current_strength": 96.8,
       "strength_30d_ago": 85.5,
-      "pct_change_30d": 1.3,
+      "pct_change_30d": 13.2,
       "top_exercise": "Reverse Fly Machine",
       "top_1rm": 140.0,
       "top_max_weight": 100.0,
@@ -1184,7 +1180,7 @@
         "reps": 12,
         "date": "2026-09-26"
       },
-      "exercise_count": 7,
+      "exercise_count": 8,
       "trend": [
         {
           "week": "2026-08-03",
@@ -1232,10 +1228,10 @@
         },
         {
           "week": "2026-10-19",
-          "strength": 87.2
+          "strength": 96.8
         }
       ],
-      "last_trained": "2026-10-07"
+      "last_trained": "2026-10-19"
     },
     {
       "category": "core",
@@ -1557,6 +1553,17 @@
       "category": "shoulders",
       "exercises": [
         {
+          "name": "Machine Shoulder Press",
+          "total_sessions": 1,
+          "current_1rm": 84.0,
+          "current_max_weight": 60.0,
+          "all_time_1rm": 84.0,
+          "trend": "new",
+          "days_since": 0,
+          "progress_pct": 0.0,
+          "equipment": "machine"
+        },
+        {
           "name": "Overhead Dumbbell Press",
           "total_sessions": 17,
           "current_1rm": 53.3,
@@ -1634,7 +1641,7 @@
           "equipment": "dumbbell"
         }
       ],
-      "total": 7
+      "total": 8
     },
     {
       "category": "back",
@@ -19117,6 +19124,45 @@
       "last_session": "2026-10-07",
       "category": "triceps",
       "equipment": "cable"
+    },
+    "Machine Shoulder Press": {
+      "sessions": [
+        {
+          "date": "2026-10-19",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 60.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 60.0,
+          "estimated_1rm": 84.0,
+          "total_volume": 720,
+          "total_reps": 12,
+          "num_sets": 1
+        }
+      ],
+      "total_sessions": 1,
+      "current_max_weight": 60.0,
+      "current_1rm": 84.0,
+      "all_time_max_weight": 60.0,
+      "all_time_1rm": 84.0,
+      "progress_pct": 0.0,
+      "trend": "new",
+      "days_since": 0,
+      "last_session": "2026-10-19",
+      "category": "shoulders",
+      "equipment": "machine"
     }
   },
   "sessions": [
