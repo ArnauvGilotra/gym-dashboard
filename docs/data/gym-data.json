@@ -11,7 +11,7 @@
     "longest_streak": 16,
     "last_7_days": 2,
     "sessions_per_week": 2.5,
-    "generated_at": "2026-10-19T21:57:42.648598",
+    "generated_at": "2026-10-19T22:25:38.191516",
     "strength_gain_this_week": 40.4,
     "total_strength": 3477.9
   },
@@ -949,6 +949,7 @@
       "date": "2026-10-19",
       "muscles": [
         "biceps",
+        "cardio",
         "shoulders",
         "triceps"
       ],
@@ -1958,12 +1959,12 @@
       "exercises": [
         {
           "name": "Treadmill",
-          "total_sessions": 35,
+          "total_sessions": 36,
           "current_1rm": 0,
           "current_max_weight": 0,
           "all_time_1rm": 0,
           "trend": "new",
-          "days_since": 41,
+          "days_since": 0,
           "progress_pct": 0,
           "equipment": "machine"
         }
@@ -11275,17 +11276,41 @@
           "total_volume": 0,
           "total_reps": 0,
           "num_sets": 1
+        },
+        {
+          "date": "2026-10-19",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": null,
+              "reps": null,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": 600,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 0,
+          "estimated_1rm": 0,
+          "total_volume": 0,
+          "total_reps": 0,
+          "num_sets": 1
         }
       ],
-      "total_sessions": 35,
+      "total_sessions": 36,
       "current_max_weight": 0,
       "current_1rm": 0,
       "all_time_max_weight": 0,
       "all_time_1rm": 0,
       "progress_pct": 0,
       "trend": "new",
-      "days_since": 41,
-      "last_session": "2026-09-08",
+      "days_since": 0,
+      "last_session": "2026-10-19",
       "category": "cardio",
       "equipment": "machine"
     },
