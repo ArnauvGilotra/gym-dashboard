@@ -4,25 +4,25 @@
     "days_tracking": 212,
     "first_date": "2026-03-22",
     "last_date": "2026-10-19",
-    "total_sets": 967,
-    "total_volume": 670022,
+    "total_sets": 969,
+    "total_volume": 672482,
     "unique_exercises": 37,
     "streak_weeks": 12,
     "longest_streak": 16,
     "last_7_days": 2,
     "sessions_per_week": 2.5,
-    "generated_at": "2026-10-19T21:09:59.335694",
-    "strength_gain_this_week": 24.9,
-    "total_strength": 3462.4
+    "generated_at": "2026-10-19T21:23:32.277914",
+    "strength_gain_this_week": 31.9,
+    "total_strength": 3469.4
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 212,
     "latest_date": "2026-10-19",
     "total_sessions": 76,
-    "total_sets": 967,
-    "total_lbreps": 670022,
-    "total_kgreps": 303917,
+    "total_sets": 969,
+    "total_lbreps": 672482,
+    "total_kgreps": 305033,
     "cut_start": "2026-05-18",
     "cut_day": 154,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 2965,
+      "volume": 5425,
       "sessions": 1,
-      "sets": 6
+      "sets": 8
     },
     "last_week": {
       "volume": 11878,
@@ -143,18 +143,18 @@
       "sets": 13
     },
     "this_month": {
-      "volume": 60132,
+      "volume": 62592,
       "sessions": 5,
-      "sets": 56
+      "sets": 58
     },
     "last_month": {
       "volume": 94802,
       "sessions": 10,
       "sets": 122
     },
-    "volume_wow_pct": -75.0,
+    "volume_wow_pct": -54.3,
     "sessions_wow_delta": 0,
-    "volume_mom_pct": -36.6
+    "volume_mom_pct": -34.0
   },
   "insights": [
     {
@@ -195,7 +195,7 @@
     {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 75.0% vs last week"
+      "text": "Weekly volume down 54.3% vs last week"
     },
     {
       "type": "breakthrough",
@@ -211,6 +211,16 @@
     }
   ],
   "recent_prs": [
+    {
+      "exercise": "Reverse Fly Machine",
+      "date": "2026-10-19",
+      "weight": 105.0,
+      "reps": 12,
+      "estimated_1rm": 147.0,
+      "previous_1rm": 140.0,
+      "gain": 7.0,
+      "category": "shoulders"
+    },
     {
       "exercise": "Single Arm Dumbbell Row",
       "date": "2026-10-14",
@@ -249,16 +259,6 @@
       "estimated_1rm": 154.0,
       "previous_1rm": 150.0,
       "gain": 4.0,
-      "category": "legs"
-    },
-    {
-      "exercise": "Leg Press",
-      "date": "2026-10-09",
-      "weight": 200.0,
-      "reps": 12,
-      "estimated_1rm": 280.0,
-      "previous_1rm": 266.7,
-      "gain": 13.3,
       "category": "legs"
     }
   ],
@@ -1163,16 +1163,16 @@
     },
     {
       "category": "shoulders",
-      "current_strength": 99.2,
+      "current_strength": 101.5,
       "strength_30d_ago": 85.5,
-      "pct_change_30d": 16.0,
+      "pct_change_30d": 18.7,
       "top_exercise": "Reverse Fly Machine",
-      "top_1rm": 140.0,
-      "top_max_weight": 100.0,
+      "top_1rm": 147.0,
+      "top_max_weight": 105.0,
       "top_best_set": {
-        "weight": 100.0,
+        "weight": 105.0,
         "reps": 12,
-        "date": "2026-09-26"
+        "date": "2026-10-19"
       },
       "exercise_count": 8,
       "trend": [
@@ -1222,7 +1222,7 @@
         },
         {
           "week": "2026-10-19",
-          "strength": 99.2
+          "strength": 101.5
         }
       ],
       "last_trained": "2026-10-19"
@@ -1547,6 +1547,17 @@
       "category": "shoulders",
       "exercises": [
         {
+          "name": "Reverse Fly Machine",
+          "total_sessions": 14,
+          "current_1rm": 147.0,
+          "current_max_weight": 105.0,
+          "all_time_1rm": 147.0,
+          "trend": "pr",
+          "days_since": 0,
+          "progress_pct": 75.0,
+          "equipment": "machine"
+        },
+        {
           "name": "Machine Shoulder Press",
           "total_sessions": 1,
           "current_1rm": 91.0,
@@ -1589,17 +1600,6 @@
           "days_since": 20,
           "progress_pct": 279.5,
           "equipment": "dumbbell"
-        },
-        {
-          "name": "Reverse Fly Machine",
-          "total_sessions": 13,
-          "current_1rm": 140.0,
-          "current_max_weight": 100.0,
-          "all_time_1rm": 140.0,
-          "trend": "pr",
-          "days_since": 20,
-          "progress_pct": 66.7,
-          "equipment": "machine"
         },
         {
           "name": "Face Pull",
@@ -16695,17 +16695,54 @@
           "total_volume": 3500,
           "total_reps": 35,
           "num_sets": 3
+        },
+        {
+          "date": "2026-10-19",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 100.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 105.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 105.0,
+          "estimated_1rm": 147.0,
+          "total_volume": 2460,
+          "total_reps": 24,
+          "num_sets": 2
         }
       ],
-      "total_sessions": 13,
-      "current_max_weight": 100.0,
-      "current_1rm": 140.0,
-      "all_time_max_weight": 100.0,
-      "all_time_1rm": 140.0,
-      "progress_pct": 66.7,
+      "total_sessions": 14,
+      "current_max_weight": 105.0,
+      "current_1rm": 147.0,
+      "all_time_max_weight": 105.0,
+      "all_time_1rm": 147.0,
+      "progress_pct": 75.0,
       "trend": "pr",
-      "days_since": 20,
-      "last_session": "2026-09-29",
+      "days_since": 0,
+      "last_session": "2026-10-19",
       "category": "shoulders",
       "equipment": "machine"
     },
