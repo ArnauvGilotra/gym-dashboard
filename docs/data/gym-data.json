@@ -1,25 +1,25 @@
 {
   "summary": {
-    "total_sessions": 75,
-    "days_tracking": 207,
+    "total_sessions": 76,
+    "days_tracking": 212,
     "first_date": "2026-03-22",
-    "last_date": "2026-10-14",
+    "last_date": "2026-10-19",
     "total_sets": 961,
     "total_volume": 667058,
     "unique_exercises": 36,
-    "streak_weeks": 11,
+    "streak_weeks": 12,
     "longest_streak": 16,
-    "last_7_days": 1,
+    "last_7_days": 2,
     "sessions_per_week": 2.5,
-    "generated_at": "2026-10-19T17:00:10.420750",
+    "generated_at": "2026-10-19T20:48:17.715224",
     "strength_gain_this_week": 24.9,
     "total_strength": 3373.8
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 212,
-    "latest_date": "2026-10-14",
-    "total_sessions": 75,
+    "latest_date": "2026-10-19",
+    "total_sessions": 76,
     "total_sets": 961,
     "total_lbreps": 667058,
     "total_kgreps": 302573,
@@ -1549,7 +1549,7 @@
     },
     {
       "week": "2026-10-19",
-      "sessions": 0
+      "sessions": 1
     }
   ],
   "exercises_by_category": [
@@ -19943,6 +19943,17 @@
       "feeling": null,
       "notes": null,
       "created_at": "2026-10-14 21:23:40",
+      "location": "gym"
+    },
+    {
+      "id": 82,
+      "date": "2026-10-19",
+      "start_time": null,
+      "duration_min": null,
+      "focus": "Shoulders + Arms",
+      "feeling": null,
+      "notes": null,
+      "created_at": "2026-10-19 20:48:17",
       "location": "gym"
     }
   ]
