@@ -1,25 +1,25 @@
 {
   "summary": {
-    "total_sessions": 78,
-    "days_tracking": 223,
+    "total_sessions": 79,
+    "days_tracking": 225,
     "first_date": "2026-03-22",
-    "last_date": "2026-10-30",
+    "last_date": "2026-11-01",
     "total_sets": 997,
     "total_volume": 706915,
     "unique_exercises": 37,
     "streak_weeks": 13,
     "longest_streak": 16,
-    "last_7_days": 2,
-    "sessions_per_week": 2.4,
-    "generated_at": "2026-11-01T21:32:00.459666",
+    "last_7_days": 3,
+    "sessions_per_week": 2.5,
+    "generated_at": "2026-11-01T21:33:07.682700",
     "strength_gain_this_week": 42.7,
     "total_strength": 3550.3
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 225,
-    "latest_date": "2026-10-30",
-    "total_sessions": 78,
+    "latest_date": "2026-11-01",
+    "total_sessions": 79,
     "total_sets": 997,
     "total_lbreps": 706915,
     "total_kgreps": 320652,
@@ -1565,7 +1565,7 @@
     },
     {
       "week": "2026-10-26",
-      "sessions": 1
+      "sessions": 2
     }
   ],
   "exercises_by_category": [
@@ -20642,6 +20642,17 @@
       "feeling": null,
       "notes": null,
       "created_at": "2026-10-30 21:25:37",
+      "location": "gym"
+    },
+    {
+      "id": 85,
+      "date": "2026-11-01",
+      "start_time": null,
+      "duration_min": null,
+      "focus": "Cardio + Biceps",
+      "feeling": null,
+      "notes": null,
+      "created_at": "2026-11-01 21:33:07",
       "location": "gym"
     }
   ]
