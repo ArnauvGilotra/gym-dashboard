@@ -4,14 +4,14 @@
     "days_tracking": 225,
     "first_date": "2026-03-22",
     "last_date": "2026-11-01",
-    "total_sets": 997,
-    "total_volume": 706915,
+    "total_sets": 999,
+    "total_volume": 707475,
     "unique_exercises": 38,
     "streak_weeks": 13,
     "longest_streak": 16,
     "last_7_days": 2,
     "sessions_per_week": 2.5,
-    "generated_at": "2026-11-02T03:00:08.442466",
+    "generated_at": "2026-11-02T04:27:30.741467",
     "strength_gain_this_week": 42.7,
     "total_strength": 3550.3
   },
@@ -20,9 +20,9 @@
     "journey_days": 226,
     "latest_date": "2026-11-01",
     "total_sessions": 79,
-    "total_sets": 997,
-    "total_lbreps": 706915,
-    "total_kgreps": 320652,
+    "total_sets": 999,
+    "total_lbreps": 707475,
+    "total_kgreps": 320906,
     "cut_start": "2026-05-18",
     "cut_day": 168,
     "cut_duration": 180,
@@ -138,14 +138,14 @@
       "sets": 0
     },
     "last_week": {
-      "volume": 22740,
+      "volume": 23300,
       "sessions": 2,
-      "sets": 12
+      "sets": 14
     },
     "this_month": {
-      "volume": 0,
+      "volume": 560,
       "sessions": 1,
-      "sets": 0
+      "sets": 2
     },
     "last_month": {
       "volume": 97024,
@@ -154,7 +154,7 @@
     },
     "volume_wow_pct": -100.0,
     "sessions_wow_delta": -2,
-    "volume_mom_pct": -100.0
+    "volume_mom_pct": -99.4
   },
   "insights": [
     {
@@ -169,13 +169,6 @@
       "severity": "high",
       "text": "Shoulders hasn't been trained in 14 days",
       "category": "shoulders",
-      "days": 14
-    },
-    {
-      "type": "neglected",
-      "severity": "high",
-      "text": "Biceps hasn't been trained in 14 days",
-      "category": "biceps",
       "days": 14
     },
     {
@@ -995,6 +988,7 @@
     {
       "date": "2026-11-01",
       "muscles": [
+        "biceps",
         "cardio"
       ],
       "focus": "Cardio + Biceps",
@@ -1396,7 +1390,7 @@
           "strength": 61.2
         }
       ],
-      "last_trained": "2026-10-19"
+      "last_trained": "2026-11-01"
     },
     {
       "category": "triceps",
@@ -1925,12 +1919,12 @@
       "exercises": [
         {
           "name": "Hammer Curl",
-          "total_sessions": 13,
+          "total_sessions": 14,
           "current_1rm": 44.3,
           "current_max_weight": 35.0,
           "all_time_1rm": 46.7,
-          "trend": "progressing",
-          "days_since": 14,
+          "trend": "plateau",
+          "days_since": 1,
           "progress_pct": 90.1,
           "equipment": "dumbbell"
         },
@@ -14564,17 +14558,54 @@
           "total_volume": 905,
           "total_reps": 28,
           "num_sets": 3
+        },
+        {
+          "date": "2026-11-01",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 2,
+              "weight": 35.0,
+              "reps": 8,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 35.0,
+              "reps": 8,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 35.0,
+          "estimated_1rm": 44.3,
+          "total_volume": 560,
+          "total_reps": 16,
+          "num_sets": 2
         }
       ],
-      "total_sessions": 13,
+      "total_sessions": 14,
       "current_max_weight": 35.0,
       "current_1rm": 44.3,
       "all_time_max_weight": 35.0,
       "all_time_1rm": 46.7,
       "progress_pct": 90.1,
-      "trend": "progressing",
-      "days_since": 14,
-      "last_session": "2026-10-19",
+      "trend": "plateau",
+      "days_since": 1,
+      "last_session": "2026-11-01",
       "category": "biceps",
       "equipment": "dumbbell"
     },
