@@ -1,25 +1,25 @@
 {
   "summary": {
-    "total_sessions": 79,
-    "days_tracking": 225,
+    "total_sessions": 80,
+    "days_tracking": 227,
     "first_date": "2026-03-22",
-    "last_date": "2026-11-01",
+    "last_date": "2026-11-03",
     "total_sets": 999,
     "total_volume": 707475,
     "unique_exercises": 38,
-    "streak_weeks": 13,
+    "streak_weeks": 14,
     "longest_streak": 16,
-    "last_7_days": 2,
+    "last_7_days": 3,
     "sessions_per_week": 2.5,
-    "generated_at": "2026-11-03T17:44:26.650587",
+    "generated_at": "2026-11-03T21:36:53.249952",
     "strength_gain_this_week": 42.7,
     "total_strength": 3550.3
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 227,
-    "latest_date": "2026-11-01",
-    "total_sessions": 79,
+    "latest_date": "2026-11-03",
+    "total_sessions": 80,
     "total_sets": 999,
     "total_lbreps": 707475,
     "total_kgreps": 320906,
@@ -134,7 +134,7 @@
   "comparisons": {
     "this_week": {
       "volume": 0,
-      "sessions": 0,
+      "sessions": 1,
       "sets": 0
     },
     "last_week": {
@@ -144,7 +144,7 @@
     },
     "this_month": {
       "volume": 560,
-      "sessions": 1,
+      "sessions": 2,
       "sets": 2
     },
     "last_month": {
@@ -153,7 +153,7 @@
       "sets": 86
     },
     "volume_wow_pct": -100.0,
-    "sessions_wow_delta": -2,
+    "sessions_wow_delta": -1,
     "volume_mom_pct": -99.4
   },
   "insights": [
@@ -184,11 +184,6 @@
       "text": "Forearms hasn't been trained in 77 days",
       "category": "forearms",
       "days": 77
-    },
-    {
-      "type": "dropoff",
-      "severity": "high",
-      "text": "No sessions logged this week yet"
     },
     {
       "type": "stalled",
@@ -993,6 +988,14 @@
       ],
       "focus": "Cardio + Biceps",
       "location": "gym"
+    },
+    {
+      "date": "2026-11-03",
+      "muscles": [
+        "cardio"
+      ],
+      "focus": "Shoulders + Back",
+      "location": "gym"
     }
   ],
   "muscle_strength": [
@@ -1572,7 +1575,7 @@
     },
     {
       "week": "2026-11-02",
-      "sessions": 0
+      "sessions": 1
     }
   ],
   "exercises_by_category": [
@@ -1969,12 +1972,12 @@
       "exercises": [
         {
           "name": "Stairmaster",
-          "total_sessions": 1,
+          "total_sessions": 2,
           "current_1rm": 0,
           "current_max_weight": 0,
           "all_time_1rm": 0,
           "trend": "new",
-          "days_since": 2,
+          "days_since": 0,
           "progress_pct": 0,
           "equipment": "machine"
         },
@@ -19864,17 +19867,41 @@
           "total_volume": 0,
           "total_reps": 0,
           "num_sets": 1
+        },
+        {
+          "date": "2026-11-03",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": null,
+              "reps": null,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "Technogym, level 8",
+              "duration_sec": 1200,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 0,
+          "estimated_1rm": 0,
+          "total_volume": 0,
+          "total_reps": 0,
+          "num_sets": 1
         }
       ],
-      "total_sessions": 1,
+      "total_sessions": 2,
       "current_max_weight": 0,
       "current_1rm": 0,
       "all_time_max_weight": 0,
       "all_time_1rm": 0,
       "progress_pct": 0,
       "trend": "new",
-      "days_since": 2,
-      "last_session": "2026-11-01",
+      "days_since": 0,
+      "last_session": "2026-11-03",
       "category": "cardio",
       "equipment": "machine"
     }
@@ -20747,6 +20774,17 @@
       "feeling": null,
       "notes": null,
       "created_at": "2026-11-01 21:33:07",
+      "location": "gym"
+    },
+    {
+      "id": 86,
+      "date": "2026-11-03",
+      "start_time": null,
+      "duration_min": null,
+      "focus": "Shoulders + Back",
+      "feeling": null,
+      "notes": null,
+      "created_at": "2026-11-03 21:36:53",
       "location": "gym"
     }
   ]
