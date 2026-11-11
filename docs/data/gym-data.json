@@ -4,25 +4,25 @@
     "days_tracking": 234,
     "first_date": "2026-03-22",
     "last_date": "2026-11-10",
-    "total_sets": 1011,
-    "total_volume": 719195,
+    "total_sets": 1014,
+    "total_volume": 722815,
     "unique_exercises": 38,
     "streak_weeks": 15,
     "longest_streak": 16,
     "last_7_days": 2,
     "sessions_per_week": 2.4,
-    "generated_at": "2026-11-10T19:58:01.081658",
+    "generated_at": "2026-11-10T20:00:46.560751",
     "strength_gain_this_week": 8.5,
-    "total_strength": 3550.7
+    "total_strength": 3550.0
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 234,
     "latest_date": "2026-11-10",
     "total_sessions": 81,
-    "total_sets": 1011,
-    "total_lbreps": 719195,
-    "total_kgreps": 326222,
+    "total_sets": 1014,
+    "total_lbreps": 722815,
+    "total_kgreps": 327864,
     "cut_start": "2026-05-18",
     "cut_day": 176,
     "cut_duration": 180,
@@ -77,10 +77,10 @@
         "category": "chest",
         "first": "40\u00d710",
         "first_date": "2026-04-17",
-        "latest": "115\u00d78",
-        "latest_date": "2026-10-25",
+        "latest": "115\u00d710",
+        "latest_date": "2026-11-10",
         "delta_lb": 75.0,
-        "sessions": 5
+        "sessions": 6
       },
       {
         "lift": "Leg Extension",
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 5100,
+      "volume": 8720,
       "sessions": 1,
-      "sets": 6
+      "sets": 9
     },
     "last_week": {
       "volume": 6620,
@@ -143,18 +143,18 @@
       "sets": 6
     },
     "this_month": {
-      "volume": 12280,
+      "volume": 15900,
       "sessions": 3,
-      "sets": 14
+      "sets": 17
     },
     "last_month": {
       "volume": 97024,
       "sessions": 7,
       "sets": 86
     },
-    "volume_wow_pct": -23.0,
+    "volume_wow_pct": 31.7,
     "sessions_wow_delta": 0,
-    "volume_mom_pct": -87.3
+    "volume_mom_pct": -83.6
   },
   "insights": [
     {
@@ -186,9 +186,11 @@
       "category": "legs"
     },
     {
-      "type": "volume_down",
+      "type": "stalled",
       "severity": "medium",
-      "text": "Weekly volume down 23.0% vs last week"
+      "text": "Pec Deck Machine is stalled at 153.3 lb est. 1RM",
+      "exercise": "Pec Deck Machine",
+      "category": "chest"
     },
     {
       "type": "breakthrough",
@@ -201,6 +203,11 @@
       "severity": "good",
       "text": "Single Arm Dumbbell Row just hit a new PR \u2014 keep pushing",
       "exercise": "Single Arm Dumbbell Row"
+    },
+    {
+      "type": "volume_up",
+      "severity": "good",
+      "text": "Weekly volume up 31.7% vs last week"
     }
   ],
   "recent_prs": [
@@ -1137,11 +1144,11 @@
     },
     {
       "category": "chest",
-      "current_strength": 130.7,
+      "current_strength": 130.4,
       "strength_30d_ago": 123.8,
-      "pct_change_30d": 5.6,
+      "pct_change_30d": 5.3,
       "top_exercise": "Pec Deck Machine",
-      "top_1rm": 154.0,
+      "top_1rm": 153.3,
       "top_max_weight": 115.0,
       "top_best_set": {
         "weight": 110.0,
@@ -1826,13 +1833,13 @@
         },
         {
           "name": "Pec Deck Machine",
-          "total_sessions": 5,
-          "current_1rm": 154.0,
+          "total_sessions": 6,
+          "current_1rm": 153.3,
           "current_max_weight": 115.0,
           "all_time_1rm": 154.0,
-          "trend": "pr",
-          "days_since": 16,
-          "progress_pct": 188.9,
+          "trend": "stalled",
+          "days_since": 0,
+          "progress_pct": 187.6,
           "equipment": "machine"
         },
         {
@@ -16529,17 +16536,67 @@
           "total_volume": 3500,
           "total_reps": 32,
           "num_sets": 3
+        },
+        {
+          "date": "2026-11-10",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 105.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 110.0,
+              "reps": 11,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 115.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "left shoulder pain/pressure toward end",
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 115.0,
+          "estimated_1rm": 153.3,
+          "total_volume": 3620,
+          "total_reps": 33,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 5,
+      "total_sessions": 6,
       "current_max_weight": 115.0,
-      "current_1rm": 154.0,
+      "current_1rm": 153.3,
       "all_time_max_weight": 115.0,
       "all_time_1rm": 154.0,
-      "progress_pct": 188.9,
-      "trend": "pr",
-      "days_since": 16,
-      "last_session": "2026-10-25",
+      "progress_pct": 187.6,
+      "trend": "stalled",
+      "days_since": 0,
+      "last_session": "2026-11-10",
       "category": "chest",
       "equipment": "machine"
     },
