@@ -6,12 +6,12 @@
     "last_date": "2026-11-10",
     "total_sets": 1014,
     "total_volume": 722815,
-    "unique_exercises": 38,
+    "unique_exercises": 39,
     "streak_weeks": 15,
     "longest_streak": 16,
     "last_7_days": 2,
     "sessions_per_week": 2.4,
-    "generated_at": "2026-11-10T20:00:46.560751",
+    "generated_at": "2026-11-10T20:48:42.532389",
     "strength_gain_this_week": 8.5,
     "total_strength": 3550.0
   },
@@ -157,13 +157,6 @@
     "volume_mom_pct": -83.6
   },
   "insights": [
-    {
-      "type": "neglected",
-      "severity": "high",
-      "text": "Core hasn't been trained in 56 days",
-      "category": "core",
-      "days": 56
-    },
     {
       "type": "neglected",
       "severity": "high",
@@ -1003,6 +996,7 @@
       "date": "2026-11-10",
       "muscles": [
         "chest",
+        "core",
         "triceps"
       ],
       "focus": "Chest + Triceps",
@@ -1338,7 +1332,7 @@
           "strength": 84.3
         }
       ],
-      "last_trained": "2026-09-15"
+      "last_trained": "2026-11-10"
     },
     {
       "category": "biceps",
@@ -1979,6 +1973,45 @@
       "total": 4
     },
     {
+      "category": "core",
+      "exercises": [
+        {
+          "name": "Plank",
+          "total_sessions": 1,
+          "current_1rm": 0,
+          "current_max_weight": 0,
+          "all_time_1rm": 0,
+          "trend": "new",
+          "days_since": 0,
+          "progress_pct": 0,
+          "equipment": "bodyweight"
+        },
+        {
+          "name": "Abdominal Crunch Machine",
+          "total_sessions": 2,
+          "current_1rm": 86.7,
+          "current_max_weight": 65.0,
+          "all_time_1rm": 88.7,
+          "trend": "plateau",
+          "days_since": 56,
+          "progress_pct": -2.3,
+          "equipment": "machine"
+        },
+        {
+          "name": "Ab Crunch Machine",
+          "total_sessions": 4,
+          "current_1rm": 73.3,
+          "current_max_weight": 50.0,
+          "all_time_1rm": 80.0,
+          "trend": "regressing",
+          "days_since": 78,
+          "progress_pct": -8.4,
+          "equipment": "machine"
+        }
+      ],
+      "total": 3
+    },
+    {
       "category": "cardio",
       "exercises": [
         {
@@ -2001,34 +2034,6 @@
           "trend": "new",
           "days_since": 22,
           "progress_pct": 0,
-          "equipment": "machine"
-        }
-      ],
-      "total": 2
-    },
-    {
-      "category": "core",
-      "exercises": [
-        {
-          "name": "Abdominal Crunch Machine",
-          "total_sessions": 2,
-          "current_1rm": 86.7,
-          "current_max_weight": 65.0,
-          "all_time_1rm": 88.7,
-          "trend": "plateau",
-          "days_since": 56,
-          "progress_pct": -2.3,
-          "equipment": "machine"
-        },
-        {
-          "name": "Ab Crunch Machine",
-          "total_sessions": 4,
-          "current_1rm": 73.3,
-          "current_max_weight": 50.0,
-          "all_time_1rm": 80.0,
-          "trend": "regressing",
-          "days_since": 78,
-          "progress_pct": -8.4,
           "equipment": "machine"
         }
       ],
@@ -20165,6 +20170,45 @@
       "last_session": "2026-11-03",
       "category": "cardio",
       "equipment": "machine"
+    },
+    "Plank": {
+      "sessions": [
+        {
+          "date": "2026-11-10",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": null,
+              "reps": null,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": "planks, duration not given",
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 0,
+          "estimated_1rm": 0,
+          "total_volume": 0,
+          "total_reps": 0,
+          "num_sets": 1
+        }
+      ],
+      "total_sessions": 1,
+      "current_max_weight": 0,
+      "current_1rm": 0,
+      "all_time_max_weight": 0,
+      "all_time_1rm": 0,
+      "progress_pct": 0,
+      "trend": "new",
+      "days_since": 0,
+      "last_session": "2026-11-10",
+      "category": "core",
+      "equipment": "bodyweight"
     }
   },
   "sessions": [
