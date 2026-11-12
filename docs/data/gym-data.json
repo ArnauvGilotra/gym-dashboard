@@ -1,25 +1,25 @@
 {
   "summary": {
-    "total_sessions": 81,
-    "days_tracking": 234,
+    "total_sessions": 82,
+    "days_tracking": 235,
     "first_date": "2026-03-22",
-    "last_date": "2026-11-10",
+    "last_date": "2026-11-11",
     "total_sets": 1014,
     "total_volume": 722815,
     "unique_exercises": 39,
     "streak_weeks": 15,
     "longest_streak": 16,
-    "last_7_days": 1,
+    "last_7_days": 2,
     "sessions_per_week": 2.4,
-    "generated_at": "2026-11-11T07:12:06.894312",
+    "generated_at": "2026-11-11T21:36:29.057636",
     "strength_gain_this_week": 8.5,
     "total_strength": 3550.0
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 235,
-    "latest_date": "2026-11-10",
-    "total_sessions": 81,
+    "latest_date": "2026-11-11",
+    "total_sessions": 82,
     "total_sets": 1014,
     "total_lbreps": 722815,
     "total_kgreps": 327864,
@@ -134,7 +134,7 @@
   "comparisons": {
     "this_week": {
       "volume": 8720,
-      "sessions": 1,
+      "sessions": 2,
       "sets": 9
     },
     "last_week": {
@@ -144,7 +144,7 @@
     },
     "this_month": {
       "volume": 15900,
-      "sessions": 3,
+      "sessions": 4,
       "sets": 17
     },
     "last_month": {
@@ -153,7 +153,7 @@
       "sets": 86
     },
     "volume_wow_pct": 31.7,
-    "sessions_wow_delta": 0,
+    "sessions_wow_delta": 1,
     "volume_mom_pct": -83.6
   },
   "insights": [
@@ -1008,6 +1008,14 @@
       ],
       "focus": "Chest + Triceps",
       "location": "gym"
+    },
+    {
+      "date": "2026-11-11",
+      "muscles": [
+        "cardio"
+      ],
+      "focus": "Legs + Cardio",
+      "location": "gym"
     }
   ],
   "muscle_strength": [
@@ -1587,7 +1595,7 @@
     },
     {
       "week": "2026-11-09",
-      "sessions": 1
+      "sessions": 2
     }
   ],
   "exercises_by_category": [
@@ -2023,12 +2031,12 @@
       "exercises": [
         {
           "name": "Stairmaster",
-          "total_sessions": 2,
+          "total_sessions": 3,
           "current_1rm": 0,
           "current_max_weight": 0,
           "all_time_1rm": 0,
           "trend": "new",
-          "days_since": 8,
+          "days_since": 0,
           "progress_pct": 0,
           "equipment": "machine"
         },
@@ -20164,17 +20172,41 @@
           "total_volume": 0,
           "total_reps": 0,
           "num_sets": 1
+        },
+        {
+          "date": "2026-11-11",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": null,
+              "reps": null,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": 900,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 0,
+          "estimated_1rm": 0,
+          "total_volume": 0,
+          "total_reps": 0,
+          "num_sets": 1
         }
       ],
-      "total_sessions": 2,
+      "total_sessions": 3,
       "current_max_weight": 0,
       "current_1rm": 0,
       "all_time_max_weight": 0,
       "all_time_1rm": 0,
       "progress_pct": 0,
       "trend": "new",
-      "days_since": 8,
-      "last_session": "2026-11-03",
+      "days_since": 0,
+      "last_session": "2026-11-11",
       "category": "cardio",
       "equipment": "machine"
     },
@@ -21108,6 +21140,17 @@
       "feeling": null,
       "notes": null,
       "created_at": "2026-11-10 19:36:39",
+      "location": "gym"
+    },
+    {
+      "id": 88,
+      "date": "2026-11-11",
+      "start_time": null,
+      "duration_min": null,
+      "focus": "Legs + Cardio",
+      "feeling": null,
+      "notes": null,
+      "created_at": "2026-11-11 21:36:28",
       "location": "gym"
     }
   ]
