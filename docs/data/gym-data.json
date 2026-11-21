@@ -4,25 +4,25 @@
     "days_tracking": 244,
     "first_date": "2026-03-22",
     "last_date": "2026-11-20",
-    "total_sets": 1031,
-    "total_volume": 739090,
+    "total_sets": 1032,
+    "total_volume": 739450,
     "unique_exercises": 39,
     "streak_weeks": 16,
     "longest_streak": 16,
     "last_7_days": 1,
     "sessions_per_week": 2.4,
-    "generated_at": "2026-11-20T21:46:04.638553",
+    "generated_at": "2026-11-20T23:42:14.997848",
     "strength_gain_this_week": 26.3,
-    "total_strength": 3583.4
+    "total_strength": 3583.7
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 244,
     "latest_date": "2026-11-20",
     "total_sessions": 83,
-    "total_sets": 1031,
-    "total_lbreps": 739090,
-    "total_kgreps": 335246,
+    "total_sets": 1032,
+    "total_lbreps": 739450,
+    "total_kgreps": 335409,
     "cut_start": "2026-05-18",
     "cut_day": 186,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 10765,
+      "volume": 11125,
       "sessions": 1,
-      "sets": 11
+      "sets": 12
     },
     "last_week": {
       "volume": 14230,
@@ -143,18 +143,18 @@
       "sets": 15
     },
     "this_month": {
-      "volume": 32175,
+      "volume": 32535,
       "sessions": 5,
-      "sets": 34
+      "sets": 35
     },
     "last_month": {
       "volume": 97024,
       "sessions": 7,
       "sets": 86
     },
-    "volume_wow_pct": -24.3,
+    "volume_wow_pct": -21.8,
     "sessions_wow_delta": -1,
-    "volume_mom_pct": -66.8
+    "volume_mom_pct": -66.5
   },
   "insights": [
     {
@@ -216,7 +216,7 @@
     {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 24.3% vs last week"
+      "text": "Weekly volume down 21.8% vs last week"
     },
     {
       "type": "breakthrough",
@@ -1875,12 +1875,12 @@
         {
           "name": "Incline Dumbbell Press",
           "total_sessions": 18,
-          "current_1rm": 56.7,
-          "current_max_weight": 42.5,
+          "current_1rm": 57.0,
+          "current_max_weight": 45.0,
           "all_time_1rm": 61.5,
           "trend": "progressing",
           "days_since": 0,
-          "progress_pct": 124.1,
+          "progress_pct": 125.3,
           "equipment": "dumbbell"
         },
         {
@@ -9973,21 +9973,34 @@
               "distance_km": null,
               "incline": null,
               "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 45.0,
+              "reps": 8,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
             }
           ],
-          "max_weight": 42.5,
-          "estimated_1rm": 56.7,
-          "total_volume": 825,
-          "total_reps": 20,
-          "num_sets": 2
+          "max_weight": 45.0,
+          "estimated_1rm": 57.0,
+          "total_volume": 1185,
+          "total_reps": 28,
+          "num_sets": 3
         }
       ],
       "total_sessions": 18,
-      "current_max_weight": 42.5,
-      "current_1rm": 56.7,
+      "current_max_weight": 45.0,
+      "current_1rm": 57.0,
       "all_time_max_weight": 45.0,
       "all_time_1rm": 61.5,
-      "progress_pct": 124.1,
+      "progress_pct": 125.3,
       "trend": "progressing",
       "days_since": 0,
       "last_session": "2026-11-20",
