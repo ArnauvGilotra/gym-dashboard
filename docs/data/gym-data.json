@@ -4,25 +4,25 @@
     "days_tracking": 244,
     "first_date": "2026-03-22",
     "last_date": "2026-11-20",
-    "total_sets": 1020,
-    "total_volume": 728325,
+    "total_sets": 1031,
+    "total_volume": 739090,
     "unique_exercises": 39,
     "streak_weeks": 16,
     "longest_streak": 16,
     "last_7_days": 1,
     "sessions_per_week": 2.4,
-    "generated_at": "2026-11-20T21:22:30.107022",
-    "strength_gain_this_week": 0,
-    "total_strength": 3551.2
+    "generated_at": "2026-11-20T21:46:04.638553",
+    "strength_gain_this_week": 26.3,
+    "total_strength": 3583.4
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 244,
     "latest_date": "2026-11-20",
     "total_sessions": 83,
-    "total_sets": 1020,
-    "total_lbreps": 728325,
-    "total_kgreps": 330363,
+    "total_sets": 1031,
+    "total_lbreps": 739090,
+    "total_kgreps": 335246,
     "cut_start": "2026-05-18",
     "cut_day": 186,
     "cut_duration": 180,
@@ -67,10 +67,10 @@
         "category": "back",
         "first": "95\u00d714",
         "first_date": "2026-03-22",
-        "latest": "170\u00d77",
-        "latest_date": "2026-11-11",
-        "delta_lb": 75.0,
-        "sessions": 23
+        "latest": "180\u00d77",
+        "latest_date": "2026-11-20",
+        "delta_lb": 85.0,
+        "sessions": 24
       },
       {
         "lift": "Pec Deck Machine",
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 0,
-      "sessions": 0,
-      "sets": 0
+      "volume": 10765,
+      "sessions": 1,
+      "sets": 11
     },
     "last_week": {
       "volume": 14230,
@@ -143,18 +143,18 @@
       "sets": 15
     },
     "this_month": {
-      "volume": 21410,
-      "sessions": 4,
-      "sets": 23
+      "volume": 32175,
+      "sessions": 5,
+      "sets": 34
     },
     "last_month": {
       "volume": 97024,
       "sessions": 7,
       "sets": 86
     },
-    "volume_wow_pct": -100.0,
-    "sessions_wow_delta": -2,
-    "volume_mom_pct": -77.9
+    "volume_wow_pct": -24.3,
+    "sessions_wow_delta": -1,
+    "volume_mom_pct": -66.8
   },
   "insights": [
     {
@@ -179,22 +179,10 @@
       "days": 94
     },
     {
-      "type": "dropoff",
-      "severity": "high",
-      "text": "No sessions logged this week yet"
-    },
-    {
       "type": "neglected",
       "severity": "medium",
       "text": "Triceps hasn't been trained in 10 days",
       "category": "triceps",
-      "days": 10
-    },
-    {
-      "type": "neglected",
-      "severity": "medium",
-      "text": "Chest hasn't been trained in 10 days",
-      "category": "chest",
       "days": 10
     },
     {
@@ -228,22 +216,52 @@
     {
       "type": "volume_down",
       "severity": "medium",
-      "text": "Weekly volume down 100.0% vs last week"
+      "text": "Weekly volume down 24.3% vs last week"
+    },
+    {
+      "type": "breakthrough",
+      "severity": "good",
+      "text": "Lat Pulldown just hit a new PR \u2014 keep pushing",
+      "exercise": "Lat Pulldown"
     },
     {
       "type": "breakthrough",
       "severity": "good",
       "text": "Seated Row Machine just hit a new PR \u2014 keep pushing",
       "exercise": "Seated Row Machine"
-    },
-    {
-      "type": "breakthrough",
-      "severity": "good",
-      "text": "Single Arm Dumbbell Row just hit a new PR \u2014 keep pushing",
-      "exercise": "Single Arm Dumbbell Row"
     }
   ],
   "recent_prs": [
+    {
+      "exercise": "Lat Pulldown",
+      "date": "2026-11-20",
+      "weight": 175.0,
+      "reps": 10,
+      "estimated_1rm": 233.3,
+      "previous_1rm": 224.0,
+      "gain": 9.3,
+      "category": "back"
+    },
+    {
+      "exercise": "Single Arm Dumbbell Row",
+      "date": "2026-11-20",
+      "weight": 45.0,
+      "reps": 12,
+      "estimated_1rm": 63.0,
+      "previous_1rm": 60.0,
+      "gain": 3.0,
+      "category": "back"
+    },
+    {
+      "exercise": "Chest Press Machine",
+      "date": "2026-11-20",
+      "weight": 110.0,
+      "reps": 12,
+      "estimated_1rm": 154.0,
+      "previous_1rm": 140.0,
+      "gain": 14.0,
+      "category": "chest"
+    },
     {
       "exercise": "Chest Press Machine",
       "date": "2026-11-10",
@@ -262,36 +280,6 @@
       "estimated_1rm": 73.3,
       "previous_1rm": 71.5,
       "gain": 1.8,
-      "category": "triceps"
-    },
-    {
-      "exercise": "Machine Shoulder Press",
-      "date": "2026-11-03",
-      "weight": 70.0,
-      "reps": 10,
-      "estimated_1rm": 93.3,
-      "previous_1rm": 91.0,
-      "gain": 2.3,
-      "category": "shoulders"
-    },
-    {
-      "exercise": "Leg Press",
-      "date": "2026-10-30",
-      "weight": 220.0,
-      "reps": 14,
-      "estimated_1rm": 322.7,
-      "previous_1rm": 280.0,
-      "gain": 42.7,
-      "category": "legs"
-    },
-    {
-      "exercise": "Straight Bar Pushdown",
-      "date": "2026-10-25",
-      "weight": 55.0,
-      "reps": 9,
-      "estimated_1rm": 71.5,
-      "previous_1rm": 66.5,
-      "gain": 5.0,
       "category": "triceps"
     }
   ],
@@ -1051,6 +1039,15 @@
       ],
       "focus": "Legs + Cardio",
       "location": "gym"
+    },
+    {
+      "date": "2026-11-20",
+      "muscles": [
+        "back",
+        "chest"
+      ],
+      "focus": "Chest + Back",
+      "location": "gym"
     }
   ],
   "muscle_strength": [
@@ -1122,16 +1119,16 @@
     },
     {
       "category": "back",
-      "current_strength": 194.0,
+      "current_strength": 200.7,
       "strength_30d_ago": 202.2,
-      "pct_change_30d": -4.1,
+      "pct_change_30d": -0.7,
       "top_exercise": "Lat Pulldown",
-      "top_1rm": 213.3,
-      "top_max_weight": 170.0,
+      "top_1rm": 233.3,
+      "top_max_weight": 180.0,
       "top_best_set": {
-        "weight": 160.0,
-        "reps": 12,
-        "date": "2026-09-26"
+        "weight": 175.0,
+        "reps": 10,
+        "date": "2026-11-20"
       },
       "exercise_count": 6,
       "trend": [
@@ -1181,23 +1178,23 @@
         },
         {
           "week": "2026-11-16",
-          "strength": 202.2
+          "strength": 205.3
         }
       ],
-      "last_trained": "2026-11-11"
+      "last_trained": "2026-11-20"
     },
     {
       "category": "chest",
-      "current_strength": 130.4,
+      "current_strength": 135.1,
       "strength_30d_ago": 128.4,
-      "pct_change_30d": 1.6,
-      "top_exercise": "Pec Deck Machine",
-      "top_1rm": 153.3,
-      "top_max_weight": 115.0,
+      "pct_change_30d": 5.2,
+      "top_exercise": "Chest Press Machine",
+      "top_1rm": 154.0,
+      "top_max_weight": 110.0,
       "top_best_set": {
         "weight": 110.0,
         "reps": 12,
-        "date": "2026-10-14"
+        "date": "2026-11-20"
       },
       "exercise_count": 5,
       "trend": [
@@ -1247,10 +1244,10 @@
         },
         {
           "week": "2026-11-16",
-          "strength": 130.7
+          "strength": 135.3
         }
       ],
-      "last_trained": "2026-11-10"
+      "last_trained": "2026-11-20"
     },
     {
       "category": "shoulders",
@@ -1733,24 +1730,24 @@
       "exercises": [
         {
           "name": "Lat Pulldown",
-          "total_sessions": 23,
-          "current_1rm": 213.3,
-          "current_max_weight": 170.0,
-          "all_time_1rm": 224.0,
-          "trend": "plateau",
-          "days_since": 9,
-          "progress_pct": 53.1,
+          "total_sessions": 24,
+          "current_1rm": 233.3,
+          "current_max_weight": 180.0,
+          "all_time_1rm": 233.3,
+          "trend": "pr",
+          "days_since": 0,
+          "progress_pct": 67.5,
           "equipment": "cable"
         },
         {
           "name": "Single Arm Dumbbell Row",
-          "total_sessions": 9,
-          "current_1rm": 60.0,
+          "total_sessions": 10,
+          "current_1rm": 63.0,
           "current_max_weight": 45.0,
-          "all_time_1rm": 60.0,
+          "all_time_1rm": 63.0,
           "trend": "pr",
-          "days_since": 37,
-          "progress_pct": 114.3,
+          "days_since": 0,
+          "progress_pct": 125.0,
           "equipment": "dumbbell"
         },
         {
@@ -1866,14 +1863,25 @@
       "exercises": [
         {
           "name": "Chest Press Machine",
-          "total_sessions": 10,
-          "current_1rm": 140.0,
-          "current_max_weight": 100.0,
-          "all_time_1rm": 140.0,
+          "total_sessions": 11,
+          "current_1rm": 154.0,
+          "current_max_weight": 110.0,
+          "all_time_1rm": 154.0,
           "trend": "pr",
-          "days_since": 10,
-          "progress_pct": 66.7,
+          "days_since": 0,
+          "progress_pct": 83.3,
           "equipment": "machine"
+        },
+        {
+          "name": "Incline Dumbbell Press",
+          "total_sessions": 18,
+          "current_1rm": 56.7,
+          "current_max_weight": 42.5,
+          "all_time_1rm": 61.5,
+          "trend": "progressing",
+          "days_since": 0,
+          "progress_pct": 124.1,
+          "equipment": "dumbbell"
         },
         {
           "name": "Pec Deck Machine",
@@ -1885,17 +1893,6 @@
           "days_since": 10,
           "progress_pct": 187.6,
           "equipment": "machine"
-        },
-        {
-          "name": "Incline Dumbbell Press",
-          "total_sessions": 17,
-          "current_1rm": 61.5,
-          "current_max_weight": 45.0,
-          "all_time_1rm": 61.5,
-          "trend": "pr",
-          "days_since": 37,
-          "progress_pct": 143.1,
-          "equipment": "dumbbell"
         },
         {
           "name": "High to Low Cable Fly",
@@ -3484,17 +3481,67 @@
           "total_volume": 4590,
           "total_reps": 29,
           "num_sets": 3
+        },
+        {
+          "date": "2026-11-20",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 150.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 175.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 180.0,
+              "reps": 7,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 180.0,
+          "estimated_1rm": 233.3,
+          "total_volume": 4810,
+          "total_reps": 29,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 23,
-      "current_max_weight": 170.0,
-      "current_1rm": 213.3,
-      "all_time_max_weight": 170.0,
-      "all_time_1rm": 224.0,
-      "progress_pct": 53.1,
-      "trend": "plateau",
-      "days_since": 9,
-      "last_session": "2026-11-11",
+      "total_sessions": 24,
+      "current_max_weight": 180.0,
+      "current_1rm": 233.3,
+      "all_time_max_weight": 180.0,
+      "all_time_1rm": 233.3,
+      "progress_pct": 67.5,
+      "trend": "pr",
+      "days_since": 0,
+      "last_session": "2026-11-20",
       "category": "back",
       "equipment": "cable"
     },
@@ -4942,17 +4989,67 @@
           "total_volume": 1440,
           "total_reps": 34,
           "num_sets": 3
+        },
+        {
+          "date": "2026-11-20",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 40.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 42.5,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 45.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 45.0,
+          "estimated_1rm": 63.0,
+          "total_volume": 1530,
+          "total_reps": 36,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 9,
+      "total_sessions": 10,
       "current_max_weight": 45.0,
-      "current_1rm": 60.0,
+      "current_1rm": 63.0,
       "all_time_max_weight": 45.0,
-      "all_time_1rm": 60.0,
-      "progress_pct": 114.3,
+      "all_time_1rm": 63.0,
+      "progress_pct": 125.0,
       "trend": "pr",
-      "days_since": 37,
-      "last_session": "2026-10-14",
+      "days_since": 0,
+      "last_session": "2026-11-20",
       "category": "back",
       "equipment": "dumbbell"
     },
@@ -8801,17 +8898,67 @@
           "total_volume": 3550,
           "total_reps": 38,
           "num_sets": 3
+        },
+        {
+          "date": "2026-11-20",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 90.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 100.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 110.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 110.0,
+          "estimated_1rm": 154.0,
+          "total_volume": 3600,
+          "total_reps": 36,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 10,
-      "current_max_weight": 100.0,
-      "current_1rm": 140.0,
-      "all_time_max_weight": 100.0,
-      "all_time_1rm": 140.0,
-      "progress_pct": 66.7,
+      "total_sessions": 11,
+      "current_max_weight": 110.0,
+      "current_1rm": 154.0,
+      "all_time_max_weight": 110.0,
+      "all_time_1rm": 154.0,
+      "progress_pct": 83.3,
       "trend": "pr",
-      "days_since": 10,
-      "last_session": "2026-11-10",
+      "days_since": 0,
+      "last_session": "2026-11-20",
       "category": "chest",
       "equipment": "machine"
     },
@@ -9796,17 +9943,54 @@
           "total_volume": 1918,
           "total_reps": 47,
           "num_sets": 4
+        },
+        {
+          "date": "2026-11-20",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 40.0,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 42.5,
+              "reps": 10,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 42.5,
+          "estimated_1rm": 56.7,
+          "total_volume": 825,
+          "total_reps": 20,
+          "num_sets": 2
         }
       ],
-      "total_sessions": 17,
-      "current_max_weight": 45.0,
-      "current_1rm": 61.5,
+      "total_sessions": 18,
+      "current_max_weight": 42.5,
+      "current_1rm": 56.7,
       "all_time_max_weight": 45.0,
       "all_time_1rm": 61.5,
-      "progress_pct": 143.1,
-      "trend": "pr",
-      "days_since": 37,
-      "last_session": "2026-10-14",
+      "progress_pct": 124.1,
+      "trend": "progressing",
+      "days_since": 0,
+      "last_session": "2026-11-20",
       "category": "chest",
       "equipment": "dumbbell"
     },
