@@ -4,25 +4,25 @@
     "days_tracking": 248,
     "first_date": "2026-03-22",
     "last_date": "2026-11-24",
-    "total_sets": 1035,
-    "total_volume": 740665,
+    "total_sets": 1040,
+    "total_volume": 751405,
     "unique_exercises": 39,
     "streak_weeks": 17,
     "longest_streak": 17,
     "last_7_days": 2,
     "sessions_per_week": 2.4,
-    "generated_at": "2026-11-24T21:06:46.565668",
-    "strength_gain_this_week": 26.3,
-    "total_strength": 3580.1
+    "generated_at": "2026-11-24T22:52:54.030591",
+    "strength_gain_this_week": 53.6,
+    "total_strength": 3609.4
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 248,
     "latest_date": "2026-11-24",
     "total_sessions": 84,
-    "total_sets": 1035,
-    "total_lbreps": 740665,
-    "total_kgreps": 335960,
+    "total_sets": 1040,
+    "total_lbreps": 751405,
+    "total_kgreps": 340832,
     "cut_start": "2026-05-18",
     "cut_day": 190,
     "cut_duration": 180,
@@ -47,10 +47,10 @@
         "category": "legs",
         "first": "120\u00d712",
         "first_date": "2026-03-24",
-        "latest": "220\u00d714",
-        "latest_date": "2026-10-30",
-        "delta_lb": 100.0,
-        "sessions": 15
+        "latest": "240\u00d712",
+        "latest_date": "2026-11-24",
+        "delta_lb": 120.0,
+        "sessions": 16
       },
       {
         "lift": "Seated Row Machine",
@@ -87,10 +87,10 @@
         "category": "legs",
         "first": "55\u00d712",
         "first_date": "2026-03-24",
-        "latest": "120\u00d78",
-        "latest_date": "2026-10-30",
+        "latest": "120\u00d712",
+        "latest_date": "2026-11-24",
         "delta_lb": 65.0,
-        "sessions": 15
+        "sessions": 16
       }
     ],
     "chapters": [
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 0,
-      "sessions": 0,
-      "sets": 0
+      "volume": 10740,
+      "sessions": 1,
+      "sets": 5
     },
     "last_week": {
       "volume": 12340,
@@ -143,27 +143,20 @@
       "sets": 15
     },
     "this_month": {
-      "volume": 33750,
-      "sessions": 5,
-      "sets": 38
+      "volume": 44490,
+      "sessions": 6,
+      "sets": 43
     },
     "last_month": {
       "volume": 97024,
       "sessions": 7,
       "sets": 86
     },
-    "volume_wow_pct": -100.0,
-    "sessions_wow_delta": -1,
-    "volume_mom_pct": -65.2
+    "volume_wow_pct": -13.0,
+    "sessions_wow_delta": 0,
+    "volume_mom_pct": -54.1
   },
   "insights": [
-    {
-      "type": "neglected",
-      "severity": "high",
-      "text": "Legs hasn't been trained in 25 days",
-      "category": "legs",
-      "days": 25
-    },
     {
       "type": "neglected",
       "severity": "high",
@@ -184,11 +177,6 @@
       "text": "Forearms hasn't been trained in 98 days",
       "category": "forearms",
       "days": 98
-    },
-    {
-      "type": "dropoff",
-      "severity": "high",
-      "text": "No sessions logged this week yet"
     },
     {
       "type": "neglected",
@@ -219,11 +207,6 @@
       "category": "chest"
     },
     {
-      "type": "volume_down",
-      "severity": "medium",
-      "text": "Weekly volume down 100.0% vs last week"
-    },
-    {
       "type": "breakthrough",
       "severity": "good",
       "text": "Lat Pulldown just hit a new PR \u2014 keep pushing",
@@ -237,6 +220,26 @@
     }
   ],
   "recent_prs": [
+    {
+      "exercise": "Leg Extension",
+      "date": "2026-11-24",
+      "weight": 120.0,
+      "reps": 12,
+      "estimated_1rm": 168.0,
+      "previous_1rm": 154.0,
+      "gain": 14.0,
+      "category": "legs"
+    },
+    {
+      "exercise": "Leg Press",
+      "date": "2026-11-24",
+      "weight": 240.0,
+      "reps": 12,
+      "estimated_1rm": 336.0,
+      "previous_1rm": 322.7,
+      "gain": 13.3,
+      "category": "legs"
+    },
     {
       "exercise": "Lat Pulldown",
       "date": "2026-11-20",
@@ -266,26 +269,6 @@
       "previous_1rm": 140.0,
       "gain": 14.0,
       "category": "chest"
-    },
-    {
-      "exercise": "Chest Press Machine",
-      "date": "2026-11-10",
-      "weight": 100.0,
-      "reps": 12,
-      "estimated_1rm": 140.0,
-      "previous_1rm": 133.3,
-      "gain": 6.7,
-      "category": "chest"
-    },
-    {
-      "exercise": "Straight Bar Pushdown",
-      "date": "2026-11-10",
-      "weight": 55.0,
-      "reps": 10,
-      "estimated_1rm": 73.3,
-      "previous_1rm": 71.5,
-      "gain": 1.8,
-      "category": "triceps"
     }
   ],
   "heatmap": [
@@ -1054,21 +1037,29 @@
       ],
       "focus": "Chest + Back",
       "location": "gym"
+    },
+    {
+      "date": "2026-11-24",
+      "muscles": [
+        "legs"
+      ],
+      "focus": "Legs",
+      "location": "gym"
     }
   ],
   "muscle_strength": [
     {
       "category": "legs",
-      "current_strength": 248.2,
+      "current_strength": 258.0,
       "strength_30d_ago": 234.7,
-      "pct_change_30d": 5.8,
+      "pct_change_30d": 9.9,
       "top_exercise": "Leg Press",
-      "top_1rm": 322.7,
-      "top_max_weight": 220.0,
+      "top_1rm": 336.0,
+      "top_max_weight": 240.0,
       "top_best_set": {
-        "weight": 220.0,
-        "reps": 14,
-        "date": "2026-10-30"
+        "weight": 240.0,
+        "reps": 12,
+        "date": "2026-11-24"
       },
       "exercise_count": 4,
       "trend": [
@@ -1118,10 +1109,10 @@
         },
         {
           "week": "2026-11-23",
-          "strength": 248.9
+          "strength": 258.0
         }
       ],
-      "last_trained": "2026-10-30"
+      "last_trained": "2026-11-24"
     },
     {
       "category": "back",
@@ -1929,6 +1920,28 @@
       "category": "legs",
       "exercises": [
         {
+          "name": "Leg Extension",
+          "total_sessions": 16,
+          "current_1rm": 168.0,
+          "current_max_weight": 120.0,
+          "all_time_1rm": 168.0,
+          "trend": "pr",
+          "days_since": 0,
+          "progress_pct": 118.2,
+          "equipment": "machine"
+        },
+        {
+          "name": "Leg Press",
+          "total_sessions": 16,
+          "current_1rm": 336.0,
+          "current_max_weight": 240.0,
+          "all_time_1rm": 336.0,
+          "trend": "pr",
+          "days_since": 0,
+          "progress_pct": 100.0,
+          "equipment": "machine"
+        },
+        {
           "name": "Calf Raise",
           "total_sessions": 14,
           "current_1rm": 270.0,
@@ -1948,28 +1961,6 @@
           "trend": "progressing",
           "days_since": 25,
           "progress_pct": 49.7,
-          "equipment": "machine"
-        },
-        {
-          "name": "Leg Extension",
-          "total_sessions": 15,
-          "current_1rm": 152.0,
-          "current_max_weight": 120.0,
-          "all_time_1rm": 154.0,
-          "trend": "progressing",
-          "days_since": 25,
-          "progress_pct": 97.4,
-          "equipment": "machine"
-        },
-        {
-          "name": "Leg Press",
-          "total_sessions": 15,
-          "current_1rm": 322.7,
-          "current_max_weight": 220.0,
-          "all_time_1rm": 322.7,
-          "trend": "pr",
-          "days_since": 25,
-          "progress_pct": 92.1,
           "equipment": "machine"
         }
       ],
@@ -7316,17 +7307,54 @@
           "total_volume": 3060,
           "total_reps": 28,
           "num_sets": 3
+        },
+        {
+          "date": "2026-11-24",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 115.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 120.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 120.0,
+          "estimated_1rm": 168.0,
+          "total_volume": 2820,
+          "total_reps": 24,
+          "num_sets": 2
         }
       ],
-      "total_sessions": 15,
+      "total_sessions": 16,
       "current_max_weight": 120.0,
-      "current_1rm": 152.0,
+      "current_1rm": 168.0,
       "all_time_max_weight": 120.0,
-      "all_time_1rm": 154.0,
-      "progress_pct": 97.4,
-      "trend": "progressing",
-      "days_since": 25,
-      "last_session": "2026-10-30",
+      "all_time_1rm": 168.0,
+      "progress_pct": 118.2,
+      "trend": "pr",
+      "days_since": 0,
+      "last_session": "2026-11-24",
       "category": "legs",
       "equipment": "machine"
     },
@@ -8120,17 +8148,67 @@
           "total_volume": 8580,
           "total_reps": 43,
           "num_sets": 3
+        },
+        {
+          "date": "2026-11-24",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 200.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 220.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 240.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 240.0,
+          "estimated_1rm": 336.0,
+          "total_volume": 7920,
+          "total_reps": 36,
+          "num_sets": 3
         }
       ],
-      "total_sessions": 15,
-      "current_max_weight": 220.0,
-      "current_1rm": 322.7,
-      "all_time_max_weight": 220.0,
-      "all_time_1rm": 322.7,
-      "progress_pct": 92.1,
+      "total_sessions": 16,
+      "current_max_weight": 240.0,
+      "current_1rm": 336.0,
+      "all_time_max_weight": 240.0,
+      "all_time_1rm": 336.0,
+      "progress_pct": 100.0,
       "trend": "pr",
-      "days_since": 25,
-      "last_session": "2026-10-30",
+      "days_since": 0,
+      "last_session": "2026-11-24",
       "category": "legs",
       "equipment": "machine"
     },
