@@ -4,25 +4,25 @@
     "days_tracking": 250,
     "first_date": "2026-03-22",
     "last_date": "2026-11-26",
-    "total_sets": 1047,
-    "total_volume": 763945,
-    "unique_exercises": 39,
+    "total_sets": 1050,
+    "total_volume": 767065,
+    "unique_exercises": 40,
     "streak_weeks": 17,
     "longest_streak": 17,
     "last_7_days": 3,
     "sessions_per_week": 2.4,
-    "generated_at": "2026-11-26T21:02:38.189692",
+    "generated_at": "2026-11-26T21:54:45.361509",
     "strength_gain_this_week": 53.6,
-    "total_strength": 3602.7
+    "total_strength": 3742.7
   },
   "story": {
     "journey_start": "2026-03-22",
     "journey_days": 250,
     "latest_date": "2026-11-26",
     "total_sessions": 85,
-    "total_sets": 1047,
-    "total_lbreps": 763945,
-    "total_kgreps": 346520,
+    "total_sets": 1050,
+    "total_lbreps": 767065,
+    "total_kgreps": 347935,
     "cut_start": "2026-05-18",
     "cut_day": 192,
     "cut_duration": 180,
@@ -133,9 +133,9 @@
   },
   "comparisons": {
     "this_week": {
-      "volume": 23280,
-      "sessions": 1,
-      "sets": 12
+      "volume": 26400,
+      "sessions": 2,
+      "sets": 15
     },
     "last_week": {
       "volume": 12340,
@@ -143,27 +143,20 @@
       "sets": 15
     },
     "this_month": {
-      "volume": 57030,
-      "sessions": 6,
-      "sets": 50
+      "volume": 60150,
+      "sessions": 7,
+      "sets": 53
     },
     "last_month": {
       "volume": 97024,
       "sessions": 7,
       "sets": 86
     },
-    "volume_wow_pct": 88.7,
-    "sessions_wow_delta": 0,
-    "volume_mom_pct": -41.2
+    "volume_wow_pct": 113.9,
+    "sessions_wow_delta": 1,
+    "volume_mom_pct": -38.0
   },
   "insights": [
-    {
-      "type": "neglected",
-      "severity": "high",
-      "text": "Shoulders hasn't been trained in 23 days",
-      "category": "shoulders",
-      "days": 23
-    },
     {
       "type": "neglected",
       "severity": "high",
@@ -221,7 +214,7 @@
     {
       "type": "volume_up",
       "severity": "good",
-      "text": "Weekly volume up 88.7% vs last week"
+      "text": "Weekly volume up 113.9% vs last week"
     }
   ],
   "recent_prs": [
@@ -1050,6 +1043,14 @@
       ],
       "focus": "Legs",
       "location": "gym"
+    },
+    {
+      "date": "2026-11-26",
+      "muscles": [
+        "shoulders"
+      ],
+      "focus": "Shoulders + Biceps",
+      "location": "gym"
     }
   ],
   "muscle_strength": [
@@ -1253,9 +1254,9 @@
     },
     {
       "category": "shoulders",
-      "current_strength": 104.6,
+      "current_strength": 129.1,
       "strength_30d_ago": 103.8,
-      "pct_change_30d": 0.8,
+      "pct_change_30d": 24.4,
       "top_exercise": "Reverse Fly Machine",
       "top_1rm": 154.0,
       "top_max_weight": 110.0,
@@ -1264,7 +1265,7 @@
         "reps": 12,
         "date": "2026-10-19"
       },
-      "exercise_count": 8,
+      "exercise_count": 9,
       "trend": [
         {
           "week": "2026-09-07",
@@ -1312,10 +1313,10 @@
         },
         {
           "week": "2026-11-23",
-          "strength": 104.6
+          "strength": 129.1
         }
       ],
-      "last_trained": "2026-11-03"
+      "last_trained": "2026-11-26"
     },
     {
       "category": "core",
@@ -1637,6 +1638,17 @@
       "category": "shoulders",
       "exercises": [
         {
+          "name": "Technogym Shoulder Press",
+          "total_sessions": 1,
+          "current_1rm": 140.0,
+          "current_max_weight": 100.0,
+          "all_time_1rm": 140.0,
+          "trend": "new",
+          "days_since": 0,
+          "progress_pct": 0.0,
+          "equipment": "machine"
+        },
+        {
           "name": "Machine Shoulder Press",
           "total_sessions": 2,
           "current_1rm": 93.3,
@@ -1725,7 +1737,7 @@
           "equipment": "dumbbell"
         }
       ],
-      "total": 8
+      "total": 9
     },
     {
       "category": "back",
@@ -20832,6 +20844,71 @@
       "last_session": "2026-11-10",
       "category": "core",
       "equipment": "bodyweight"
+    },
+    "Technogym Shoulder Press": {
+      "sessions": [
+        {
+          "date": "2026-11-26",
+          "location": "gym",
+          "sets": [
+            {
+              "set_number": 1,
+              "weight": 70.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 2,
+              "weight": 90.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            },
+            {
+              "set_number": 3,
+              "weight": 100.0,
+              "reps": 12,
+              "rpe": null,
+              "is_warmup": 0,
+              "is_dropset": 0,
+              "notes": null,
+              "duration_sec": null,
+              "distance_km": null,
+              "incline": null,
+              "speed_kmh": null
+            }
+          ],
+          "max_weight": 100.0,
+          "estimated_1rm": 140.0,
+          "total_volume": 3120,
+          "total_reps": 36,
+          "num_sets": 3
+        }
+      ],
+      "total_sessions": 1,
+      "current_max_weight": 100.0,
+      "current_1rm": 140.0,
+      "all_time_max_weight": 100.0,
+      "all_time_1rm": 140.0,
+      "progress_pct": 0.0,
+      "trend": "new",
+      "days_since": 0,
+      "last_session": "2026-11-26",
+      "category": "shoulders",
+      "equipment": "machine"
     }
   },
   "sessions": [
